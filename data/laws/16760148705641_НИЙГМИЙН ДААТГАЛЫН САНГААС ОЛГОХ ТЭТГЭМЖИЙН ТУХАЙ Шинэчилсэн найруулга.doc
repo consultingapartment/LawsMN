@@ -1,0 +1,321 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558555940" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558762872" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2023 оны 07 сарын 07 өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558358627" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Төрийн ордон, Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558615104" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">НИЙГМИЙН ДААТГАЛЫН САНГААС ОЛГОХ ТЭТГЭМЖИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558702093" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#000;; text-align: CENTER; "><div style="padding-left: rem; ">/Шинэчилсэн найруулга/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558761242" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558002646" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НИЙТЛЭГ ҮНДЭСЛЭЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558978315" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558837811" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь тэтгэмжийн болон ажилгүйдлийн даатгалд шимтгэл төлсөн даатгуулагчид тэтгэмж олгох, ажлын байрыг тогтвортой хадгалсан ажил олгогчид шимтгэлийн хөнгөлөлт үзүүлэхтэй холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558179630" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Нийгмийн даатгалын сангаас олгох тэтгэмж, хөнгөлөлт, шимтгэлийн төлбөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558838319" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>2.1.Тэтгэмжийн даатгалын сангаас дараах тэтгэмж, шимтгэлийн төлбөр, хөнгөлөлтийг олгоно:</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558807973" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">2.1.1.хөдөлмөрийн чадвар түр алдсаны;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558622148" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">2.1.2.жирэмсний болон амаржсаны;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558510317" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">2.1.3.нас барсан даатгуулагчийн гэр бүлийн гишүүнд олгох;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558599430" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">2.1.4.гурав хүртэлх насны хүүхдээ асарч байгаа сайн дураар даатгуулагч эхийн тэтгэвэр, тэтгэмжийн даатгалын шимтгэлийн төлбөр.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1786069365344694" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; "><p>2.1.5.ажилгүйдлийн тэтгэмж;</p></div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1786069471580449" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; "><p>2.1.6.шимтгэлийн хөнгөлөлт.</p></div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558063859" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p><s>2.2.Ажилгүйдлийн даатгалын сангаас дараах тэтгэмж, хөнгөлөлтийг олгоно:</s></p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558717764" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; "><p><s>2.2.1.ажилгүйдлийн тэтгэмж;</s></p></div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558242015" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; "><p><s>2.2.2.шимтгэлийн хөнгөлөлт.</s></p></div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558309541" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558973105" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХӨДӨЛМӨРИЙН ЧАДВАР ТҮР АЛДСАНЫ ТЭТГЭМЖ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558125416" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Хөдөлмөрийн чадвар түр алдсаны тэтгэмж авах эрх</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558311916" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">3.1.Хөдөлмөрийн чадвараа түр алдахын өмнөх дараалсан гурав ба түүнээс дээш сар тэтгэмжийн даатгалын шимтгэл төлсөн дараах даатгуулагч хөдөлмөрийн чадвар түр алдсаны тэтгэмж авах эрхтэй:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558630826" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">3.1.1.ердийн өвчин, ахуйн ослын улмаас хөдөлмөрийн чадвараа түр алдсан даатгуулагч;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558535259" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">3.1.2.хүүхдээ 196 хоног хүртэл тээгээгүй дутуу төрүүлсэн буюу Эрүүл мэндийн тухай хуулийн 32.1-д заасан үндэслэлээр үр хөндүүлсэн даатгуулагч эх.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558162345" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">3.2.Даатгуулагч энэ хуулийн 5.2, 5.3, 5.4-т заасан хугацаанд хөдөлмөрийн чадвар түр алдсаны тэтгэмж авч дууссаны дараа тэтгэмжийн даатгалын санд дараалсан гурван сараас доошгүй хугацаагаар шимтгэл төлсөн нөхцөлд тэтгэмж авах эрх дахин үүснэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558412560" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Хөдөлмөрийн чадвар түр алдсаны тэтгэмжийн хэмжээ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558274595" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">4.1.Даатгуулагчид олгох хөдөлмөрийн чадвар түр алдсаны тэтгэмжийг түүний шимтгэл төлсөн хугацааг харгалзан хөдөлмөрийн чадвар алдахын өмнөх шимтгэл төлсөн сүүлийн дараалсан гурван сарын цалин хөлс, түүнтэй адилтгах орлогын дунджаас дараах хувь хэмжээгээр тооцно:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760558935336" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; width:606px">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; width:606px"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:20.85pt; vertical-align:top; width:26.45pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:20.85pt; vertical-align:middle; width:330px">
+ <p style="text-align:center">Тэтгэмжийн даатгалын шимтгэл төлсөн хугацаа /сараар/</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:20.85pt; vertical-align:middle; width:216px">
+ <p style="text-align:center">Тэтгэмж бодох хэмжээ</p>
+
+ <p style="text-align:center">/хувиар/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:10.45pt; vertical-align:top; width:26.45pt">
+ <p style="text-align:center">1.</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:10.45pt; vertical-align:middle; width:330px">
+ <p style="text-align:center">3-59</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:10.45pt; vertical-align:middle; width:216px">
+ <p style="text-align:center">50</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:6.25pt; vertical-align:top; width:26.45pt">
+ <p style="text-align:center">2.</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:6.25pt; vertical-align:middle; width:330px">
+ <p style="text-align:center">60-119</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:6.25pt; vertical-align:middle; width:216px">
+ <p style="text-align:center">55</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:8.35pt; vertical-align:top; width:26.45pt">
+ <p style="text-align:center">3.</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:8.35pt; vertical-align:middle; width:330px">
+ <p style="text-align:center">120-179</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:8.35pt; vertical-align:middle; width:216px">
+ <p style="text-align:center">60</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:6.95pt; vertical-align:top; width:26.45pt">
+ <p style="text-align:center">4.</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:6.95pt; vertical-align:middle; width:330px">
+ <p style="text-align:center">180 ба түүнээс дээш</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:6.95pt; vertical-align:middle; width:216px">
+ <p style="text-align:center">75</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1692760559904562" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">4.2.Хөдөлмөрийн чадвар түр алдсаны тэтгэмжийг ажлын өдрөөр тооцно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1786069506353655" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>4.3.Энэ хуулийн 4.1-д заасны дагуу тооцсон сарын дундаж цалин хөлс, түүнтэй адилтгах орлогыг 21-д хувааж хөдөлмөрийн чадвар түр алдсаны тэтгэмж бодох нэг өдрийн дундаж цалин хөлсийг тодорхойлно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559314340" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.Хөдөлмөрийн чадвар түр алдсаны тэтгэмж олгох хугацаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559173736" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.1.Даатгуулагчийн хөдөлмөрийн чадвар түр алдсан хугацааны ажлын эхний таван өдрийн хөдөлмөрийн чадвар түр алдсаны тэтгэмжийг ажил олгогчоос, зургаа дахь өдрөөс эхлэн хөдөлмөрийн чадвар нь сэргээгдэх, эсхүл хөдөлмөрийн чадвар алдсаны тэтгэвэр авах эрх үүсэх хүртэл хугацааны тэтгэмжийг тэтгэмжийн даатгалын сангаас тус тус олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559902164" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.2.Хөдөлмөрийн чадвар түр алдсаны тэтгэмж олгох хугацааны нэг удаагийн дээд хязгаар нь ажлын 66 өдрөөс хэтрэхгүй байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559038663" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.3.Даатгуулагч хуанлийн жилд удаа дараа өвчилсөн тохиолдолд хөдөлмөрийн чадвар түр алдсаны тэтгэмжийг нийтдээ ажлын 132 өдрөөс илүүгүй хугацаанд олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559532364" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.4.Хорт хавдар, сүрьеэгээр анх өвчилсөн, бөөрний хүнд хэлбэрийн дутагдал, эрхтэн шилжүүлэх мэс засал хийлгэсэн болон эрхтний донор болсон даатгуулагчид хөдөлмөрийн чадвар түр алдсаны тэтгэмж олгох хугацааны нэг удаагийн дээд хязгаар нь ажлын 132 өдрөөс хэтрэхгүй байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559727818" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.5.Даатгуулагчийн хөдөлмөрийн чадвар түр алдсан хугацааг ерөнхий эмч, их эмч, эрүүл мэндийн байгууллагын эмнэлэг хяналтын комисс тогтоож, даатгуулагчид эмнэлгийн хуудас олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559076290" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.6.Эмнэлгийн хуудасны маягтын загвар, даатгуулагчид эмнэлгийн хуудас олгох журмыг нийгмийн даатгалын болон эрүүл мэндийн асуудал эрхэлсэн Засгийн газрын гишүүд хамтран батална.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559132512" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.7.Хөдөлмөрийн чадвар алдсаны тэтгэвэр авагчид тэтгэвэр тогтоолгосон тухайн өвчний оношоор хөдөлмөрийн чадвар түр алдсаны тэтгэмж олгохгүй.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559352329" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559836702" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ЖИРЭМСНИЙ БОЛОН АМАРЖСАНЫ ТЭТГЭМЖ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559296346" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Жирэмсний болон амаржсаны тэтгэмж авах эрх</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559041734" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.1.Тэтгэмжийн даатгалын шимтгэлийг нийтдээ 12 сар ба түүнээс дээш хугацаанд, үүнээс жирэмсний амралт авахын өмнөх сүүлийн 6 сард тасралтгүй төлсөн дараах даатгуулагч эх жирэмсний болон амаржсаны тэтгэмж авах эрхтэй:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559797629" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">6.1.1.хүүхдээ 196-аас доошгүй хоног тээж төрүүлсэн эх;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559490443" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">6.1.2.хүүхдээ 196 хоног хүртэл тээгээгүй боловч амьдрах чадвартай хүүхэд төрүүлсэн эх;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559812970" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">6.1.3.хүүхдээ 196-аас доошгүй хоног тээж дутуу төрүүлсэн буюу Эрүүл мэндийн тухай хуулийн 32.1-д заасан үндэслэлээр үр хөндүүлсэн даатгуулагч эх.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559978582" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Жирэмсний болон амаржсаны тэтгэмжийн хэмжээ, олгох хугацаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559436262" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">7.1.Даатгуулагч эхэд жирэмсний болон амаржсаны тэтгэмжийг жирэмсний амралт авсан сарын өмнөх шимтгэл төлсөн сүүлийн 12 сарын цалин хөлс, түүнтэй адилтгах орлогын дунджаас 100 хувиар тооцож 120 хоногийн, ихэр хүүхэд төрүүлсэн бол 140 хоногийн хугацаанд тус тус олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559553505" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">7.2.Жирэмсний болон амаржсаны тэтгэмж бодох хугацаанд нийтээр тэмдэглэх баярын өдөр тохиосон бол уг өдрийг ажлын өдөртэй адилтган тооцно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1786069539934429" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>7.3.Жирэмсний тэтгэмжийг төрөхийн өмнөх 60 хоногийн, амаржсаны тэтгэмжийг төрсний дараах 60 хоногийн, ихэр хүүхэд төрүүлсэн бол 80 хоногийн доторх ажлын өдрөөр тус тус тооцож олгоно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1786069571150230" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>7.4.Энэ хуулийн 7.1-д заасны дагуу тооцсон сарын дундаж цалин хөлс, түүнтэй адилтгах орлогыг 21-д хувааж жирэмсний болон амаржсаны тэтгэмж бодох нэг өдрийн дундаж цалин хөлсийг тодорхойлно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559806566" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ДӨРӨВДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559413391" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НАС БАРСАН ДААТГУУЛАГЧИЙН ГЭР БҮЛИЙН ГИШҮҮНД ОЛГОХ ТЭТГЭМЖ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559518772" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл.Нас барсан даатгуулагчийн гэр бүлийн гишүүнд тэтгэмж олгох нөхцөл, хэмжээ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559825951" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.1.Тэтгэмжийн даатгалын шимтгэлийг нийтдээ З6 сараас доошгүй хугацаанд төлсөн даатгуулагч ердийн өвчин, ахуйн ослын улмаас нас барсан бол түүний гэр бүлийн гишүүнд тэтгэмж олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559654338" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>8.2.Нийгмийн даатгалын сангаас олгох тэтгэврийн тухай хуульд заасан тэтгэвэр авч байсан энэ хуулийн 8.1-д заасан нөхцөлийг хангасан иргэн нас барсан бол түүний гэр бүлийн гишүүнд тэтгэмж олгоно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмэлт оруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559747778" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.3.Нас барсан даатгуулагчийн гэр бүлийн гишүүнд олгох тэтгэмжийн хэмжээг нийгмийн даатгалын асуудал эрхэлсэн төрийн захиргааны төв байгууллагын саналыг үндэслэн Нийгмийн даатгалын үндэсний зөвлөл батална.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559047012" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ТАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559866108" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">АЖИЛГҮЙДЛИЙН ТЭТГЭМЖ, ШИМТГЭЛИЙН ХӨНГӨЛӨЛТ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559386088" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл.Ажилгүйдлийн тэтгэмж авах, шимтгэлийн хөнгөлөлт эдлэх эрх</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559235591" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>9.1.Ажилгүйдлийн даатгалын шимтгэлийг нийтдээ 24 сар ба түүнээс дээш хугацаанд, үүнээс ажилгүй болохын өмнөх сүүлийн 12 сар тасралтгүй төлсөн, хөдөлмөр эрхлэлтийн асуудал хариуцсан байгууллагад бүртгэлтэй, ажил идэвхтэй хайж байгаа Нийгмийн даатгалын сангаас олгох тэтгэврийн тухай хуульд заасан өндөр насны тэтгэврийн ердийн насанд хүрээгүй даатгуулагч ажилгүйдлийн тэтгэмж авах эрхтэй.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559113026" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>9.2.Ажилгүйдлийн тэтгэмж урьд нь авсан даатгуулагч ажилгүйдлийн даатгалын шимтгэлийг дахин 12 сар, үүнээс ажилгүй болохын өмнөх 9 сар тасралтгүй төлсөн бол ажилгүйдлийн тэтгэмж авах эрх дахин үүснэ.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559848843" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">9.3.Хүүхдээ асрах чөлөө авахаас өмнө энэ хуулийн 9.1-д заасан эрхийг хангасан даатгуулагч эхийг хүүхдээ асрах чөлөөтэй байх хугацаанд, эсхүл ажилд ороод 9 сар хүртэлх хугацаанд ажил олгогч нь татан буугдсан, дампуурсан бол түүнд ажилгүйдлийн тэтгэмж олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559509261" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">9.4.Цэргийн жинхэнэ албыг биеэр хаахаар татагдсан, хорих ял эдлүүлэх тухай шүүхийн шийдвэр хүчин төгөлдөр болсон, байгууллагын захиалгаар суралцах, хөдөлмөрийн чадвар алдсаны болон өндөр насны тэтгэвэр тогтоолгох үндэслэлээр ажлаас чөлөөлөгдсөн даатгуулагчид ажилгүйдлийн тэтгэмж олгохгүй.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559475602" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">10 дугаар зүйл.Ажилгүйдлийн тэтгэмжийн хэмжээ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559992702" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>10.1.Даатгуулагчид олгох ажилгүйдлийн тэтгэмжийг түүний шимтгэл төлсөн хугацааг харгалзан ажилгүй болохын өмнөх шимтгэл төлсөн сүүлийн дараалсан 12 сарын цалин хөлс, түүнтэй адилтгах орлогын дунджаас дараах хувь хэмжээгээр тооцож олгоно:</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559796614" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:4.4pt; width:601px">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:4.4pt; width:601px"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:28pt; vertical-align:top; width:28.3pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:28pt; vertical-align:middle; width:237.25pt">
+ <p style="text-align:center">Ажилгүйдлийн даатгалын шимтгэл төлсөн хугацаа /сараар/</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:28pt; vertical-align:middle; width:223px">
+ <p style="text-align:center">Тэтгэмж бодох хэмжээ</p>
+
+ <p style="text-align:center">/хувиар/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; vertical-align:top; width:28.3pt">
+ <p style="text-align:center">1.</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; vertical-align:middle; width:237.25pt">
+ <p style="text-align:center">24-59</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; vertical-align:middle; width:223px">
+ <p style="text-align:center">50</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:5.85pt; vertical-align:top; width:28.3pt">
+ <p style="text-align:center">2.</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:5.85pt; vertical-align:middle; width:237.25pt">
+ <p style="text-align:center">60-119</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:5.85pt; vertical-align:middle; width:223px">
+ <p style="text-align:center">55</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; vertical-align:top; width:28.3pt">
+ <p style="text-align:center">3.</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; vertical-align:middle; width:237.25pt">
+ <p style="text-align:center">120-179</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; vertical-align:middle; width:223px">
+ <p style="text-align:center">60</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:10pt; vertical-align:top; width:28.3pt">
+ <p style="text-align:center">4.</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:10pt; vertical-align:middle; width:237.25pt">
+ <p style="text-align:center">180 ба түүнээс дээш</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:10pt; vertical-align:middle; width:223px">
+ <p style="text-align:center">70</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1692760559078437" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>10.2.Энэ хуулийн 9.3-т заасан даатгуулагчийн ажилгүйдлийн тэтгэмжийг түүний шимтгэл төлж ажилласан сүүлийн 12 сарын цалин хөлс, түүнтэй адилтгах орлогын дунджаас энэ хуулийн 10.1-д заасан хувь хэмжээгээр тооцно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1786069614267341" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>10.3.Энэ хуулийн 10.1-д заасны дагуу тооцсон сарын дундаж цалин хөлс, түүнтэй адилтгах орлогыг 21-д хувааж ажилгүйдлийн тэтгэмж бодох нэг өдрийн дундаж цалин хөлсийг тодорхойлно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559929674" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">11 дүгээр зүйл.Ажилгүйдлийн тэтгэмж олгох</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559119451" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>11.1.Даатгуулагчид ажилгүйдлийн тэтгэмжийг ажлаас чөлөөлөгдсөний дараагийн өдрөөс эхлэн ажлын 76 өдрөөр, харин өөрийн хүсэлтээр ажлаас чөлөөлөгдсөн бол ажлын 55 өдрөөр тооцож олгоно.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөн найруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559097515" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">11.2.Ажилгүйдлийн тэтгэмж бодох хугацаанд нийтээр тэмдэглэх баярын өдөр тохиосон бол уг өдрийг ажлын өдөртэй адилтган тооцно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559102992" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">11.3.Даатгуулагч энэ хуулийн 14.1.3-т заасан хугацаанаас хойш ажилгүйдлийн тэтгэмж авах хүсэлт, ажил идэвхтэй хайж байгаа тухай хөдөлмөр эрхлэлтийн асуудал хариуцсан байгууллагын тодорхойлолт болон холбогдох баримт бичгийн хамт нийгмийн даатгалын байгууллагад бүрдүүлж өгсөн бол уг хугацаанаас хоцроосон ажлын өдрийг энэ хуулийн 11.1-д заасан өдрөөс хасаж тооцон ажилгүйдлийн тэтгэмж олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559606349" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">11.4.Даатгуулагч ажилгүйдлийн тэтгэмж авч байх хугацаанд ажилд орж, албан журмаар шимтгэл төлж эхэлснээс хойш 5 сарын дотор ажлаас дахин чөлөөлөгдсөн бол анх тогтоосон ажилгүйдлийн тэтгэмжээс олгогдоогүй үлдсэн тэтгэмжийг олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559387011" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">11.5.Нийгмийн даатгалын байгууллага ажилгүйдлийн тэтгэмжийг даатгуулагчийн арилжааны банкан дахь дансаар дамжуулан сар бүр олгоно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559492202" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">12 дугаар зүйл.Ажилгүйдлийн тэтгэмж олголтыг зогсоох</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559413592" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">12.1.Ажилгүйдлийн тэтгэмж олголтыг дараах үндэслэлээр зогсооно:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559449680" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">12.1.1.ажилгүйдлийн тэтгэмж авч байх хугацаандаа ажилд орж, албан журмаар шимтгэл төлж эхэлсэн;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559832683" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">12.1.2.өндөр насны, эсхүл хөдөлмөрийн чадвар алдсаны тэтгэвэр тогтоолгосон;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559422234" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">12.1.3.үндэслэлгүйгээр ажилгүйдлийн тэтгэмж авч байсан нь тогтоогдсон;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559912754" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">12.1.4.цэргийн жинхэнэ албыг биеэр хаахаар татагдсан;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559025538" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">12.1.5.хорих ял эдлүүлэх тухай шүүхийн шийдвэр хүчин төгөлдөр болсон;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559583420" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">12.1.6.ажилгүйдлийн тэтгэмж авч байх хугацаанд нас барсан.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559752214" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">13 дугаар зүйл.Шимтгэлийн хөнгөлөлт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559330361" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>13.1.Даатгуулагчийг тогтвор суурьшилтай ажиллуулан 3 жил дараалан тэтгэмжийн даатгалын сангаас ажилгүйдлийн тэтгэмж гаргуулаагүй, Нийгмийн даатгалын ерөнхий хуулиар хүлээсэн үүргээ биелүүлсэн ажил олгогчийн сүүлийн жилд төлсөн ажилгүйдлийн даатгалын шимтгэлийн 15 хувиар тооцож, ажил олгогчид 3 жил тутамд нэг удаа шимтгэлийн хөнгөлөлт үзүүлнэ.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559267938" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">13.2.Энэ хуулийн 13.1-д заасан шимтгэлийн хөнгөлөлтийг дараа жилийн төлөх ажилгүйдлийн даатгалын шимтгэлээс хасаж тооцно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559057338" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">13.3.Ажил олгогчид шимтгэлийн хөнгөлөлт үзүүлэхтэй холбогдсон журмыг Нийгмийн даатгалын үндэсний зөвлөл батална.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559523108" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ЗУРГАДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559450272" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ТЭТГЭМЖ АВАХ ӨРГӨДӨЛ ГАРГАХ, ТҮҮНИЙГ ШИЙДВЭРЛЭХ ХУГАЦАА</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559252587" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">14 дүгээр зүйл.Тэтгэмж авах өргөдөл гаргах хугацаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559428662" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">14.1.Даатгуулагч, иргэн тэтгэмж авах өргөдлөө нийгмийн даатгалын байгууллагад дараах хугацаанд цаасан, эсхүл цахим хэлбэрээр гаргана:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559435448" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">14.1.1.хөдөлмөрийн чадвараа түр алдсаны, жирэмсний болон амаржсаны тэтгэмж авах даатгуулагч эрүүл мэндийн байгууллагаас олгосон эмнэлгийн хуудас авснаас хойш 4 долоо хоногийн дотор, хүндэтгэн үзэх шалтгаантай бол 6 сарын дотор;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559295789" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">14.1.2.нас барсан даатгуулагчийн гэр бүлийн гишүүнд олгох тэтгэмж авах иргэн даатгуулагчийг нас барснаас хойш 6 долоо хоногийн дотор, хэрэв хүндэтгэн үзэх шалтгаантай бол 6 сарын дотор;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559814275" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">14.1.3.ажилгүйдлийн тэтгэмж авах даатгуулагч ажлаас чөлөөлсөн тухай ажил олгогчийн шийдвэр гарсан өдрөөс хойш 4 долоо хоногийн дотор, хүндэтгэн үзэх шалтгаантай бол 3 сарын дотор.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559301146" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">15 дугаар зүйл.Өргөдлийг шийдвэрлэх хугацаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559375094" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">15.1.Нийгмийн даатгалын байгууллага даатгуулагчийн тэтгэмж авахыг хүссэн өргөдлийг энэ хуулийн 15.2-т заасан журмын дагуу бүрдүүлсэн баримт бичгийн хамт хүлээж авснаас хойш хөдөлмөрийн чадвар түр алдсаны, жирэмсний болон амаржсаны, ажилгүйдлийн тэтгэмж олгох асуудлыг 14 хоногийн дотор, нас барсан даатгуулагчийн гэр бүлийн гишүүнд олгох тэтгэмжийг 24 цагийн дотор шийдвэрлэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559425832" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>15.2.Даатгуулагч тэтгэмж авахад бүрдүүлэх баримт бичгийн жагсаалт, тэтгэмж тооцож олгохтой холбогдсон харилцааг зохицуулсан журмыг Засгийн газар батална.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмэлт оруулсан /</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559253703" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">15.3.Энэ хуулийн 15.1-д заасан өргөдлийн маягтын загвар, тэтгэмж авахад бүрдүүлэх баримт бичгийн бүрдэлд хяналт тавих, нас барсан даатгуулагчийн гэр бүлийн гишүүнд олгох тэтгэмжийг авах эрх бүхий иргэн, албан тушаалтныг тодорхойлох журам, тэтгэмж бодох аргачлал, зааврыг нийгмийн даатгалын асуудал хариуцсан төрийн захиргааны байгууллага батална.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559749274" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">16 дугаар зүйл.Тэтгэмжийг буцаан төлүүлэх, суутгал хийх</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559152732" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">16.1.Даатгуулагчийн үндэслэлгүй буюу илүү авсан тэтгэмжийг төлүүлэхээр нийгмийн даатгалын улсын байцаагчийн, эсхүл нийгмийн хамгааллын хяналтын улсын байцаагчийн актаар тогтоогдсон бол илүү авсан тэтгэмжийг даатгуулагчаар буцаан төлүүлэх буюу олгогдоогүй үлдсэн тэтгэмжээс суутган авна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559419686" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ДОЛДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559348028" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">БУСАД ЗҮЙЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559295078" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">17 дугаар зүйл.Тусгай зохицуулалт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559891185" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">17.1.Улс орныг хамарсан эдийн засгийн хүндрэлийн улмаас нийт аж ахуйн нэгж, байгууллагын үйл ажиллагаа доголдож, олонх аж ахуйн нэгж, байгууллагын борлуулалтын орлого 50 ба түүнээс дээш хувиар буурсан тохиолдолд дотоодын аж ахуйн нэгж, байгууллагад санхүүгийн дэмжлэг үзүүлэх, даатгуулагчид тэтгэмж олгохтой холбогдсон харилцааг тусгай хуулиар зохицуулж болно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559022451" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>17.2.Энэ хуулийн 17.1-д заасан тусгай хуулиар зохицуулах санхүүгийн дэмжлэг, тэтгэмжид зарцуулах хөрөнгийг тэтгэмжийн даатгалын сан болон улсын төсвөөс хариуцна.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559424119" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">18 дугаар зүйл.Хууль зөрчигчид хүлээлгэх хариуцлага</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559843297" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">18.1.Энэ хуулийг зөрчсөн албан тушаалтны үйлдэл нь гэмт хэргийн шинжгүй бол Төрийн албаны тухай хууль, Нийгмийн даатгалын ерөнхий хуульд заасан хариуцлага хүлээлгэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559213633" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">18.2.Энэ хуулийг зөрчсөн хүн, хуулийн этгээдэд Эрүүгийн хууль, эсхүл Зөрчлийн тухай хуульд заасан хариуцлага хүлээлгэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559173452" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">19 дүгээр зүйл.Хууль хүчин төгөлдөр болох</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559013871" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">19.1.Энэ хуулийг 2024 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1692760559259005" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Г.ЗАНДАНШАТАР</div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

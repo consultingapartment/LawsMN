@@ -1,0 +1,1172 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968060532" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968280876" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2006 оны 6 дугаар сарын 29-ний өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968236891" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968899126" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">ОНЦГОЙ АЛБАН ТАТВАРЫН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968762568" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">(Шинэчилсэн найруулга)</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968328364" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл. Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968255352" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>1.1. Энэ хуулийн зорилт нь эх орны үйлдвэрийн болон импортоор авсан зарим бараанд онцгой албан татвар ногдуулах, түүнийг төсөвт төлөхтэй холбогдсон харилцааг зохицуулахад оршино.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар өөрчлөлт оруулсан /</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968252371" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл. Хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968215749" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1. Онцгой албан татварын тухай хууль тогтоомж нь Татварын ерөнхий хууль, энэ хууль, тэдгээртэй нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968102197" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл. Онцгой албан татвар төлөгч</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968836983" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>3.1. Энэ хуульд заасан онцгой албан татвар ногдох бараа импортолсон болон дотоодод үйлдвэрлэж борлуулсан хувь хүн, хуулийн этгээд онцгой албан татвар төлөгч байна.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/ Энэ хэсэгт 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар өөрчлөлт оруулсан /</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968260378" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл. Онцгой албан татвар ногдох бараа, үйл ажиллагаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968667352" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">4.1. Дараахь бараанд онцгой албан татвар ногдуулна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968428895" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">4.1.1. бүх төрлийн согтууруулах ундаа;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968338296" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">4.1.2. бүх төрлийн тамхи;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968512471" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">4.1.3. автобензин, дизелийн түлш;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968334705" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">4.1.4. суудлын автомашин.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1638951917517975" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; ">4.1.5.газрын тосны үйлдвэрлэлийн дайвар бүтээгдэхүүн, керосин.</div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2021 оны 7 дугаар сарын 06-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1687313431399508" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><p><em>/Энэ заалтыг Үндсэн хуулийн цэцийн 2023 оны 06 дугаар сарын 16-ны өдрийн 4 дүгээр дүгнэлтээр 2023 оны 06 дугаар сарын 16-ны өдрөөс эхлэн түдгэлзүүлсэн./</em><br><span style="font-size:12pt"><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">/Үндсэн хуулийн цэцийн 20</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">23</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black"> оны </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">06</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black"> д</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">у</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">г</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">аа</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">р сарын </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">16</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">-ны өдрийн </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">04</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black"> д</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">ү</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">г</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">ээ</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">р д</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">үгнэлтийг </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">Монгол Улсын Их Хурлын 20</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">23</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black"> оны </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">06</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black"> дугаар сарын </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">22</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">-ны өдрийн </span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">52</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black"> дугаар тогтоолоор хүлээн зөвшөөрсөн.</span></span></span></em><em><span style="font-size:10.0pt"><span style="background-color:white"><span style="color:black">/</span></span></span></em></span></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640079136028105" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><p>Тайлбар: Газрын тосны үйлдвэрлэлийн дайвар бүтээгдэхүүн гэдэгт хүнд фракцын дизелийн түлш, нафта, алкилатыг ойлгоно.</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1727619247375984" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; ">4.1.6.чихэр, чихэр орлуулагч агуулсан төрөл бүрийн ундаа, ус.</div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар нэмсэн бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1727619309261250" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; ">Тайлбар:“төрөл бүрийн ундаа, ус” гэдэгт үйлдвэрлэлийн түүхий эдийн зориулалтаар ашиглах байгалийн гаралтай өтгөрүүлсэн шүүс, нунтаг баяжмал хамаарахгүй.</div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтын тайлбарыг 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар нэмсэн бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968472811" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><strike>4.2. Төлбөрт таавар, бооцоот тоглоомын үйл ажиллагаанд ашиглагдаж байгаа тусгай зориулалтын техник хэрэгсэл, тоног төхөөрөмжийн биет нэгж, тус үйл ажиллагааг эрхлэн явуулж байгаа хувь хүн, хуулийн этгээдийн үйл ажиллагаанд онцгой албан татвар ногдуулна.</strike></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/ Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968799966" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; ">
+<div style="padding-left: rem; "><p>5 дугаар зүйл. Онцгой албан татвар ногдуулах биет нэгж, үнэ</p></div>
+<p style="   padding-left: rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ зүйлийн гарчигт 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмэлт оруулсан /</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968627770" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.1. Энэ хуулийн 4.1-д заасан бараанд онцгой албан татвар ногдуулахдаа дараахь биет нэгжийг үндэслэл болгоно:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1639045173290692" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:619px"><tbody>
+<tr>
+<td style="text-align:center">Д/д</td>
+ <td>Онцгой албан татвар ногдуулах                                                       барааны нэр, төрөл</td>
+ <td>Онцгой албан татвар ногдуулах биет нэгж</td>
+ </tr>
+<tr>
+<td style="text-align:center">1</td>
+ <td>Бүх төрлийн согтууруулах ундаа</td>
+ <td>1 литр</td>
+ </tr>
+<tr>
+<td style="text-align:center">2</td>
+ <td>Янжуур болон түүнтэй адилтгах бусад тамхи</td>
+ <td>100 ширхэг</td>
+ </tr>
+<tr>
+<td style="text-align:center">3</td>
+ <td>Дүнсэн болон түүнтэй адилтгах задгай тамхи</td>
+ <td>1 килограмм</td>
+ </tr>
+<tr>
+<td style="text-align:center">4</td>
+ <td>Автобензин, дизелийн түлш</td>
+ <td>1 тонн</td>
+ </tr>
+<tr>
+<td style="text-align:center">5</td>
+ <td>Суудлын автомашин</td>
+ <td>1 ширхэг</td>
+ </tr>
+<tr>
+<td style="text-align:center">6</td>
+ <td>Газрын тосны үйлдвэрлэлийн дайвар бүтээгдэхүүн, керосин<br><em>/Энэ заалтын Үндсэн хуулийн цэцийн 2023 оны 06 дугаар сарын 16-ны өдрийн 4 дүгээр дүгнэлтээр 2023 оны 06 дугаар сарын 16-ны өдрөөс эхлэн түдгэлзүүлсэн./<br>
+ /Үндсэн хуулийн цэцийн 2023 оны 06 дугаар сарын 16-ны өдрийн 04 дүгээр дүгнэлтийг Монгол Улсын Их Хурлын 2023 оны 06 дугаар сарын 22-ны өдрийн 52 дугаар тогтоолоор хүлээн зөвшөөрсөн./</em>
+</td>
+ <td>1 тонн</td>
+ </tr>
+<tr>
+<td style="text-align:center">7</td>
+ <td>Чихэр, чихэр орлуулагч агуулсан төрөл бүрийн ундаа, ус</td>
+ <td>1литр</td>
+ </tr>
+</tbody></table></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтыг 2021 оны 7 дугаар сарын 06-ны өдрийн хуулиар нэмсэн./</p>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ 7 дахь заалтыг 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар нэмсэн бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968844986" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.2. Монгол Улсын нутаг дэвсгэрт үйлдвэрлэсэн бараанд онцгой албан татвар ногдуулахдаа үйлдвэрлэгчийн борлуулсан барааны биет нэгжийг үндэслэн тогтооно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968313631" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">5.3. Онцгой албан татвар ногдуулах барааг бусдад үнэ төлбөргүй шилжүүлсэн, хандивласан, түүнчлэн хувь хүн, хуулийн этгээд өөрийн хэрэгцээнд ашигласан бол тэдгээрийг борлуулсанд тооцож онцгой албан татвар ногдуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968001852" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><strike>5.4. Энэ хуулийн 4.2-д заасан техник хэрэгсэл, тоног төхөөрөмжид онцгой албан татвар ногдуулахдаа дараахь биет нэгжийг үндэслэл болгоно:</strike></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968245389" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; "><strike><table border="1" cellpadding="0" cellspacing="0" style="width:634px"></table>
+<table border="1" cellpadding="0" cellspacing="0" style="width:634px"><tbody>
+<tr>
+<td style="height:33px; width:37px">
+ <p style="text-align:justify"><s>Д/д</s></p>
+ </td>
+ <td style="height:33px; width:390px">
+ <p style="text-align:justify"><s>Онцгой албан татвар ногдуулах барааны нэр, төрөл</s></p>
+ </td>
+ <td style="height:33px; width:207px">
+ <p style="text-align:justify"><s>Онцгой албан татвар ногдуулах биет нэгж</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:37px">
+ <p style="text-align:justify"><s>1</s></p>
+ </td>
+ <td style="width:390px">
+ <p style="text-align:justify"><s>Тоглоомын ширээ буюу электрон хүрд</s></p>
+ </td>
+ <td style="width:207px">
+ <p style="margin-left:50.7pt; text-align:justify"><s>1 ширхэг</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:37px">
+ <p style="text-align:justify"><s>2</s></p>
+ </td>
+ <td style="width:390px">
+ <p style="text-align:justify"><s>Автомат тоглоом</s></p>
+ </td>
+ <td style="width:207px">
+ <p style="margin-left:50.7pt; text-align:justify"><s>1 ширхэг</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:37px">
+ <p style="text-align:justify"><s>3</s></p>
+ </td>
+ <td style="width:390px">
+ <p style="text-align:justify"><s>Тоглоомын үр дүнг харуулсан касс буюу тотализатор</s></p>
+ </td>
+ <td style="width:207px">
+ <p style="margin-left:50.7pt; text-align:justify"><s>1 ширхэг</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:37px">
+ <p style="text-align:justify"><s>4</s></p>
+ </td>
+ <td style="width:390px">
+ <p style="text-align:justify"><s>Бооцоо тооцоолох букмейкерийн төв</s></p>
+ </td>
+ <td style="width:207px">
+ <p style="margin-left:50.7pt; text-align:justify"><s>1 ширхэг</s></p>
+ </td>
+ </tr>
+</tbody></table></strike></div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1785821950671360" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; "><p>5.5.Энэ хуулийн 5.1 дэх хэсгийн хүснэгтийн дэс дугаарын 2, 3-т заасан бараанд онцгой албан татвар ногдуулахдаа биет нэгжид болон Монгол Улсын нутаг дэвсгэрт үйлдвэрлэж борлуулсан үнэ, эсхүл импортын гаалийн үнээс хувиар тооцож хосолсон хэлбэрээр тогтооно.</p></div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968276351" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл. Ногдуулах онцгой албан татварын хэмжээ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968212275" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; ">6.1.Энэ хуулийн 4.1.1, 4.1.2, 4.1.5-д заасан бараа болон эх орны үйлдвэрийн автобензин, дизелийн түлшний тогтоосон биет нэгжид дараахь хэмжээгээр онцгой албан татвар ногдуулна:</div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2021 оны 7 дугаар сарын 06-ны өдрийн хуулиар өөрчлөлт оруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033968713320" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; "><strike><table align="center" border="1" cellpadding="1" cellspacing="0" style="width:649px"></table>
+<table align="center" border="1" cellpadding="1" cellspacing="0" style="width:649px"><tbody>
+<tr>
+<td rowspan="2" style="height:28px; width:37px">
+ <p>Д/д</p>
+ </td>
+ <td colspan="2" rowspan="2" style="height:28px; width:269px">
+ <p>Онцгой албан татвар ногдуулах барааны нэр, төрөл</p>
+ </td>
+ <td rowspan="2" style="height:28px; width:94px">
+ <p>Биет</p>
+
+ <p>нэгж</p>
+ </td>
+ <td colspan="3" style="height:28px; width:249px">
+ <p>Ногдуулах онцгой албан татварын хэмжээ /төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:28px; width:83px">
+ <p>2018</p>
+ </td>
+ <td style="height:28px; width:82px">
+ <p>2019</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>2020 он ба түүнээс хойш</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="3" style="height:28px; width:37px">
+ <p>1</p>
+ </td>
+ <td rowspan="3" style="height:28px; width:117px">
+ <p>Хүнсний зориулалттай спирт</p>
+ </td>
+ <td style="height:28px; width:152px">
+ <p>Согтууруулах ундааны үйлдвэрт худалдсан</p>
+ </td>
+ <td style="height:28px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>1 595</p>
+ </td>
+ <td style="height:28px; width:82px">
+ <p>1 670</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>1 740</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:28px; width:152px">
+ <p>Эмийн үйлдвэр, хүн, мал эмнэлгийн хэрэгцээнд худалдсан</p>
+ </td>
+ <td style="height:28px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>1 450</p>
+ </td>
+ <td style="height:28px; width:82px">
+ <p>1 450</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>1 450</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:28px; width:152px">
+ <p>бусад газарт худалдсан</p>
+ </td>
+ <td style="height:28px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>15 950</p>
+ </td>
+ <td style="height:28px; width:82px">
+ <p>16 700</p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p>17 400</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="3" style="height:28px; width:37px">
+ <p><s>2</s></p>
+ </td>
+ <td rowspan="3" style="height:28px; width:117px">
+ <p><s>Бүх төрлийн цагаан архи, ликёр, кордиал ба спиртлэг</s></p>
+
+ <p><s>бусад ундаа</s><br><span style="font-size:12pt"><em><span style="font-size:10.0pt"><a href="file:///Users/khangai/Desktop/111/01.Huuli%20togtoomj,%20busad%20shiidver/Mongol%20Ulsiin%20Khuuli/Nemelt/2022/22-ne-315.docx" style="color:blue; text-decoration:underline">/Энэ хэсгийн 2 дахь заалтыг 2022 оны 7 дугаар сарын 06-ны  өдрийн хуулиар хүчингүй болсонд тооцсон бөгөөд 2023 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</a></span></em></span><br>
+  </p>
+ </td>
+ <td style="height:28px; width:152px">
+ <p><s>25 хүртэл хатуулагтай</s></p>
+ </td>
+ <td style="height:28px; width:94px">
+ <p><s>1 литр</s></p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p><s>3 190</s></p>
+ </td>
+ <td style="height:28px; width:82px">
+ <p><s>3 335</s></p>
+ </td>
+ <td style="height:28px; width:83px">
+ <p><s>3 480</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:27px; width:152px">
+ <p><s>25-40 хүртэл хатуулагтай</s></p>
+ </td>
+ <td style="height:27px; width:94px">
+ <p><s>1 литр</s></p>
+ </td>
+ <td style="height:27px; width:83px">
+ <p><s>6 380</s></p>
+ </td>
+ <td style="height:27px; width:82px">
+ <p><s>6 670</s></p>
+ </td>
+ <td style="height:27px; width:83px">
+ <p><s>6 960</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:37px; width:152px">
+ <p><s>40 ба түүнээс дээш хатуулагтай</s></p>
+ </td>
+ <td style="height:37px; width:94px">
+ <p><s>1 литр</s></p>
+ </td>
+ <td style="height:37px; width:83px">
+ <p><s>14 355</s></p>
+ </td>
+ <td style="height:37px; width:82px">
+ <p><s>15 000</s></p>
+ </td>
+ <td style="height:37px; width:83px">
+ <p><s>15 660</s></p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="3" style="height:32px; width:37px"> </td>
+ <td rowspan="3" style="height:32px; width:117px">
+ <p>Бүх төрлийн коньяк, виски, ром, джин</p>
+ </td>
+ <td style="height:32px; width:152px">
+ <p>25 хүртэл хатуулагтай</p>
+ </td>
+ <td style="height:32px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:32px; width:83px">
+ <p>7 975</p>
+ </td>
+ <td style="height:32px; width:82px">
+ <p>8 340</p>
+ </td>
+ <td style="height:32px; width:83px">
+ <p>8 700</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:152px">
+ <p>25-40 хүртэл хатуулагтай</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>15 950</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>16 700</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>17 400</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:36px; width:152px">
+ <p>40 ба түүнээс дээш хатуулагтай</p>
+ </td>
+ <td style="height:36px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:36px; width:83px">
+ <p>19 140</p>
+ </td>
+ <td style="height:36px; width:82px">
+ <p>20 010</p>
+ </td>
+ <td style="height:36px; width:83px">
+ <p>20 880</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>3</p>
+ </td>
+ <td colspan="2" style="height:20px; width:269px">
+ <p>Үйлдвэрлэлийн аргаар боловсруулсан эх орны үйлдвэрийн шимийн архи</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>320</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>335</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>350</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="height:20px; width:37px">
+ <p>4</p>
+ </td>
+ <td rowspan="2" style="height:20px; width:117px">
+ <p>Бүх төрлийн дарс</p>
+ </td>
+ <td style="height:20px; width:152px">
+ <p>35 хүртэл хатуулагтай</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>800</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>835</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>870</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:152px">
+ <p>35 ба түүнээс дээш хатуулагтай</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>7 180</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>7 505</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>7 830</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>5</p>
+ </td>
+ <td colspan="2" style="height:20px; width:269px">
+ <p>Бүх төрлийн пиво</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 литр</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>320</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>335</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>350</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>6</p>
+ </td>
+ <td colspan="2" style="height:20px; width:269px">
+ <p>Янжуур болон түүнтэй адилтгах бусад тамхи</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>100 ширхэг</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>3 830</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>4 000</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>4 180</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>7</p>
+ </td>
+ <td colspan="2" style="height:20px; width:269px">
+ <p>Дүнсэн болон түүнтэй адилтгах задгай тамхи</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 килограмм</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>2 870</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>3 000</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>3 130</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="height:20px; width:37px">
+ <p>8</p>
+ </td>
+ <td rowspan="2" style="height:20px; width:117px">
+ <p>Автобензин</p>
+ </td>
+ <td style="height:20px; width:152px">
+ <p>90 хүртэл октантай</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 тонн</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>0-15 950</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>0-15 950</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>0-15 950</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:152px">
+ <p>90 ба түүнээс дээш октантай</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 тонн</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>0-17 400</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>0-17 400</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>0-17 400</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>9</p>
+ </td>
+ <td colspan="2" style="height:20px; width:269px">
+ <p>Дизелийн түлш</p>
+ </td>
+ <td style="height:20px; width:94px">
+ <p>1 тонн</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>0-21 750</p>
+ </td>
+ <td style="height:20px; width:82px">
+ <p>0-21 750</p>
+ </td>
+ <td style="height:20px; width:83px">
+ <p>0-21 750</p>
+ </td>
+ </tr>
+<tr>
+<td>10</td>
+ <td colspan="2">Газрын тосны үйлдвэрлэлийн дайвар бүтээгдэхүүн, керосин<br><em>/Энэ заалтын Үндсэн хуулийн цэцийн 2023 оны 06 дугаар сарын 16-ны өдрийн 4 дүгээр дүгнэлтээр 2023 оны 06 дугаар сарын 16-ны өдрөөс эхлэн түдгэлзүүлсэн./<br>
+ /Үндсэн хуулийн цэцийн 2023 оны 06 дугаар сарын 16-ны өдрийн 04 дүгээр дүгнэлтийг Монгол Улсын Их Хурлын 2023 оны 06 дугаар сарын 22-ны өдрийн 52 дугаар тогтоолоор хүлээн зөвшөөрсөн./</em>
+</td>
+ <td>1 тонн</td>
+ <td>-</td>
+ <td>-</td>
+ <td>285 000</td>
+ </tr>
+</tbody></table></strike></div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийн 10 дахь заалтыг 2021 оны 7 дугаар сарын 06-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1661220799518336" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">
+<span style="font-size:12pt"><em><span style="font-size:10.0pt"><a href="file:///Users/khangai/Desktop/111/01.Huuli%20togtoomj,%20busad%20shiidver/Mongol%20Ulsiin%20Khuuli/Nemelt/2022/22-ne-315.docx" style="color:blue; text-decoration:underline">/Энэ хэсгийн 2 дахь заалтыг 2022 оны 7 дугаар сарын 06-ны  өдрийн хуулиар хүчингүй болсонд тооцсон./</a></span></em></span><br>
+ </div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969757843" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 2 дахь заалтыг 2007 оны 11 дүгээр сарын 30-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969793900" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 8, 9 дэх заалтыг 2008 оны 5 дугаар сарын 22-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969190902" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 1 дэх заалтад 2009 оны 3 дугаар сарын 12-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969879777" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 5 дахь заалтад 2009 оны 3 дугаар сарын 12-ны өдрийн хуулиар өөрчлөлт оруулсан ба Энэ өөрчлөлтийг Монгол Улсын Үндсэн хуулийн цэцийн 2009 оны 05 дугаар сарын 27-ны өдрийн 02 дугаар тогтоолоор хүчингүй болгож хуучин заалтыг сэргээсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969374184" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 6 дахь заалтад 2009 оны 3 дугаар сарын 12-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969983280" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 7 дахь заалтад 2009 оны 3 дугаар сарын 12-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969898317" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 2 дахь заалтыг 2012 оны 9 дүгээр сарын 11-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969678725" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 6 дахь заалтыг 2012 оны 9 дүгээр сарын 11-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969352421" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийн 7 дахь заалтыг 2012 оны 9 дүгээр сарын 11-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969621089" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2015 оны 1 дүгээр сарын 23-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969802191" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>/Энэ хэсгийн 2, 4 дэх заалтыг 2016 оны 2 дугаар сарын 05-ны өдрийн хуулиар өөрчлөн найруулсан/</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар өөрчлөн найруулсан/</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1659334886012255" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; ">6.1<sup>1</sup>.Бүх төрлийн цагаан архи, ликёр, кордиал ба спиртлэг бусад ундаа болон бүх төрлийн коньяк, виски, ром, джинд дараах хэмжээгээр онцгой албан татвар ногдуулна:<br>
+ 
+<table cellspacing="0" class="Table" style="border-collapse:collapse; margin-left:7px; width:98%"><tbody>
+<tr>
+<td colspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:64px; width:42%">
+<span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">Онцгой албан татвар ногдуулах </span></span></strong></span><br><span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">барааны нэр, төрөл</span></span></strong></span>
+</td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:64px; width:10%"><span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">Биет нэгж</span></span></strong></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:64px; width:13%"><span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">2023 оны 01 дүгээр сарын 01-нээс 2025 оны 01 дүгээр сарын 01 хүртэл</span></span></strong></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:64px; width:11%"><span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">2025 оны 01 дүгээр сарын 01-нээс 2027 оны 01 дүгээр сарын 01 хүртэл</span></span></strong></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:64px; width:11%"><span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">2027 оны 01 дүгээр сарын 1-нээс 2029 оны 01 дүгээр сарын 01 хүртэл</span></span></strong></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:64px; width:10%">
+<span style="font-size:12pt"><strong><span style="font-size:9.0pt"><span style="color:black">2029 оны 01 дүгээр сарын 01 -нээс хойш</span></span></strong></span><br>
+  </td>
+ </tr>
+<tr>
+<td rowspan="10" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:16%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">Бүх төрлийн цагаан архи, ликёр, кордиал ба спиртлэг бусад ундаа</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">25 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">3700</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">3900</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">4100</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">4300</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">25-26 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:14px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:14px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7700</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8100</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8500</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26-28 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7700</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8100</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8500</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">28-30 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7700</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8100</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8500</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">30-32 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7700</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">8100</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10440</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">32-34 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7700</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10440</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">13050</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">34-36 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">7300</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10440</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">11500</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">12600</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">36-38 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10440</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">11500</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">12600</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">13800</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">38-40 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10440</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">11500</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">12600</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">13800</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%">
+<span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">40 ба түүнээс дээш </span></span></span><br><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">хатуулагтай</span></span></span>
+</td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:1px solid black; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">31300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">34450</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">37900</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">41690</span></span></span></td>
+ </tr>
+<tr>
+<td rowspan="10" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:16%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">Бүх төрлийн коньяк, виски, ром, джин</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">25 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">9100</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">9600</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10100</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">10600</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">25-26 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:14px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">18300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:14px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">19200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">20200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:14px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">21200</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26-28 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">18300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">19200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">20200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">21200</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">28-30 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">18300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">19200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">20200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">21200</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">30-32 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">18300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">19200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">20200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26100</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">32-34 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">18300</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">19200</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26100</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">28700</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">34-36 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">18300</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26100</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">28700</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">31600</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">36-38 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26100</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">28700</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">31600</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">34800</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">38-40 хүртэл хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">26100</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">28700</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">31600</span></span></span></td>
+ <td style="background-color:white; border-bottom:none; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">34800</span></span></span></td>
+ </tr>
+<tr>
+<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:26%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">40 ба түүнээс дээш хатуулагтай</span></span></span></td>
+ <td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">1 литр</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:none; border-top:1px solid black; height:15px; width:13%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">38280</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">44000</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:11%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">50600</span></span></span></td>
+ <td style="background-color:white; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:15px; width:10%"><span style="font-size:12pt"><span style="font-size:9.0pt"><span style="color:black">58200</span></span></span></td>
+ </tr>
+</tbody></table>
+</div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2022 оны 7 дугаар сарын 06-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969342813" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969270456" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.2. Энэ хуулийн 4.1.3-т заасан автобензин, дизелийн түлшийг импортлон оруулж байгаа хилийн боомтоос хамааруулан дараахь хэмжээгээр онцгой албан татвар ногдуулна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969274483" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table border="1" cellpadding="0" cellspacing="0"><tbody>
+<tr>
+<td rowspan="3" style="width:41px;"> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> Д/д</p> </td> <td rowspan="3" style="width:214px;"> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> Хилийн боомтын нэр</p> </td> <td colspan="3" style="width:383px;"> <p style="text-align: justify;"> Ногдуулах онцгой албан татварын хэмжээ</p> <p style="text-align: justify;"> /төгрөгөөр /</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:280px;"> <p style="text-align: justify;"> Автобензин /шинжилгээний аргаар тодорхойлсон октаны хэмжээ/</p> </td> <td rowspan="2" style="width:103px;"> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> Дизелийн түлш</p> </td> </tr>
+<tr>
+<td style="width:128px;"> <p style="text-align: justify;"> 90 хүртэл</p> </td> <td style="width:153px;"> <p style="text-align: justify;"> 90 ба түүнээс дээш</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p style="text-align: justify;"> 1</p> </td> <td style="width:214px;"> <p style="text-align: justify;"> Цагааннуур, Ярант, Боршоо, Арцсуурь, Тэс, Бургастай, Гашуун сухайт, Шивээ хүрэн, Баян хошуу, Бичигт, Хавирга</p> </td> <td style="width:128px;"> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> 0-215.000</p> </td> <td style="width:153px;"> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> 0-217.000</p> </td> <td style="width:103px;"> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> </p> <p style="text-align: justify;"> 0-221.000</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p style="text-align: justify;"> 2</p> </td> <td style="width:214px;"> <p style="text-align: justify;"> Ханх, Ульхан майхан</p> </td> <td style="width:128px;"> <p style="text-align: justify;"> 0-223.000</p> </td> <td style="width:153px;"> <p style="text-align: justify;"> 0-229.000</p> </td> <td style="width:103px;"> <p style="text-align: justify;"> 0-226.000</p> <p style="text-align: justify;"> </p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p style="text-align: justify;"> 3</p> </td> <td style="width:214px;"> <p style="text-align: justify;"> Сүхбаатар, Замын-үүд, Алтанбулаг</p> </td> <td style="width:128px;"> <p style="text-align: justify;"> 0-750.000</p> </td> <td style="width:153px;"> <p style="text-align: justify;"> 0-750.000</p> </td> <td style="width:103px;"> <p style="text-align: justify;"> 0-850.000</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p style="text-align: justify;"> 4</p> </td> <td style="width:214px;"> <p style="text-align: justify;"> Эрээнцав</p> </td> <td style="width:128px;"> <p style="text-align: justify;"> 0-750.000</p> </td> <td style="width:153px;"> <p style="text-align: justify;"> 0-750.000</p> </td> <td style="width:103px;"> <p style="text-align: justify;"> 0-850.000</p> </td> </tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969122085" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ 6.2 дахь хэсгийг 2008 оны 5 дугаар сарын 22-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969293933" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ 6.2 дахь хэсгийн 1,2,3 дахь заалтыг 2009 оны 1 дүгээр сарын 16-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969361091" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсэгт 2015 оны 10 дугаар сарын 30-ны өдрийн хуулиар 4 дэх заалт нэмж, 3 дахь заалтад өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1636368826454964" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><p>6.3.Энэ хуулийн 4.1.4-т заасан суудлын автомашин импортолсон бол үйлдвэрлэгдсэн оноос хойших хугацаа болон хөдөлгүүрийн цилиндрийн багтаамжийг харгалзан дараахь хэмжээгээр онцгой албан татвар ногдуулна:</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969351517" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">
+<table border="1" cellpadding="0" cellspacing="0" style="width:98%"></table>
+<table border="1" cellpadding="0" cellspacing="0" style="width:631px"><tbody>
+<tr>
+<td rowspan="3" style="height:33px; width:37px">
+ <p>Д/д</p>
+ </td>
+ <td rowspan="3" style="height:33px; width:180px">
+ <p>Хөдөлгүүрийн цилиндрийн багтаамж см/<sup>3</sup>/</p>
+ </td>
+ <td colspan="4" style="height:33px; width:414px">
+ <p style="margin-left:8.5pt">Ногдуулах онцгой албан татварын хэмжээ /төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="4" style="height:35px; width:414px">
+ <p>Үйлдвэрлэгдсэн оноос хойших хугацаа /жилээр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:52px; width:108px">
+ <p>0-3 жил</p>
+ </td>
+ <td style="height:52px; width:102px">
+ <p>4-6 жил</p>
+ </td>
+ <td style="height:52px; width:100px">
+ <p>7-9 жил</p>
+ </td>
+ <td style="height:52px; width:104px">
+ <p>10 ба түүнээс дээш жил</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>1</p>
+ </td>
+ <td style="height:20px; width:180px">
+ <p>1500 ба түүнээс доош</p>
+ </td>
+ <td style="height:20px; width:108px">
+ <p>750 000</p>
+ </td>
+ <td style="height:20px; width:102px">
+ <p>1 600 000</p>
+ </td>
+ <td style="height:20px; width:100px">
+ <p>3 350 000</p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p>10 000 000</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>2</p>
+ </td>
+ <td style="height:20px; width:180px">
+ <p>1501-2500</p>
+ </td>
+ <td style="height:20px; width:108px">
+ <p>2 300 000</p>
+ </td>
+ <td style="height:20px; width:102px">
+ <p>3 200 000</p>
+ </td>
+ <td style="height:20px; width:100px">
+ <p>5 000 000</p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p>11 700 000</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>3</p>
+ </td>
+ <td style="height:20px; width:180px">
+ <p>2501-3500</p>
+ </td>
+ <td style="height:20px; width:108px">
+ <p>3 050 000</p>
+ </td>
+ <td style="height:20px; width:102px">
+ <p>4 000 000</p>
+ </td>
+ <td style="height:20px; width:100px">
+ <p>6 700 000</p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p>13 350 000</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>4</p>
+ </td>
+ <td style="height:20px; width:180px">
+ <p>3501-4500</p>
+ </td>
+ <td style="height:20px; width:108px">
+ <p>6 850 750</p>
+ </td>
+ <td style="height:20px; width:102px">
+ <p>8 000 000</p>
+ </td>
+ <td style="height:20px; width:100px">
+ <p>10 850 000</p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p>17 500 000</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:37px">
+ <p>5</p>
+ </td>
+ <td style="height:20px; width:180px">
+ <p>4501 ба түүнээс дээш</p>
+ </td>
+ <td style="height:20px; width:108px">
+ <p>14 210 000</p>
+ </td>
+ <td style="height:20px; width:102px">
+ <p>27 200 000</p>
+ </td>
+ <td style="height:20px; width:100px">
+ <p>39 150 000</p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p>65 975 000</p>
+ </td>
+ </tr>
+</tbody></table>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1636368772474962" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>/Энэ хэсгийг 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар өөрчлөн найруулсан/</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969981145" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><strike>6.4.Энэ хуулийн 4.2-т заасан тусгай зориулалтын техник хэрэгсэл, тоног төхөөрөмжид дараах хэмжээгээр онцгой албан татвар ногдуулна:</strike></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969440662" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; "><strike><table border="1" cellpadding="1" cellspacing="0" style="width:635px"></table>
+<table border="1" cellpadding="1" cellspacing="0" style="width:635px"><tbody>
+<tr>
+<td style="height:78px; width:47px">
+ <p style="text-align:justify"><s>Д/д</s></p>
+ </td>
+ <td style="height:78px; width:386px">
+ <p style="text-align:justify"><s>Онцгой албан татвар ногдуулах барааны нэр, төрөл</s></p>
+ </td>
+ <td style="height:78px; width:202px">
+ <p style="text-align:justify"><s>Биет нэгжид ногдуулах онцгой албан татварын хэмжээ</s></p>
+
+ <p style="text-align:justify"><s>/төгрөгөөр, сард/</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:31px; width:47px">
+ <p style="text-align:justify"><s>1</s></p>
+ </td>
+ <td style="height:31px; width:386px">
+ <p style="text-align:justify"><s>Тоглоомын ширээ буюу электрон хүрд</s></p>
+ </td>
+ <td style="height:31px; width:202px">
+ <p style="text-align:justify"><s>116000000</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:16px; width:47px">
+ <p style="text-align:justify"><s>2</s></p>
+ </td>
+ <td style="height:16px; width:386px">
+ <p style="text-align:justify"><s>Автомат тоглоом</s></p>
+ </td>
+ <td style="height:16px; width:202px">
+ <p style="text-align:justify"><s>4350000</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:31px; width:47px">
+ <p style="text-align:justify"><s>3</s></p>
+ </td>
+ <td style="height:31px; width:386px">
+ <p style="text-align:justify"><s>Тоглоомын үр дүнг харуулсан касс буюу тотализатор</s></p>
+ </td>
+ <td style="height:31px; width:202px">
+ <p style="text-align:justify"><s>116000000</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:31px; width:47px">
+ <p style="text-align:justify"><s>4</s></p>
+ </td>
+ <td style="height:31px; width:386px">
+ <p style="text-align:justify"><s>Бооцоо тооцоолох букмейкерийн төв</s></p>
+ </td>
+ <td style="height:31px; width:202px">
+ <p style="text-align:justify"><s>116000000</s></p>
+ </td>
+ </tr>
+</tbody></table></strike></div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969190855" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2015 оны 1 дүгээр сарын 23-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969979178" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p><s>6.5. Төлбөрт таавар, бооцоот тоглоомын үйл ажиллагааг цахим, интернэт, үүрэн телефоны сүлжээ ашиглан эрхэлж байгаа хувь хүн, хуулийн этгээдийн үйл ажиллагаанд сар тутам 36250000 төгрөгтэй тэнцэх хэмжээгээр онцгой албан татвар ногдуулна.</s></p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969933186" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсэгт 2015 оны 01 дүгээр сарын 23-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969514723" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p><s>6.6. Онцгой албан татварыг ногдуулахдаа Монголбанкнаас тогтоосон тухайн өдрийн төгрөгийн америк доллартой харьцах албан ёсны ханшийг үндэслэнэ.</s></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969481347" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2015 оны 1 дүгээр сарын 23-ны өдрийн хуулиар хүчингүй болсонд тооцно/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969101017" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.7. Автобензин, дизелийн түлшний онцгой албан татварын хувь, хэмжээг энэ хуулийн 6.1, 6.2-т заасан хязгаарт багтаан салбарын онцлогийг харгалзан Засгийн газар тогтооно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969844237" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2008 оны 5 дугаар сарын 22-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969090372" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсэгт 2012 оны 9 дүгээр сарын 11-ний өдрийн хуулиар нэмэлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969165144" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.8.Хос тэжээлт автомашин, шингэрүүлсэн хийгээр ажилладаг автомашин, цахилгаан тэжээлт автомашинд ногдуулах онцгой албан татварын хувь, хэмжээг энэ хуулийн 6.3-т заасан хэмжээний 0-50 хувиар Засгийн газар тогтооно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969202725" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2017 оны 6 дугаар сарын 08-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1727619657626713" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; ">6.9.Энэ хуулийн 4.1.6-д заасан чихэр, чихэр орлуулагч агуулсан төрөл бүрийн ундаа, усны тогтоосон биет нэгжид дараах хэмжээгээр онцгой албан татвар ногдуулна:<br>
+ 
+<table border="1" cellspacing="0"><tbody>
+<tr>
+<td rowspan="2">
+<br><br><br>
+ Д/д</td>
+ <td colspan="2" rowspan="2">
+<br><br><br>
+ Онцгой албан татвар ногдуулах барааны нэр, төрөл</td>
+ <td rowspan="2">
+<br><br><br>
+ Биет нэгж</td>
+ <td colspan="3">Ногдуулах онцгой албан татварын хэмжээ /төгрөгөөр/</td>
+ </tr>
+<tr>
+<td>2027 он</td>
+ <td>2028 он</td>
+ <td>2029 он ба  түүнээс хойш</td>
+ </tr>
+<tr>
+<td rowspan="2">
+<br>
+ 1</td>
+ <td rowspan="2">Чихэр, чихэр орлуулагч агуулсан төрөл бүрийн ундаа, ус</td>
+ <td>100 мл-т агуулагдах<br>
+  чихэр, чихэр орлуулагч<br>
+ 0-5 гр</td>
+ <td>1 литр</td>
+ <td>0</td>
+ <td>0</td>
+ <td>0</td>
+ </tr>
+<tr>
+<td>100 мл-т агуулагдах<br>
+  чихэр, чихэр орлуулагч<br>
+ 5 гр-аас дээш</td>
+ <td>1 литр</td>
+ <td>500 төгрөг</td>
+ <td>525 төгрөг</td>
+ <td>550 төгрөг</td>
+ </tr>
+</tbody></table>
+</div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар нэмсэн бөгөөд 2027 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1785569263340313" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><p>6.10.Импортолсон суудлын автомашины гаалийн үнийн 360 000 000 төгрөгөөс давсан хэсэгт энэ хуулийн 6.3 дахь хэсэгт заасан хэмжээн дээр нэмж 33 хувийн онцгой албан татвар ногдуулна.</p></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 06 дугаар сарын 26-ны өдрийн хуулиар нэмсэн ./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1785822359018495" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; ">
+<p>6.11.Энэ хуулийн 5.1 дэх хэсгийн хүснэгтийн дэс дугаарын 2, 3-т заасан барааны импортын гаалийн үнээс дараах хувиар онцгой албан татвар ногдуулна:</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:577px"><tbody>
+<tr>
+<td style="width:52px">Д/д</td>
+ <td style="width:397px">Онцгой албан татвар ногдуулах барааны нэр, төрөл</td>
+ <td style="width:103px">
+ <p>Ногдуулах онцгой албан татварын хувь</p>
+ </td>
+ </tr>
+<tr>
+<td style="width:52px">1</td>
+ <td style="width:397px">Янжуур болон түүнтэй адилтгах бусад тамхи</td>
+ <td style="width:103px">30</td>
+ </tr>
+<tr>
+<td colspan="1" rowspan="2" style="width:52px">2</td>
+ <td style="width:397px">
+ <p>Дүнсэн болон түүнтэй адилтгах задгай тамхи</p>
+
+ <p>Үүнээс </p>
+ </td>
+ <td style="width:103px">30</td>
+ </tr>
+<tr>
+<td style="width:397px">Хамрын тамхи </td>
+ <td style="width:103px">20</td>
+ </tr>
+</tbody></table>
+<p> </p>
+</div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар нэмсэн./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969431281" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл. Онцгой албан татвараас хөнгөлөх, чөлөөлөх</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969907121" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийн гарчигт 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар нэмэлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969747555" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">7.1. Дараахь барааг онцгой албан татвараас чөлөөлнө:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969354312" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">7.1.1. Монгол Улсын нутаг дэвсгэрт үйлдвэрлэн экспортод гаргасан энэ хуулийн 4.1-д заасан бараа;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969728000" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">7.1.2. гэрийн нөхцөлд энгийн аргаар өөрийн хэрэгцээнд зориулж сүү, сүүн бүтээгдэхүүнээр нэрсэн шимийн архи;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969309289" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 4rem; "><p>7.1.3. хамрын тамхийг энэ хуулийн 6.1 дэх хэсгийн хүснэгтийн дэс дугаарын 7-д заасан хэмжээгээр;</p></div>
+<p style="   padding-left: 4rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ заалтад 2026 оны 07 дугаар сарын 02-ны өдрийн хуулиар өөрчлөлт оруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969903814" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; ">7.1.4. гаалийн байгууллагаас зорчигчдын хувийн хэрэгцээнд зориулж татваргүй нэвтрүүлэхийг зөвшөөрсөн хэмжээний архи, тамхи;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969169075" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; "><p><s>7.1.5. хос тэжээлт автомашин.</s></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969556802" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар хүчингүй болсонд тооцсон/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969530131" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; "><p><s>7.1.6.шингэрүүлсэн хийгээр ажилладаг автомашин;</s></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969697972" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 2010 оны 06 дугаар сарын 24-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969426181" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар хүчингүй болсонд тооцсон/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969342728" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333;line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 4rem; "><p><s>7.1.7.цахилгаан тэжээлт автомашин.</s></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969803234" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 2010 оны 06 дугаар сарын 24-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969281163" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар хүчингүй болсонд тооцсон/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969515219" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p><s>7.2.Хос тэжээлт автомашин, шингэрүүлсэн хийгээр ажилладаг автомашин, цахилгаан тэжээлт автомашины онцгой албан татварыг 50 хувиар хөнгөлнө.</s></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969297937" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2017 оны 4 дүгээр сарын 14-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969171778" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2017 оны 6 дугаар сарын 08-ны өдрийн хуулиар хүчингүй болсонд тооцсон/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969610358" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл. Онцгой албан татварыг ногдуулах, төсөвт төлөх</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969144238" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.1.Энэ хуульд заасан импортын барааг Монгол Улсын хилээр оруулж ирсэн тухай бүрт гаалийн байгууллага онцгой албан татвар ногдуулж, татварын орлогыг төрийн сангийн дансанд шилжүүлнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969748661" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.2. Монгол Улсын нутаг дэвсгэрт үйлдвэрлэсэн спиртээс бусад бараанд ногдуулах онцгой албан татварыг татвар төлөгч сар бүрийн 25-ны өдрийн дотор урьдчилан улсын төсөвт төлнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969082402" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.3. Монгол Улсын нутаг дэвсгэрт үйлдвэрлэсэн бараанд ногдуулах онцгой албан татварын тухайн сарын тайланг татвар төлөгч дараа сарын 5-ны өдрийн дотор татварын албанд тушаана.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969303271" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.4. Спиртийн үйлдвэрийн борлуулсан спиртэд ногдуулсан онцгой албан татварыг ажлын 2 хоногт багтаан улсын төсөвт төлнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969122508" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.5.Монгол Улсын нутаг дэвсгэрт хүнсний зориулалтаар үйлдвэрлэсэн спиртийг борлуулахад худалдан авагчид нэгдсэн дугаар бүхий баримт өгөх бөгөөд түүний загварыг татварын асуудал эрхэлсэн төрийн захиргааны төв байгууллага батална.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969264919" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.6. Монгол Улсын нутаг дэвсгэрт үйлдвэрлэж борлуулсан архи, дарсанд онцгой албан татвар ногдуулахдаа уг согтууруулах ундаанд ногдох спиртэд төлсөн онцгой албан татварыг энэ хуулийн 8.5-д заасан баримтыг үндэслэн хасч тооцно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969835251" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.7.Монгол Улсын нутаг дэвсгэрт үйлдвэрлэсэн янжуур тамхинд онцгой албан татвар ногдуулахдаа уг тамхийг үйлдвэрлэхэд түүхий эдийн зориулалтаар импортолсон задгай тамхинд ногдуулсан онцгой албан татварыг хасч тооцно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969199072" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><strike>8.8. Энэ хуулийн 5.4-д заасан татвар ногдуулах биет нэгжийн төрөл, тоо хэмжээний өөрчлөлтийн сарын мэдээг татвар төлөгч дараа сарын 10-ны өдрийн дотор харьяа татварын албанд ирүүлэх бөгөөд уг өөрчлөлтийг татварын алба татвар төлөгчийн бүртгэлийн гэрчилгээнд тусгаж, шинээр суурилуулсан техник хэрэгсэл, тоног төхөөрөмжийн тухайн сарын албан татварыг нөхөн ногдуулна.</strike></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969910808" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><strike>8.9. Энэ хуулийн 6.4, 6.5-д заасан үйл ажиллагааг эрхлэн явуулж байгаа албан татвар төлөгч тухайн сард төлөх албан татварыг сар бүрийн 25-ны өдрийн дотор урьдчилан төлж, тайланг дараа сарын 10-ны өдрийн дотор татварын албанд ирүүлнэ.</strike></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969557196" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.10.Компанийн нөөц бүрдүүлэх зорилгоор импортлож байгаа автобензин, дизелийн түлшинд ногдох онцгой албан татварыг компанийн нөөц бүрдүүлэх аж ахуйн нэгжийн нэр, автобензин, дизелийн түлшний заавал байлгах нөөцийн тоо хэмжээ, сэлгээ хийх хугацааг тогтоосон Засгийн газрын шийдвэрийг үндэслэн компанийн нөөцийг сэлгэх зорилгоор борлуулж эхэлсэн өдөр ногдуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969270982" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2007 оны 12 дугаар сарын 21-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969923855" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.11.Газрын тосны бүтээгдэхүүний бөөний худалдаа, үйлдвэрлэл эрхлэх тусгай зөвшөөрөл эзэмшигч компанийн импортлож байгаа компанийн нөөц бүрдүүлэхээс бусад Монгол Улсын 30 хоногийн хэрэглээтэй тэнцэх хэмжээний автобензин, дизелийн түлшинд ногдох онцгой албан татварыг 30 хоногоор хойшлуулан ногдуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969149519" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2007 оны 12 дугаар сарын 21-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969128234" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">8.12.Энэ хуулийн 6.7-д заасан татварыг төсөвт төлөхтэй холбогдсон журмыг санхүү, төсвийн асуудал эрхэлсэн Засгийн газрын гишүүн батална.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969106089" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2012 оны 9 дүгээр сарын 11-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969623623" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл. Хууль хүчин төгөлдөр болох</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969139511" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">9.1. Энэ хуулийг 2007 оны 1 дүгээр сарын 1-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969464776" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; "><strike>9.2. Энэ хуулийн 4.2, 5.4, 6.4, 6.5, 8.8, 8.9 дэх хэсгийг 2006 оны 8 дугаар сарын 1-ний өдрөөс эхлэн дагаж мөрдөнө.</strike></div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2025 оны 05 дугаар сарын 30-ны өдрийн хуулиар хүчингүй болсонд тооцсон./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1611033969145924" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Ц.НЯМДОРЖ</div></div>
+</div>
+</div></body>
+</html>

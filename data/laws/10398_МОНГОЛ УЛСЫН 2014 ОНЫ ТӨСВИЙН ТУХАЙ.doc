@@ -1,0 +1,599 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345332108" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345636871" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2013 оны 11 дүгээр сарын 15-ны өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345812631" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345982170" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2014 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345114271" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>НЭГДҮГЭЭР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640544126895059" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>НИЙТЛЭГ ҮНДЭСЛЭЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345716045" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; "><p>1 дүгээрр зүйл. Хуулийн зорилт</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345127133" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><p>1.1.Энэ хуулийн зорилт нь Монгол Улсын төсөвт 2014 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах төсвийн хэмжээ, орлого төвлөрүүлэх байгууллага, орон нутгийн төсөвт олгох санхүүгийн дэмжлэг, Орон нутгийн хөгжлийн нэгдсэн санд төвлөрүүлэх орлого, Орон нутгийн хөгжлийн нэгдсэн сангаас Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг, төсвийн ерөнхийлөн захирагчид төсөв зарцуулах эрх олгох, Төсвийн тогтворжуулалтын санд хуримтлуулах хөрөнгийн хэмжээ, төсвийн алдагдлыг санхүүжүүлэх эх үүсвэр, мөнгөн гүйлгээтэй холбогдсон харилцааг зохицуулахад оршино.</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345449272" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл. Монгол Улсын 2014 оны төсвийн тухай хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345176140" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><p>2.1.Монгол Улсын 2014 оны төсвийн тухай хууль тогтоомж нь Төсвийн тухай хууль, Төсвийн тогтвортой байдлын тухай хууль, энэ хууль болон эдгээр хуультай нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345156236" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ХОЁРДУГААР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640544154329293" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>МОНГОЛ УЛСЫН 2014 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА БОЛОН ХӨРӨНГӨ, ӨРИЙН УДИРДЛАГА</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345595378" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Монгол Улсын төсөвт 2014 оны төсвийн жилд төсвийн ерөнхийлөн захирагч, түүний харьяа байгууллага, бусад байгууллагын төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345233662" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<table border="1" cellpadding="1" cellspacing="0" style="width:651px"></table>
+<table border="1" cellpadding="1" cellspacing="0" style="width:651px"><tbody>
+<tr>
+<td style="height:29px; width:70px"> <p>Д/д</p> </td> <td colspan="6" style="height:29px; width:467px"> <p>Төсвийн ерөнхийлөн захирагч</p> </td> <td style="height:29px; width:114px"> <p>Дүн /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>1</p> </td> <td colspan="6" style="height:7px; width:467px"> <p>Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p> </td> <td style="height:7px; width:114px"> <p>20.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> <p> </p> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>20.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>2</p> </td> <td colspan="5" style="height:7px; width:348px"> <p>Шүүхийн ерөнхий зөвлөлийн дарга</p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>10.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>10.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>3</p> </td> <td colspan="5" style="height:7px; width:348px"> <p>Санхүүгийн зохицуулах хорооны дарга</p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>800.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>800.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>4</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Төрийн албаны зөвлөлийн дарга</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>65.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>65.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>5</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Монгол Улсын Ерөнхий аудитор</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>4.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>4.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>6</p> </td> <td colspan="5" style="height:7px; width:348px"> <p>Үндэсний статистикийн хорооны дарга</p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>14.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> <p> </p> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>14.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>7</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Монгол Улсын Ерөнхий сайд</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>42,810.6</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Төрийн өмчийн хороо</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>34,723.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Бүх нийтийн үйлчилгээний үүргийн сан</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>3,927.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Цөмийн энергийн газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>2,545.6</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>1,614.6</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:70px"> <p>8</p> <p> </p> </td> <td colspan="4" style="width:321px"> <p>Монгол Улсын Шадар сайд</p> </td> <td style="width:27px"> <p> </p> </td> <td rowspan="2" style="width:119px"> <p> </p> </td> <td rowspan="2" style="width:114px"> <p>15,388.8</p> <p>1,154.0</p> </td> </tr>
+<tr>
+<td style="width:93px"> </td> <td colspan="4" style="width:256px"> <p>Мэргэжлийн хяналтын ерөнхий газар</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Оюуны өмчийн газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>600.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Стандартчилал, хэмжил зүйн газар</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>1,683.3</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Аймаг, нийслэлийн мэргэжлийн хяналтын газар</p> </td> <td style="height:7px; width:114px"> <p>1,212.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Хилийн мэргэжлийн хяналтын алба</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>479.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p> </td> <td style="height:7px; width:114px"> <p>5,010.3</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>5,250.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>9</p> </td> <td colspan="5" style="height:7px; width:348px"> <p>Засгийн газрын Хэрэг эрхлэх газрын дарга</p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>2,406.7</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>2,406.7</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>10</p> </td> <td colspan="6" style="height:7px; width:467px"> <p>Байгаль орчин, ногоон хөгжил, аялал жуулчлалын сайд</p> </td> <td style="height:7px; width:114px"> <p>226.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>226.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>11</p> </td> <td colspan="3" style="height:7px; width:203px"> <p>Гадаад хэргийн сайд</p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>15,720.6</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Дипломат төлөөлөгчийн газрууд</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>10,519.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>"Дипломат байгууллагын үйлчилгээг эрхлэх газар" улсын төсөвт үйлдвэрийн газар</p> </td> <td style="height:7px; width:114px"> <p>4,221.5</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>980.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>12</p> </td> <td colspan="2" style="height:7px; width:177px"> <p>Сангийн сайд</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>4,134,473.2</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Татварын ерөнхий газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>2,078,909.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Үүнээс: Төсвийн тогтворжуулалтын сан</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>29,799.6</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Гаалийн ерөнхий газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>1,919,915.7</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="2" style="height:7px; width:111px"> <p>Сангийн яам</p> </td> <td style="height:7px; width:118px"> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>64,816.7</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p> </td> <td style="height:7px; width:114px"> <p>65,739.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>5,092.3</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>13</p> </td> <td colspan="2" style="height:7px; width:177px"> <p>Хууль зүйн сайд</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>49,402.9</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Улсын бүртгэлийн ерөнхий газар</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>12,908.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Замын цагдаагийн газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>1,875.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p> </td> <td style="height:7px; width:114px"> <p>22,177.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Нийгмийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p> </td> <td style="height:7px; width:114px"> <p>841.5</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>11,601.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>14</p> </td> <td colspan="3" style="height:7px; width:203px"> <p>Аж үйлдвэрийн сайд</p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>86,849.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p> </td> <td style="height:7px; width:114px"> <p>50,000.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>36,849.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>15</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Барилга, хот байгуулалтын сайд</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>4,200.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> <p> </p> </td> <td colspan="4" style="height:7px; width:256px"> <p>Барилга, хот байгуулалтын бусад орлого</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>1,200.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> <p> </p> </td> <td colspan="5" style="height:7px; width:374px"> <p>Газрын харилцаа, геодези, зураг зүйн газар</p> </td> <td style="height:7px; width:114px"> <p>2,550.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> <p> </p> </td> <td colspan="5" style="height:7px; width:374px"> <p>Зураг төсөл, эрдэм шинжилгээний институт</p> </td> <td style="height:7px; width:114px"> <p>450.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>16</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Батлан хамгаалахын сайд</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>42,230.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Нийгмийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p> </td> <td style="height:7px; width:114px"> <p>4,822.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>37,408.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>17</p> </td> <td colspan="5" style="height:7px; width:348px"> <p>Боловсрол, соёл, шинжлэх ухааны сайд</p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>2,873.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>2,873.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>18</p> </td> <td colspan="3" style="height:7px; width:203px"> <p>Зам, тээврийн сайд</p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>73,893.5</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Иргэний нисэхийн ерөнхий газар</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>67,919.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>"Монголын төмөр зам" төрийн өмчит хувьцаат компани</p> </td> <td style="height:7px; width:114px"> <p>802.9</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Зам, тээврийн бусад орлого</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>1,584.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>"Авто замын хяналт, эрдэм шинжилгээ, судалгааны төв" улсын төсөвт үйлдвэрийн газар</p> </td> <td style="height:7px; width:114px"> <p> </p> <p>2,350.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="4" style="height:7px; width:256px"> <p>Монгол Улсын далайн захиргаа</p> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>274.4</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>962.8</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>19</p> </td> <td colspan="2" style="height:7px; width:177px"> <p>Уул уурхайн сайд</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>250,085.5</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Ашигт малтмалын газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>28,912.2</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="3" style="height:7px; width:229px"> <p>Газрын тосны газар</p> </td> <td style="height:7px; width:27px"> </td> <td style="height:7px; width:119px"> </td> <td style="height:7px; width:114px"> <p>221,168.1</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>5.2</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>20</p> </td> <td colspan="3" style="height:7px; width:203px"> <p>Хөдөлмөрийн сайд</p> </td> <td style="height:7px; width:118px"> <p> </p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>89,459.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>89,459.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>21</p> </td> <td colspan="5" style="height:7px; width:348px"> <p>Хүн амын хөгжил, нийгмийн хамгааллын сайд</p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>3,225.2</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Нийгмийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p> </td> <td style="height:7px; width:114px"> <p>576.8</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>2,648.3</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>22</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Хүнс, хөдөө аж ахуйн сайд</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>29,875.5</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p> </td> <td style="height:7px; width:114px"> <p>24,000.0</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p>5,875.5</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p>23</p> </td> <td colspan="4" style="height:7px; width:321px"> <p>Эрүүл мэнд, спортын сайд</p> </td> <td style="height:7px; width:27px"> <p> </p> </td> <td style="height:7px; width:119px"> <p> </p> </td> <td style="height:7px; width:114px"> <p>137,021.9</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> </td> <td colspan="5" style="height:7px; width:374px"> <p>Нийгмийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p> </td> <td style="height:7px; width:114px"> <p> </p> <p>123,395.3</p> </td> </tr>
+<tr>
+<td style="height:7px; width:70px"> <p> </p> </td> <td style="height:7px; width:93px"> <p> </p> </td> <td colspan="5" style="height:7px; width:374px"> <p>Харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="height:7px; width:114px"> <p> </p> <p>13,626.6</p> </td> </tr>
+<tr>
+<td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+</tbody></table>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16106876897331" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 3 дугаар зүйлийг 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345115483" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Монгол Улсын төсөвт 2014 оны төсвийн жилд төвлөрүүлэх төсвийн тэнцвэржүүлсэн орлогын хэмжээг 4,740,313.3 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16106876897351" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2014 оны 5 дугаар сарын 23, 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар тус тус өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345811526" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.Монгол Улсын төсвөөс 2014 оны төсвийн жилд төсвийн ерөнхийлөн захирагч нарт доор дурдсан төсөв зарцуулах эрхийг олгосугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345425527" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="1" cellspacing="0" style="width: 651px;" width="651"><tbody>
+<tr>
+<td style="width:48px;height:23px;"> <p align="center"> Д/д</p> </td> <td colspan="5" style="width:489px;height:23px;"> <p align="center"> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:114px;height:23px;"> <p align="center"> Дүн /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 1</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 8,874.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 8,747.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 127.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 2</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Монгол Улсын Их Хурлын дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 23,418.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 22,918.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 500.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 3</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Монгол Улсын Үндсэн хуулийн цэцийн дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 766.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td style="width:156px;height:4px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:4px;"> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 766.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 4</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Улсын дээд шүүхийн Ерөнхий шүүгч</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 3,448.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td style="width:156px;height:4px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:4px;"> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 3,448.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 5</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Шүүхийн ерөнхий зөвлөлийн дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 58,465.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 57,970.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 495.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 6</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Хүний эрхийн Үндэсний Комиссын дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 935.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 830.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 105.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 7</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Улсын ерөнхий прокурор</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 19,219.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 17,060.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 2,159.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 8</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Үндэсний аюулгүй байдлын зөвлөлийн нарийн бичгийн дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,616.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td style="width:156px;height:4px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:4px;"> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,616.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 9</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Монгол Улсын Ерөнхий аудитор</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 8,489.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 7,427.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,062.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 10</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Авлигатай тэмцэх газрын дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 15,329.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 11,797.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 3,531.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 11</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Санхүүгийн зохицуулах хорооны дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 2,516.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td style="width:156px;height:4px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:4px;"> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 2,516.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> 12</p> </td> <td colspan="5" style="width:489px;height:3px;"> <p> Төрийн албаны зөвлөлийн дарга</p> </td> <td style="width:114px;height:3px;"> <p align="right"> 727.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 727.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 13</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Үндэсний статистикийн хорооны дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 9,944.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 9,002.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 941.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 14</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Сонгуулийн ерөнхий хорооны дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 801.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 771.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 30.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 15</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Цагаатгах ажлыг удирдан зохион байгуулах улсын комиссын дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 916.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td style="width:156px;height:4px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:4px;"> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 916.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 16</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Монгол Улсын Ерөнхий сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 139,594.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 65,904.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 58,553.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 15,136.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 17</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Монгол Улсын Шадар сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 119,572.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 82,623.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 36,948.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 18</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Засгийн газрын Хэрэг эрхлэх газрын дарга</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 23,490.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 16,730.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 6,760.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 19</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Байгаль орчин, ногоон хөгжил, аялал жуулчлалын сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 70,664.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 56,695.5</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 13,968.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 20</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Гадаад хэргийн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 54,125.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 45,131.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 8,994.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 21</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Сангийн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,888,793.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td style="width:156px;height:4px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:4px;"> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 988,593.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="3" style="width:274px;height:4px;"> <p> Дотоод эх үүсвэрээс олгох зээл</p> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 41,928.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 29,913.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:3px;"> <p align="right"> 18,282.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Засгийн газрын үнэт цаасны үндсэн төлбөрт</p> </td> <td style="width:114px;height:3px;"> <p align="right"> 544,839.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Засгийн газрын гадаад төслийн зээлийн үндсэн төлбөрт</p> </td> <td style="width:114px;height:3px;"> <p align="right"> </p> <p align="right"> 152,667.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Засгийн газрын дотоод зээлийн үндсэн төлбөрт</p> </td> <td style="width:114px;height:4px;"> <p align="right"> </p> <p align="right"> 112,567.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 22</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Хууль зүйн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 373,842.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 346,522.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 27,319.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 23</p> </td> <td colspan="2" style="width:226px;height:4px;"> <p> Аж үйлдвэрийн сайд</p> </td> <td style="width:18px;height:4px;"> <p> </p> </td> <td style="width:100px;height:4px;"> <p> </p> </td> <td style="width:145px;height:4px;"> <p> </p> </td> <td style="width:114px;height:4px;"> <p align="right"> 40,189.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 2,689.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="3" style="width:274px;height:3px;"> <p> Дотоод эх үүсвэрээс олгох зээл</p> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 36,000.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,500.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 24</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Барилга, хот байгуулалтын сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 240,732.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 13,275.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Үүнээс: Газрын харилцаа, кадастрын тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> </p> <p align="right"> 6,928.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 185,457.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 42,000.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 25</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Батлан хамгаалахын сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 208,509.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 178,400.5</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 30,109.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 26</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Боловсрол, соёл, шинжлэх ухааны сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,307,416.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 1,011,450.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Үүнээс: Сургуулийн өмнөх боловсролын тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> 223,526.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Ерөнхий боловсролын тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> 519,002.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Соёлын үйлчилгээний тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> 39,873.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="3" style="width:274px;height:3px;"> <p> Дотоод эх үүсвэрээс олгох зээл</p> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 21,637.2</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 269,144.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 5,183.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 27</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Зам, тээврийн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 314,429.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 14,071.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 144,621.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 155,736.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 28</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Соёл, спорт, аялал жуулчлалын сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,273.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Урсгал зардал /2014 оны 12 дугаар сарын 04-ний өдөр хүртэл/</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 1,273.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 29</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Уул уурхайн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 24,659.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 10,639.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 14,020.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 30</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Хүнс, хөдөө аж ахуйн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 170,644.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 105,844.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="3" style="width:274px;height:3px;"> <p> Дотоод эх үүсвэрээс олгох зээл</p> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 1,500.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 60,690.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 2,609.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 31</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Хөдөлмөрийн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 222,382.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 175,525.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="3" style="width:274px;height:3px;"> <p> Дотоод эх үүсвэрээс олгох зээл</p> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 17,000.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 29,856.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p> 32</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Хүн амын хөгжил, нийгмийн хамгааллын сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 445,960.4</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 417,712.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Үүнээс: Хүүхдийн хөгжил хамгааллын үйлчилгээний тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> </p> <p align="right"> 6,231.3</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:4px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:4px;"> </td> <td style="width:145px;height:4px;"> </td> <td style="width:114px;height:4px;"> <p align="right"> 28,247.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 33</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Эдийн засгийн хөгжлийн сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 4,243.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Урсгал зардал /2014 оны 12 дугаар сарын 04-ний өдөр хүртэл/</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 4,243.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 34</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Эрүүл мэнд, спортын сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 612,281.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 477,367.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Үүнээс: Эрүүл мэндийн анхан шатны тусламж, үйлчилгээний тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> </p> <p align="right"> 95,255.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:3px;"> <p> Нийтийн биеийн тамирын тусгай зориулалтын шилжүүлэг</p> </td> <td style="width:114px;height:3px;"> <p align="right"> </p> <p align="right"> 9,401.7</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 132,115.0</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 2,799.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 35</p> </td> <td colspan="5" style="width:489px;height:4px;"> <p> Эрчим хүчний сайд</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 190,075.6</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 34,511.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td colspan="2" style="width:174px;height:3px;"> <p> Хөрөнгийн зардал</p> </td> <td style="width:100px;height:3px;"> </td> <td style="width:145px;height:3px;"> </td> <td style="width:114px;height:3px;"> <p align="right"> 138,331.9</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> </p> </td> <td style="width:70px;height:4px;"> <p> </p> </td> <td colspan="4" style="width:420px;height:4px;"> <p> Гадаад төслийн зээлээс санхүүжих зардал</p> </td> <td style="width:114px;height:4px;"> <p align="right"> 17,231.8</p> </td> </tr>
+<tr>
+<td style="width:48px;height:4px;"> <p align="center"> 36</p> </td> <td colspan="2" style="width:226px;height:4px;"> <p> Монгол Улсын сайд</p> </td> <td style="width:18px;height:4px;"> <p> </p> </td> <td style="width:100px;height:4px;"> <p> </p> </td> <td style="width:145px;height:4px;"> <p> </p> </td> <td style="width:114px;height:4px;"> <p align="right"> 6.1</p> </td> </tr>
+<tr>
+<td style="width:48px;height:3px;"> <p align="center"> </p> </td> <td style="width:70px;height:3px;"> <p> </p> </td> <td style="width:156px;height:3px;"> <p> Урсгал зардал</p> </td> <td style="width:18px;height:3px;"> <p> </p> </td> <td style="width:100px;height:3px;"> <p> </p> </td> <td style="width:145px;height:3px;"> <p> </p> </td> <td style="width:114px;height:3px;"> <p align="right"> 6.1</p> </td> </tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="16106876897371" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 5 дугаар зүйлийг 2014 оны 5 дугаар сарын 23, 12 дугаар сарын 18-ны өдрийн хуулиар тус тус өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345763725" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Монгол Улсын төсвөөс 2014 оны төсвийн жилд зарцуулах төсвийн зарлагын /тэнцвэржүүлсэн орлогод нийцүүлсэн/ хэмжээг 5,631,357.1 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16106876897391" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2014 оны 5 дугаар сарын 23, 12 дугаар сарын 18-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345876531" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2014 оны төсвийн жилд санхүүжүүлэх хөрөнгө оруулалт, тоног төхөөрөмж, их засварын зардлын хэмжээг 1,180,947.9 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16106876897411" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345639690" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл. Төсвийн тогтвортой байдлын тухай хуулийн 16 дугаар зүйлд заасны дагуу Төсвийн тогтворжуулалтын санд 2014 оны төсвийн жилд хуримтлуулах хөрөнгийн хэмжээг 29,799.6 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345261986" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл. Монгол Улсын 2014 оны төсвийн жилд төсвийн алдагдлыг санхүүжүүлэх эх үүсвэрийг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345505303" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">9.1.Шинээр гаргах болон дахин санхүүжүүлэх Засгийн газрын он дамжих үнэт цаас 1,400,000.0 сая төгрөг;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345513887" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">9.2.Засгийн газрын шинээр авах гадаад төслийн зээл 259,921.1 сая төгрөг.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345979739" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсэгт 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345127010" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">10 дугаар зүйл. Монгол Улсын 2014 оны төсвийн жилд Засгийн газрын гаргах баталгааны дээд хязгаарыг 2,500,000.0 сая төгрөгөөр тогтоосугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345208706" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ГУРАВДУГААР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640544227881071" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ОРОН НУТГИЙН ТӨСӨВТ ОЛГОХ САНХҮҮГИЙН ДЭМЖЛЭГ, ОРОН НУТГИЙН ХӨГЖЛИЙН НЭГДСЭН САНД ТӨВЛӨРҮҮЛЭХ ОРЛОГО, ОРОН НУТГИЙН ХӨГЖЛИЙН НЭГДСЭН САНГААС ОРОН НУТГИЙН ХӨГЖЛИЙН САНД ОЛГОХ ОРЛОГЫН ШИЛЖҮҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345827672" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">11 дүгээр зүйл.Монгол Улсын 2014 оны төсвийн жилд орон нутгийн төсөвт олгох санхүүгийн дэмжлэгийн хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345110618" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="1" cellspacing="0" style="width: 400px;" width="400">
+<table border="1" cellpadding="1" cellspacing="0" style="width: 400px;" width="400"><tbody>
+<tr>
+<td style="width:46px;height:21px;"> <p align="center"> Д/д</p> </td> <td style="width:239px;height:21px;"> <p align="center"> Аймаг</p> </td> <td style="width:115px;height:21px;"> <p align="center"> Олгох санхүүгийн дэмжлэгийн хэмжээ /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:46px;height:2px;"> <p align="center"> 1</p> </td> <td style="width:239px;height:2px;"> <p> Архангай</p> </td> <td style="width:115px;height:2px;"> <p align="right"> 12,606.7</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 2</p> </td> <td style="width:239px;height:3px;"> <p> Баян-Өлгий</p> </td> <td style="width:115px;height:3px;"> <p align="right"> 11,488.8</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 3</p> </td> <td style="width:239px;height:3px;"> <p> Баянхонгор </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 12,205.0</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 4</p> </td> <td style="width:239px;height:3px;"> <p> Булган </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 4,422.5</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 5</p> </td> <td style="width:239px;height:3px;"> <p> Говь-Алтай </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 9,366.1</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 6</p> </td> <td style="width:239px;height:3px;"> <p> Дорнод </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 5,904.8</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 7</p> </td> <td style="width:239px;height:3px;"> <p> Дундговь </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 8,245.0</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 8</p> </td> <td style="width:239px;height:3px;"> <p> Завхан </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 11,006.9</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 9</p> </td> <td style="width:239px;height:3px;"> <p> Өвөрхангай </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 13,696.1</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 10</p> </td> <td style="width:239px;height:3px;"> <p> Сүхбаатар </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 8,450.8</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 11</p> </td> <td style="width:239px;height:3px;"> <p> Сэлэнгэ </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 4,714.4</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 12</p> </td> <td style="width:239px;height:3px;"> <p> Төв </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 10,176.3</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 13</p> </td> <td style="width:239px;height:3px;"> <p> Увс </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 10,530.6</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 14</p> </td> <td style="width:239px;height:3px;"> <p> Ховд </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 9,380.7</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 15</p> </td> <td style="width:239px;height:3px;"> <p> Хөвсгөл</p> </td> <td style="width:115px;height:3px;"> <p align="right"> 18,891.4</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 16</p> </td> <td style="width:239px;height:3px;"> <p> Хэнтий </p> </td> <td style="width:115px;height:3px;"> <p align="right"> 9,610.6</p> </td> </tr>
+<tr>
+<td style="width:46px;height:3px;"> <p align="center"> 17</p> </td> <td style="width:239px;height:3px;"> <p> Говьсүмбэр</p> </td> <td style="width:115px;height:3px;"> <p align="right"> 323.3</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:285px;height:3px;"> <p align="center"> Нийт дүн</p> </td> <td style="width:115px;height:3px;"> <p align="right"> 161,019.9</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="16106876897431" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 11 дүгээр зүйлийг 2014 оны 5 дугаар сарын 23, 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар тус тус өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345222096" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">12 дугаар зүйл.2014 оны төсвийн жилд Орон нутгийн хөгжлийн нэгдсэн санд төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345281027" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="1" cellspacing="0" style="width: 402px;" width="402">
+<table border="1" cellpadding="1" cellspacing="0" style="width: 402px;" width="402"><tbody>
+<tr>
+<td style="width:55px;height:21px;"> <p align="center"> Д/д</p> </td> <td style="width:236px;height:21px;"> <p align="center"> Аймаг, хот</p> </td> <td style="width:110px;height:21px;"> <p align="center"> Төвлөрүүлэх орлогын хэмжээ /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:55px;height:3px;"> <p align="center"> 1</p> </td> <td style="width:236px;height:3px;"> <p> Өмнөговь </p> </td> <td style="width:110px;height:3px;"> <p align="right"> 7,500.0</p> </td> </tr>
+<tr>
+<td style="width:55px;height:3px;"> <p align="center"> 2</p> </td> <td style="width:236px;height:3px;"> <p> Улаанбаатар </p> </td> <td style="width:110px;height:3px;"> <p align="right"> 44,538.8</p> </td> </tr>
+<tr>
+<td style="width:55px;height:3px;"> <p align="center"> 3</p> </td> <td style="width:236px;height:3px;"> <p> Орхон </p> </td> <td style="width:110px;height:3px;"> <p align="right"> 690.2</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:292px;height:3px;"> <p align="center"> Нийт дүн</p> </td> <td style="width:110px;height:3px;"> <p align="right"> 52,729.0</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="16106876897451" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 12 дугаар зүйлийг 2014 оны 05 дугаар сарын 23, 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар тус тус өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345586628" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">13 дугаар зүйл.2014 оны төсвийн жилд Орон нутгийн хөгжлийн нэгдсэн сангаас Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлгийн хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345986833" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="1" cellspacing="0" style="width: 404px;" width="404">
+<table border="1" cellpadding="1" cellspacing="0" style="width: 404px;" width="404"><tbody>
+<tr>
+<td style="width:65px;height:22px;"> <p align="center"> Д/д</p> </td> <td style="width:227px;height:22px;"> <p align="center"> Аймаг, хот</p> </td> <td style="width:112px;height:22px;"> <p align="center"> Шилжүүлгийн хэмжээ /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 1</p> </td> <td style="width:227px;height:3px;"> <p> Архангай </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 11,073.8</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 2</p> </td> <td style="width:227px;height:3px;"> <p> Баян-Өлгий </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 9,638.8</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 3</p> </td> <td style="width:227px;height:3px;"> <p> Баянхонгор </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 12,789.6</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 4</p> </td> <td style="width:227px;height:3px;"> <p> Булган </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 9,253.6</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 5</p> </td> <td style="width:227px;height:3px;"> <p> Говь-Алтай </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 12,373.3</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 6</p> </td> <td style="width:227px;height:3px;"> <p> Дорноговь </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 10,146.8</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 7</p> </td> <td style="width:227px;height:3px;"> <p> Дорнод </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 11,184.5</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 8</p> </td> <td style="width:227px;height:3px;"> <p> Дундговь </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 9,947.5</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 9</p> </td> <td style="width:227px;height:3px;"> <p> Завхан </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 10,347.6</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 10</p> </td> <td style="width:227px;height:3px;"> <p> Өвөрхангай </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 12,263.9</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 11</p> </td> <td style="width:227px;height:3px;"> <p> Өмнөговь </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 12,185.4</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 12</p> </td> <td style="width:227px;height:3px;"> <p> Сүхбаатар </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 10,495.1</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 13</p> </td> <td style="width:227px;height:3px;"> <p> Сэлэнгэ </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 9,215.9</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 14</p> </td> <td style="width:227px;height:3px;"> <p> Төв</p> </td> <td style="width:112px;height:3px;"> <p align="right"> 9,618.2</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 15</p> </td> <td style="width:227px;height:3px;"> <p> Увс </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 10,132.0</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 16</p> </td> <td style="width:227px;height:3px;"> <p> Ховд </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 11,002.6</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 17</p> </td> <td style="width:227px;height:3px;"> <p> Хөвсгөл </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 11,997.6</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 18</p> </td> <td style="width:227px;height:3px;"> <p> Хэнтий </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 10,461.5</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 19</p> </td> <td style="width:227px;height:3px;"> <p> Дархан-Уул </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 8,549.0</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 20</p> </td> <td style="width:227px;height:3px;"> <p> Улаанбаатар </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 46,330.7</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 21</p> </td> <td style="width:227px;height:3px;"> <p> Орхон </p> </td> <td style="width:112px;height:3px;"> <p align="right"> 9,455.3</p> </td> </tr>
+<tr>
+<td style="width:65px;height:3px;"> <p align="center"> 22</p> </td> <td style="width:227px;height:3px;"> <p> Говьсүмбэр</p> </td> <td style="width:112px;height:3px;"> <p align="right"> 7,328.8</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:292px;height:3px;"> <p align="center"> Нийт дүн</p> </td> <td style="width:112px;height:3px;"> <p align="right"> 265,791.3</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="16106876897471" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 13 дугаар зүйлийг 2014 оны 5 дугаар сарын 23, 2014 оны 12 дугаар сарын 18-ны өдрийн хуулиар тус тус өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345723578" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ДӨРӨВДҮГЭЭР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640544311367512" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>БУСАД ЗҮЙЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345019107" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">14 дүгээр зүйл. "Төсвийн ерөнхийлөн захирагч нарын 2014 онд хэрэгжүүлэх хөтөлбөр, хөтөлбөрийн хүрэх үр дүнгийн талаарх чанарын болон тоо хэмжээний үзүүлэлт"-ийг 1 дүгээр хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345462725" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">15 дугаар зүйл. "Монгол Улсын төсвийн хөрөнгөөр 2014 онд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга, байгууламжийн жагсаалт"-ыг 2 дугаар хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345333386" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">16 дугаар зүйл. Энэ хуулийг 2014 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609069345091638" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА З.ЭНХБОЛД</div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

@@ -1,0 +1,2716 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397634928" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397324794" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2025 оны 11 сарын 12 өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397815710" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Төрийн ордон, Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397443797" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2026 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397349286" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397331114" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>НИЙТЛЭГ ҮНДЭСЛЭЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397331251" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397437513" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Монгол Улсын төсөвт 2026 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах төсвийн хэмжээ, орлого төвлөрүүлэх байгууллага, орон нутгийн төсөвт олгох санхүүгийн дэмжлэг, Орон нутгийн хөгжлийн нэгдсэн сан болон улсын төсвөөс Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг, орон нутгийн төсвөөс улсын төсөвт төвлөрүүлэх орлого, төсвийн ерөнхийлөн захирагчид төсөв зарцуулах эрх олгох, Төсвийн тогтворжуулалтын санд хуримтлуулах хөрөнгийн хэмжээ, төсвийн алдагдлыг санхүүжүүлэх эх үүсвэр, мөнгөн гүйлгээтэй холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397630262" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Монгол Улсын 2026 оны төсвийн хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397334758" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Монгол Улсын 2026 оны төсвийн хууль тогтоомж нь Төсвийн тухай хууль<sup>[1]</sup>, Төсвийн тогтвортой байдлын тухай хууль<sup>[2]</sup>, энэ хууль болон эдгээр хуультай нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397958457" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397719380" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>МОНГОЛ УЛСЫН 2026 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА БОЛОН ХӨРӨНГӨ, ӨРИЙН УДИРДЛАГА</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397690834" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Монгол Улсын төсөвт 2026 оны төсвийн жилд төсвийн ерөнхийлөн захирагч, түүний харьяа болон бусад байгууллага доор дурдсан хэмжээтэй орлогыг төвлөрүүлнэ:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397879932" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:461.6pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:461.6pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:33pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:33pt; vertical-align:middle; width:313.75pt">
+ <p style="text-align:center">Төсвийн ерөнхийлөн захирагч</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:33pt; vertical-align:middle; width:90.3pt">
+ <p style="text-align:center">Дүн/сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">185.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15.75pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15.75pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">185.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">2</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15.75pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын Их Хурлын дарга</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15.75pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">100.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">100.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">3</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын Ерөнхий сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">85,422.8</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+
+ <p> </p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15.75pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:292.8pt">
+ <p>Төрийн өмчийн бодлого, зохицуулалтын газар</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15.75pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">81,600.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15.75pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15.75pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">3,822.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">4</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Шүүхийн ерөнхий зөвлөлийн дарга</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">510.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">510.0</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">5</p>
+
+ <p> </p>
+ </td>
+ <td colspan="2" style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Төрийн албаны зөвлөлийн дарга</p>
+ </td>
+ <td rowspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">200.0</p>
+
+ <p style="text-align:right">200.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">6</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Санхүүгийн зохицуулах хорооны дарга</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">4,002.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">4,002.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">7</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын Тэргүүн Шадар сайд бөгөөд Эдийн засаг, хөгжлийн сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">13,918.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">13,918.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">8</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын Шадар сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">20,872.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">20,872.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">9</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын Шадар сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">115.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">115.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">10</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Монгол Улсын сайд, Засгийн газрын Хэрэг эрхлэх газрын дарга</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">300.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">300.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">11</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Гадаад харилцааны сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">6,100.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Дипломат төлөөлөгчийн газрууд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">6,000.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">100.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:top; width:24.4pt">
+ <p style="text-align:center">12</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Сангийн сайд</p>
+
+ <p>Татварын ерөнхий газар</p>
+
+ <p>үүнээс:Төсвийн тогтворжуулалтын санд</p>
+
+ <p>Гаалийн ерөнхий газар</p>
+
+ <p>Сангийн яам</p>
+
+ <p>Гадаад тусламжийн орлогоос санхүүжих</p>
+
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">19,064,084.1</p>
+
+ <p style="text-align:right">10,030,214.1</p>
+
+ <p style="text-align:right">367,653.5</p>
+
+ <p style="text-align:right">8,358,545.0</p>
+
+ <p style="text-align:right">303,299.4</p>
+
+ <p style="text-align:right">365,000.0</p>
+
+ <p style="text-align:right">7,025.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:top; width:24.4pt">
+ <p style="text-align:center">13</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Хууль зүй, дотоод хэргийн сайд</p>
+
+ <p>Улсын бүртгэлийн ерөнхий газар</p>
+
+ <p>Цагдаагийн ерөнхий газар</p>
+
+ <p>Шүүх шинжилгээний ерөнхий газар</p>
+
+ <p>Эрүүл мэндийн даатгалын сангаас улсын</p>
+
+ <p>эмнэлэгт олгох санхүүжилтийн орлого</p>
+
+ <p>Харьяа төсөв байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">64,847.1</p>
+
+ <p style="text-align:right">25,000.0</p>
+
+ <p style="text-align:right">2,500.0</p>
+
+ <p style="text-align:right">300.0</p>
+
+ <p style="text-align:right"> </p>
+
+ <p style="text-align:right">1,052.5</p>
+
+ <p style="text-align:right">35,994.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">14</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Аж үйлдвэр, эрдэс баялгийн сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">339,573.8</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Ашигт малтмал, газрын тосны газар</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">293,986.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Үндэсний геологийн алба</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">160.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">45,427.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">15</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Батлан хамгаалахын сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">42,760.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">42,760.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">16</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Байгаль орчин, уур амьсгалын өөрчлөлтийн сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">2,209.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">2,209.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">17</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Боловсролын сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">5,534.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">5,534.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">18</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Соёл, спорт, аялал жуулчлал, залуучуудын сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">284.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">284.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">19</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Гэр бүл, хөдөлмөр, нийгмийн хамгааллын сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">55,974.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Хөдөлмөр, халамжийн үйлчилгээний ерөнхий газар</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">1,500.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">2,608.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">51,866.8</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="4" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:top; width:24.4pt">
+ <p style="text-align:center">20</p>
+ </td>
+ <td colspan="2" style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Зам, тээврийн сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">72,300.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Иргэний нисэхийн ерөнхий газар</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">40,000.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Монгол Улсын далайн захиргаа</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">300.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">32,000.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center">21</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">39,143.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15.75pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15.75pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">39,143.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">22</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Цахим хөгжил, инновац, харилцаа холбооны сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">8,588.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">8,588.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">23</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:313.75pt">
+ <p>Эрүүл мэндийн сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">9,032.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:10.15pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:292.8pt">
+ <p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:90.3pt">
+ <p style="text-align:right">9,032.7</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397080912" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Монгол Улсын төсөвт 2026 оны төсвийн жилд төвлөрүүлэх төсвийн тэнцвэржүүлсэн орлого 20,164,495.0 сая төгрөг байна.              </div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397523791" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.Монгол Улсын төсөвт 2026 оны төсвийн жилд төсвийн ерөнхийлөн захирагч доор дурдсан хэмжээтэй эргэн төлөх үндсэн төлбөрийг төлнө:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397403902" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:455pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:455pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:284.45pt">
+ <p style="text-align:center">Төсвийн ерөнхийлөн захирагч</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:25.5pt; vertical-align:middle; width:106.2pt">
+ <p style="text-align:center">Дүн/сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:284.45pt">
+ <p>Сангийн сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:12.75pt; vertical-align:bottom; width:106.2pt">
+ <p style="text-align:right">500,251.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:16.5pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">2</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:16.5pt; vertical-align:bottom; width:284.45pt">
+ <p>Хууль зүй, дотоод хэргийн сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:16.5pt; vertical-align:bottom; width:106.2pt">
+ <p style="text-align:right">20,600.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">3</p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:284.45pt">
+ <p>Боловсролын сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:106.2pt">
+ <p style="text-align:right">145,000.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">4</p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:284.45pt">
+ <p>Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:106.2pt">
+ <p style="text-align:right">66,076.5</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397875136" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Монгол Улсын төсвөөс 2026 оны төсвийн жилд төсвийн ерөнхийлөн захирагч доор дурдсан хэмжээтэй төсвийг зарцуулна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397654922" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.1.Монгол Улсын төсвөөс 2026 оны төсвийн жилд төсвийн ерөнхийлөн захирагчийн зарцуулах зардал доор дурдсан хэмжээтэй байна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397542328" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:458.35pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:458.35pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:30pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:30pt; vertical-align:middle; width:304.75pt">
+ <p style="text-align:center">Төсвийн ерөнхийлөн захирагч</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:30pt; vertical-align:middle; width:96.05pt">
+ <p style="text-align:center">Дүн/сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:top; width:304.75pt">
+ <p>Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">30,500.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">30,500.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">2</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Их Хурлын дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">145,444.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">145,444.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">3</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Ерөнхий сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">362,371.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">316,311.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">46,060.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">4</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Үндсэн хуулийн цэцийн дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">5,278.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">5,278.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">5</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Улсын дээд шүүхийн Ерөнхий шүүгч</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">28,763.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">26,149.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">2,614.0</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">6</p>
+
+ <p> </p>
+ </td>
+ <td colspan="2" style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Шүүхийн ерөнхий зөвлөлийн дарга</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">283,777.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">222,351.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">61,426.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">7</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Хүний эрхийн Үндэсний Комиссын дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">10,507.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">10,507.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:top; width:24.4pt">
+ <p style="text-align:center">8</p>
+ </td>
+ <td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:304.75pt">
+ <p>Улсын ерөнхий прокурор</p>
+
+ <p style="margin-left:22.8pt">Урсгал зардал</p>
+
+ <p style="margin-left:22.8pt">Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">141,716.0</p>
+
+ <p style="text-align:right">116,447.1</p>
+
+ <p style="text-align:right">25,268.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">9</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Үндэсний аюулгүй байдлын зөвлөлийн нарийн бичгийн дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">42,464.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">42,464.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">10</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Ерөнхий аудитор</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">49,779.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">48,479.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,300.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">11</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Авлигатай тэмцэх газрын дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">51,467.9</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">50,499.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">968.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">12</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Санхүүгийн зохицуулах хорооны дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">20,714.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">20,714.3</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">13</p>
+
+ <p> </p>
+ </td>
+ <td colspan="2" style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Төрийн албаны зөвлөлийн дарга</p>
+
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">14,178.8</p>
+
+ <p style="text-align:right">13,961.3</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">217.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">14</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Үндэсний статистикийн хорооны дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">28,083.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">28,083.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">15</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Сонгуулийн ерөнхий хорооны дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">25,982.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">13,466.4</p>
+
+ <p style="text-align:right">12,516.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">16</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Цагаатгах ажлыг удирдан зохион байгуулах улсын комиссын дарга</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,112.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,112.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">17</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Шүүхийн сахилгын хорооны дарга</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">5,221.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">5,221.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">18</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Тэргүүн Шадар сайд бөгөөд Эдийн засаг, хөгжлийн сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">213,914.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">134,181.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">79,732.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">19</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Шадар сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">351,418.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">288,619.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">62,799.0</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">20</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын Шадар сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">5,815.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">5,815.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">21</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Монгол Улсын сайд, Засгийн газрын Хэрэг эрхлэх газрын дарга</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:top; width:96.05pt">
+ <p style="text-align:right">102,633.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">72,082.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">30,551.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">22</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Гадаад харилцааны сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">206,583.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">196,649.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">9,933.9</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="5" style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">23</p>
+
+ <p> </p>
+
+ <p> </p>
+
+ <p> </p>
+
+ <p> </p>
+ </td>
+ <td colspan="2" style="border-style:solid; border-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Сангийн сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">4,111,347.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">2,411,268.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p style="text-indent:24pt">үүнээс: Зээлийн хүүгийн төлбөрт</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,299,235.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">99,750.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Гадаад зээл, тусламжаас санхүүжих зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,600,328.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">24</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Хууль зүй, дотоод хэргийн сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,517,888.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,434,725.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">83,162.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">25</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Аж үйлдвэр, эрдэс баялгийн сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">95,821.2</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+
+ <p> </p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">50,521.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">45,300.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">26</p>
+ </td>
+ <td colspan="2" style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Батлан хамгаалахын сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">739,531.1</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+
+ <p> </p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">677,153.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">62,377.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">27</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Байгаль орчин, уур амьсгалын өөрчлөлтийн сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">385,456.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">177,693.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">207,762.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">28</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Боловсролын сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">4,904,140.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center"> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">4,397,373.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">506,767.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">29</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Гэр бүл, хөдөлмөр, нийгмийн хамгааллын сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">4,765,284.4</p>
+
+ <p style="text-align:right"> </p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">4,727,363.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">37,920.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">30</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Зам, тээврийн сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,033,938.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">18,953.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,014,984.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">31</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Соёл, спорт, аялал жуулчлал, залуучуудын сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">510,969.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">311,308.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">199,661.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">32</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Хот байгуулалт, барилга, орон сууцжуулалтын сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">246,287.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">29,688.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">216,599.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">33</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">583,332.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">483,154.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">100,178.0</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">34</p>
+
+ <p> </p>
+ </td>
+ <td colspan="2" style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Цахим хөгжил, инновац, харилцаа холбооны сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">85,704.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">60,891.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">24,813.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">35</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Эрчим хүчний сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">429,672.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">112,099.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:13.5pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">317,573.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:middle; width:24.4pt">
+ <p style="text-align:center">36</p>
+ </td>
+ <td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:304.75pt">
+ <p>Эрүүл мэндийн сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,988,013.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Урсгал зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">1,764,359.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:24.4pt">
+ <p> </p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:14.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:12.75pt; vertical-align:bottom; width:279.3pt">
+ <p>Хөрөнгийн зардал</p>
+ </td>
+ <td style="height:12.75pt; vertical-align:bottom; width:96.05pt">
+ <p style="text-align:right">223,654.3</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397581721" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.2.Монгол Улсын төсвөөс 2026 оны төсвийн жилд төсвийн ерөнхийлөн захирагчид эргэн төлөгдөх нөхцөлтэйгөөр доор дурдсан хэмжээтэй санхүүжилтийг олгоно:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397323876" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:454.15pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:454.15pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:34.5pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:34.5pt; vertical-align:middle; width:294.25pt">
+ <p style="text-align:center">Төсвийн ерөнхийлөн захирагч</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:34.5pt; vertical-align:middle; width:95.55pt">
+ <p style="text-align:center">Дүн/сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:16.85pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:16.85pt; vertical-align:bottom; width:294.25pt">
+ <p>Боловсролын сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:16.85pt; vertical-align:bottom; width:95.55pt">
+ <p style="text-align:right">27,932.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">2</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:294.25pt">
+ <p>Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:95.55pt">
+ <p style="text-align:right">34,919.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">3</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:294.25pt">
+ <p>Хот байгуулалт, барилга, орон сууцжуулалтын сайд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:95.55pt">
+ <p style="text-align:right">4,500.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:31.2pt">
+ <p style="text-align:center">4</p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:294.25pt">
+ <p>Гэр бүл, хөдөлмөр, нийгмийн хамгааллын сайд</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:95.55pt">
+ <p style="text-align:right">30,419.9</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397712323" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Монгол Улсын төсвөөс 2026 оны төсвийн жилд зарцуулах төсвийн зарлагын хэмжээ 22,885,159.5 сая төгрөг байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397571706" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2026 оны төсвийн жилд хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийг 3,280,178.5 сая төгрөгөөр санхүүжүүлнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397493598" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл.2025 оны 8 дугаар сарын 29-ний өдрийн байдлаар Төсвийн тогтворжуулалтын сангийн үлдэгдэл 2,049,595.7 сая төгрөг байна. Төсвийн тогтвортой байдлын тухай хуулийн 16 дугаар зүйлд заасны дагуу Төсвийн тогтворжуулалтын санд 2026 оны төсвийн жилд 367,653.5 сая төгрөг хуримтлуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397567072" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">10 дугаар зүйл.2026 оны төсвийн жилд Засгийн газрын шинээр үүсгэх өрийн дээд хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397297492" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">10.1.Өрийн удирдлагын тухай хуулийн<sup>[3]</sup> 12.1.2, 12.1.3-т заасан зориулалтаар хийх дотоод зээллэгийн дээд хэмжээг 562,230.1 сая төгрөг хүртэл;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397429484" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">10.2.Өрийн удирдлагын тухай хуулийн 12.1.5-д заасан зориулалтаар Засгийн газрын авч ашиглах гадаад төслийн зээлийн дээд хэмжээг 1,235,328.4 сая төгрөг хүртэл;</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397135717" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">10.3.Өрийн удирдлагын тухай хуулийн 28<sup>1</sup>.1-д заасан зориулалтаар гаргах аймаг, нийслэлийн үнэт цаасны дээд хэмжээг 425,000.0 сая төгрөг хүртэл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397322169" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">11 дүгээр зүйл.Тухайн төсвийн жилд эргэн төлөгдөх нөхцөлтэй гаргасан зээллэг болон өрийн зохицуулалтын арга хэмжээнээс бусад 2026 оны төсвийн жилд төлөх Засгийн газрын өрийн үндсэн төлбөрийн хэмжээ 2,609,258.5 сая төгрөг байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397196952" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">12 дугаар зүйл.Засгийн газрын гаргах өрийн баталгааны дээд хэмжээ 2026 оны төсвийн жилд 3,592,790.0 сая төгрөг байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397548810" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">13 дугаар зүйл.Засгийн газар Төсвийн тогтвортой байдлын тухай хууль, Өрийн удирдлагын тухай хуулийн 12.1.4-т заасан зориулалтаар Засгийн газрын өрийн удирдлагын 2026-2028 оны стратегийн баримт бичигт нийцүүлэн өрийн зохицуулалтын үйл ажиллагааг авч хэрэгжүүлнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397086605" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397931540" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ОРОН НУТГИЙН ТӨСӨВТ ОЛГОХ САНХҮҮГИЙН ДЭМЖЛЭГ, ОРОН НУТГИЙН ТӨСВӨӨС ТӨВЛӨРҮҮЛЭХ ОРЛОГО, ОРОН НУТГИЙН ХӨГЖЛИЙН НЭГДСЭН САН БОЛОН УЛСЫН ТӨСВӨӨС ОРОН НУТГИЙН ХӨГЖЛИЙН САНД ОЛГОХ ОРЛОГЫН ШИЛЖҮҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397063131" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">14 дүгээр зүйл.2026 оны төсвийн жилд орон нутгийн төсөвт доор дурдсан хэмжээтэй санхүүгийн дэмжлэгийг олгоно:                                                                                                  </div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397926168" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:432.9pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:432.9pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:27pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:27pt; vertical-align:middle; width:143.7pt">
+ <p style="text-align:center">Аймаг</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:27pt; vertical-align:middle; width:201.85pt">
+ <p style="text-align:center">Олгох санхүүгийн дэмжлэгийн хэмжээ /сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Архангай</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">29,384.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">2</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Баян-Өлгий</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">13,589.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">3</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Баянхонгор</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">28,056.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">4</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Булган</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">2,714.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">5</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Говь-Алтай</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">13,181.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">6</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Дундговь</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">577.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">7</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Завхан</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">36,008.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">8</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Өвөрхангай</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">22,847.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">9</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Сүхбаатар</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">5,635.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">10</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Увс</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">34,827.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">11</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Ховд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">878.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">12</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Хөвсгөл</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">36,808.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">13</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Хэнтий</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">25,165.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:54.2pt">
+ <p style="text-align:center">14</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:143.7pt">
+ <p>Говьсүмбэр</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">5,008.8</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:208.7pt">
+ <p style="text-align:center">Нийт дүн</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:201.85pt">
+ <p style="text-align:right">254,683.1</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397460202" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">15 дугаар зүйл.2026 оны төсвийн жилд орон нутгийн төсвөөс улсын төсөвт доор дурдсан хэмжээтэй орлогыг төвлөрүүлнэ:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397128900" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:433.1pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:auto; margin-right:auto; width:433.1pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:159.05pt">
+ <p style="text-align:center">Аймаг, хот</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:25.5pt; vertical-align:middle; width:216.25pt">
+ <p style="text-align:center">Төвлөрүүлэх орлогын хэмжээ</p>
+
+ <p style="text-align:center">/сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Дорноговь</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">11,234.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">2</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Дорнод</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">1,937.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">3</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Өмнөговь</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">1,143,259.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">4</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Сэлэнгэ</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">10,338.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">5</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Төв</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">4,146.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">6</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Дархан-Уул</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">10,872.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">7</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Улаанбаатар</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">263,747.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">8</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:159.05pt">
+ <p>Орхон</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">92,550.9</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:194.5pt">
+ <p style="text-align:center">Нийт дүн</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:216.25pt">
+ <p style="text-align:right">1,538,087.0</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397124467" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">16 дугаар зүйл.2026 оны төсвийн жилд Орон нутгийн хөгжлийн нэгдсэн сан болон улсын төсвөөс Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг доор дурдсан хэмжээтэй байна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397245625" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:12.5pt; width:97.1%">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:12.5pt; width:97.1%"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:53.54%">
+ <p style="text-align:center">Аймаг, хот</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:25.5pt; vertical-align:middle; width:38.64%">
+ <p style="text-align:center">Шилжүүлгийн хэмжээ /сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Архангай</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">9,414.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">2</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Баян-Өлгий</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">10,828.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">3</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Баянхонгор</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">21,974.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">4</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Булган</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">10,666.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">5</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Говь-Алтай</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">19,801.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">6</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Дорноговь</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">34,920.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">7</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Дорнод</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">27,807.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">8</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Дундговь</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">13,480.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">9</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Завхан</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">11,862.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">10</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Өвөрхангай</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">12,661.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">11</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Өмнөговь</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">42,558.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">12</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Сүхбаатар</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">20,827.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">13</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Сэлэнгэ</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">24,972.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">14</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Төв</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">22,891.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">15</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Увс</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">12,455.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">16</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Ховд</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">18,950.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">17</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Хөвсгөл</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">14,593.2</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">18</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Хэнтий</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">19,238.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">19</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Дархан-Уул</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">12,586.4</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">20</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Улаанбаатар</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">42,639.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">21</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Орхон</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">30,640.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:7.82%">
+ <p style="text-align:center">22</p>
+ </td>
+ <td style="border-style:solid; border-width:0.75pt; height:15pt; vertical-align:bottom; width:53.54%">
+ <p>Говьсүмбэр</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">5,118.2</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom">
+ <p style="text-align:center">Нийт дүн</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:38.64%">
+ <p style="text-align:right">440,891.0</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1764641397663173" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ДӨРӨВДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397286456" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>БУСАД ЗҮЙЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397314756" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">17 дугаар зүйл."Төсвийн ерөнхийлөн захирагч бүрийн 2026 онд хэрэгжүүлэх хөтөлбөр, хөтөлбөрийн хүрэх үр дүнгийн талаарх чанарын болон тоо хэмжээний үзүүлэлт"-ийг 1 дүгээр хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397205170" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">18 дугаар зүйл."Монгол Улсын төсвийн хөрөнгөөр 2026 онд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалт"-ыг 2 дугаар хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397524133" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">19 дүгээр зүйл.Энэ хуулийг 2026 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397634901" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">
+<p>МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДЭД ДАРГА Ж.БАТ-ЭРДЭНЭ</p>
+
+<p> </p>
+
+<p> </p>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397237696" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<sup>[1]</sup>Төсвийн тухай хууль "Төрийн мэдээлэл" эмхэтгэлийн 2012 оны 3 дугаарт нийтлэгдсэн.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397595851" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<sup>[2]</sup>Төсвийн тогтвортой байдлын тухай хууль "Төрийн мэдээлэл" эмхэтгэлийн 2010 оны 30 дугаарт нийтлэгдсэн.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1764641397511104" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<sup>[3]</sup> Өрийн удирдлагын тухай хууль "Төрийн мэдээлэл" эмхэтгэлийн 2015 оны 9 дугаарт нийтлэгдсэн.</div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

@@ -1,0 +1,418 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316000124" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316782367" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2006 оны 11 дүгээр сарын 30-ны өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316005651" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316142090" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2007 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316520351" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>НЭГДҮГЭЭР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640573971795230" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Нийтлэг үндэслэл</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316221196" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилго</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316602313" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилго нь Монгол Улсын төсөвт 2007 оны төсвийн жилд төвлөрүүлэх орлого, зарлагын хэмжээ, орлого төвлөрүүлэх байгууллага, орон нутгийн төсөвт олгох санхүүгийн дэмжлэг, орон нутгийн төсвөөс татан төвлөрүүлэх орлогын хэмжээг тогтоох, төсвийн ерөнхийлөн захирагчдад төсөв зарцуулах эрх олгохтой холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316200251" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Монгол Улсын 2007 оны төсвийн тухай хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316222596" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Монгол Улсын 2007 оны төсвийн тухай хууль тогтоомж нь Монгол Улсын нэгдсэн төсвийн тухай хууль, Төсвийн байгууллагын удирдлага, санхүүжилтийн тухай хууль, энэ хууль, хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316320111" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ХОЁРДУГААР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640574035237493" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Монгол Улсын 2007 оны төсвийн орлого, зарлага</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316298323" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">З дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316817994" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Монгол Улсын төсөвт 2007 оны төсвийн жилд төвлөрүүлэх төсвийн орлогын хэмжээг 1,617,213,015.7 мянган төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1642133663986610" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">
+<p>/Энэ зүйлд 2007 оны 08 дугаар сарын 10-ны өдрийн хуулиар өөрчлөлт орсон/</p>
+
+<p>/Энэ зүйлд 2007 оны 12 дугаар сарын 27-ны өдрийн хуулиар өөрчлөлт орсон/</p>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316140615" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316371129" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Монгол Улсын төсвөөс 2007 оны төсвийн жилд зарцуулах төсвийн зарлагын хэмжээг 1,725,971,669.0 мянган төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1642133751253261" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">
+<p>/Энэ зүйлд 2007 оны 08 дугаар сарын 10-ны өдрийн хуулиар өөрчлөлт орсон/</p>
+
+<p>/Энэ зүйлд 2007 оны 12 дугаар сарын 27-ны өдрийн хуулиар өөрчлөлт орсон/</p>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316477641" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640574128017055" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><p>Монгол Улсын төсөвт 2007 оны төсвийн жилд төсвийн ерөнхийлөн захирагчид, тэдгээрийн харьяа байгууллагууд, бусад байгууллагуудын төвлөрүүлэх орлогын дүнг дор дурдсанаар тогтоосугай:</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316184846" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="1" style="width:461px;" width="461">
+<table border="1" cellpadding="0" cellspacing="1" style="width:461px;" width="461"><tbody>
+<tr>
+<td style="width:63px;height:51px;"> <p> д/д</p> </td> <td colspan="2" style="width:264px;height:51px;"> <p> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:130px;height:51px;"> <p> Дүн /мянган төгрөгөөр/</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:51px;"> <p> 1.</p> </td> <td colspan="2" style="width:264px;height:51px;"> <p> Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p> </td> <td style="width:130px;height:51px;"> <p> 1,500.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 1,500.0</p> </td> </tr>
+<tr>
+<td rowspan="4" style="width:63px;height:22px;"> <p> 2.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Монгол Улсын Ерөнхий сайд </p> </td> <td style="width:130px;height:22px;"> <p> 35,297,885.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:22px;"> <p> </p> </td> <td style="width:200px;height:22px;"> <p> Төрийн өмчийн хороо </p> </td> <td style="width:130px;height:22px;"> <p> 29,988,500.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Мэдээлэл, харилцаа холбооны хөгжлийн төв </p> </td> <td style="width:130px;height:43px;"> <p> 2,139,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 3,170,385.0</p> </td> </tr>
+<tr>
+<td rowspan="4" style="width:63px;height:22px;"> <p> 3.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Монгол Улсын Шадар сайд </p> </td> <td style="width:130px;height:22px;"> <p> 5,976,396.6</p> </td> </tr>
+<tr>
+<td style="width:63px;height:22px;"> <p> </p> </td> <td style="width:200px;height:22px;"> <p> Оюуны өмчийн газар </p> </td> <td style="width:130px;height:22px;"> <p> 11,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Улсын мэргэжлийн хяналтын газар</p> </td> <td style="width:130px;height:43px;"> <p> 1,000,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 4,965,396.6</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:63px;"> <p> 4.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Засгийн газрын Хэрэг эрхлэх газрын дарга </p> </td> <td style="width:130px;height:63px;"> <p> 904,918.9</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 904,918.9</p> </td> </tr>
+<tr>
+<td rowspan="4" style="width:63px;height:22px;"> <p> 5.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Гадаад хэргийн сайд </p> </td> <td style="width:130px;height:22px;"> <p> 11,377,966.8</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Дипломат төлөөлөгчийн газрууд </p> </td> <td style="width:130px;height:43px;"> <p> 6,831,112.5</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> Дипломат байгууллагын үйлчилгээ, аж ахуйн газар </p> </td> <td style="width:130px;height:64px;"> <p> 915,201.6</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 3,631,652.7</p> </td> </tr>
+<tr>
+<td rowspan="5" style="width:63px;height:22px;"> <p> 6.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Сангийн сайд </p> </td> <td style="width:130px;height:22px;"> <p> 1,336,283,160.5</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Үндэсний татварын ерөнхий газар </p> </td> <td style="width:130px;height:43px;"> <p> 939,575,004.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Улсын гаалийн ерөнхий газар </p> </td> <td style="width:130px;height:43px;"> <p> 374,991,800.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:22px;"> <p> </p> </td> <td style="width:200px;height:22px;"> <p> Сангийн яам</p> </td> <td style="width:130px;height:22px;"> <p> 21,006,374.6</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 709,981.9</p> </td> </tr>
+<tr>
+<td rowspan="4" style="width:63px;height:63px;"> <p> 7.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Хууль зүй, дотоод хэргийн сайд </p> </td> <td style="width:130px;height:63px;"> <p> 6,295,432.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Иргэний бүртгэл, мэдээллийн улсын төв</p> </td> <td style="width:130px;height:43px;"> <p> 883,064.8</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> Гадаадын иргэн, харьяатын асуудал эрхлэх алба</p> </td> <td style="width:130px;height:64px;"> <p> 531,609.2</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 4,880,758.7</p> </td> </tr>
+<tr>
+<td rowspan="4" style="width:63px;height:22px;"> <p> 8.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Байгаль орчны сайд </p> </td> <td style="width:130px;height:22px;"> <p> 4,186,735.2</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Байгаль орчныг хамгаалах алба</p> </td> <td style="width:130px;height:43px;"> <p> 3,111,802.8</p> </td> </tr>
+<tr>
+<td style="width:63px;height:22px;"> <p> </p> </td> <td style="width:200px;height:22px;"> <p> Усны хэмнэлтийн төв</p> </td> <td style="width:130px;height:22px;"> <p> 390,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 684,932.4</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:63px;"> <p> 9.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Батлан хамгаалахын сайд </p> </td> <td style="width:130px;height:63px;"> <p> 1,138,422.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 1,138,422.7</p> </td> </tr>
+<tr>
+<td rowspan="3" style="width:63px;height:45px;"> <p> 10.</p> </td> <td colspan="2" rowspan="2" style="width:264px;height:45px;"> <p> Боловсрол, соёл, шинжлэх ухааны сайд </p> </td> <td rowspan="2" style="width:130px;height:45px;"> <p> 8,800,647.6</p> </td> </tr>
+<tr></tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 8,800,647.6</p> </td> </tr>
+<tr>
+<td rowspan="4" style="width:63px;height:84px;"> <p> 11.</p> </td> <td colspan="2" style="width:264px;height:84px;"> <p> Нийгмийн хамгаалал, хөдөлмөрийн сайд </p> </td> <td style="width:130px;height:84px;"> <p> 224,250,744.5</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Улсын нийгмийн даатгалын ерөнхий газар </p> </td> <td style="width:130px;height:43px;"> <p> 216,211,348.5</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Хөдөлмөр, халамжийн үйлчилгээний газар </p> </td> <td style="width:130px;height:43px;"> <p> 98,869.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 7,940,527.0</p> </td> </tr>
+<tr>
+<td rowspan="3" style="width:63px;height:63px;"> <p> 12.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Үйлдвэр, худалдааны сайд </p> </td> <td style="width:130px;height:63px;"> <p> 23,368,124.6</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Ашигт малтмал, газрын тосны хэрэг эрхлэх газар </p> </td> <td style="width:130px;height:43px;"> <p> 21,233,931.6</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 2,134,193.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:22px;"> <p> 13.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Хүнс, хөдөө аж ахуйн сайд </p> </td> <td style="width:130px;height:22px;"> <p> 177,567.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 177,567.7</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:22px;"> <p> 14.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Эрүүл мэндийн сайд </p> </td> <td style="width:130px;height:22px;"> <p> 4,499,014.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 4,499,014.7</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:126px;"> <p> 15.</p> </td> <td colspan="2" style="width:264px;height:126px;"> <p> Үндэсний аюулгүй байдлын зөвлөлийн нарийн бичгийн дарга</p> </td> <td style="width:130px;height:126px;"> <p> 116.9</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 116.9</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:63px;"> <p> 16.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Үндэсний статистикийн газрын дарга</p> </td> <td style="width:130px;height:63px;"> <p> 11,340.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 11,340.0</p> </td> </tr>
+<tr>
+<td rowspan="3" style="width:63px;height:22px;"> <p> 17.</p> </td> <td colspan="2" style="width:264px;height:22px;"> <p> Түлш, эрчим хүчний сайд </p> </td> <td style="width:130px;height:22px;"> <p> 1,946,678.7</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:129px;"> <p> </p> </td> <td rowspan="2" style="width:200px;height:129px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td rowspan="2" style="width:130px;height:129px;"> <p> 1,946,678.7</p> </td> </tr>
+<tr></tr>
+<tr>
+<td rowspan="5" style="width:63px;height:84px;"> <p> 18.</p> </td> <td colspan="2" style="width:264px;height:84px;"> <p> Зам, тээвэр, аялал жуулчлалын сайд </p> </td> <td style="width:130px;height:84px;"> <p> 63,071,755.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Иргэний нисэхийн ерөнхий газар </p> </td> <td style="width:130px;height:43px;"> <p> 30,032,400.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:22px;"> <p> </p> </td> <td style="width:200px;height:22px;"> <p> Улаанбаатар төмөр зам</p> </td> <td style="width:130px;height:22px;"> <p> 806,800.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Төмөр замын хэрэг эрхлэх газар </p> </td> <td style="width:130px;height:43px;"> <p> 428,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 31,804,555.7</p> </td> </tr>
+<tr>
+<td rowspan="3" style="width:63px;height:63px;"> <p> 19.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Барилга, хот байгуулалтын сайд </p> </td> <td style="width:130px;height:63px;"> <p> 5,702,082.3</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> </p> </td> <td style="width:200px;height:43px;"> <p> Эд хөрөнгийн эрхийн улсын бүртгэлийн газар</p> </td> <td style="width:130px;height:43px;"> <p> 1,000,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт бусад байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 4,702,082.3</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:63px;"> <p> 20.</p> </td> <td colspan="2" style="width:264px;height:63px;"> <p> Санхүүгийн зохицуулах хорооны дарга</p> </td> <td style="width:130px;height:63px;"> <p> 160,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 160,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:105px;"> <p> 21.</p> </td> <td colspan="2" style="width:264px;height:105px;"> <p> Монголын үндэсний олон нийтийн радио, телевизийн захирал </p> </td> <td style="width:130px;height:105px;"> <p> 1,398,444.3</p> </td> </tr>
+<tr>
+<td style="width:63px;height:64px;"> <p> </p> </td> <td style="width:200px;height:64px;"> <p> харьяалагдах төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:130px;height:64px;"> <p> 1,398,444.3</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1640574198110919" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>/Дээрх 5 дугаар зүйлийг 2007 оны 08 дугаар сарын 10-ны, 2007 оны 12 дугаар сарын 27-ны өдрийн хуулиар тус тус өөрчлөн найруулсан/</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316985175" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640574244972262" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><p>Монгол Улсын төсвөөс 2007 оны төсвийн жилд төсвийн ерөнхийлөн захирагч нарт дор дурдсан төсөв зарцуулах эрхийг олгосугай:</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316483326" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="1" style="width:439px;" width="439">
+<table border="1" cellpadding="0" cellspacing="1" style="width:439px;" width="439"><tbody>
+<tr>
+<td style="width:63px;height:53px;"> <p> д/д</p> </td> <td style="width:253px;height:53px;"> <p> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:119px;height:53px;"> <p> Дүн /мянган төгрөгөөр/</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:64px;"> <p> 1.</p> </td> <td style="width:253px;height:64px;"> <p> Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p> </td> <td style="width:119px;height:64px;"> <p> 1,669,639.0</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 0.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 2.</p> </td> <td style="width:253px;height:43px;"> <p> Монгол Улсын Их Хурлын дарга</p> </td> <td style="width:119px;height:43px;"> <p> 5,586,977.6</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 400,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 3.</p> </td> <td style="width:253px;height:43px;"> <p> Монгол Улсын Үндсэн хуулийн цэцийн дарга</p> </td> <td style="width:119px;height:43px;"> <p> 213,361.5</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 15,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 4.</p> </td> <td style="width:253px;height:43px;"> <p> Улсын Дээд шүүхийн Ерөнхий шүүгч</p> </td> <td style="width:119px;height:43px;"> <p> 533,904.1</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 23,200.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 5.</p> </td> <td style="width:253px;height:43px;"> <p> Шүүхийн ерөнхий зөвлөлийн дарга</p> </td> <td style="width:119px;height:43px;"> <p> 6,056,524.2</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 680,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 6.</p> </td> <td style="width:253px;height:43px;"> <p> Улсын ерөнхий прокурор</p> </td> <td style="width:119px;height:43px;"> <p> 4,270,644.1</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 567,500.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:64px;"> <p> 7.</p> </td> <td style="width:253px;height:64px;"> <p> Үндэсний аюулгүй байдлын зөвлөлийн нарийн бичгийн дарга</p> </td> <td style="width:119px;height:64px;"> <p> 243,229.6</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 0.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 8.</p> </td> <td style="width:253px;height:43px;"> <p> Монгол Улсын Ерөнхий сайд </p> </td> <td style="width:119px;height:43px;"> <p> 21,064,028.4</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 9,518,500.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 9.</p> </td> <td style="width:253px;height:43px;"> <p> Монгол Улсын Шадар сайд </p> </td> <td style="width:119px;height:43px;"> <p> 41,205,110.4</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 6,985,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 10.</p> </td> <td style="width:253px;height:43px;"> <p> Засгийн газрын Хэрэг эрхлэх газрын дарга</p> </td> <td style="width:119px;height:43px;"> <p> 10,471,495.9</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 4,799,500.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:22px;"> <p> 11.</p> </td> <td style="width:253px;height:22px;"> <p> Гадаад хэргийн сайд </p> </td> <td style="width:119px;height:22px;"> <p> 17,016,135.7</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 2,840,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:22px;"> <p> 12.</p> </td> <td style="width:253px;height:22px;"> <p> Сангийн сайд </p> </td> <td style="width:119px;height:22px;"> <p> 450,905,468.5</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 23,110,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 13.</p> </td> <td style="width:253px;height:43px;"> <p> Хууль зүй, дотоод хэргийн сайд </p> </td> <td style="width:119px;height:43px;"> <p> 123,649,476.4</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 11,848,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:22px;"> <p> 14.</p> </td> <td style="width:253px;height:22px;"> <p> Байгаль орчны сайд </p> </td> <td style="width:119px;height:22px;"> <p> 11,819,632.6</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 2,073,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 15.</p> </td> <td style="width:253px;height:43px;"> <p> Батлан хамгаалахын сайд </p> </td> <td style="width:119px;height:43px;"> <p> 41,435,614.1</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 2,561,900.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 16.</p> </td> <td style="width:253px;height:43px;"> <p> Боловсрол, соёл, шинжлэх ухааны сайд </p> </td> <td style="width:119px;height:43px;"> <p> 284,428,227.8</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 35,777,100.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 17.</p> </td> <td style="width:253px;height:43px;"> <p> Барилга, хот байгуулалтын сайд </p> </td> <td style="width:119px;height:43px;"> <p> 20,361,035.4</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 13,076,200.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 18.</p> </td> <td style="width:253px;height:43px;"> <p> Зам, тээвэр, аялал жуулчлалын сайд </p> </td> <td style="width:119px;height:43px;"> <p> 111,497,093.8</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 40,684,400.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 19.</p> </td> <td style="width:253px;height:43px;"> <p> Түлш, эрчим хүчний сайд </p> </td> <td style="width:119px;height:43px;"> <p> 32,530,510.5</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 19,196,900.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 20.</p> </td> <td style="width:253px;height:43px;"> <p> Нийгмийн хамгаалал, хөдөлмөрийн сайд </p> </td> <td style="width:119px;height:43px;"> <p> 401,246,903.5</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 2,930,600.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 21.</p> </td> <td style="width:253px;height:43px;"> <p> Үйлдвэр, худалдааны сайд </p> </td> <td style="width:119px;height:43px;"> <p> 9,979,603.0</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 3,099,400.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 22.</p> </td> <td style="width:253px;height:43px;"> <p> Хүнс, хөдөө аж ахуйн сайд </p> </td> <td style="width:119px;height:43px;"> <p> 29,893,581.2</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар </p> </td> <td style="width:119px;height:64px;"> <p> 10,959,100.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:22px;"> <p> 23.</p> </td> <td style="width:253px;height:22px;"> <p> Эрүүл мэндийн сайд </p> </td> <td style="width:119px;height:22px;"> <p> 155,366,140.9</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 20,701,100.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 24.</p> </td> <td style="width:253px;height:43px;"> <p> Төрийн албаны зөвлөлийн дарга</p> </td> <td style="width:119px;height:43px;"> <p> 279,882.6</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 0.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 25.</p> </td> <td style="width:253px;height:43px;"> <p> Сонгуулийн ерөнхий хорооны дарга</p> </td> <td style="width:119px;height:43px;"> <p> 171,633.4</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 40,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:64px;"> <p> 26.</p> </td> <td style="width:253px;height:64px;"> <p> Хүний эрхийн үндэсний комиссын дарга</p> </td> <td style="width:119px;height:64px;"> <p> 133,566.2</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 0.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 27.</p> </td> <td style="width:253px;height:43px;"> <p> Улсын ерөнхий аудитор </p> </td> <td style="width:119px;height:43px;"> <p> 384,480.0</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 50,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:64px;"> <p> 28.</p> </td> <td style="width:253px;height:64px;"> <p> Санхүүгийн зохицуулах хорооны дарга</p> </td> <td style="width:119px;height:64px;"> <p> 541,467.1</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 20,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:64px;"> <p> 29.</p> </td> <td style="width:253px;height:64px;"> <p> Үндэсний статистикийн газрын дарга</p> </td> <td style="width:119px;height:64px;"> <p> 1,616,678.5</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 90,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:85px;"> <p> 30.</p> </td> <td style="width:253px;height:85px;"> <p> Цагаатгах ажлыг удирдан зохион байгуулах улсын комиссын дарга </p> </td> <td style="width:119px;height:85px;"> <p> 633,112.4</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 150,000.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:64px;"> <p> 31.</p> </td> <td style="width:253px;height:64px;"> <p> Монголын үндэсний олон нийтийн радио, телевизийн захирал </p> </td> <td style="width:119px;height:64px;"> <p> 7,782,430.6</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 0.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:63px;height:43px;"> <p> 32</p> </td> <td style="width:253px;height:43px;"> <p> Авлигатай тэмцэх газрын дарга</p> </td> <td style="width:119px;height:43px;"> <p> 1,983,937.5</p> </td> </tr>
+<tr>
+<td style="width:253px;height:64px;"> <p> үүнээс хөрөнгө оруулалтын зориулалтаар</p> </td> <td style="width:119px;height:64px;"> <p> 400,000.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:43px;"> <p> 33.</p> </td> <td style="width:253px;height:43px;"> <p> Аймаг, нийслэлийн Засаг дарга</p> </td> <td style="width:119px;height:43px;"> <p> 9,418,000.0</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1609067316462431" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316724717" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Монгол Улсын төсвөөс 2007 оны төсвийн жилд дотоод эх үүсвэрээс санхүүжүүлэх нийт хөрөнгө оруулалт, их засварын зардлын хэмжээг 222,014,400.0 мянган төгрөгөөр, гадаад эх үүсвэрээс санхүүжүүлэх автозамын хөрөнгө оруулалтын зардлын хэмжээг 35,515,256.0 мянган төгрөгөөр тус тус баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1642133853308273" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>/Энэ зүйлд 2007 оны 08 дугаар сарын 10-ны өдрийн хуулиар өөрчлөлт орсон/</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316826155" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640574314802479" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Орон нутгийн төсөвт олгох санхүүгийн дэмжлэг, орон нутгийн төсвөөс татан төвлөрүүлэх орлого</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316773123" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096940952681" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Улсын төсвөөс 2007 оны төсвийн жилд орон нутгийн төсөвт олгох санхүүгийн дэмжлэгийг дор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316760811" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="1" style="width:365px;" width="365">
+<table border="1" cellpadding="0" cellspacing="1" style="width:365px;" width="365"><tbody>
+<tr>
+<td style="width:63px;height:114px;"> <p> д/д</p> </td> <td style="width:166px;height:114px;"> <p> Аймаг</p> </td> <td style="width:132px;height:114px;"> <p> Олгох санхүүгийн дэмжлэгийн хэмжээ /мянган төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 1.</p> </td> <td style="width:166px;height:21px;"> <p> Архангай</p> </td> <td style="width:132px;height:21px;"> <p> 1,482,837.3</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 2.</p> </td> <td style="width:166px;height:21px;"> <p> Баян-Өлгий</p> </td> <td style="width:132px;height:21px;"> <p> 1,507,193.5</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 3.</p> </td> <td style="width:166px;height:21px;"> <p> Баянхонгор</p> </td> <td style="width:132px;height:21px;"> <p> 1,250,683.4</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 4.</p> </td> <td style="width:166px;height:21px;"> <p> Булган</p> </td> <td style="width:132px;height:21px;"> <p> 243,972.4</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 5.</p> </td> <td style="width:166px;height:21px;"> <p> Говь-Алтай</p> </td> <td style="width:132px;height:21px;"> <p> 2,152,564.8</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 6.</p> </td> <td style="width:166px;height:21px;"> <p> Дорнод</p> </td> <td style="width:132px;height:21px;"> <p> 713,978.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 7.</p> </td> <td style="width:166px;height:21px;"> <p> Дундговь</p> </td> <td style="width:132px;height:21px;"> <p> 1,504,852.3</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 8.</p> </td> <td style="width:166px;height:21px;"> <p> Завхан </p> </td> <td style="width:132px;height:21px;"> <p> 2,317,936.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 9.</p> </td> <td style="width:166px;height:21px;"> <p> Өвөрхангай</p> </td> <td style="width:132px;height:21px;"> <p> 980,798.7</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 10.</p> </td> <td style="width:166px;height:21px;"> <p> Сүхбаатар</p> </td> <td style="width:132px;height:21px;"> <p> 538,781.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 11.</p> </td> <td style="width:166px;height:21px;"> <p> Төв</p> </td> <td style="width:132px;height:21px;"> <p> 748,060.2</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 12.</p> </td> <td style="width:166px;height:21px;"> <p> Увс</p> </td> <td style="width:132px;height:21px;"> <p> 2,221,906.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 13.</p> </td> <td style="width:166px;height:21px;"> <p> Ховд</p> </td> <td style="width:132px;height:21px;"> <p> 2,075,104.8</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 14.</p> </td> <td style="width:166px;height:21px;"> <p> Хөвсгөл</p> </td> <td style="width:132px;height:21px;"> <p> 2,071,365.5</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 15.</p> </td> <td style="width:166px;height:21px;"> <p> Хэнтий</p> </td> <td style="width:132px;height:21px;"> <p> 1,477,883.3</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 16.</p> </td> <td style="width:166px;height:21px;"> <p> Говьсүмбэр</p> </td> <td style="width:132px;height:21px;"> <p> 697,744.4</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:230px;height:21px;"> <p> Нийт дүн</p> </td> <td style="width:132px;height:21px;"> <p> 21,985,663.0</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="16096940952701" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 8 дугаар зүйлийг 2007 оны 08 дугаар сарын 10-ны, 2007 оны 12 дугаар сарын 27-ны өдрийн хуулиар тус тус өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316781286" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096940952721" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Аймаг, нийслэлийн төсвөөс улсын төсөвт татан төвлөрүүлэх орлогын хэмжээг дор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316414364" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="1" style="width:346px;" width="346">
+<table border="1" cellpadding="0" cellspacing="1" style="width:346px;" width="346"><tbody>
+<tr>
+<td rowspan="3" style="width:63px;height:42px;"> <p> д/д</p> </td> <td rowspan="3" style="width:114px;height:42px;"> <p> Аймаг, нийслэл</p> </td> <td rowspan="3" style="width:165px;height:42px;"> <p> Татан төвлөрүүлэх орлогын хэмжээ /мянган төгрөгөөр/</p> </td> </tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 1.</p> </td> <td style="width:114px;height:21px;"> <p> Дорноговь</p> </td> <td style="width:165px;height:21px;"> <p> 645,539.0</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 2.</p> </td> <td style="width:114px;height:21px;"> <p> Өмнөговь </p> </td> <td style="width:165px;height:21px;"> <p> 1,807,833.4</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 3.</p> </td> <td style="width:114px;height:21px;"> <p> Сэлэнгэ</p> </td> <td style="width:165px;height:21px;"> <p> 3,877,072.2</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 4.</p> </td> <td style="width:114px;height:21px;"> <p> Дархан-Уул </p> </td> <td style="width:165px;height:21px;"> <p> 307,808.3</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 5.</p> </td> <td style="width:114px;height:21px;"> <p> Улаанбаатар </p> </td> <td style="width:165px;height:21px;"> <p> 1,539,927.6</p> </td> </tr>
+<tr>
+<td style="width:63px;height:21px;"> <p> 6.</p> </td> <td style="width:114px;height:21px;"> <p> Орхон </p> </td> <td style="width:165px;height:21px;"> <p> 18,833,719.3</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:178px;height:21px;"> <p> Нийт дүн</p> </td> <td style="width:165px;height:21px;"> <p> 27,011,899.8</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="16096940952741" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Дээрх 9 дүгээр зүйлийг 2007 оны 08 дугаар сарын 10-ны, 2007 оны 12 дугаар сарын 27-ны өдрийн хуулиар тус тус өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316372427" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ДӨРӨВДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640574370403132" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Бусад зүйл</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316336874" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">10 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316218107" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">2007 оны төсвийн жилд "Монгол Улсыг хөгжүүлэх сан"-гийн хөрөнгөөр санхүүжүүлэх хөрөнгө оруулалт, их засварын зардлын хэмжээг 186,350,800.0 мянган төгрөгөөр, хүүхэд бүрт жилд 100.0 мянган төгрөг олгоход зарцуулах зардлын хэмжээг 104,600,000.0 мянган төгрөгөөр, ерөнхий боловсролын сургуулийн сурагчдын "Үдийн цай хөтөлбөр"-ийг хэрэгжүүлэхэд зарцуулах зардлын хэмжээг 12,672,831.6 мянган төгрөгөөр тус тус баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640574428536870" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>/Энэ зүйлд 2007 оны 08 дугаар сарын 10-ны өдрийн хуулиар өөрчлөлт орсон/</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316165329" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">11 дүгээр зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096940952761" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">2007 онд Монгол Улсын төсвийн хөрөнгөөр санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалтыг нэгдүгээр хавсралтаар, "Монгол Улсыг хөгжүүлэх сан"-гийн хөрөнгөөр санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалтыг хоёрдугаар хавсралтаар тус тус баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316800110" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">12 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096940952781" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Улсын төсөв болон "Монгол Улсыг хөгжүүлэх сан"-гийн хөрөнгөөр санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга, байгууламжийн ажлын гүйцэтгэлийн явц, төсөвт өртөг, ашиглалтад оруулах хугацаа, тэргүүлэх ач холбогдлыг харгалзан Төсвийн ерөнхийлөн захирагчдын саналыг үндэслэн батлагдсан хөрөнгийн дүнд багтаан тэдгээрийн санхүүжилтэд зохицуулалт хийх эрхийг Засгийн газарт олгосугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316322506" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2007 оны 08 дугаар сарын 10-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316278851" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">13 дугаар зүйл.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096940952801" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Энэ хуулийг 2007 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067316754263" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Ц.НЯМДОРЖ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096940941811" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;line-height: 30px; margin-bottom:10px;; text-align: LEFT; "><div style="padding-left: rem; ">/Энэ хуулинд 2007 оны 8 дугаар сарын 10-ны, 2007 оны 12 дугаар сарын 27-ны өдрийн хуулийн нэмэлт, өөрчлөлтийг тусгасан/</div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

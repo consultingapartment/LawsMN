@@ -1,0 +1,376 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416877320" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416359801" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2011 оны 11 дүгээр сарын 30-ны өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416721905" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416337114" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">НИЙГМИЙН ДААТГАЛЫН САНГИЙН 2012 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416042134" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416762742" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">НИЙТЛЭГ ҮНДЭСЛЭЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416423012" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416685771" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Нийгмийн даатгалын санд 2012 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах зарлагын хэмжээ, зарцуулах эрх олгохтой холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416853043" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Нийгмийн даатгалын сангийн 2012 оны төсвийн тухай хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416140181" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Нийгмийн даатгалын сангийн 2012 оны төсвийн тухай хууль тогтоомж нь Монгол Улсын нэгдсэн төсвийн тухай, Төсвийн тогтвортой байдлын тухай, Төсвийн байгууллагын удирдлага, санхүүжилтийн тухай, Нийгмийн даатгалын тухай хууль, энэ хууль болон эдгээр хуультай нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416772765" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416013851" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">НИЙГМИЙН ДААТГАЛЫН САНГИЙН 2012 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416825037" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Нийгмийн даатгалын санд 2012 оны төсвийн жилд төвлөрүүлэх орлогын хэмжээг дор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416198249" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table style="width: 571px;" border="1" width="571" cellspacing="0" cellpadding="0" align="center">
+<table style="width: 571px;" border="1" width="571" cellspacing="0" cellpadding="0" align="center"><tbody>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">Д/д</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p align="center">Орлогын төрөл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">Дүн /сая төгрөгөөр/</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">1</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Аж ахуйн нэгж, байгууллагаас төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">245,793.5</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">2</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Ажиллагсдаас төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">312,098.9</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">3</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Төсөвт байгууллагаас төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">116,490.6</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">4</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Нөхөн олговор авагчийн нийгмийн даатгалын шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">6.2</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">5</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Хүний хөгжил сангаас төлөх иргэний эрүүл мэндийн даатгалын шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">12,151.5</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">6</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Сайн дурын даатгуулагчаас төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">13,800.0</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">7</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Эрүүл мэндийн даатгалын бусад даатгуулагчийн төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">2,127.0</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">8</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Гадаадад хөдөлмөрийн гэрээгээр ажиллаж байгаа иргэний төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">1,500.0</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">9</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний улмаас хөгжлийн бэрхшээлтэй болсон даатгуулагчийн төлөх шимтгэл</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">756.7</p></td>
+</tr>
+<tr>
+<td style="width: 38px; height: 19px;" nowrap><p align="center">10</p></td>
+<td style="width: 361px; height: 19px;" nowrap><p>Бусад орлого</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">15,488.9</p></td>
+</tr>
+<tr>
+<td style="width: 400px; height: 19px;" colspan="2" nowrap><p align="center">Нийт орлого</p></td>
+<td style="width: 171px; height: 19px;" nowrap><p align="center">720,213.3</p></td>
+</tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1615884416172717" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2012 оны 3 дугаар сарын 7, 9 дүгээр сарын 14-ний өдрийн хуулиар тус тус өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416428525" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Нийгмийн даатгалын сангийн 2012 оны төсвийн жилд зарцуулах зарлагын хэмжээг дор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416428528" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 585px;" border="1" width="585" cellspacing="0" cellpadding="0" align="center">
+<table style="width: 585px;" border="1" width="585" cellspacing="0" cellpadding="0" align="center"><tbody>
+<tr>
+<td style="width: 42px; height: 16px;"><p align="center">Д/д</p></td>
+<td style="width: 384px; height: 16px;"><p align="center">Зарлагын төрөл</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">Дүн /сая төгрөгөөр/</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 16px;" nowrap><p align="center">1</p></td>
+<td style="width: 384px; height: 16px;"><p>Тэтгэврийн даатгалын сан</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">711,044.6</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 16px;" nowrap><p align="center">2</p></td>
+<td style="width: 384px; height: 16px;"><p>Тэтгэмжийн даатгалын сан</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">40,445.0</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 33px;" nowrap><p align="center">3</p></td>
+<td style="width: 384px; height: 33px;"><p>Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний даатгалын сан</p></td>
+<td style="width: 160px; height: 33px;"><p align="center">27,939.2</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 16px;" nowrap><p align="center">4</p></td>
+<td style="width: 384px; height: 16px;"><p>Ажилгүйдлийн даатгалын сан</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">10,149.8</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 16px;" nowrap><p align="center">5</p></td>
+<td style="width: 384px; height: 16px;"><p>Эрүүл мэндийн даатгалын сан</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">131,760.9</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 16px;" nowrap><p align="center">6</p></td>
+<td style="width: 384px; height: 16px;"><p>Шүүхийн шийдвэр биелүүлэх албаны төлбөр</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">54.1</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 25px;" nowrap><p align="center">7</p></td>
+<td style="width: 384px; height: 25px;"><p>Үйл ажиллагааны зардал</p></td>
+<td style="width: 160px; height: 25px;"><p align="center">16,985.2</p></td>
+</tr>
+<tr>
+<td style="width: 42px; height: 16px;" nowrap><p align="center">8</p></td>
+<td style="width: 384px; height: 16px;"><p>Хөрөнгө оруулалт, их засвар, тоног төхөөрөмж</p></td>
+<td style="width: 160px; height: 16px;"><p align="center">3,814.3</p></td>
+</tr>
+<tr>
+<td style="width: 425px; height: 19px;" colspan="2"><p align="center">Нийт зарлага</p></td>
+<td style="width: 160px; height: 19px;"><p align="center">942,193.0</p></td>
+</tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1615884416043721" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2012 оны 3 дугаар сарын 7, 9 дүгээр сарын 14-ний өдрийн хуулиар тус тус өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416719369" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416694021" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">БУСАД ЗҮЙЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416539108" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл."Нийгмийн даатгалын сангийн төсвийн хөрөнгөөр 2012 онд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалт"-ыг хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416892432" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Нийгмийн даатгалын сангийн хуримтлалын сангаас Засгийн газрын бонд худалдан авахад зарцуулах хөрөнгийн дээд хэмжээг 210.0 тэрбум төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416558622" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2012 оны 9 дүгээр сарын 14-ний өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416552224" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Энэ хуулийг 2012 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416814191" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Д.ДЭМБЭРЭЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416105171" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<p>Нийгмийн даатгалын сангийн 2012 оны</p> <p>           төсвийн тухай хуулийн хавсралт</p>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615884416544131" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 615px;" border="1" width="615" cellspacing="0" cellpadding="0"><table style="width: 615px;" border="1" width="615" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 615px; height: 49px;" colspan="5" nowrap><p align="center">НИЙГМИЙН ДААТГАЛЫН САНГИЙН ТӨСВИЙН ХӨРӨНГӨӨР 2012 ОНД ХЭРЭГЖҮҮЛЭХ ХӨРӨНГӨ ОРУУЛАЛТЫН ТӨСӨЛ, АРГА ХЭМЖЭЭ, БАРИЛГА БАЙГУУЛАМЖИЙН ЖАГСААЛТ</p></td>
+<td style="height: 49px;" height="49"> </td>
+</tr>
+<tr>
+<td style="width: 615px; height: 14px;" colspan="5" nowrap><p align="right">/сая төгрөг/</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 20px;" rowspan="2"><p align="center">Д/д</p></td>
+<td style="width: 250px; height: 20px;" rowspan="2"><p align="center">Төсөл, арга хэмжээний нэр, байршил</p></td>
+<td style="width: 106px; height: 20px;" rowspan="2"><p align="center">Эхлэх, дуусах хугацаа</p></td>
+<td style="width: 85px; height: 20px;" rowspan="2"><p align="center">Төсөвт өртөг</p></td>
+<td style="width: 132px; height: 20px;" rowspan="2"><p align="center">2012 онд санхүүжих</p></td>
+<td style="height: 20px;" height="20"> </td>
+</tr>
+<tr><td style="height: 17px;" height="17"> </td></tr>
+<tr>
+<td style="width: 292px; height: 14px;" colspan="2"><p>НИЙГМИЙН ДААТГАЛЫН ЕРӨНХИЙ ГАЗАР</p></td>
+<td style="width: 106px; height: 14px;"> </td>
+<td style="width: 85px; height: 14px;"><p align="center">5,975.6</p></td>
+<td style="width: 132px; height: 14px;"><p align="center">3,814.3</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">1</p></td>
+<td style="width: 250px; height: 14px;"><p>Хөрөнгө оруулалт:</p></td>
+<td style="width: 106px; height: 14px;" nowrap> </td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">4,731.6</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">2,570.3</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 29px;"><p align="center">1.1</p></td>
+<td style="width: 250px; height: 29px;"><p>Нийгмийн даатгалын салбарын "Цахим төрөлжсөн архив"-ын барилга /УБ, Хан-Уул дүүрэг/</p></td>
+<td style="width: 106px; height: 29px;" nowrap><p align="center">2012-2013</p></td>
+<td style="width: 85px; height: 29px;" nowrap><p align="center">4161.3</p></td>
+<td style="width: 132px; height: 29px;" nowrap><p align="center">2000.0</p></td>
+<td style="height: 29px;" height="29"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 32px;"><p align="center">1.2</p></td>
+<td style="width: 250px; height: 32px;"><p>Нийгмийн даатгалын хэлтсийн барилга /УБ, Чингэлтэй дүүрэг/</p></td>
+<td style="width: 106px; height: 32px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 32px;" nowrap><p align="center">570.3</p></td>
+<td style="width: 132px; height: 32px;" nowrap><p align="center">570.3</p></td>
+<td style="height: 32px;" height="32"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">2</p></td>
+<td style="width: 250px; height: 14px;"><p>Их засвар:</p></td>
+<td style="width: 106px; height: 14px;" nowrap> </td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">381.4</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">381.4</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 29px;"><p align="center">2.1</p></td>
+<td style="width: 250px; height: 29px;"><p>Нийгмийн даатгалын хэлтсийн халаалтын зуухны засвар /Архангай/</p></td>
+<td style="width: 106px; height: 29px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 29px;" nowrap><p align="center">2.0</p></td>
+<td style="width: 132px; height: 29px;" nowrap><p align="center">2.0</p></td>
+<td style="height: 29px;" height="29"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">2.2</p></td>
+<td style="width: 250px; height: 14px;"><p>Нийгмийн даатгалын хэлтсийн засвар /Дундговь/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">4.0</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">4.0</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 29px;"><p align="center">2.3</p></td>
+<td style="width: 250px; height: 29px;"><p>Нийгмийн даатгалын хэлтсийн засвар /Дорноговь, Замын-Үүд/</p></td>
+<td style="width: 106px; height: 29px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 29px;" nowrap><p align="center">20.7</p></td>
+<td style="width: 132px; height: 29px;" nowrap><p align="center">20.7</p></td>
+<td style="height: 29px;" height="29"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">2.4</p></td>
+<td style="width: 250px; height: 14px;"><p>Нийгмийн даатгалын хэлтсийн засвар /Завхан/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">8.3</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">8.3</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">5.5</p></td>
+<td style="width: 250px; height: 14px;"><p>Нийгмийн даатгалын хэлтсийн засвар /Сэлэнгэ/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">45.2</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">45.2</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 29px;"><p align="center">2.6</p></td>
+<td style="width: 250px; height: 29px;"><p>Нийгмийн даатгалын хэлтсийн засвар /Говьсүмбэр, Шивээговь/</p></td>
+<td style="width: 106px; height: 29px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 29px;" nowrap><p align="center">1.0</p></td>
+<td style="width: 132px; height: 29px;" nowrap><p align="center">1.0</p></td>
+<td style="height: 29px;" height="29"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 29px;"><p align="center">2.7</p></td>
+<td style="width: 250px; height: 29px;"><p>Нийгмийн даатгалын хэлтсийн засвар /УБ, Сүхбаатар дүүрэг/</p></td>
+<td style="width: 106px; height: 29px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 29px;" nowrap><p align="center">15.0</p></td>
+<td style="width: 132px; height: 29px;" nowrap><p align="center">15.0</p></td>
+<td style="height: 29px;" height="29"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">2.8</p></td>
+<td style="width: 250px; height: 14px;"><p>Нийгмийн даатгалын ерөнхий газрын засвар /Улаанбаатар/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">278.8</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">278.8</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 29px;"><p align="center">2.9</p></td>
+<td style="width: 250px; height: 29px;"><p>Нийгмийн даатгалын хэлтсийн засвар /УБ, Багануур дүүрэг/</p></td>
+<td style="width: 106px; height: 29px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 29px;" nowrap><p align="center">6.4</p></td>
+<td style="width: 132px; height: 29px;" nowrap><p align="center">6.4</p></td>
+<td style="height: 29px;" height="29"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3</p></td>
+<td style="width: 250px; height: 14px;"><p>Тоног төхөөрөмж:</p></td>
+<td style="width: 106px; height: 14px;" nowrap> </td>
+<td style="width: 85px; height: 14px;"><p align="center">862.6</p></td>
+<td style="width: 132px; height: 14px;"><p align="center">862.6</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.1</p></td>
+<td style="width: 250px; height: 14px;"><p>Компьютер, тоног төхөөрөмж</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">353.3</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">353.3</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.2</p></td>
+<td style="width: 250px; height: 14px;"><p>Тавилга, эд хогшил</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">133.0</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">133.0</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.3</p></td>
+<td style="width: 250px; height: 14px;"><p>Автомашин</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">242.9</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">242.9</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.4</p></td>
+<td style="width: 250px; height: 14px;"><p>Эмнэлэг, хөдөлмөр магадлах комиссын тоног төхөөрөмж</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">11.5</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">11.5</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.5</p></td>
+<td style="width: 250px; height: 14px;"><p>Цахилгаан үүсгүүр, агааржуулагч /Дорноговь, Дундговь/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">6.9</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">6.9</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.6</p></td>
+<td style="width: 250px; height: 14px;"><p>Барилгын зураг, төсөв хийх /Говь-Алтай, Өмнөговь, Говьсүмбэр/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">30.0</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">30.0</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 14px;"><p align="center">3.7</p></td>
+<td style="width: 250px; height: 14px;"><p>Цахилгааны газардуулга /Ховд/</p></td>
+<td style="width: 106px; height: 14px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 14px;" nowrap><p align="center">5.0</p></td>
+<td style="width: 132px; height: 14px;" nowrap><p align="center">5.0</p></td>
+<td style="height: 14px;" height="14"> </td>
+</tr>
+<tr>
+<td style="width: 42px; height: 7px;"><p align="center">3.8</p></td>
+<td style="width: 250px; height: 7px;"><p>Нийгмийн даатгалын байгууллагын үйлчилгээний дараалал зохицуулах болон ажилтнуудын үнэлгээний төхөөрөмж</p></td>
+<td style="width: 106px; height: 7px;" nowrap><p align="center">2012</p></td>
+<td style="width: 85px; height: 7px;" nowrap><p align="center">80.0</p></td>
+<td style="width: 132px; height: 7px;" nowrap><p align="center">80.0</p></td>
+<td style="height: 7px;" height="7"> </td>
+</tr>
+</tbody></table></table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

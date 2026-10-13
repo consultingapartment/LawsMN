@@ -1,0 +1,562 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719189959" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719273922" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2019 оны 11 сарын 13 өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719970895" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; "><p>Улаанбаатар хот</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719858131" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2020 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719378446" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719178628" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">НИЙТЛЭГ ҮНДЭСЛЭЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719629100" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719764383" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Монгол Улсын төсөвт 2020 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах төсвийн хэмжээ, орлого төвлөрүүлэх байгууллага, орон нутгийн төсөвт олгох санхүүгийн дэмжлэг, Орон нутгийн хөгжлийн нэгдсэн сан болон улсын төсвөөс Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг, орон нутгийн төсвөөс улсын төсөвт төвлөрүүлэх орлого, төсвийн ерөнхийлөн захирагчид төсөв зарцуулах эрх олгох, Төсвийн тогтворжуулалтын болон Ирээдүйн өв санд хуримтлуулах хөрөнгийн хэмжээ, төсвийн алдагдлыг санхүүжүүлэх эх үүсвэр, мөнгөн гүйлгээтэй холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719353703" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Монгол Улсын 2020 оны төсвийн хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719213347" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Монгол Улсын 2020 оны төсвийн хууль тогтоомж нь Төсвийн тухай хууль, Төсвийн тогтвортой байдлын тухай хууль, энэ хууль болон эдгээртэй нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719041878" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719422078" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2020 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА, ХӨРӨНГӨ, ӨРИЙН УДИРДЛАГА</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719242999" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Монгол Улсын төсөвт 2020 оны төсвийн жилд төсвийн ерөнхийлөн захирагч, түүний харьяа болон бусад байгууллагын төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719114440" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:631px;" width="473">
+<table border="1" cellpadding="0" cellspacing="0" style="width:631px;" width="473"><tbody>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> Д/д</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p align="center"> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:151px;height:19px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:39px;"> <p align="center"> 1</p> <p align="center"> </p> </td> <td colspan="2" nowrap style="width:439px;height:39px;"> <p> Монгол Улсын Их Хурлын дарга</p> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:39px;"> <p align="right"> 100.0</p> <p align="right"> 100.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 2</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Шүүхийн ерөнхий зөвлөлийн дарга</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 120.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 120.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 3</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Санхүүгийн зохицуулах хорооны дарга</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 1,709.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 1,709.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 4</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Монгол Улсын Ерөнхий сайд</p> <p> Төрийн өмчийн бодлого, зохицуулалтын газар</p> <p> үүнээс:Ирээдүйн өв санд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 175,449.1</p> <p align="right"> 174,440.0</p> <p align="right"> 155,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 1,009.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 5</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Монгол Улсын Шадар сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 13,174.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Мэргэжлийн хяналтын ерөнхий газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 3,850.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 9,324.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 6</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Монгол Улсын сайд, Засгийн газрын Хэрэг эрхлэх газрын дарга</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> </p> <p align="right"> 6,244.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 6,244.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 7</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Байгаль орчин, аялал жуулчлалын сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 295.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 295.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 8</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Гадаад харилцааны сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 5,550.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Дипломат төлөөлөгчийн газрууд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 4,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 1,550.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 9</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Сангийн сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 7,557,093.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Татварын ерөнхий газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 4,258,824.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> үүнээс: Төсвийн тогтворжуулалтын санд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 55,151.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Ирээдүйн өв санд</p> </td> <td nowrap rowspan="4" style="width:151px;height:19px;"> <p align="right"> 758,205.0</p> <p align="right"> 3,024,642.4</p> <p align="right"> 117,900.0</p> <p align="right"> 150,300.2</p> <p align="right"> 5,426.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Гаалийн ерөнхий газар</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Сангийн яам</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:39px;"> <p align="center"> </p> </td> <td colspan="2" nowrap style="width:439px;height:39px;"> <p> Гадаад тусламжийн орлогоос санхүүжих</p> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 10</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Хууль зүй, дотоод хэргийн сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 52,554.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Улсын бүртгэлийн ерөнхий газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 17,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Цагдаагийн ерөнхий газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 5,240.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:55px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:55px;"> <p> </p> </td> <td nowrap style="width:401px;height:55px;"> <p> Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого </p> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:55px;"> <p align="right"> </p> <p align="right"> 10,448.7</p> <p align="right"> 19,865.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 11</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Батлан хамгаалахын сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 45,190.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> </p> <p align="right"> 4,490.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 40,699.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 12</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Боловсрол, шинжлэх ухааны сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 5,266.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 5,266.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 13</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Зам, тээврийн хөгжлийн сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 90,223.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Иргэний нисэхийн ерөнхий газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 75,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Зам, тээврийн хөгжлийн яам</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 223.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 15,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 14</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Барилга, хот байгуулалтын сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 2,250.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Газар зохион байгуулалт, геодези, зураг зүйн газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 2,100.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 150.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 15</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Уул уурхай, хүнд үйлдвэрийн сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 161,828.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Ашигт малтмал, газрын тосны газар</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 159,200.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 2,628.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 16</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 85,775.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> </p> </td> <td nowrap style="width:39px;height:19px;"> <p> </p> </td> <td nowrap style="width:401px;height:19px;"> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 85,775.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:19px;"> <p align="center"> 17</p> </td> <td colspan="2" nowrap style="width:439px;height:19px;"> <p> Хөдөлмөр, нийгмийн хамгааллын сайд</p> </td> <td nowrap style="width:151px;height:19px;"> <p align="right"> 32,990.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:29px;"> <p align="center"> </p> <p align="center"> </p> </td> <td nowrap style="width:39px;height:29px;"> <p> </p> </td> <td nowrap style="width:401px;height:29px;"> <p> Хөдөлмөр, халамжийн үйлчилгээний ерөнхий газар</p> <p> Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого </p> <p> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:29px;"> <p align="right"> 800.0</p> <p align="right"> </p> <p align="right"> 798.4</p> <p align="right"> 31,391.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:29px;"> <p align="center"> 18</p> </td> <td colspan="2" nowrap style="width:439px;height:29px;"> <p> Эрүүл мэндийн сайд</p> <p style="margin-left:28.2pt;"> Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого </p> <p style="margin-left:28.2pt;"> Харьяа төсөвт байгууллагын өөрийн орлого</p> </td> <td nowrap style="width:151px;height:29px;"> <p align="right"> 280,367.3</p> <p align="right"> </p> <p align="right"> 252,908.7</p> <p align="right"> 27,458.6</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719021814" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719093604" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Монгол Улсын төсөвт 2020 оны төсвийн жилд төвлөрүүлэх төсвийн тэнцвэржүүлсэн орлогын хэмжээг 7,476,531.2 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719642185" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719436295" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.Монгол Улсын төсөвт 2020 оны төсвийн жилд төсвийн ерөнхийлөн захирагчаас эргэн төлөх төлбөрийн хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719130162" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:631px;" width="473">
+<table border="1" cellpadding="0" cellspacing="0" style="width:631px;" width="473"><tbody>
+<tr>
+<td nowrap style="width:40px;height:37px;"> <p align="center"> Д/д</p> </td> <td nowrap style="width:439px;height:37px;"> <p align="center"> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:151px;height:37px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 1</p> </td> <td style="width:439px;height:18px;"> <p> Сангийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 215,564.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 2</p> </td> <td style="width:439px;height:18px;"> <p> Хууль зүй, дотоод хэргийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 20,600.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 3</p> </td> <td style="width:439px;height:18px;"> <p> Боловсрол, шинжлэх ухааны сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 5,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 4</p> </td> <td style="width:439px;height:18px;"> <p> Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 69,053.5</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719122377" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719449222" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Монгол Улсын төсвөөс 2020 оны төсвийн жилд төсвийн ерөнхийлөн захирагчид доор дурдсан төсөв зарцуулах эрхийг олгосугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719725153" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.1.Монгол Улсын төсвөөс 2020 оны төсвийн жилд төсвийн ерөнхийлөн захирагчийн зарцуулах зардлын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719464046" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:631px;" width="473">
+<table border="1" cellpadding="0" cellspacing="0" style="width:631px;" width="473"><tbody>
+<tr>
+<td nowrap style="width:40px;height:37px;"> <p align="center"> Д/д</p> </td> <td colspan="2" nowrap style="width:439px;height:37px;"> <p align="center"> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:151px;height:37px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 1</p> </td> <td colspan="2" style="width:439px;height:18px;"> <p> Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> </p> <p align="right"> 6,714.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:18px;"> <p> </p> </td> <td nowrap style="width:377px;height:18px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 6,714.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 2</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Монгол Улсын Их Хурлын дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 47,256.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 44,880.2</p> <p align="right"> 2,376.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 3</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Монгол Улсын Үндсэн хуулийн цэцийн дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 2,899.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 2,314.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 585.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 4</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Улсын дээд шүүхийн Ерөнхий шүүгч</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 4,728.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 4,728.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 5</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Шүүхийн ерөнхий зөвлөлийн дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 56,310.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 56,310.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 6</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Хүний эрхийн Үндэсний Комиссын дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 1,577.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 1,577.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 7</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Улсын ерөнхий прокурор</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 43,678.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 36,046.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 7,631.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 8</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Үндэсний аюулгүй байдлын зөвлөлийн нарийн бичгийн дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 4,688.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 4,688.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 9</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Монгол Улсын Ерөнхий аудитор</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 21,700.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 20,700.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 1,000.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 10</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Авлигатай тэмцэх газрын дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 27,058.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 25,987.5</p> <p align="right"> 1,070.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 11</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Санхүүгийн зохицуулах хорооны дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 4,567.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 4,567.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> 12</p> </td> <td colspan="2" nowrap style="width:439px;height:17px;"> <p> Төрийн албаны зөвлөлийн дарга</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 3,492.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 3,492.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 13</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Үндэсний статистикийн хорооны дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 14,630.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 14,030.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 600.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 14</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Сонгуулийн ерөнхий хорооны дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 38,109.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 38,109.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 15</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Цагаатгах ажлыг удирдан зохион байгуулах улсын комиссын дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 54,374.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:18px;"> <p> </p> </td> <td nowrap style="width:377px;height:18px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 54,374.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 16</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Монгол Улсын Ерөнхий сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 160,002.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 120,457.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 39,544.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 17</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Монгол Улсын Шадар сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 178,658.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 160,963.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 17,695.0</p> </td> </tr>
+<tr>
+<td nowrap rowspan="2" style="width:40px;height:18px;"> <p align="center"> 18</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Монгол Улсын сайд, Засгийн газрын Хэрэг эрхлэх газрын дарга</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> </p> <p align="right"> 433,011.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 62,263.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 370,748.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 19</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Байгаль орчин, аялал жуулчлалын сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 157,769.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 138,671.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:18px;"> <p> </p> </td> <td nowrap style="width:377px;height:18px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 19,098.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 20</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Гадаад харилцааны сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 92,885.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 90,285.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 2,600.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 21</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Сангийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 3,314,365.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 1,588,617.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> үүнээс: Зээлийн хүүгийн төлбөрт</p> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 972,576.4</p> <p align="right"> 102,588.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Гадаад зээл, тусламжаас санхүүжих зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 1,623,160.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 22</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Хууль зүй, дотоод хэргийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 625,792.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 575,142.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:18px;"> <p> </p> </td> <td nowrap style="width:377px;height:18px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 50,650.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 23</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Зам, тээврийн хөгжлийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 279,244.4</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 12,056.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 267,187.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 24</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Батлан хамгаалахын сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 287,679.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 278,642.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 9,037.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 25</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Боловсрол, шинжлэх ухааны сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 1,717,062.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 1,393,612.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap rowspan="4" style="width:377px;height:17px;"> <p style="margin-left:64.45pt;"> үүнээс: Сургуулийн өмнөх боловсролын тусгай зориулалтын шилжүүлэг</p> <p style="margin-left:64.45pt;"> Ерөнхий боловсролын тусгай зориулалтын шилжүүлэг</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> </p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 449,557.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> </p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 780,922.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 323,449.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 26</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Уул уурхай, хүнд үйлдвэрийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 36,192.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 11,914.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 24,277.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 27</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 360,156.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 326,386.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 33,770.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 28</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Хөдөлмөр, нийгмийн хамгааллын сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 2,379,867.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 2,367,196.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p style="margin-left:64.45pt;"> үүнээс: Хүүхдийн хөгжил хамгааллын тусгай зориулалтын шилжүүлэг</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> </p> <p align="right"> 10,676.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 12,671.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 29</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Эрүүл мэндийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 1,058,645.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> <p style="margin-left:64.45pt;"> үүнээс: Эрүүл мэндийн анхан шатны тусламж үйлчилгээний тусгай зориулалтын шилжүүлэг</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 938,693.2</p> <p align="right"> </p> <p align="right"> </p> <p align="right"> 160,579.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 119,952.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 30</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Эрчим хүчний сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 61,924.4</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 29,653.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 32,270.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 31</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Барилга, хот байгуулалтын сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 203,302.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 24,176.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p style="margin-left:64.45pt;"> үүнээс: Газрын харилцаа, кадастрын тусгай зориулалтын шилжүүлэг </p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> </p> <p align="right"> 14,011.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 179,125.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 32</p> </td> <td colspan="2" nowrap style="width:439px;height:18px;"> <p> Соёлын сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 180,810.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Урсгал зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 36,475.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:17px;"> <p align="center"> </p> </td> <td nowrap style="width:63px;height:17px;"> <p> </p> </td> <td nowrap style="width:377px;height:17px;"> <p> Хөрөнгийн зардал</p> </td> <td nowrap style="width:151px;height:17px;"> <p align="right"> 144,335.8</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719566314" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">6.2.Монгол Улсын төсвөөс 2020 оны төсвийн жилд төсвийн ерөнхийлөн захирагчид эргэн төлөгдөх нөхцөлтэйгээр олгох санхүүжилтийн хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719930420" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:633px;" width="475">
+<table border="1" cellpadding="0" cellspacing="0" style="width:633px;" width="475"><tbody>
+<tr>
+<td nowrap style="width:40px;height:37px;"> <p align="center"> Д/д</p> </td> <td nowrap style="width:442px;height:37px;"> <p align="center"> Төсвийн ерөнхийлөн захирагч</p> </td> <td style="width:151px;height:37px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 1</p> </td> <td style="width:442px;height:18px;"> <p> Сангийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 1,491.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 2</p> </td> <td style="width:442px;height:18px;"> <p> Боловсрол, шинжлэх ухааны сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 25,993.4</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 3</p> </td> <td style="width:442px;height:18px;"> <p> Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 71,839.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:40px;height:18px;"> <p align="center"> 4</p> </td> <td style="width:442px;height:18px;"> <p> Барилга, хот байгуулалтын сайд</p> </td> <td nowrap style="width:151px;height:18px;"> <p align="right"> 5,000.0</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719378712" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719030147" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Монгол Улсын төсвөөс 2020 оны төсвийн жилд зарцуулах төсвийн зарлагын хэмжээг 11,653,262.0 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719226333" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719383358" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2020 оны төсвийн жилд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн дүнг 1,330,855.4 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719308079" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719319129" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл.Монгол Улсын төсвийн хөрөнгөөр 2020 онд санхүүжүүлэх "Барих-Шилжүүлэх" концессын төрлөөр хэрэгжүүлсэн төсөл, арга хэмжээ, барилга байгууламжийн эргэн төлөлтийн дүнг 323,492.3 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719466125" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719777185" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">10 дугаар зүйл.Төсвийн тогтвортой байдлын тухай хуулийн 16 дугаар зүйлд заасны дагуу Төсвийн тогтворжуулалтын санд 2020 оны төсвийн жилд хуримтлуулах хөрөнгийн хэмжээг 55,151.2 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719762289" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719952148" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">11 дүгээр зүйл.Ирээдүйн өв сангийн тухай хуулийн 7 дугаар зүйлд заасны дагуу Ирээдүйн өв санд 2020 оны төсвийн жилд хуримтлуулах хөрөнгийн хэмжээг 943,205.0 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719945804" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719439711" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">12 дугаар зүйл.Өрийн удирдлагын тухай хуулийн 12.1.2, 12.1.4-д зааснаас бусад зориулалтаар үүсгэсэн өрөөс 2020 оны төсвийн жилд төлөх Засгийн газрын гадаад, дотоод зээллэгийн үндсэн төлбөрийн хэмжээг 987,168.0 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719827160" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719112048" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">13 дугаар зүйл.Засгийн газрын 2020 оны төсвийн жилд нэмэгдүүлэх өр болон өрийн баталгааны дээд хэмжээг 4,850,755.9 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719047706" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">/Энэ зүйлд 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөлт оруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719282103" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">14 дүгээр зүйл.Засгийн газар Төсвийн тогтвортой байдлын тухай хууль, Өрийн удирдлагын тухай хууль болон Засгийн газрын өрийн удирдлагын 2019-2022 оны стратегийн баримт бичигт нийцүүлэн өрийн зохицуулалтын үйл ажиллагааг авч хэрэгжүүлнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719139298" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719916600" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">ОРОН НУТГИЙН ТӨСӨВТ ОЛГОХ САНХҮҮГИЙН ДЭМЖЛЭГ, ОРОН НУТГИЙН ТӨСВӨӨС ТӨВЛӨРҮҮЛЭХ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719570238" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">ОРЛОГО, ОРОН НУТГИЙН ХӨГЖЛИЙН НЭГДСЭН САН БОЛОН УЛСЫН ТӨСВӨӨС ОРОН НУТГИЙН ХӨГЖЛИЙН САНД ОЛГОХ ОРЛОГЫН ШИЛЖҮҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719275763" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">15 дугаар зүйл.2020 оны төсвийн жилд орон нутгийн төсөвт олгох санхүүгийн дэмжлэгийн хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719136249" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table align="center" border="1" cellpadding="0" cellspacing="0" style="width: 626px" width="470">
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width: 626px" width="470"><tbody>
+<tr>
+<td style="width:48px;height:35px;"> <p align="center"> Д/д</p> </td> <td style="width:378px;height:35px;"> <p align="center"> Аймаг</p> </td> <td style="width:200px;height:35px;"> <p align="center"> Олгох санхүүгийн дэмжлэгийн хэмжээ</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:16px;"> <p align="center"> 1</p> </td> <td nowrap style="width:378px;height:16px;"> <p> Архангай</p> </td> <td nowrap style="width:200px;height:16px;"> <p align="right"> 13,051.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 2</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Баян-Өлгий</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 7,642.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 3</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Баянхонгор</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 18,764.2</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 4</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Булган</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right" style="margin-left:72pt;"> 3,958.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 5</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Говь-Алтай</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 14,904.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 6</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Дундговь</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 11,671.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 7</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Завхан</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 18,898.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 8</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Өвөрхангай</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 16,988.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 9</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Сүхбаатар</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 10,227.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 10</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Сэлэнгэ</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 5,259.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 11</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Төв</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 9,673.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 12</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Увс</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 24,641.9</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 13</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Ховд</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 10,924.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 14</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Хөвсгөл</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 20,274.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 15</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Хэнтий</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 12,695.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:48px;height:17px;"> <p align="center"> 16</p> </td> <td nowrap style="width:378px;height:17px;"> <p> Говьсүмбэр</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 2,145.0</p> </td> </tr>
+<tr>
+<td colspan="2" nowrap style="width:426px;height:17px;"> <p align="center"> Нийт дүн</p> </td> <td nowrap style="width:200px;height:17px;"> <p align="right"> 201,721.3</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719917911" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719453622" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">16 дугаар зүйл.2020 оны төсвийн жилд орон нутгийн төсвөөс улсын төсөвт төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719814217" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table align="center" border="1" cellpadding="0" cellspacing="0" style="width:619px;" width="464">
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:619px;" width="464"><tbody>
+<tr>
+<td style="width:41px;"> <p> Д/д</p> </td> <td style="width:369px;"> <p align="center"> </p> <p align="center"> Аймаг, хот</p> </td> <td style="width:209px;"> <p align="center"> Төвлөрүүлэх орлогын хэмжээ</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p align="center"> 1</p> </td> <td style="width:369px;"> <p> Дорноговь</p> </td> <td style="width:209px;"> <p align="right"> 1,079.0</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p align="center"> 2</p> </td> <td style="width:369px;"> <p> Дорнод</p> </td> <td style="width:209px;"> <p align="right"> 199.7</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p align="center"> 3</p> </td> <td style="width:369px;"> <p> Өмнөговь</p> </td> <td style="width:209px;"> <p align="right"> 51,434.7</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p align="center"> 4</p> </td> <td style="width:369px;"> <p> Дархан-Уул</p> </td> <td style="width:209px;"> <p align="right"> 1,824.1</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p align="center"> 5</p> </td> <td style="width:369px;"> <p> Улаанбаатар</p> </td> <td style="width:209px;"> <p align="right"> 275,188.3</p> </td> </tr>
+<tr>
+<td style="width:41px;"> <p align="center"> 6</p> </td> <td style="width:369px;"> <p> Орхон</p> </td> <td style="width:209px;"> <p align="right"> 29,220.1</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:410px;"> <p align="center"> Нийт дүн</p> </td> <td style="width:209px;"> <p align="right"> 358,945.9</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719036982" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719271646" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">17 дугаар зүйл.2020 оны төсвийн жилд Орон нутгийн хөгжлийн нэгдсэн сан болон улсын төсвөөс Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг, Орон нутгийн хөгжлийн сангаас санхүүжих урсгал зарлагын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719231137" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table align="center" border="1" cellpadding="0" cellspacing="0" style="width:609px;" width="457">
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:609px;" width="457"><tbody>
+<tr>
+<td style="width:40px;"> <p> Д/д</p> </td> <td style="width:360px;"> <p align="center"> </p> <p align="center"> Аймаг, хот</p> </td> <td style="width:209px;"> <p align="center"> Шилжүүлгийн хэмжээ</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 1</p> </td> <td style="width:360px;"> <p> Архангай</p> </td> <td style="width:209px;"> <p align="right"> 4,778.4</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 540.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 2</p> </td> <td style="width:360px;"> <p> Баян-Өлгий</p> </td> <td style="width:209px;"> <p align="right"> 6,222.2</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 358.6</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 3</p> </td> <td style="width:360px;"> <p> Баянхонгор </p> </td> <td style="width:209px;"> <p align="right"> 6,425.8</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 638.5</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 4</p> </td> <td style="width:360px;"> <p> Булган</p> </td> <td style="width:209px;"> <p align="right"> 3,292.5</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 534.3</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 5</p> </td> <td style="width:360px;"> <p> Говь-Алтай</p> </td> <td style="width:209px;"> <p align="right"> 7,569.7</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 479.4</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 6</p> </td> <td style="width:360px;"> <p> Дорноговь</p> </td> <td style="width:209px;"> <p align="right"> 15,224.8</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 184.5</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 7</p> </td> <td style="width:360px;"> <p> Дорнод</p> </td> <td style="width:209px;"> <p align="right"> 6,927.6</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 500.0</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 8</p> </td> <td style="width:360px;"> <p> Дундговь</p> </td> <td style="width:209px;"> <p align="right"> 5,176.6</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 244.5</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 9</p> </td> <td style="width:360px;"> <p> Завхан</p> </td> <td style="width:209px;"> <p align="right"> 4,508.3</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 308.4</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 10</p> </td> <td style="width:360px;"> <p> Өвөрхангай</p> </td> <td style="width:209px;"> <p align="right"> 5,753.9</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 482.9</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 11</p> </td> <td style="width:360px;"> <p> Өмнөговь</p> </td> <td style="width:209px;"> <p align="right"> 14,188.5</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 376.8</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 12</p> </td> <td style="width:360px;"> <p> Сүхбаатар</p> </td> <td style="width:209px;"> <p align="right"> 12,621.5</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 494.8</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 13</p> </td> <td style="width:360px;"> <p> Сэлэнгэ</p> </td> <td style="width:209px;"> <p align="right"> 7,739.5</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 482.5</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 14</p> </td> <td style="width:360px;"> <p> Төв</p> </td> <td style="width:209px;"> <p align="right"> 7,125.6</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 538.7</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 15</p> </td> <td style="width:360px;"> <p> Увс</p> </td> <td style="width:209px;"> <p align="right"> 5,570.7</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 439.9</p> </td> </tr>
+<tr>
+<td style="width:40px;"> <p align="center"> 16</p> </td> <td style="width:360px;"> <p> Ховд</p> </td> <td style="width:209px;"> <p align="right"> 9,703.2</p> </td> </tr>
+<tr>
+<td style="width:40px;"> <p align="center"> </p> </td> <td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 533.1</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 17</p> </td> <td style="width:360px;"> <p> Хөвсгөл</p> </td> <td style="width:209px;"> <p align="right"> 7,142.8</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 962.4</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 18</p> </td> <td style="width:360px;"> <p> Хэнтий</p> </td> <td style="width:209px;"> <p align="right"> 7,273.8</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 558.4</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 19</p> </td> <td style="width:360px;"> <p> Дархан-Уул</p> </td> <td style="width:209px;"> <p align="right"> 6,423.7</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 1,025.1</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 20</p> </td> <td style="width:360px;"> <p> Улаанбаатар</p> </td> <td style="width:209px;"> <p align="right"> 23,201.5</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 227.9</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 21</p> </td> <td style="width:360px;"> <p> Орхон</p> </td> <td style="width:209px;"> <p align="right"> 4,295.9</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 301.1</p> </td> </tr>
+<tr>
+<td rowspan="2" style="width:40px;"> <p align="center"> 22</p> </td> <td style="width:360px;"> <p> Говь-Сүмбэр</p> </td> <td style="width:209px;"> <p align="right"> 1,140.0</p> </td> </tr>
+<tr>
+<td style="width:360px;"> <p style="margin-left:36pt;"> үүнээс: Урсгал зарлага санхүүжүүлэх</p> </td> <td style="width:209px;"> <p align="right"> 60.3</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:400px;"> <p align="center"> Нийт дүн</p> </td> <td style="width:209px;"> <p align="right"> 172,306.6</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1635841719069156" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2020 оны 08 дугаар сарын 28-ны өдрийн хуулиар өөрчлөн найруулсан./</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719248136" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ДӨРӨВДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719962428" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">БУСАД ЗҮЙЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719921927" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">18 дугаар зүйл.Төсвийн ерөнхийлөн захирагч бүрийн 2020 онд хэрэгжүүлэх хөтөлбөр, хөтөлбөрийн хүрэх үр дүнгийн талаарх чанарын болон тоо хэмжээний үзүүлэлтийг 1 дүгээр хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719926920" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">19 дүгээр зүйл.Монгол Улсын төсвийн хөрөнгөөр 2020 онд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалтыг 2 дугаар хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719344189" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">20 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2020 онд санхүүжүүлэх "Барих-Шилжүүлэх" концессын төрлөөр хэрэгжүүлсэн төсөл, арга хэмжээ, барилга байгууламжийн эргэн төлөлтийн жагсаалтыг 3 дугаар хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719310621" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">21 дүгээр зүйл.Олон улсын байгууллагын төсөл, хөтөлбөрөөс 2020 онд сумын Орон нутгийн хөгжлийн санд олгох урамшуулал, дэмжлэгийг 4 дүгээр хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719735387" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">22 дугаар зүйл.Энэ хуулийг 2020 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1635841719567751" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Г.ЗАНДАНШАТАР</div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

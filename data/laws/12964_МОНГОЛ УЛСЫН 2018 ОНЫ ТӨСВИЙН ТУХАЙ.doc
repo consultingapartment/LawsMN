@@ -1,0 +1,1604 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163103317" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163219380" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; "><p>2017 оны 11 сарын 14 өдөр</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163789920" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; "><p>Төрийн ордон,Улаанбаатар хот</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163912672" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2018 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163132405" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>НЭГДҮГЭЭР БҮЛЭГ </p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640545595193223" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>НИЙТЛЭГ ҮНДЭСЛЭЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163611078" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163494382" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Монгол Улсын төсөвт 2018 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах төсвийн хэмжээ, орлого төвлөрүүлэх байгууллага, орон нутгийн төсөвт олгох санхүүгийн дэмжлэг, Орон нутгийн хөгжлийн нэгдсэн сан болон улсын төсвөөс Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг, орон нутгийн төсвөөс улсын төсөвт төвлөрүүлэх орлого, төсвийн ерөнхийлөн захирагчид төсөв зарцуулах эрх олгох, Төсвийн тогтворжуулалтын сан болон Ирээдүйн өв санд хуримтлуулах хөрөнгийн хэмжээ, Ирээдүйн өв сангаас улсын төсөвт олгох шилжүүлэг болон улсын төсөвт төлөх өглөг барагдуулалтын хэмжээ, төсвийн алдагдлыг санхүүжүүлэх эх үүсвэр, мөнгөн гүйлгээтэй холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163398096" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Монгол Улсын 2018 оны төсвийн тухай хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163298587" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Монгол Улсын 2018 оны төсвийн тухай хууль тогтоомж нь Төсвийн тухай хууль, Төсвийн тогтвортой байдлын тухай хууль, энэ хууль болон эдгээр хуультай нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163548101" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163200794" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 2018 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА БОЛОН ХӨРӨНГӨ, ӨРИЙН УДИРДЛАГА</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163989471" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Монгол Улсын төсөвт 2018 оны төсвийн жилд төсвийн ерөнхийлөн захирагч, түүний харьяа байгууллага, бусад байгууллагын төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163585415" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 631px;" border="1" width="631" cellspacing="0" cellpadding="0">
+<table style="width: 631px;" border="1" width="631" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">Д/д</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p align="center">Төсвийн ерөнхийлөн захирагч</p></td>
+<td style="width: 126px; height: 19px;">
+<p align="center">Дүн</p>
+<p align="center">/сая төгрөгөөр/</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 39px;" nowrap>
+<p align="center">1</p>
+<p align="center"> </p>
+</td>
+<td style="width: 465px; height: 39px;" colspan="2" nowrap>
+<p>Монгол Улсын Их Хурлын дарга</p>
+<p>Гадаад тусламжийн орлогоос санхүүжих</p>
+</td>
+<td style="width: 126px; height: 39px;" nowrap>
+<p align="right">2,684.9</p>
+<p align="right">2,684.9</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">2</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Монгол Улсын Ерөнхий Аудитор</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">87.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">87.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">3</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Шүүхийн ерөнхий зөвлөлийн дарга</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">60.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">60.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">4</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Санхүүгийн зохицуулах хорооны дарга</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">822.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">822.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">5</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Үндэсний статистикийн хорооны дарга</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">24.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p> Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">24.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">6</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Монгол Улсын Ерөнхий сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">182,092.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Бүх нийтийн үйлчилгээний үүргийн сан</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">3,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Төрийн өмчийн бодлого, зохицуулалтын газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">175,616.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Үүнээс: Ирээдүйн өв санд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">47,842.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">3,476.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">7</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Улсын ерөнхий прокурор</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">300.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">300.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">8</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Монгол Улсын Шадар сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">12,129.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Мэргэжлийн хяналтын ерөнхий газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">2,600.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap>
+<p>Стандарт, хэмжил зүйн газар</p>
+<p>Гадаад тусламжийн орлогоос санхүүжих</p>
+</td>
+<td style="width: 126px; height: 19px;" nowrap>
+<p align="right">2,734.6</p>
+<p align="right">2,006.0</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">4,789.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">9</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Засгийн газрын Хэрэг эрхлэх газрын дарга</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">407.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">265.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">142.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">10</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Байгаль орчин, аялал жуулчлалын сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">10,274.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">9,979.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">295.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">11</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Гадаад харилцааны сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">21,150.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Дипломат төлөөлөгчийн газрууд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">19,600.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">1,550.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">12</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Сангийн сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">4,669,220.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Татварын ерөнхий газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">2,375,776.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p> Үүнээс: Төсвийн тогтворжуулалтын санд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">122,747.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p> Ирээдүйн өв санд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">460,901.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гаалийн ерөнхий газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">2,194,165.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Сангийн яам</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">13,229.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">71,559.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">10,916.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">3,573.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">13</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Хууль зүй, дотоод хэргийн сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">63,695.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Оюуны өмч, улсын бүртгэлийн ерөнхий газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">18,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Цагдаагийн ерөнхий газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">3,487.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">20,600.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 74px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 74px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 74px;" nowrap>
+<p>Гадаад тусламжийн орлогоос санхүүжих</p>
+<p>Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p>
+<p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+</td>
+<td style="width: 126px; height: 74px;" nowrap>
+<p align="right">625.5</p>
+<p align="right"> </p>
+<p align="right">5,481.4</p>
+<p align="right">15,500.8</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">14</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Батлан хамгаалахын сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">51,794.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap>
+<p align="right"> </p>
+<p align="right">6,593.4</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">45,200.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">15</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Боловсрол, соёл, шинжлэх ухаан, спортын сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">61,695.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">56,969.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">4,726.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">16</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Зам, тээврийн хөгжлийн сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">170,952.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Иргэний нисэхийн ерөнхий газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">167,672.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Зам, тээврийн хөгжлийн яам</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">209.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap>
+<p>Гадаад тусламжийн орлогоос санхүүжих</p>
+<p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+</td>
+<td style="width: 126px; height: 19px;" nowrap>
+<p align="right">920.4</p>
+<p align="right">2,150.0</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">17</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Барилга, хот байгуулалтын сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">2,158.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Газар зохион байгуулалт, геодези, зураг зүйн газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">1,815.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">343.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">18</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Уул уурхай, хүнд үйлдвэрийн сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">299,286.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Ашигт малтмал, газрын тосны газар</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">291,808.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">7,478.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">19</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">199,203.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Дотоод эх үүсвэрээс олгосон зээлийн эргэн төлөлт</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">115,491.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Гадаад тусламжийн орлогоос санхүүжих</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">1,414.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center"> </p></td>
+<td style="width: 39px; height: 19px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 19px;" nowrap><p>Харьяа төсөвт байгууллагын өөрийн орлого</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">82,298.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 19px;" nowrap><p align="center">20</p></td>
+<td style="width: 465px; height: 19px;" colspan="2" nowrap><p>Хөдөлмөр, нийгмийн хамгааллын сайд</p></td>
+<td style="width: 126px; height: 19px;" nowrap><p align="right">63,435.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 29px;" nowrap>
+<p align="center"> </p>
+<p align="center"> </p>
+</td>
+<td style="width: 39px; height: 29px;" nowrap><p> </p></td>
+<td style="width: 426px; height: 29px;" nowrap>
+<p>Хөдөлмөр, халамжийн үйлчилгээний ерөнхий газар</p>
+<p>Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p>
+<p>Гадаад тусламжийн орлогоос санхүүжих</p>
+<p>Харьяа төсөвт байгууллагын өөрийн орлого</p>
+</td>
+<td style="width: 126px; height: 29px;" nowrap>
+<p align="right">550.0</p>
+<p> </p>
+<p align="right">631.1</p>
+<p align="right">9,513.7</p>
+<p align="right">52,741.0</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 29px;" nowrap><p align="center">21</p></td>
+<td style="width: 465px; height: 29px;" colspan="2" nowrap>
+<p>Эрүүл мэндийн сайд</p>
+<p style="margin-left: 28.2pt;">Эрүүл мэндийн даатгалын сангаас улсын эмнэлэгт олгох санхүүжилтийн орлого</p>
+<p> Гадаад тусламжийн орлогоос санхүүжих</p>
+<p> Харьяа төсөвт байгууллагын өөрийн орлого</p>
+</td>
+<td style="width: 126px; height: 29px;" nowrap>
+<p align="right">239,438.9</p>
+<p align="right"> </p>
+<p align="right">201,802.1</p>
+<p align="right">8,269.5</p>
+<p align="right">29,367.3</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 29px;" nowrap>
+<p align="center">22</p>
+<p> </p>
+</td>
+<td style="width: 465px; height: 29px;" colspan="2" nowrap>
+<p>Эрчим хүчний сайд</p>
+<p> Гадаад тусламжийн орлогоос санхүүжих</p>
+</td>
+<td style="width: 126px; height: 29px;" nowrap>
+<p align="right">4,016.0</p>
+<p align="right">4,016.0</p>
+</td>
+</tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1612258163661214" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Монгол Улсын төсөвт 2018 оны төсвийн жилд төвлөрүүлэх төсвийн тэнцвэржүүлсэн орлогын хэмжээг 5,207,337.2 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163619246" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.Монгол Улсын төсвөөс 2018 оны төсвийн жилд төсвийн ерөнхийлөн захирагчид доор дурдсан төсөв зарцуулах эрхийг олгосугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163261395" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 631px;" border="1" width="631" cellspacing="0" cellpadding="0">
+<table style="width: 631px;" border="1" width="631" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 40px; height: 37px;" nowrap><p align="center">Д/д</p></td>
+<td style="width: 465px; height: 37px;" colspan="2" nowrap><p align="center">Төсвийн ерөнхийлөн захирагч</p></td>
+<td style="width: 126px; height: 37px;">
+<p align="center">Дүн</p>
+<p align="center">/сая төгрөгөөр/</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">1</p></td>
+<td style="width: 465px; height: 18px;" colspan="2"><p>Монгол Улсын Ерөнхийлөгчийн Тамгын газрын дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">5,241.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">4,470.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">770.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">2</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Монгол Улсын Их Хурлын дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">33,113.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">28,514.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,913.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">2,684.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">3</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Монгол Улсын Үндсэн хуулийн цэцийн дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">2,033.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,693.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">340.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">4</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Улсын дээд шүүхийн Ерөнхий шүүгч</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">3,998.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">3,998.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">5</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Шүүхийн ерөнхий зөвлөлийн дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">48,604.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">48,604.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">6</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Хүний эрхийн Үндэсний Комиссын дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">1,140.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,140.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">7</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Улсын ерөнхий прокурор</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">29,238.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">28,485.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">452.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">300.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">8</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Үндэсний аюулгүй байдлын зөвлөлийн нарийн бичгийн дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">2,055.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">2,055.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">9</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Монгол Улсын Ерөнхий аудитор</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">11,530.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">10,942.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">500.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">87.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">10</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Авлигатай тэмцэх газрын дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">14,845.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">14,649.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">195.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">11</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Санхүүгийн зохицуулах хорооны дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">3,834.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">3,834.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center">12</p></td>
+<td style="width: 465px; height: 17px;" colspan="2" nowrap><p>Төрийн албаны зөвлөлийн дарга</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">730.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">730.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">13</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Үндэсний статистикийн хорооны дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">9,487.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">9,463.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">24.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">14</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Сонгуулийн ерөнхий хорооны дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">1,139.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,139.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">15</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Цагаатгах ажлыг удирдан зохион байгуулах улсын комиссын дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">647.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">647.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">16</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Монгол Улсын Ерөнхий сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">203,278.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">98,058.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">94,458.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">10,761.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">17</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Монгол Улсын Шадар сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">136,729.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">113,203.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">14,086.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">9,439.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">18</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Засгийн газрын Хэрэг эрхлэх газрын дарга</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">33,531.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">13,621.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">11,881.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">8,027.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">19</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Байгаль орчин, аялал жуулчлалын сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">88,160.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">57,375.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">20,717.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">10,067.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">20</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Гадаад харилцааны сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">71,730.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">69,930.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,800.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">21</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Сангийн сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">6,353,791.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,540,075.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap>
+<p>Дотоод эх үүсвэрээс олгох зээл</p>
+<p>Хөрөнгийн зардал</p>
+</td>
+<td style="width: 126px; height: 17px;" nowrap>
+<p align="right">136,104.3</p>
+<p align="right">32,810.0</p>
+</td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">152,167.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Засгийн газрын үнэт цаасны үндсэн төлбөрт</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">4,232,825.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Засгийн газрын гадаад төслийн зээлийн</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>үндсэн төлбөрт</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">259,808.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">22</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Хууль зүй, дотоод хэргийн сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">476,978.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">428,191.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">37,390.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">11,397.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">23</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Зам, тээврийн хөгжлийн сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">384,534.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">9,234.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">80,796.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">294,503.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">24</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Батлан хамгаалахын сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">237,063.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">233,464.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">3,599.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">25</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Боловсрол, соёл, шинжлэх ухаан, спортын сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">1,632,349.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,136,445.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">Үүнээс: Сургуулийн өмнөх боловсролын тусгай</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">зориулалтын шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">311,267.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">Ерөнхий боловсролын тусгай зориулалтын</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">619,730.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">Соёлын үйлчилгээний тусгай зориулалтын</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">45,245.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">Нийтийн биеийн тамирын тусгай</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 45.95pt;">зориулалтын шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">12,647.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Дотоод эх үүсвэрээс олгох зээл</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">96,800.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">262,817.6</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">136,286.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">26</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Уул уурхай, хүнд үйлдвэрийн сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">26,397.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">9,081.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">17,315.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">27</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">266,633.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">107,643.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Дотоод эх үүсвэрээс олгох зээл</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">97,778.7</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">50,218.5</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">10,992.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">28</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Хөдөлмөр, нийгмийн хамгааллын сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">1,267,659.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">1,201,772.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 44.2pt;">Үүнээс: Хүүхдийн хөгжил, хамгааллын үйлчилгээний тусгай зориулалтын</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 44.2pt;">шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">6,331.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">17,340.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Дотоод эх үүсвэрээс олгох зээл</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">22,900.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">25,647.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">29</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Эрүүл мэндийн сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">766,306.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">632,971.2</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Үүнээс: Эрүүл мэндийн анхан шатны тусламж,</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right"> </p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 44.2pt;">үйлчилгээний тусгай зориулалтын шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">113,313.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">60,754.8</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 18px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 18px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">72,580.1</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">30</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Эрчим хүчний сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">161,046.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">19,498.0</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">37,661.9</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">103,886.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 18px;" nowrap><p align="center">31</p></td>
+<td style="width: 465px; height: 18px;" colspan="2" nowrap><p>Барилга, хот байгуулалтын сайд</p></td>
+<td style="width: 126px; height: 18px;" nowrap><p align="right">137,233.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Урсгал зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">15,131.3</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p style="margin-left: 44.2pt;">Үүнээс: Газрын харилцаа, кадастрын тусгай зориулалтын шилжүүлэг</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">10,559.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Хөрөнгийн зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">80,338.4</p></td>
+</tr>
+<tr>
+<td style="width: 40px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 63px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 402px; height: 17px;" nowrap><p>Гадаад зээл, тусламжаас санхүүжих зардал</p></td>
+<td style="width: 126px; height: 17px;" nowrap><p align="right">41,763.6</p></td>
+</tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1612258163902166" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Монгол Улсын төсвөөс 2018 оны төсвийн жилд зарцуулах төсвийн зарлагын /тэнцвэржүүлсэн орлогод нийцүүлсэн/ хэмжээг 7,710,777.6 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163616682" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2018 оны төсвийн жилд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн дүнг 683,319.8 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163323914" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2018 онд санхүүжүүлэх "Барих-Шилжүүлэх" концессын төрлөөр хэрэгжүүлсэн төсөл, арга хэмжээ, барилга байгууламжийн эргэн төлөлтийн дүнг 82,884.4 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163020117" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл.Төсвийн тогтвортой байдлын тухай хуулийн 16 дугаар зүйлд заасны дагуу Төсвийн тогтворжуулалтын санд 2018 оны төсвийн жилд хуримтлуулах хөрөнгийн хэмжээг 122,747.2 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163890911" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">10 дугаар зүйл.Ирээдүйн өв сангийн тухай хуулийн 7 дугаар зүйлд заасны дагуу Ирээдүйн өв санд 2018 оны төсвийн жилд хуримтлуулах хөрөнгийн хэмжээг 508,744.3 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163129414" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">11 дүгээр зүйл.Ирээдүйн өв сангийн тухай хуулийг дагаж мөрдөх журмын тухай хуулийн 2 дугаар зүйлд заасны дагуу 2018 оны төсвийн жилд Ирээдүйн өв сангийн эх үүсвэрээс улсын төсөвт олгох шилжүүлгийн хэмжээг 100,000.0 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163746424" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">12 дугаар зүйл.Ирээдүйн өв сангийн тухай хуулийг дагаж мөрдөх журмын тухай хуулийн 3 дугаар зүйлд заасны дагуу 2018 оны төсвийн жилд Ирээдүйн өв сангийн эх үүсвэрээс улсын төсөвт төлөх өглөг барагдуулалтын хэмжээг 408,744.3 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163937248" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">13 дугаар зүйл.Засгийн газрын 2018 оны төсвийн жилд нэмэгдүүлэх өр болон өрийн баталгааны дээд хэмжээг 2,583,181.9 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163552155" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">14 дүгээр зүйл.Засгийн газар Төсвийн тогтвортой байдлын тухай хуулийн 19.3 дахь хэсэгт заасан Засгийн газрын өрийн хязгаарт багтаан өрийн зохицуулалтын үйл ажиллагааг авч хэрэгжүүлнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163224162" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163842018" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">ОРОН НУТГИЙН ТӨСӨВТ ОЛГОХ САНХҮҮГИЙН ДЭМЖЛЭГ,ОРОН НУТГИЙН ТӨСВӨӨС ТӨВЛӨРҮҮЛЭХ ОРЛОГО, ОРОН НУТГИЙН ХӨГЖЛИЙН НЭГДСЭН САН БОЛОН УЛСЫН ТӨСВӨӨС ОРОН НУТГИЙН ХӨГЖЛИЙН САНД ОЛГОХ ОРЛОГЫН ШИЛЖҮҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163116661" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">15 дугаар зүйл.Монгол Улсын 2018 оны төсвийн жилд орон нутгийн төсөвт олгох санхүүгийн дэмжлэгийн хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163810157" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 617px;" border="1" width="617" cellspacing="0" cellpadding="0" align="center">
+<table style="width: 617px;" border="1" width="617" cellspacing="0" cellpadding="0" align="center"><tbody>
+<tr>
+<td style="width: 57px; height: 35px;"><p align="center">Д/д</p></td>
+<td style="width: 390px; height: 35px;"><p align="center">Аймаг</p></td>
+<td style="width: 170px; height: 35px;">
+<p align="center">Олгох санхүүгийн дэмжлэгийн хэмжээ</p>
+<p align="center">/сая төгрөгөөр/</p>
+</td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">1</p></td>
+<td style="width: 390px; height: 16px;" nowrap><p>Архангай</p></td>
+<td style="width: 170px; height: 16px;" nowrap><p align="right">15,235.5</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">2</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Баян-Өлгий</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">16,407.9</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">3</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Баянхонгор</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">14,363.2</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">4</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Говь-Алтай</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">11,267.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">5</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Дорнод</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">4,591.1</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">6</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Дундговь</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">7,310.2</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">7</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Завхан</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">13,131.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">8</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Өвөрхангай</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">14,123.7</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">9</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Сүхбаатар</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">6,961.2</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">10</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Сэлэнгэ</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">6,945.2</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">11</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Төв</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">9,930.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">12</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Увс</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">15,833.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">13</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Ховд</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">11,944.8</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">14</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Хөвсгөл</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">20,846.5</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">15</p></td>
+<td style="width: 390px; height: 17px;" nowrap><p>Хэнтий</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">11,810.0</p></td>
+</tr>
+<tr>
+<td style="width: 446px; height: 17px;" colspan="2" nowrap><p align="center">Нийт дүн</p></td>
+<td style="width: 170px; height: 17px;" nowrap><p align="right">180,700.9</p></td>
+</tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1612258163188297" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">16 дугаар зүйл.2018 оны төсвийн жилд орон нутгийн төсвөөс улсын төсөвт төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163233446" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 622px;" border="1" width="622" cellspacing="0" cellpadding="0" align="center"><tbody>
+<tr>
+<td style="width: 54px;"><p>Д/д</p></td>
+<td style="width: 389px;">
+<p align="center"> </p>
+<p align="center">Аймаг</p>
+</td>
+<td style="width: 179px;">
+<p align="center">Төвлөрүүлэх орлогын хэмжээ </p>
+<p align="center">/сая төгрөгөөр/</p>
+</td>
+</tr>
+<tr>
+<td style="width: 54px;"><p align="center">1</p></td>
+<td style="width: 389px;"><p>Дорноговь</p></td>
+<td style="width: 179px;"><p align="right">2,124.1</p></td>
+</tr>
+<tr>
+<td style="width: 54px;"><p align="center">2</p></td>
+<td style="width: 389px;"><p>Өмнөговь</p></td>
+<td style="width: 179px;"><p align="right">66,099.7</p></td>
+</tr>
+<tr>
+<td style="width: 54px;"><p align="center">3</p></td>
+<td style="width: 389px;"><p>Дархан-Уул</p></td>
+<td style="width: 179px;"><p align="right">458.9</p></td>
+</tr>
+<tr>
+<td style="width: 54px;"><p align="center">4</p></td>
+<td style="width: 389px;"><p>Улаанбаатар</p></td>
+<td style="width: 179px;"><p align="right">208,528.9</p></td>
+</tr>
+<tr>
+<td style="width: 54px;"><p align="center">5</p></td>
+<td style="width: 389px;"><p>Орхон</p></td>
+<td style="width: 179px;"><p align="right">12,016.8</p></td>
+</tr>
+<tr>
+<td style="width: 443px;" colspan="2"><p align="center">Нийт дүн</p></td>
+<td style="width: 179px;"><p align="right">289,228.4</p></td>
+</tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163058372" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">17 дугаар зүйл.2018 оны төсвийн жилд Орон нутгийн хөгжлийн нэгдсэн сан болон улсын төсвөөс Орон нутгийн хөгжлийн санд олгох орлогын шилжүүлэг, орон нутгийн хөгжлийн сангаас санхүүжих урсгал зарлагын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163393026" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 619px;" border="1" width="619" cellspacing="0" cellpadding="0" align="center"><tbody>
+<tr>
+<td style="width: 59px;"><p>Д/д</p></td>
+<td style="width: 387px;">
+<p align="center"> </p>
+<p align="center">Аймаг</p>
+</td>
+<td style="width: 173px;">
+<p align="center">Шилжүүлгийн хэмжээ </p>
+<p align="center">/сая төгрөгөөр/</p>
+</td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">1</p></td>
+<td style="width: 387px;"><p>Архангай</p></td>
+<td style="width: 173px;"><p align="right">3,597.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p>Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">554.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">2</p></td>
+<td style="width: 387px;"><p>Баян-Өлгий</p></td>
+<td style="width: 173px;"><p align="right">4,940.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">370.9</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">3</p></td>
+<td style="width: 387px;"><p>Баянхонгор</p></td>
+<td style="width: 173px;"><p align="right">3,795.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">636.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">4</p></td>
+<td style="width: 387px;"><p>Булган</p></td>
+<td style="width: 173px;"><p align="right">2,312.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">503.0</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">5</p></td>
+<td style="width: 387px;"><p>Говь-Алтай</p></td>
+<td style="width: 173px;"><p align="right">3,399.3</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">488.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">6</p></td>
+<td style="width: 387px;"><p>Дорноговь</p></td>
+<td style="width: 173px;"><p align="right">3,275.6</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">280.0</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">7</p></td>
+<td style="width: 387px;"><p>Дорнод</p></td>
+<td style="width: 173px;"><p align="right">3,650.4</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">554.0</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">8</p></td>
+<td style="width: 387px;"><p>Дундговь</p></td>
+<td style="width: 173px;"><p align="right">2,075.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">313.9</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">9</p></td>
+<td style="width: 387px;"><p>Завхан</p></td>
+<td style="width: 173px;"><p align="right">3,471.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">320.8</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">10</p></td>
+<td style="width: 387px;"><p>Өвөрхангай</p></td>
+<td style="width: 173px;"><p align="right">4,374.3</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">536.4</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">11</p></td>
+<td style="width: 387px;"><p>Өмнөговь</p></td>
+<td style="width: 173px;"><p align="right">3,387.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">365.0</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">12</p></td>
+<td style="width: 387px;"><p>Сүхбаатар</p></td>
+<td style="width: 173px;"><p align="right">2,666.1</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">500.4</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">13</p></td>
+<td style="width: 387px;"><p>Сэлэнгэ</p></td>
+<td style="width: 173px;"><p align="right">3,838.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">473.8</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">14</p></td>
+<td style="width: 387px;"><p>Төв</p></td>
+<td style="width: 173px;"><p align="right">3,211.9</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">593.5</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">15</p></td>
+<td style="width: 387px;"><p>Увс</p></td>
+<td style="width: 173px;"><p align="right">4,227.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">464.1</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">16</p></td>
+<td style="width: 387px;"><p>Ховд</p></td>
+<td style="width: 173px;"><p align="right">4,423.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">602.1</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">17</p></td>
+<td style="width: 387px;"><p>Хөвсгөл</p></td>
+<td style="width: 173px;"><p align="right">5,455.4</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">921.8</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">18</p></td>
+<td style="width: 387px;"><p>Хэнтий</p></td>
+<td style="width: 173px;"><p align="right">3,110.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">617.4</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">19</p></td>
+<td style="width: 387px;"><p>Дархан-Уул</p></td>
+<td style="width: 173px;"><p align="right">2,933.2</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">737.6</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">20</p></td>
+<td style="width: 387px;"><p>Улаанбаатар</p></td>
+<td style="width: 173px;"><p align="right">16,258.5</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">301.0</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">21</p></td>
+<td style="width: 387px;"><p>Орхон</p></td>
+<td style="width: 173px;"><p align="right">3,504.9</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">423.7</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center">22</p></td>
+<td style="width: 387px;"><p>Говь-Сүмбэр</p></td>
+<td style="width: 173px;"><p align="right">644.6</p></td>
+</tr>
+<tr>
+<td style="width: 59px;"><p align="center"> </p></td>
+<td style="width: 387px;"><p style="margin-left: 36pt;">Үүнээс: Урсгал зарлагыг санхүүжүүлэх</p></td>
+<td style="width: 173px;"><p align="right">93.1</p></td>
+</tr>
+<tr>
+<td style="width: 446px;" colspan="2"><p align="center">Нийт дүн</p></td>
+<td style="width: 173px;"><p align="right">88,555.0</p></td>
+</tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163415294" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ДӨРӨВДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163126253" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>БУСАД ЗҮЙЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163997729" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">18 дугаар зүйл."Төсвийн ерөнхийлөн захирагч нарын 2018 онд хэрэгжүүлэх хөтөлбөр, хөтөлбөрийн үр дүнгийн талаархи чанарын болон тоо хэмжээний үзүүлэлт"-ийг 1 дүгээр хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163037850" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">19 дүгээр зүйл."Монгол Улсын төсвийн хөрөнгөөр 2018 онд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалт"-ыг 2 дугаар хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163046465" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">20 дугаар зүйл.Монгол Улсын төсвийн хөрөнгөөр 2018 онд санхүүжүүлэх "Барих-Шилжүүлэх" концессын төрлөөр хэрэгжүүлсэн төсөл, арга хэмжээ, барилга байгууламжийн эргэн төлөлтийн жагсаалтыг 3 дугаар хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163861211" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">21 дүгээр зүйл.Олон улсын байгууллагын төсөл, хөтөлбөрөөс 2018 онд сумын Орон нутгийн хөгжлийн санд олгох урамшуулал, дэмжлэгийг 4 дүгээр хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163181269" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">22 дугаар зүйл.Энэ хуулийг 2018 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1612258163976442" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА М.ЭНХБОЛД</div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

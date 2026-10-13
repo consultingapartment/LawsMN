@@ -1,0 +1,320 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467146983" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467357127" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2023 оны 11 сарын 10 өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467072220" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Төрийн ордон, Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467958317" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; "><div style="text-align:center"><strong>НИЙГМИЙН ДААТГАЛЫН САНГИЙН</strong></div></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467791975" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">2024 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467713117" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467204555" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НИЙТЛЭГ ҮНДЭСЛЭЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467966105" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467195910" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Нийгмийн даатгалын санд 2024 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах төсвийн хэмжээ, төсөв зарцуулах эрх олгохтой холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467225280" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Нийгмийн даатгалын сангийн 2024 оны төсвийн хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467860809" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Нийгмийн даатгалын сангийн 2024 оны төсвийн хууль тогтоомж нь Төсвийн тухай хууль, Төсвийн тогтвортой байдлын тухай хууль, Нийгмийн даатгалын ерөнхий хууль, энэ хууль болон эдгээр хуультай нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467528121" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467487942" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; ">НИЙГМИЙН ДААТГАЛЫН САНГИЙН 2024 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467843274" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Нийгмийн даатгалын санд 2024 оны төсвийн жилд төсвийн ерөнхийлөн захирагч доор дурдсан хэмжээтэй орлого төвлөрүүлнэ:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467179362" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:5.4pt; width:468.55pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:5.4pt; width:468.55pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:17.85pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:340.25pt">
+ <p style="text-align:center">Орлогын төрөл</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:25.5pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:center">Дүн /сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:17.85pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:340.25pt">
+ <p>Хөдөлмөр, нийгмийн хамгааллын сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">5,893,277.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:340.25pt">
+ <p>1.1.Ажил олгогчийн төлөх шимтгэл</p>
+ </td>
+ <td style="height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">2,563,916.6</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:340.25pt">
+ <p>1.2.Ажиллагчдаас төлөх шимтгэл</p>
+ </td>
+ <td style="height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">1,833,539.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:340.25pt">
+ <p>1.3.Эхийн хүүхэд асрах чөлөөтэй хугацааны шимтгэл</p>
+ </td>
+ <td style="height:15.75pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">21,034.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:340.25pt">
+ <p>1.4.Цаатан иргэдийн нийгмийн даатгалын шимтгэл</p>
+ </td>
+ <td style="height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">237.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15.75pt; vertical-align:bottom; width:340.25pt">
+ <p>1.5.Сайн дурын даатгуулагчаас төлөх шимтгэл</p>
+ </td>
+ <td style="height:15.75pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">258,491.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:26.25pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:26.25pt; vertical-align:bottom; width:340.25pt">
+ <p>1.6.Гадаадад хөдөлмөрийн гэрээгээр ажиллаж байгаа иргэдийн төлөх шимтгэл</p>
+ </td>
+ <td style="height:26.25pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right"> </p>
+
+ <p style="text-align:right">4,954.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:26.25pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:26.25pt; vertical-align:bottom; width:340.25pt">
+ <p>1.7.Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний улмаас хөгжлийн бэрхшээлтэй болсон даатгуулагчийн төлөх шимтгэл</p>
+ </td>
+ <td style="height:26.25pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right"> </p>
+
+ <p style="text-align:right">2,809.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:340.25pt">
+ <p>1.8.Бусад орлого</p>
+ </td>
+ <td style="height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">33,319.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:17.85pt">
+ <p> </p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:340.25pt">
+ <p>1.9.Төр хариуцах иргэдийн тэтгэвэр болон шимтгэлийн хөнгөлөлтийн татаас</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right"> </p>
+
+ <p style="text-align:right">1,174,974.0</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:368.9pt">
+ <p style="text-align:center">Нийт орлого</p>
+ </td>
+ <td style="height:15pt; vertical-align:middle; width:77.3pt">
+ <p style="text-align:right">5,893,277.1</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1703042467561798" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Нийгмийн даатгалын сангийн төсөвт 2024 оны төсвийн жилд төсвийн ерөнхийлөн захирагч доор дурдсан хэмжээтэй эргэн төлөх төлбөр төлнө:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467974486" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:5.4pt; width:468.55pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:5.4pt; width:468.55pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:10.75pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:10.75pt; vertical-align:middle; width:329.4pt">
+ <p style="text-align:center">Төсвийн ерөнхийлөн захирагч</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; height:10.75pt; vertical-align:middle; width:81.35pt">
+ <p style="text-align:center">Дүн</p>
+
+ <p style="text-align:center">/сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:top; width:24.65pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:top; width:329.4pt">
+ <p>Хөдөлмөр, нийгмийн хамгааллын сайд</p>
+ </td>
+ <td style="border-left-style:solid; border-left-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:13.5pt; vertical-align:top; width:81.35pt">
+ <p style="text-align:right">67,232.2</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1703042467720427" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.2024 оны төсвийн жилд төсвийн ерөнхийлөн захирагч доор дурдсан хэмжээтэй төсөв зарцуулна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467048349" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:5.4pt; width:473.85pt">
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse; border:0.75pt solid #000000; margin-left:5.4pt; width:473.85pt"><tbody>
+<tr>
+<td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">Д/д</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; height:25.5pt; vertical-align:middle; width:333.45pt">
+ <p style="text-align:center">Зарлагын төрөл</p>
+ </td>
+ <td style="border-bottom-style:solid; border-bottom-width:0.75pt; height:25.5pt; vertical-align:middle; width:82.6pt">
+ <p style="text-align:center">Дүн /сая төгрөгөөр/</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:middle; width:24.65pt">
+ <p style="text-align:center">1</p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>Хөдөлмөр, нийгмийн хамгааллын сайд</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right">5,188,403.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>1.1.Тэтгэврийн даатгалын сан</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right">4,741,061.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>1.2.Тэтгэмжийн даатгалын сан</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right">262,434.5</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>1.3.Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний даатгалын сан</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right"> </p>
+
+ <p style="text-align:right">61,900.1</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>1.4.Ажилгүйдлийн даатгалын сан</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right">123,007.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>1.5.Үйл ажиллагааны урсгал зардал</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right">0.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:24.65pt">
+ <p> </p>
+ </td>
+ <td style="border-right-style:solid; border-right-width:0.75pt; height:15pt; vertical-align:bottom; width:333.45pt">
+ <p>1.6.Даатгуулагчид буцаан олгох нийгмийн даатгалын шимтгэлийн зардал</p>
+ </td>
+ <td style="height:15pt; vertical-align:bottom; width:82.6pt">
+ <p style="text-align:right">0.0</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="border-right-style:solid; border-right-width:0.75pt; border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:bottom; width:368.9pt">
+ <p style="text-align:center">Нийт зарлага</p>
+ </td>
+ <td style="border-top-style:solid; border-top-width:0.75pt; height:15pt; vertical-align:middle; width:82.6pt">
+ <p style="text-align:right">5,188,403.3</p>
+ </td>
+ </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1703042467010180" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Нийгмийн даатгалын сангийн чөлөөт үлдэгдлээс Засгийн газрын урт хугацаат /нэг жил болон түүнээс дээш/ бонд, Монголбанкны үнэт цаас худалдан авахад зарцуулах хөрөнгийн доод хэмжээг 300,000.0 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467429783" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Энэ хуулийг 2024 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1703042467786242" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДЭД ДАРГА Л.МӨНХБААТАР</div></div>
+</table></div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

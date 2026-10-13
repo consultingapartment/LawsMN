@@ -1,0 +1,1031 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692484523" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692837507" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2015 оны 11 дүгээр сарын 13-ны өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692390215" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692630630" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">НИЙГМИЙН ДААТГАЛЫН САНГИЙН 2016 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692738831" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692746502" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>НИЙТЛЭГ ҮНДЭСЛЭЛ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692140404" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692883619" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Нийгмийн даатгалын санд 2016 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах төсвийн хэмжээ, төсөв зарцуулах эрх олгохтой холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692741129" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Нийгмийн даатгалын сангийн 2016 оны төсвийн тухай хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692997817" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Нийгмийн даатгалын сангийн 2016 оны төсвийн тухай хууль тогтоомж нь Төсвийн тухай хууль, Төсвийн тогтвортой байдлын тухай хууль, Нийгмийн даатгалын тухай хууль, энэ хууль болон эдгээр хуультай нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692812605" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; "><p>ХОЁРДУГААР БҮЛЭГ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640711450224956" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>НИЙГМИЙН ДААТГАЛЫН САНГИЙН 2016 ОНЫ ТӨСВИЙН ОРЛОГО, ЗАРЛАГА</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692325156" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Нийгмийн даатгалын санд 2016 оны төсвийн жилд төсвийн ерөнхийлөн захирагчдын төвлөрүүлэх орлогын хэмжээг доор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692315292" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="0"><tbody>
+<tr>
+<td style="width:42px;"> <p align="center"> Д/д</p> </td> <td style="width:396px;"> <p align="center"> Орлогын төрөл</p> </td> <td style="width:170px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> 1</p> </td> <td style="width:396px;"> <p> Хөдөлмөр, нийгмийн хамгааллын сайд</p> </td> <td style="width:170px;"> <p align="center"> 1,257,548.4</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.1.Аж ахуйн нэгж, байгууллагаас төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 463,849.7</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.2.Ажиллагсдаас төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 469,978.1</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.3.Төсөвт байгууллагаас төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 157,189.6</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.4.Нөхөн олговор авагчийн нийгмийн даатгалын шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 0.5</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.5.Цаатан иргэдийн нийгмийн даатгалын шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 41.6</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.6.Төрөөс эрүүл мэндийн даатгалын шимтгэлийг хариуцах иргэдийн эрүүл мэндийн даатгалын шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 44,967.4</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.7.Сайн дурын даатгуулагчаас төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 41,327.3</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.8.Эрүүл мэндийн даатгалын бусад даатгуулагчийн төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 22,868.9</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.9.Гадаадад хөдөлмөрийн гэрээгээр ажиллаж байгаа иргэдийн төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 2,904.0</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.10.Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний улмаас хөгжлийн бэрхшээлтэй болсон даатгуулагчийн төлөх шимтгэл</p> </td> <td style="width:170px;"> <p align="center"> 1,101.7</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 1.11.Бусад орлого</p> </td> <td style="width:170px;"> <p align="center"> 53,319.8</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> 2</p> </td> <td style="width:396px;"> <p> Сангийн сайд</p> </td> <td style="width:170px;"> <p align="center"> 494,879.0</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> 2.1.Улсын төсвөөс олгох санхүүгийн дэмжлэг</p> </td> <td style="width:170px;"> <p align="center"> 494,879.0</p> </td> </tr>
+<tr>
+<td style="width:42px;"> <p align="center"> </p> </td> <td style="width:396px;"> <p> Нийт орлого</p> </td> <td style="width:170px;"> <p align="center"> 1,752,427.5</p> </td> </tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692746196" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2016 оны 9 дүгээр сарын 9-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692858472" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<table border="1" cellpadding="0" cellspacing="0" style="width:623px"></table>
+<table border="1" cellpadding="0" cellspacing="0" style="width:623px"><tbody>
+<tr>
+<td style="width:42px">
+ <p><s>Д/д</s></p>
+ </td>
+ <td style="width:456px">
+ <p><s>Орлогын төрөл</s></p>
+ </td>
+ <td style="width:125px">
+ <p><s>Дүн</s></p>  <p><s>/сая төгрөгөөр/</s></p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="7" style="height:18px; width:42px">
+ <p><s>1</s></p>
+ </td>
+ <td style="height:18px; width:456px">
+ <p><s>Хүн амын хөгжил, нийгмийн хамгааллын сайд</s></p>
+ </td>
+ <td style="height:18px; width:125px">
+ <p><s>1,329,851.1</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:22px; width:456px">
+ <p><s>1.1.Аж ахуйн нэгж, байгууллагаас төлөх шимтгэл</s></p>
+ </td>
+ <td style="height:22px; width:125px">
+ <p><s>463,849.7</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p><s>1.2.Ажиллагсдаас төлөх шимтгэл</s></p>
+ </td>
+ <td style="width:125px">
+ <p><s>538,590.8</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p><s>1.3.Төсөвт байгууллагаас төлөх шимтгэл</s></p>
+ </td>
+ <td style="width:125px">
+ <p><s>160,845.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p><s>1.4.Нөхөн олговор авагчийн нийгмийн даатгалын шимтгэл</s></p>
+ </td>
+ <td style="width:125px">
+ <p><s>0.5</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p><s>1.5.Цаатан иргэдийн нийгмийн даатгалын шимтгэл</s></p>
+ </td>
+ <td style="width:125px">
+ <p><s>29.5</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p>1.6.Төрөөс эрүүл мэндийн даатгалын шимтгэлийг хариуцах иргэдийн эрүүл мэндийн даатгалын шимтгэл</p>
+ </td>
+ <td style="width:125px">
+ <p>45,014.0</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="5" style="width:42px"> </td>
+ <td style="width:456px">
+ <p>1.7.Сайн дурын даатгуулагчаас төлөх шимтгэл</p>
+ </td>
+ <td style="width:125px">
+ <p>41,327.3</p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p>1.8.Эрүүл мэндийн даатгалын бусад даатгуулагчийн төлөх шимтгэл</p>
+ </td>
+ <td style="width:125px">
+ <p>22,868.9</p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:456px">
+ <p>1.9.Гадаадад хөдөлмөрийн гэрээгээр ажиллаж байгаа иргэдийн төлөх шимтгэл</p>
+ </td>
+ <td style="height:40px; width:125px">
+ <p>2,904.0</p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p>1.10.Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний улмаас хөгжлийн бэрхшээлтэй болсон даатгуулагчийн төлөх шимтгэл</p>
+ </td>
+ <td style="width:125px">
+ <p>1,101.7</p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p>1.11.Бусад орлого</p>
+ </td>
+ <td style="width:125px">
+ <p>53,319.8</p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="width:42px">
+ <p>2</p>
+ </td>
+ <td style="width:456px">
+ <p>Сангийн сайд</p>
+ </td>
+ <td style="width:125px">
+ <p>321,643.8</p>
+ </td>
+ </tr>
+<tr>
+<td style="width:456px">
+ <p>2.1.Улсын төсвөөс олгох санхүүгийн дэмжлэг</p>
+ </td>
+ <td style="width:125px">
+ <p>321,643.8</p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="width:498px">
+ <p>Нийт орлого</p>
+ </td>
+ <td style="width:125px">
+ <p>1,651,495.0</p>
+ </td>
+ </tr>
+</tbody></table>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692712585" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Нийгмийн даатгалын сангийн 2016 оны төсвийн жилд төсвийн ерөнхийлөн захирагчид доор дурдсан төсөв зарцуулах эрх олгосугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692271537" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:632px;" width="632">
+<table border="1" cellpadding="0" cellspacing="0" style="width:632px;" width="632"><tbody>
+<tr>
+<td nowrap style="width:42px;height:37px;"> <p align="center"> Д/д</p> </td> <td colspan="2" nowrap style="width:462px;height:37px;"> <p align="center"> Зарлагын төрөл</p> </td> <td style="width:128px;height:37px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:18px;"> <p align="center"> 1</p> </td> <td colspan="2" nowrap style="width:462px;height:18px;"> <p> Хөдөлмөр, нийгмийн хамгааллын сайд</p> </td> <td nowrap style="width:128px;height:18px;"> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:17px;"> </td> <td nowrap style="width:50px;height:17px;"> </td> <td nowrap style="width:412px;height:17px;"> <p> 1.1.Тэтгэврийн даатгалын сан</p> </td> <td nowrap style="width:128px;height:17px;"> <p align="center"> 1,305,299.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:17px;"> </td> <td nowrap style="width:50px;height:17px;"> </td> <td nowrap style="width:412px;height:17px;"> <p> 1.2.Тэтгэмжийн даатгалын сан</p> </td> <td nowrap style="width:128px;height:17px;"> <p align="center"> 103,110.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:40px;"> </td> <td nowrap style="width:50px;height:40px;"> </td> <td nowrap style="width:412px;height:40px;"> <p> 1.3.Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний даатгалын сан</p> </td> <td nowrap style="width:128px;height:40px;"> <p align="center"> 38,133.3</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:18px;"> </td> <td nowrap style="width:50px;height:18px;"> </td> <td nowrap style="width:412px;height:18px;"> <p> 1.4.Ажилгүйдлийн даатгалын сан</p> </td> <td nowrap style="width:128px;height:18px;"> <p align="center"> 27,701.4</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:18px;"> </td> <td nowrap style="width:50px;height:18px;"> </td> <td nowrap style="width:412px;height:18px;"> <p> 1.5.Эрүүл мэндийн даатгалын сан</p> </td> <td nowrap style="width:128px;height:18px;"> <p align="center"> 267,514.7</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:4px;"> </td> <td nowrap style="width:50px;height:4px;"> </td> <td nowrap style="width:412px;height:4px;"> <p> 1.6.Шүүхийн шийдвэр биелүүлэх албаны төлбөр</p> </td> <td nowrap style="width:128px;height:4px;"> <p align="center"> 118.8</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:18px;"> </td> <td nowrap style="width:50px;height:18px;"> </td> <td nowrap style="width:412px;height:18px;"> <p> 1.7.Үйл ажиллагааны урсгал зардал</p> </td> <td nowrap style="width:128px;height:18px;"> <p align="center"> 19,932.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:18px;"> </td> <td nowrap style="width:50px;height:18px;"> </td> <td nowrap style="width:412px;height:18px;"> <p> 1.8.Хөрөнгийн зардал</p> </td> <td nowrap style="width:128px;height:18px;"> <p align="center"> 3,003.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:42px;height:17px;"> </td> <td nowrap style="width:50px;height:17px;"> </td> <td nowrap style="width:412px;height:17px;"> <p> Нийт зарлага</p> </td> <td nowrap style="width:128px;height:17px;"> <p align="center"> 1,764,814.1</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1609068692619324" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2016 оны 9 дүгээр сарын 9-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692977202" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><strike><table border="1" cellpadding="0" cellspacing="0"><tbody>
+<tr>
+<td style="width:42px;"> <p align="center"> Д/д</p> </td> <td style="width:456px;"> <p align="center"> Зарлагын төрөл</p> </td> <td style="width:156px;"> <p align="center"> Дүн</p> <p align="center"> /сая төгрөгөөр/</p> </td> </tr>
+<tr>
+<td rowspan="9" style="width:42px;"> <p align="center"> 1</p> </td> <td style="width:456px;"> <p> Хүн амын хөгжил, нийгмийн хамгааллын сайд</p> </td> <td style="width:156px;"> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.1.Тэтгэврийн даатгалын сан</p> </td> <td style="width:156px;"> <p align="center"> 1,252,775.2</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.2.Тэтгэмжийн даатгалын сан</p> </td> <td style="width:156px;"> <p align="center"> 100,102.8</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.3.Үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчний даатгалын сан</p> </td> <td style="width:156px;"> <p align="center"> 37,328.3</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.4.Ажилгүйдлийн даатгалын сан</p> </td> <td style="width:156px;"> <p align="center"> 27,701.4</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.5.Эрүүл мэндийн даатгалын сан</p> </td> <td style="width:156px;"> <p align="center"> 244,114.7</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.6.Шүүхийн шийдвэр биелүүлэх албаны төлбөр</p> </td> <td style="width:156px;"> <p align="center"> 118.8</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.7.Үйл ажиллагааны урсгал зардал</p> </td> <td style="width:156px;"> <p align="center"> 19,845.9</p> </td> </tr>
+<tr>
+<td style="width:456px;"> <p> 1.8.Хөрөнгийн зардал</p> </td> <td style="width:156px;"> <p align="center"> 25,104.8</p> </td> </tr>
+<tr>
+<td colspan="2" style="width:498px;"> <p> Нийт зарлага</p> </td> <td style="width:156px;"> <p align="center"> 1,707,091.8</p> </td> </tr>
+</tbody></table></strike></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692815911" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ<br>БУСАД ЗҮЙЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692511113" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл."Нийгмийн даатгалын сангийн хөрөнгөөр 2016 онд санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалт"-ыг хавсралтаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692287908" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Нийгмийн даатгалын сангийн хуримтлалын сангаас Засгийн газрын урт хугацаат /нэг жил болон түүнээс дээш/ бонд худалдан авахад зарцуулах хөрөнгийн дээд хэмжээг 400,000.0 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692261806" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Энэ хуулийг 2016 оны 01 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692637137" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА З.ЭНХБОЛД</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096955198781" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Нийгмийн даатгалын сангийн 2016 оны төсвийн тухай хуульд өөрчлөлт оруулах тухай хуулийн хавсралт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="16096955198801" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">НИЙГМИЙН ДААТГАЛЫН САНГИЙН ХӨРӨНГӨӨР 2016 ОНД САНХҮҮЖҮҮЛЭХ ХӨРӨНГӨ ОРУУЛАЛТЫН ТӨСӨЛ, АРГА ХЭМЖЭЭ, БАРИЛГА БАЙГУУЛАМЖИЙН ЖАГСААЛТ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692978922" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; "><table align="center" border="1" cellpadding="0" cellspacing="0" style="width:738px;" width="738">
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:738px;" width="738"><tbody>
+<tr>
+<td rowspan="2" style="width:80px;height:28px;"> <p align="center"> Д/д</p> </td> <td rowspan="2" style="width:288px;height:28px;"> <p align="center"> Төсөл, арга хэмжээний нэр, хүчин чадал, байршил</p> </td> <td colspan="2" style="width:161px;height:28px;"> <p align="center"> Хугацаа</p> </td> <td rowspan="2" style="width:82px;height:28px;"> <p align="center"> Төсөвт өртөг</p> </td> <td rowspan="2" style="width:126px;height:28px;"> <p align="center"> 2016 онд санхүүжсэн</p> </td> </tr>
+<tr>
+<td style="width:81px;height:35px;"> <p align="center"> Эхлэх</p> </td> <td style="width:80px;height:35px;"> <p align="center"> Дуусах</p> </td> </tr>
+<tr>
+<td style="width:80px;height:20px;"> <p align="center"> I</p> </td> <td style="width:288px;height:20px;"> <p> НИЙГМИЙН ДААТГАЛЫН САН</p> </td> <td style="width:81px;height:20px;"> </td> <td style="width:80px;height:20px;"> </td> <td style="width:82px;height:20px;"> <p align="center"> 3,003.1</p> </td> <td style="width:126px;height:20px;"> <p align="center"> 3,003.1</p> </td> </tr>
+<tr>
+<td style="width:80px;height:20px;"> <p align="center"> I.2</p> </td> <td nowrap style="width:288px;height:20px;"> <p> Их засвар</p> </td> <td nowrap style="width:81px;height:20px;"> </td> <td nowrap style="width:80px;height:20px;"> </td> <td nowrap style="width:82px;height:20px;"> <p align="center"> 1,042.7</p> </td> <td nowrap style="width:126px;height:20px;"> <p align="center"> 1,042.7</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.1</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Дорнод, Чойбалсан сум/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.2</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Дундговь, Мандалговь сум/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 42.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 42.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.3</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Завхан, Улиастай сум/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 180.8</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 180.8</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.2.4</p> </td> <td style="width:288px;height:38px;"> <p> Нийгмийн даатгалын тасгийн барилгын их засвар /Өмнөговь, Цогтцэций сум/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 20.5</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 20.5</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.5</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Увс, Улаангом сум/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 188.3</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 188.3</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.6</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Орхон, Баян-Өндөр сум/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 78.7</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 78.7</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.7</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Багануур дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 301.9</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 301.9</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.8</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Баянгол дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.9</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Хан-Уул дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 75.5</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 75.5</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.2.10</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын ерөнхий газрын их засвар /Улаанбаатар, Чингэлтэй дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:20px;"> <p align="center"> I.3</p> </td> <td style="width:288px;height:20px;"> <p> Тоног төхөөрмж</p> </td> <td style="width:81px;height:20px;"> </td> <td style="width:80px;height:20px;"> </td> <td style="width:82px;height:20px;"> <p align="center"> 1,845.3</p> </td> <td style="width:126px;height:20px;"> <p align="center"> 1,845.3</p> </td> </tr>
+<tr>
+<td style="width:80px;height:19px;"> <p align="center"> I.3.1</p> </td> <td style="width:288px;height:19px;"> <p> Компьютер, тоног төхөөрөмж</p> </td> <td style="width:81px;height:19px;"> </td> <td style="width:80px;height:19px;"> </td> <td style="width:82px;height:19px;"> <p align="center"> 100.0</p> </td> <td style="width:126px;height:19px;"> <p align="center"> 100.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.3.1.1</p> </td> <td style="width:288px;height:57px;"> <p> Ажлын компьютер, сүлжээний тоног төхөөрөмж /Улаанбаатар, Сүхбаатар дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.3.1.2</p> </td> <td style="width:288px;height:57px;"> <p> Мэдээллийн технологийн төвийн сүлжээний тоног төхөөрөмж /Улаанбаатар/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:20px;"> <p align="center"> I.3.2</p> </td> <td style="width:288px;height:20px;"> <p> Тавилга, эд хогшил</p> </td> <td style="width:81px;height:20px;"> </td> <td style="width:80px;height:20px;"> </td> <td style="width:82px;height:20px;"> <p align="center"> 785.3</p> </td> <td style="width:126px;height:20px;"> <p align="center"> 785.3</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.1</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Архангай/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 18.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 18.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.2</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Баян-Өлгий/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.3</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Баянхонгор/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.4</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Булган/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.5</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Говь-Алтай/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 12.3</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 12.3</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.6</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Дорноговь/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 15.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 15.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.7</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Дорнод/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.8</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Дундговь/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.9</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Завхан/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 30.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 30.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.10</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Өвөрхангай/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 20.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 20.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.11</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Сүхбаатар/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 20.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 20.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:44px;"> <p align="center"> I.3.2.12</p> </td> <td style="width:288px;height:44px;"> <p> Тавилга эд хогшил худалдан авах /Сэлэнгэ/</p> </td> <td style="width:81px;height:44px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:44px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:44px;"> <p align="center"> 30.0</p> </td> <td style="width:126px;height:44px;"> <p align="center"> 30.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:19px;"> <p align="center"> I.3.2.13</p> </td> <td style="width:288px;height:19px;"> <p> Тавилга, эд хогшил худалдан авах /Төв/</p> </td> <td style="width:81px;height:19px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:19px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:19px;"> <p align="center"> 10.0</p> </td> <td style="width:126px;height:19px;"> <p align="center"> 10.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:29px;"> <p align="center"> I.3.2.14</p> </td> <td style="width:288px;height:29px;"> <p> Тавилга, эд хогшил худалдан авах /Увс/</p> </td> <td style="width:81px;height:29px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:29px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:29px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:29px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:26px;"> <p align="center"> I.3.2.15</p> </td> <td style="width:288px;height:26px;"> <p> Тавилга, эд хогшил худалдан авах /Ховд/</p> </td> <td style="width:81px;height:26px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:26px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:26px;"> <p align="center"> 30.0</p> </td> <td style="width:126px;height:26px;"> <p align="center"> 30.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.16</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Хөвсгөл/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.17</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Хэнтий/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.18</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Дархан-Уул/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:31px;"> <p align="center"> I.3.2.19</p> </td> <td style="width:288px;height:31px;"> <p> Тавилга, эд хогшил худалдан авах /Орхон/</p> </td> <td style="width:81px;height:31px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:31px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:31px;"> <p align="center"> 20.0</p> </td> <td style="width:126px;height:31px;"> <p align="center"> 20.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:40px;"> <p align="center"> I.3.2.20</p> </td> <td style="width:288px;height:40px;"> <p> Тавилга, эд хогшил худалдан авах /Говьсүмбэр/</p> </td> <td style="width:81px;height:40px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:40px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:40px;"> <p align="center"> 15.0</p> </td> <td style="width:126px;height:40px;"> <p align="center"> 15.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.3.2.21</p> </td> <td style="width:288px;height:57px;"> <p> Нийслэлийн нийгмийн даатгалын газрын тавилга, эд хогшил худалдан авах /Улаанбаатар/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.22</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Баянгол дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 40.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 40.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.23</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Баянзүрх дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 20.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 20.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.24</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Хан-Уул дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 10.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 10.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.25</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Сонгинохайрхан дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.26</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Сүхбаатар дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.27</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Багануур дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 25.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 25.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.28</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Налайх дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 40.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 40.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.2.29</p> </td> <td style="width:288px;height:38px;"> <p> Тавилга, эд хогшил худалдан авах /Улаанбаатар, Багахангай дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 5.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 5.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.3.2.30</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын ерөнхий газрын тавилга, эд хогшил худалдан авах /Улаанбаатар/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 50.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 50.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:19px;"> <p align="center"> I.3.3</p> </td> <td style="width:288px;height:19px;"> <p> Автомашин</p> </td> <td style="width:81px;height:19px;"> </td> <td style="width:80px;height:19px;"> </td> <td style="width:82px;height:19px;"> <p align="center"> 960.0</p> </td> <td style="width:126px;height:19px;"> <p align="center"> 960.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:38px;"> <p align="center"> I.3.3.1</p> </td> <td style="width:288px;height:38px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Баянхонгор/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 90.0</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 90.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:39px;"> <p align="center"> I.3.3.2</p> </td> <td style="width:288px;height:39px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Булган/</p> </td> <td style="width:81px;height:39px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:39px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:39px;"> <p align="center"> 90.0</p> </td> <td style="width:126px;height:39px;"> <p align="center"> 90.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:42px;"> <p align="center"> I.3.3.3</p> </td> <td style="width:288px;height:42px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Дундговь/</p> </td> <td style="width:81px;height:42px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:42px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:42px;"> <p align="center"> 90.0</p> </td> <td style="width:126px;height:42px;"> <p align="center"> 90.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:39px;"> <p align="center"> I.3.3.4</p> </td> <td style="width:288px;height:39px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Увс/</p> </td> <td style="width:81px;height:39px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:39px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:39px;"> <p align="center"> 90.0</p> </td> <td style="width:126px;height:39px;"> <p align="center"> 90.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:44px;"> <p align="center"> I.3.3.5</p> </td> <td style="width:288px;height:44px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Хэнтий/</p> </td> <td style="width:81px;height:44px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:44px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:44px;"> <p align="center"> 90.0</p> </td> <td style="width:126px;height:44px;"> <p align="center"> 90.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:61px;"> <p align="center"> I.3.3.6</p> </td> <td style="width:288px;height:61px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Улаанбаатар, Баянгол дүүрэг/</p> </td> <td style="width:81px;height:61px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:61px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:61px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:61px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:64px;"> <p align="center"> I.3.3.7</p> </td> <td style="width:288px;height:64px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Улаанбаатар, Баянзүрх дүүрэг/</p> </td> <td style="width:81px;height:64px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:64px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:64px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:64px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:57px;"> <p align="center"> I.3.3.8</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Улаанбаатар, Хан-Уул дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:47px;"> <p align="center"> I.3.3.9</p> </td> <td style="width:288px;height:47px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Улаанбаатар, Чингэлтэй дүүрэг/</p> </td> <td style="width:81px;height:47px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:47px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:47px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:47px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:59px;"> <p align="center"> I.3.3.10</p> </td> <td style="width:288px;height:59px;"> <p> Нийгмийн даатгалын хэлтсийн автомашин /Улаанбаатар, Багануур дүүрэг/</p> </td> <td style="width:81px;height:59px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:59px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:59px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:59px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:41px;"> <p align="center"> I.3.3.11</p> </td> <td style="width:288px;height:41px;"> <p> Мэдээллийн технологийн төвийн автомашин /Улаанбаатар/</p> </td> <td style="width:81px;height:41px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:41px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:41px;"> <p align="center"> 55.0</p> </td> <td style="width:126px;height:41px;"> <p align="center"> 55.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:44px;"> <p align="center"> I.3.3.12</p> </td> <td style="width:288px;height:44px;"> <p> Нийгмийн даатгалын ерөнхий газрын автомашин /Улаанбаатар/</p> </td> <td style="width:81px;height:44px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:44px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:44px;"> <p align="center"> 180.0</p> </td> <td style="width:126px;height:44px;"> <p align="center"> 180.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:40px;"> <p align="center"> I.4</p> </td> <td style="width:288px;height:40px;"> <p> Техник, эдийн засгийн үндэслэл, зураг төсөв</p> </td> <td style="width:81px;height:40px;"> </td> <td style="width:80px;height:40px;"> </td> <td style="width:82px;height:40px;"> <p align="center"> 115.1</p> </td> <td style="width:126px;height:40px;"> <p align="center"> 115.1</p> </td> </tr>
+<tr>
+<td nowrap style="width:80px;height:41px;"> <p align="center"> I.4.1</p> </td> <td style="width:288px;height:41px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын зураг, төсөв /Өвөрхангай аймаг/</p> </td> <td style="width:81px;height:41px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:41px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:41px;"> <p align="center"> 33.5</p> </td> <td style="width:126px;height:41px;"> <p align="center"> 33.5</p> </td> </tr>
+<tr>
+<td nowrap style="width:80px;height:38px;"> <p align="center"> I.4.2</p> </td> <td style="width:288px;height:38px;"> <p> Нийгмийн даатгалын тасгийн барилгын зураг, төсөв /Баянгол дүүрэг/</p> </td> <td style="width:81px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:38px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:38px;"> <p align="center"> 21.6</p> </td> <td style="width:126px;height:38px;"> <p align="center"> 21.6</p> </td> </tr>
+<tr>
+<td nowrap style="width:80px;height:57px;"> <p align="center"> I.4.3</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засварын зураг, төсөв /Өмнөговь аймаг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:82px;height:57px;"> <p align="center"> 30.0</p> </td> <td style="width:126px;height:57px;"> <p align="center"> 30.0</p> </td> </tr>
+<tr>
+<td nowrap style="width:80px;height:57px;"> <p align="center"> I.4.4</p> </td> <td style="width:288px;height:57px;"> <p> Нийгмийн даатгалын хэлтсийн барилгын их засварын зураг, төсөв /Хан-Уул дүүрэг/</p> </td> <td style="width:81px;height:57px;"> <p align="center"> 2016</p> </td> <td style="width:80px;height:57px;"> <p align="center"> 2016</p> </td> <td nowrap style="width:82px;height:57px;"> <p align="center"> 30.0</p> </td> <td nowrap style="width:126px;height:57px;"> <p align="center"> 30.0</p> </td> </tr>
+<tr>
+<td style="width:80px;height:20px;"> </td> <td style="width:288px;height:20px;"> <p> НИЙТ</p> </td> <td style="width:81px;height:20px;"> </td> <td style="width:80px;height:20px;"> </td> <td style="width:82px;height:20px;"> <p align="center"> 3,003.1</p> </td> <td style="width:126px;height:20px;"> <p align="center"> 3,003.1</p> </td> </tr>
+</tbody></table>
+<div class="w-100 pull-left " data-parentid="" id="1609068692262529" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2016 оны 9 дүгээр сарын 9-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1640545905362610" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">
+<p><em><s>Нийгмийн даатгалын сангийн 2016 оны</s></em></p> <p><em><s>төсвийн тухай хуулийн хавсралт</s></em></p> <p><s>НИЙГМИЙН ДААТГАЛЫН САНГИЙН ХӨРӨНГӨӨР 2016 ОНД САНХҮҮЖҮҮЛЭХ ХӨРӨНГӨ ОРУУЛАЛТЫН ТӨСӨЛ, АРГА ХЭМЖЭЭНИЙ ЖАГСААЛТ</s></p> <p><s>/сая төгрөгөөр/</s></p>
+</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609068692789023" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">
+<table border="1" cellpadding="0" cellspacing="0" style="width:663px"></table>
+<table border="1" cellpadding="0" cellspacing="0" style="width:663px"><tbody>
+<tr>
+<td rowspan="2" style="height:20px; width:59px">
+ <p><s>д/д</s></p>
+ </td>
+ <td rowspan="2" style="height:20px; width:273px">
+ <p><s>Төсөл, арга хэмжээний нэр, байршил</s></p>
+ </td>
+ <td colspan="2" style="height:20px; width:133px">
+ <p><s>Хугацаа</s></p>
+ </td>
+ <td rowspan="2" style="height:20px; width:94px">
+ <p><s>Төсөвт өртөг</s></p>
+ </td>
+ <td rowspan="2" style="height:20px; width:104px">
+ <p><s>2016 онд санхүүжих</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:39px; width:63px">
+ <p><s>Эхлэх</s></p>
+ </td>
+ <td style="height:39px; width:70px">
+ <p><s>Дуусах</s></p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="height:36px; width:332px">
+ <p><s>I.НИЙГМИЙН ДААТГАЛЫН ЕРӨНХИЙ ГАЗАР</s></p>
+ </td>
+ <td style="height:36px; width:63px"> </td>
+ <td style="height:36px; width:70px"> </td>
+ <td style="height:36px; width:94px">
+ <p><s>5,304.8</s></p>
+ </td>
+ <td style="height:36px; width:104px">
+ <p><s>5,304.8</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:21px; width:59px">
+ <p><s>1.1</s></p>
+ </td>
+ <td style="height:21px; width:273px">
+ <p><s>I.Хөрөнгө оруулалт</s></p>
+ </td>
+ <td style="height:21px; width:63px"> </td>
+ <td style="height:21px; width:70px"> </td>
+ <td style="height:21px; width:94px">
+ <p><s>1,400.0</s></p>
+ </td>
+ <td style="height:21px; width:104px">
+ <p><s>1,400.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:59px"> </td>
+ <td style="height:20px; width:273px">
+ <p><s>Шилжих</s></p>
+ </td>
+ <td style="height:20px; width:63px"> </td>
+ <td style="height:20px; width:70px"> </td>
+ <td style="height:20px; width:94px">
+ <p><s>1,400.0</s></p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p><s>1,400.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.1.1</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилга /Улаанбаатар, Сүхбаатар дүүрэг/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2015</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>1,400.0</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>1,400.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:21px; width:59px">
+ <p><s>1.2</s></p>
+ </td>
+ <td style="height:21px; width:273px">
+ <p><s>II.Их засвар</s></p>
+ </td>
+ <td style="height:21px; width:63px"> </td>
+ <td style="height:21px; width:70px"> </td>
+ <td style="height:21px; width:94px">
+ <p><s>1,242.7</s></p>
+ </td>
+ <td style="height:21px; width:104px">
+ <p><s>1,242.7</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:59px"> </td>
+ <td style="height:20px; width:273px">
+ <p><s>Шинэ</s></p>
+ </td>
+ <td style="height:20px; width:63px"> </td>
+ <td style="height:20px; width:70px"> </td>
+ <td style="height:20px; width:94px">
+ <p><s>1,242.7</s></p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p><s>1,242.7</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.1</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Дорнод, Чойбалсан сум/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>50.0</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>50.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.2</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Дундговь, Мандалговь сум/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>42.0</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>42.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.3</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Завхан, Улиастай сум/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>180.8</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>180.8</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.4</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Өмнөговь, Даланзадгад сум/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>200.0</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>200.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.5</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын тасгийн барилгын их засвар /Өмнөговь, Цогтцэций сум/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>20.5</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>20.5</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.6</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Увс, Улаангом сум/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>188.3</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>188.3</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.7</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Орхон, Баян-Өндөр сум//</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>78.7</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>78.7</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.8</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Багануур дүүрэг/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>301.9</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>301.9</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.9</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Баянгол дүүрэг/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>50.0</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>50.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.2.10</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Хан-Уул дүүрэг/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>75.5</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>75.5</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:60px; width:59px">
+ <p><s>1.2.11</s></p>
+ </td>
+ <td style="height:60px; width:273px">
+ <p><s>Нийгмийн даатгалын хэлтсийн барилгын их засвар /Улаанбаатар, Чингэлтэй дүүрэг, Нийгмийн даатгалын ерөнхий газар/</s></p>
+ </td>
+ <td style="height:60px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:60px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:60px; width:94px">
+ <p><s>55.0</s></p>
+ </td>
+ <td style="height:60px; width:104px">
+ <p><s>55.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td rowspan="2" style="height:21px; width:59px">
+ <p><s>1.3</s></p>
+ </td>
+ <td style="height:21px; width:273px">
+ <p><s>III.Тоног төхөөрөмж</s></p>
+ </td>
+ <td style="height:21px; width:63px"> </td>
+ <td style="height:21px; width:70px"> </td>
+ <td style="height:21px; width:94px">
+ <p><s>2,473.3</s></p>
+ </td>
+ <td style="height:21px; width:104px">
+ <p><s>2,473.3</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:273px">
+ <p><s>Шинэ</s></p>
+ </td>
+ <td style="height:20px; width:63px"> </td>
+ <td style="height:20px; width:70px"> </td>
+ <td style="height:20px; width:94px">
+ <p><s>2,473.3</s></p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p><s>2,473.3</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.3.1</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын байгууллагуудын тоног төхөөрөмж /Аймаг, нийслэл/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>845.3</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>845.3</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:60px; width:59px">
+ <p><s>1.3.2</s></p>
+ </td>
+ <td style="height:60px; width:273px">
+ <p><s>Нийгмийн даатгалын байгууллагуудын автомашины парк шинэчлэл /Аймаг, нийслэл/</s></p>
+ </td>
+ <td style="height:60px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:60px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:60px; width:94px">
+ <p><s>870.0</s></p>
+ </td>
+ <td style="height:60px; width:104px">
+ <p><s>870.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:60px; width:59px">
+ <p><s>1.3.3</s></p>
+ </td>
+ <td style="height:60px; width:273px">
+ <p><s>Нийгмийн даатгалын байгууллагуудын иж бүрэн компьютер, тоног төхөөрөмж /Аймаг, нийслэл/</s></p>
+ </td>
+ <td style="height:60px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:60px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:60px; width:94px">
+ <p><s>650.0</s></p>
+ </td>
+ <td style="height:60px; width:104px">
+ <p><s>650.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:100px; width:59px">
+ <p><s>1.3.4</s></p>
+ </td>
+ <td style="height:100px; width:273px">
+ <p><s>Нийгмийн даатгалын байгууллагуудын үйлдвэрлэлийн осол, мэргэжлээс шалтгаалах өвчнөөс урьдчилан сэргийлэх кабинетын тоног төхөөрөмж /Аймаг, нийслэл/</s></p>
+ </td>
+ <td style="height:100px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:100px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:100px; width:94px">
+ <p><s>108.0</s></p>
+ </td>
+ <td style="height:100px; width:104px">
+ <p><s>108.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:21px; width:59px">
+ <p><s>1.4</s></p>
+ </td>
+ <td style="height:21px; width:273px">
+ <p><s>IV.ТЭЗҮ, зураг төсөл</s></p>
+ </td>
+ <td style="height:21px; width:63px"> </td>
+ <td style="height:21px; width:70px"> </td>
+ <td style="height:21px; width:94px">
+ <p><s>188.8</s></p>
+ </td>
+ <td style="height:21px; width:104px">
+ <p><s>188.8</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>1.4.1</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Нийгмийн даатгалын байгууллагуудын барилга, байгууламжийн зураг төсөл</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>188.8</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>188.8</s></p>
+ </td>
+ </tr>
+<tr>
+<td colspan="2" style="height:46px; width:332px">
+ <p><s>II.ЭРҮҮЛ МЭНДИЙН ДААТГАЛЫН ЕРӨНХИЙ ГАЗАР</s></p>
+ </td>
+ <td style="height:46px; width:63px"> </td>
+ <td style="height:46px; width:70px"> </td>
+ <td style="height:46px; width:94px">
+ <p><s>19,800.0</s></p>
+ </td>
+ <td style="height:46px; width:104px">
+ <p><s>19,800.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:21px; width:59px">
+ <p><s>2.3</s></p>
+ </td>
+ <td style="height:21px; width:273px">
+ <p><s>III. Тоног төхөөрөмж</s></p>
+ </td>
+ <td style="height:21px; width:63px"> </td>
+ <td style="height:21px; width:70px"> </td>
+ <td style="height:21px; width:94px">
+ <p><s>19,800.0</s></p>
+ </td>
+ <td style="height:21px; width:104px">
+ <p><s>19,800.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:20px; width:59px"> </td>
+ <td style="height:20px; width:273px">
+ <p><s>Шинэ</s></p>
+ </td>
+ <td style="height:20px; width:63px"> </td>
+ <td style="height:20px; width:70px"> </td>
+ <td style="height:20px; width:94px">
+ <p><s>19,800.0</s></p>
+ </td>
+ <td style="height:20px; width:104px">
+ <p><s>19,800.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:58px; width:59px">
+ <p><s>2.3.1</s></p>
+ </td>
+ <td style="height:58px; width:273px">
+ <p><s>Эрүүл мэндийн даатгалын байгууллагын тавилга, тоног төхөөрөмж /Улаанбаатар/</s></p>
+ </td>
+ <td style="height:58px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:58px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:58px; width:94px">
+ <p><s>120.6</s></p>
+ </td>
+ <td style="height:58px; width:104px">
+ <p><s>120.6</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>2.3.2</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Эрүүл мэндийн даатгалын байгууллагын автомашин /Улаанбаатар/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>90.0</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>90.0</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:40px; width:59px">
+ <p><s>2.3.3</s></p>
+ </td>
+ <td style="height:40px; width:273px">
+ <p><s>Эрүүл мэндийн даатгалын байгууллагын цахим карт /Улаанбаатар/</s></p>
+ </td>
+ <td style="height:40px; width:63px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:70px">
+ <p><s>2016</s></p>
+ </td>
+ <td style="height:40px; width:94px">
+ <p><s>19,589.4</s></p>
+ </td>
+ <td style="height:40px; width:104px">
+ <p><s>19,589.4</s></p>
+ </td>
+ </tr>
+<tr>
+<td style="height:31px; width:59px"> </td>
+ <td style="height:31px; width:273px">
+ <p><s>НИЙТ</s></p>
+ </td>
+ <td style="height:31px; width:63px"> </td>
+ <td style="height:31px; width:70px"> </td>
+ <td style="height:31px; width:94px">
+ <p><s>25,104.8</s></p>
+ </td>
+ <td style="height:31px; width:104px">
+ <p><s>25,104.8</s></p>
+ </td>
+ </tr>
+</tbody></table>
+</div></div>
+</table></div></div>
+</table></div></div>
+</div>
+</div></body>
+</html>

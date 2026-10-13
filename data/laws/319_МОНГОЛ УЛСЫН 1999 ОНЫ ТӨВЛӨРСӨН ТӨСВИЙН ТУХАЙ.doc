@@ -1,0 +1,164 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308913577" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308132687" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">1998 оны 12 дугаар сарын 3-ны өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308510703" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308242800" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН 1999 ОНЫ ТӨВЛӨРСӨН ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308262032" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Улсын төвлөрсөн төсвийн 1999 оны орлогын нийт дүн, нэр төрлийн хэмжээг дор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308019217" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:633px;" width="633"><tbody>
+<tr>
+<td style="width:529px;"> </td> <td style="width:104px;"> <p align="center"> /мянган төгрөгөөр/</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1. Орлого-Бүгд</p> </td> <td style="width:104px;"> <p align="right"> 227 438 643.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1. Албан татварын орлого</p> </td> <td style="width:104px;"> <p align="right"> 158 855 252.2</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.а. орлогын албан татвар</p> </td> <td style="width:104px;"> <p align="right"> 21 249 797.5</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.б. гаалийн албан татвар</p> </td> <td style="width:104px;"> <p align="right"> 2 041 700.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.в. нэмэгдсэн өртгийн албан татвар</p> </td> <td style="width:104px;"> <p align="right"> 66 123 994.9</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.г. онцгой албан татвар</p> </td> <td style="width:104px;"> <p align="right"> 21 314 547.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.д. автобензин, дизелийн түлшний ба авто тээврийн болон өөрөө явагч хэрэгслийн албан татвар</p> </td> <td style="width:104px;"> <p align="right"> 8 212 524.7</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.е. бусад албан татвар</p> </td> <td style="width:104px;"> <p align="right"> 2 625 330.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.1.ж. нийгмийн даатгалын шимтгэл</p> </td> <td style="width:104px;"> <p align="right"> 37 287 358.1</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2. Татварын бус орлого</p> </td> <td style="width:104px;"> <p align="right"> 46 583 390.8</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2.а. хувьцааны ногдол ашиг</p> </td> <td style="width:104px;"> <p align="right"> 5 587 023.3</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2.б. бусад орлого</p> </td> <td style="width:104px;"> <p align="right"> 3 929 300.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2.в. түрээсийн орлого</p> </td> <td style="width:104px;"> <p align="right"> 4 300 000.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2.г. газрын тосны орлого</p> </td> <td style="width:104px;"> <p align="right"> 500 000.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2.д. төсөвт байгууллагын өөрийн орлого</p> </td> <td style="width:104px;"> <p align="right"> 20 767 067.5</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.2.е. навигац /өнгөрөлт/-ын орлого</p> </td> <td style="width:104px;"> <p align="right"> 11 500 000.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.3. Хөрөнгийн орлого</p> </td> <td style="width:104px;"> <p align="right"> 14 000 000.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.3.а. өмч хувьчлалын орлого</p> </td> <td style="width:104px;"> <p align="right"> 14 000 000.0</p> </td> </tr>
+<tr>
+<td style="width:529px;"> <p> 1.1.4. Гадаад тусламжийн орлого</p> </td> <td style="width:104px;"> <p align="right"> 8 000 000.0</p> </td> </tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308611662" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Улсын төвлөрсөн төсвийн 1999 оны зарлагын нийт дүн, үүний дотор цалин, хөрөнгө оруулалт, нийтийн ерөнхий үйлчилгээний зардал, батлан хамгаалах арга хэмжээний зардал, төвлөрүүлэн захирагчийн санхүүжилт, тэтгэврийн даатгалын сан болон аймгийн төсөвт өгөх татаасын хэмжээг дор дурдсанаар баталсугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308852984" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table border="1" cellpadding="0" cellspacing="0"><tbody>
+<tr>
+<td style="width:406px;"> <p> 2.1. Зарлага-Бүгд</p> </td> <td style="width:122px;"> <p align="right"> 338 846 397.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.1. цалингийн сан</p> </td> <td style="width:122px;"> <p align="right"> 24 794 660.4</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.2. хөрөнгө оруулалт</p> </td> <td style="width:122px;"> <p align="right"> 37 558 200.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> Үүнээс:-шинээр эхлэх барилга объектын төсөвт өртөг</p> </td> <td style="width:122px;"> <p align="right"> 15 181 100.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> Үүний дотор: -1999 онд санхүүжүүлэх хэмжээ</p> </td> <td style="width:122px;"> <p align="right"> 8 825 200.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.3. нийтийн ерөнхий үйлчилгээний зардал</p> </td> <td style="width:122px;"> <p align="right"> 19 120 120.2</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.4. батлан хамгаалах арга хэмжээний зардал</p> </td> <td style="width:122px;"> <p align="right"> 19 744 103.5</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.5. Улсын Их Хурлын төсөв</p> </td> <td style="width:122px;"> <p align="right"> 1 448 235.5</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.6. Монгол Улсын Ерөнхийлөгчийн төсөв</p> </td> <td style="width:122px;"> <p align="right"> 58 659.8</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.7. Монгол Улсын Ерөнхий сайдын төсөв</p> </td> <td style="width:122px;"> <p align="right"> 29 964.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.8. Монгол Улсын Үндсэн хуулийн цэцийн төсөв</p> </td> <td style="width:122px;"> <p align="right"> 19 376.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.9. Шүүхийн ерөнхий зөвлөлийн төсөв</p> </td> <td style="width:122px;"> <p align="right"> 22 815.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.10. Улсын дээд шүүхийн төсөв</p> </td> <td style="width:122px;"> <p align="right"> 89 226.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.11. Орон нутгийн шүүхийн төсөв</p> </td> <td style="width:122px;"> <p align="right"> 959 094.6</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.12. Прокурорын төсөв</p> </td> <td style="width:122px;"> <p align="right"> 762 225.9</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.13. Улсын аюулгүй байдлыг хангах газар</p> </td> <td style="width:122px;"> <p align="right"> 1 362 383.5</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.14. тэтгэврийн даатгалын санд өгөх татаас</p> </td> <td style="width:122px;"> <p align="right"> 12 281 300.0</p> </td> </tr>
+<tr>
+<td style="width:406px;"> <p> 2.1.15. аймгийн төсөвт өгөх татаас</p> </td> <td style="width:122px;"> <p align="right"> 38 996 072.2</p> </td> </tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308283034" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Улсын төвлөрсөн төсвөөс аймаг, нийслэлийн төсөвт өгөх татаасын хэмжээг дор дурдсанаар хуваарилан тогтоосугай:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308125902" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table border="1" cellpadding="0" cellspacing="0" style="width:330px;" width="330"><tbody>
+<tr>
+<td style="width:207px;"> <p> Архангай</p> </td> <td style="width:123px;"> <p align="right"> 2 302 928.0</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Баян-Өлгий</p> </td> <td style="width:123px;"> <p align="right"> 2 238 386.8</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Баянхонгор</p> </td> <td style="width:123px;"> <p align="right"> 2 512 853.0</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Булган</p> </td> <td style="width:123px;"> <p align="right"> 1 988 640.9</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Говь-Алтай</p> </td> <td style="width:123px;"> <p align="right"> 2 475 326.6</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Дорноговь</p> </td> <td style="width:123px;"> <p align="right"> 1 728 687.6</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Дорнод</p> </td> <td style="width:123px;"> <p align="right"> 2 109 098.5</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Дундговь</p> </td> <td style="width:123px;"> <p align="right"> 1 423 892.1</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Завхан</p> </td> <td style="width:123px;"> <p align="right"> 2 526 272.8</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Өвөрхангай</p> </td> <td style="width:123px;"> <p align="right"> 1 996 919.4</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Өмнөговь</p> </td> <td style="width:123px;"> <p align="right"> 1 792 042.5</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Сүхбаатар</p> </td> <td style="width:123px;"> <p align="right"> 2 184 529.5</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Сэлэнгэ</p> </td> <td style="width:123px;"> <p align="right"> 879 919.4</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Төв</p> </td> <td style="width:123px;"> <p align="right"> 1 957 884.8</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Увс</p> </td> <td style="width:123px;"> <p align="right"> 2 700 374.7</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Ховд</p> </td> <td style="width:123px;"> <p align="right"> 2 333 708.3</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Хөвсгөл</p> </td> <td style="width:123px;"> <p align="right"> 2 738 138.5</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Хэнтий</p> </td> <td style="width:123px;"> <p align="right"> 1 938 084.3</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Дархан-Уул</p> </td> <td style="width:123px;"> <p align="right"> 496 397.6</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Улаанбаатар</p> </td> <td style="width:123px;"> <p align="right"> =</p> </td> </tr>
+<tr>
+<td style="width:207px;"> <p> Говь-Сүмбэр</p> </td> <td style="width:123px;"> <p align="right"> 671 986.9</p> </td> </tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1609067308394431" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДЭД ДАРГА Д.ГАНБОЛД</div></div>
+</div>
+</div></body>
+</html>

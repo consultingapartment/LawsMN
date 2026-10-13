@@ -1,0 +1,1826 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887165652" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887735433" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">2008 оны 11 дүгээр сарын 27-ны өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887118784" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887200112" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫГ ХӨГЖҮҮЛЭХ САНГИЙН 2009 ОНЫ ТӨСВИЙН ТУХАЙ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887112174" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">НЭГДҮГЭЭР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887177046" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Нийтлэг үндэслэл</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887288495" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл. Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887306141" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">1.1.Энэ хуулийн зорилт нь Монгол Улсыг хөгжүүлэх санд 2009 оны төсвийн жилд төвлөрүүлэх орлого, зарцуулах зарлагын хэмжээ, зарцуулах эрх олгохтой холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887834623" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл. Монгол Улсыг хөгжүүлэх сангийн 2009 оны төсвийн тухай хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887013647" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">2.1.Монгол Улсыг хөгжүүлэх сангийн 2009 оны төсвийн тухай хууль тогтоомж нь Монгол Улсын нэгдсэн төсвийн тухай хууль, Монгол Улсыг хөгжүүлэх сангийн тухай хууль, Төсвийн байгууллагын удирдлага, санхүүжилтийн тухай хууль энэ хууль, эдгээртэй нийцүүлэн гаргасан хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887244817" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ХОЁРДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887913122" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Монгол Улсыг хөгжүүлэх сангийн 2009 оны төсвийн орлого, зарлага</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887266002" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл. Монгол Улсыг хөгжүүлэх санд 2009 оны төсвийн жилд төвлөрүүлэх төсвийн орлогын доод хэмжээг 132,923.4 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887671579" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2009 оны 3 дугаар сарын 13-ны өдрийн хууль, 2009 оны 7 дугаар сарын 09-ний өдрийн хуулиар тус тус өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887452193" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл. 2009 оны төсвийн жилд Монгол Улсыг хөгжүүлэх сангийн хөрөнгөөр санхүүжүүлэх хөрөнгө оруулалтын зардлын хэмжээг 179,501.1 сая төгрөгөөр, хүүхэд, гэр бүлд олгох зардлын хэмжээг 104,600.0 сая төгрөгөөр, авто зам, барилга, эрчим хүчний салбарт 2008 онд хийгдсэн хөрөнгө оруулалтын төсөл, арга хэмжээний үнийн өсөлтөөр нэмэгдсэн зардлын хэмжээг 12,866.8 сая төгрөгөөр тус тус баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887917563" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар өөрчлөлт, 2009 оны 7 дугаар сарын 09-ний өдрийн хуулиар нэмэлт, өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887921294" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; text-transform:uppercase;color:#000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">ГУРАВДУГААР БҮЛЭГ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887086632" data-pp="2" style="position: relative; font-size: 13px; font-weight: 700; color:#222;width:60% !important;margin-left:20%; text-align: CENTER; "><div style="padding-left: rem; "><p>Бусад зүйл</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887614021" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл. Монгол Улсыг хөгжүүлэх сангийн хөрөнгөөр санхүүжүүлэх хөрөнгө оруулалтын төсөл, арга хэмжээ, барилга байгууламжийн жагсаалт"-ыг 1 дүгээр хавсралтаар, Монгол Улсыг хөгжүүлэх сангийн 2009 оны хөрөнгө оруулалтын төлөвлөгөөнөөс хойшлуулах төсөл, арга хэмжээ, барилга байгууламжийн жагсаалт"-ыг 2 дугаар хавсралтаар, "Авто зам, барилга, эрчим хүчний салбарт 2008 онд хийгдсэн хөрөнгө оруулалтын төсөл, арга хэмжээний үнийн өсөлтөөр нэмэгдсэн зардлын жагсаалт"-ыг 3 дугаар хавсралтаар тус тус баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887428247" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар өөрчлөн найруулсан, энэ зүйлд 2009 оны 7 дугаар сарын 09-ний өдрийн хуулиар нэмэлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887329287" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл. Монгол Улсыг хөгжүүлэх сангийн давагдашгүй хүчин зүйлийн улмаас үүссэн төсвийн орлогын дутагдлыг нөхөх эх үүсвэрээс Монгол Улсын 2009 оны төсвийн алдагдлыг санхүүжүүлэх эх үүсвэрт 219,600.0 сая төгрөгийг зарцуулахаар баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887363511" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887344282" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл. Монгол Улсыг хөгжүүлэх сангийн хөрөнгөөр бий болсон газрын тосны болон хүнсний улаан буудайн нөөцийн хадгалалтын хөлсийг 3,298.1 сая төгрөгөөр баталсугай.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887262519" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887891343" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл. Энэ хуулийг 2009 оны 1 дүгээр сарын 01-ний өдрөөс эхлэн дагаж мөрдөнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887907781" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийн дугаарт 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887443633" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Д.ДЭМБЭРЭЛ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887796512" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хавсралтыг 2009 оны 7 дугаар сарын 09-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887624288" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">Монгол Улсыг хөгжүүлэх сангийн 2009 оны төсвийн тухай хуулийн 1 дүгээр хавсралт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887815345" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫГ ХӨГЖҮҮЛЭХ САНГИЙН ХӨРӨНГӨӨР САНХҮҮЖҮҮЛЭХ ХӨРӨНГӨ ОРУУЛАЛТЫН ТӨСӨЛ, АРГА ХЭМЖЭЭ, БАРИЛГА БАЙГУУЛАМЖИЙН ЖАГСААЛТ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887774198" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Төсвийн ерөнхийлөн захирагчаар, сая.төг/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887047818" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table border="1" width="641" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 377px; height: 51px;" colspan="2"><p align="center">Төсөл, арга хэмжээ, барилга байгууламжийн нэр, хүчин чадал, байршил</p></td>
+<td style="width: 96px; height: 51px;"><p align="center">Хэрэгжүүлэх хугацаа</p></td>
+<td style="width: 72px; height: 51px;"><p align="center">Төсөвт өртөг</p></td>
+<td style="width: 96px; height: 51px;"><p align="center">2009 оны санхүүжилт</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;"><p align="center">I</p></td>
+<td style="width: 320px; height: 32px;"><p>МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА </p></td>
+<td style="width: 96px; height: 32px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 32px;"><p align="center">577.3</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">577.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;"><p align="center">I.1</p></td>
+<td style="width: 320px; height: 17px;"><p>Тоног төхөөрөмж</p></td>
+<td style="width: 96px; height: 17px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 17px;"><p align="center">577.3</p></td>
+<td style="width: 96px; height: 17px;"><p align="center">577.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;"><p align="center">II</p></td>
+<td style="width: 320px; height: 16px;"><p>МОНГОЛ УЛСЫН ТЭРГҮҮН ШАДАР САЙД</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">17,255.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">3,300.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;"><p align="center">II.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Чөлөөт бүс</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">15,755.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">1,800.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">II.1.1</p></td>
+<td style="width: 320px; height: 32px;"><p>"Замын-үүд" чөлөөт бүсийн мэргэжлийн албадын нэгдсэн байр /Дорноговь, Замын-үүд/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">1,000.0</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">800.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">II.1.2</p></td>
+<td style="width: 320px; height: 32px;"><p>"Алтанбулаг" худалдааны чөлөөт бүсийн хорооллын доторхи зам, хэсэгчилсэн хөрөнгө оруулалт /Сэлэнгэ, Алтанбулаг/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009-2011</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">14,755.0</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">1,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">II.2</p></td>
+<td style="width: 320px; height: 16px;"><p>үйлдвэрлэлийг дэмжих хөрөнгө оруулалт</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">1,500.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">1,500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">III</p></td>
+<td style="width: 320px; height: 16px;"><p>МОНГОЛ УЛСЫН ШАДАР САЙД</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">1,500.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">1,500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">III.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Бүсчилсэн хөгжлийг дэмжих хөрөнгө оруулалт</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">1,500.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">1,500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">IY</p></td>
+<td style="width: 320px; height: 16px;"><p>САНГИЙН САЙД</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">2,000.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">2,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">IY.1</p></td>
+<td style="width: 320px; height: 16px;">
+<p>Бүс, орон нутгийг дэмжих хөрөнгө оруулалт</p>
+<p> </p>
+</td>
+<td style="width: 96px; height: 16px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">2,000.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">2,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">Y</p></td>
+<td style="width: 320px; height: 16px;"><p>ЭРДЭС БАЯЛАГ, ЭРЧИМ ХҮЧНИЙ САЙД</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">39,945.4</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">28,520.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">Y.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Цахилгаан дамжуулах шугам, дэд станц:</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">12,709.9</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">12,709.9</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 34px;" nowrap><p align="center">Y.1.1</p></td>
+<td style="width: 320px; height: 34px;"><p>Ил хуваарилах байгууламж-4-д 220/110/35 кВ-ын 125 мВа чадалтай автотрансформатор суурилуулах /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 34px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 34px;" nowrap><p align="center">2,754.9</p></td>
+<td style="width: 96px; height: 34px;" nowrap><p align="center">2,754.9</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.1.2</p></td>
+<td style="width: 320px; height: 32px;"><p>Умард дэд станцын трансформатор, хаалттай хуваарилах байгууламжийн өргөтгөл, шинэчлэлт /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">3,150.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">3,150.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.1.3</p></td>
+<td style="width: 320px; height: 32px;"><p>6, 10 кВ-ын дэд станцуудын тосон таслууруудыг вакуум болгох /РП 3,5, 6, 13, 24/ Улаанбаатар/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">1,080.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">1,080.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.1.4</p></td>
+<td style="width: 320px; height: 32px;"><p>Дархан хотын 220/110/35 кВ-ын дэд станц, 35 кВ-ын реактор суурилуулах /Дархан-Уул/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">1,827.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">1,827.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.1.5</p></td>
+<td style="width: 320px; height: 32px;"><p>Могойн гол дээр цахилгааны эх үүсвэр барих техник, эдийн засгийн үндэслэл, Тэлмэн-Могойн голын цахилгаан дамжуулах шугам, дэд станц /Завхан, Хөвсгөл/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">3,800.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">3,800.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">Y.1.6</p></td>
+<td style="width: 320px; height: 16px;"><p>Тэс-Зүүнхангайн 38 км ЦДАШ-ыг шилжүүлэх/Завхан/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">98.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">98.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">Y.2</p></td>
+<td style="width: 320px; height: 16px;"><p>Дулааны станц, дулааны шугам сүлжээ, нүүрсний уурхай:</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">23,885.5</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">15,310.4</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.2.1</p></td>
+<td style="width: 320px; height: 32px;"><p>Дулааны сүлжээний нэвтрүүлэх чадварыг сайжруулахад насос станц №1, 6-ын хүчин чадлыг нэмэгдүүлж шинэчлэх /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">1,776.1</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">1,776.1</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.2.2</p></td>
+<td style="width: 320px; height: 32px;"><p>Дулааны 5 "б" магистраль 1950м*2, 500 мм-ийн шугамыг 800 мм болгон өргөтгөж шинэчлэх /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">3,816.0</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">3,816.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.2.3</p></td>
+<td style="width: 320px; height: 32px;"><p>Дулааны 6 "б", "в" магистраль 2198м*2, 500 мм-ийн шугамыг 600 мм болгон өргөтгөж шинэчлэх /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">4,657.5</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">4,657.5</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 19px;" nowrap><p align="center">Y.2.4</p></td>
+<td style="width: 320px; height: 19px;"><p>Дулаан хангамжийн системийг хаалттай системд шилжүүлэх /Дархан-Уул/</p></td>
+<td style="width: 96px; height: 19px;"><p align="center">2009-2010</p></td>
+<td style="width: 72px; height: 19px;"><p align="center">1,350.0</p></td>
+<td style="width: 96px; height: 19px;"><p align="center">720.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">Y.2.5</p></td>
+<td style="width: 320px; height: 16px;"><p>Багануурын нүүрсний уурхайн техникийн шинэчлэлт</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">2009-2010</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">12,285.9</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">4,340.8</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 17px;" nowrap><p align="center">Y.3</p></td>
+<td style="width: 320px; height: 17px;"><p>Эрдэс баялаг:</p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 17px;" nowrap><p align="center">3,350.0</p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="center">500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">Y.3.1</p></td>
+<td style="width: 320px; height: 32px;"><p>Хөрөнгө оруулалт: Газрын тосны чанарын хяналтын лаборатори байгуулах</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2008-2010</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">3,350.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;"><p align="center">YI</p></td>
+<td style="width: 320px; height: 16px;"><p>ЗАМ, ТЭЭВЭР, БАРИЛГА, ХОТ БАЙГУУЛАЛТЫН САЙД</p></td>
+<td style="width: 96px; height: 16px;"><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">138,280.9</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">66,567.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1</p></td>
+<td style="width: 320px; height: 16px;" nowrap><p>Авто зам:</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">54,790.8</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">16,587.8</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1.1</p></td>
+<td style="width: 320px; height: 16px;"><p>өгийнуур-Хөшөөцайдам чиглэлийн 10 км хатуу хучилттай авто зам</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">1,298.9</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">280.1</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 19px;" nowrap><p align="center">YI.1.2</p></td>
+<td style="width: 320px; height: 19px;"><p>Хархорин-Цэцэрлэгийн 74 км хайрган авто замыг хатуу хучилттай болгох</p></td>
+<td style="width: 96px; height: 19px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 19px;" nowrap><p align="center">8,403.6</p></td>
+<td style="width: 96px; height: 19px;" nowrap><p align="center">1,955.8</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">YI.1.3</p></td>
+<td style="width: 320px; height: 32px;"><p>Цэцэрлэг-Их тамир-Тосонцэнгэл чиглэлийн 53 км хайрган авто замыг хатуу хучилттай болгох </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">8,296.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">1,528.2</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1.4</p></td>
+<td style="width: 320px; height: 16px;"><p>Дашинчилэн-Орхоны гүүр чиглэлийн 109 км хатуу хучилттай авто зам</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">19,073.9</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">8,663.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1.5</p></td>
+<td style="width: 320px; height: 16px;"><p>Хатгал-Жанхай-Тойлогт чиглэлийн 30.4 км хайрган авто зам</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">3,040.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">221.8</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1.6</p></td>
+<td style="width: 320px; height: 16px;"><p>Хархорин-Хужиртын 39 км хатуу хучилттай авто зам</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2006-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">5,841.2</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,002.2</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1.7</p></td>
+<td style="width: 320px; height: 16px;"><p>Дамдинсүрэнгийн гудамжны авто зам /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2006-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">1,800.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">104.3</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.1.8</p></td>
+<td style="width: 320px; height: 16px;"><p>Эрдэнэт-Булган-Уньт чиглэлийн 14.5 км хатуу хучилттай авто зам</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">3,045.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,045.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">YI.1.9</p></td>
+<td style="width: 320px; height: 32px;"><p>Арвайхээр-Баянхонгор чиглэлийн 23 км хайрган авто замыг хатуу хучилттай болгох</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">2,992.2</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">787.1</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">YI.1.10</p></td>
+<td style="width: 320px; height: 32px;"><p>Баруун чиглэлийн 600 км авто замын зураг боловсруулах/Баянхонгор, Алтай, Ховд, Завхан/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">1,000.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">1,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2</p></td>
+<td style="width: 320px; height: 16px;"><p>Гүүр:</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">15,063.9</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">9,736.8</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Эгийн голын 160 у/м төмөр бетон гүүр /Хөвсгөл, Түнэл/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">1,812.5</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,532.5</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.2</p></td>
+<td style="width: 320px; height: 16px;"><p>Турганы голын 96.9 у/м төмөр бетон гүүр /Баян-өлгий, Сагсай/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">999.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">799.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.3</p></td>
+<td style="width: 320px; height: 16px;"><p>Туул голын Горхийн 211 у/м төмөр бетон гүүр /Улаанбаатар, Тэрэлж/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">2,422.5</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">829.5</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.4</p></td>
+<td style="width: 320px; height: 16px;"><p>Ховд голын 181.8 у/м төмөр бетон гүүр /Баян-өлгий, Улаанхус/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">1,500.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,080.9</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.5</p></td>
+<td style="width: 320px; height: 16px;"><p>Нарийний голын 325 у/м төмөр бетон гүүр /Увс, Тэс/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2006-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">2,750.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,815.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.6</p></td>
+<td style="width: 320px; height: 16px;"><p>Их тэнгэрийн 258 у/м төмөр бетон гүүр /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">3,986.5</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2,286.5</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.2.7</p></td>
+<td style="width: 320px; height: 16px;"><p>Идэрийн голын төмөр бетон гүүр /Завхан, Их-Уул/:</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">1,593.4</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,393.4</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.3</p></td>
+<td style="width: 320px; height: 16px;"><p>Иргэний нисэхийн ерөнхий газар:</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">44,794.2</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">16,610.4</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.3.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Хөрөнгө оруулалт:</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">25,884.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">8,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">YI.3.1.1</p></td>
+<td style="width: 320px; height: 32px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвасын хүчитгэлийн ажил, гэрлэн тэмдэгт /Улаанбаатар, "Чингис хаан" Олон улсын нисэх онгоцны буудал /</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2008-2011</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">7,000.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">1,500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">YI.3.1.2</p></td>
+<td style="width: 320px; height: 32px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Говь-Алтай/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2008-2010</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">7,385.3</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2,300.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 20px;" nowrap><p align="center">YI.3.1.3</p></td>
+<td style="width: 320px; height: 20px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Увс/</p></td>
+<td style="width: 96px; height: 20px;"><p align="center">2008-2010</p></td>
+<td style="width: 72px; height: 20px;"><p align="center">11,498.7</p></td>
+<td style="width: 96px; height: 20px;" nowrap><p align="center">4,200.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">YI.3.2</p></td>
+<td style="width: 320px; height: 32px;"><p>Тоног төхөөрөмж: Бодит ажиглалтын систем /радиолокатор 3ш, VОR/DME 4ш/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">18,910.2</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">8,610.4</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YI.4</p></td>
+<td style="width: 320px; height: 16px;"><p>Тээвэр</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">23,632.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">23,632.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;"><p align="center">YI.4.1</p></td>
+<td style="width: 320px; height: 32px;"><p>Нийслэлийн нийтийн тээврийн парк шинэчлэлт /Их багтаамжтай автобус, 400 ш/</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">23,632.0</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">23,632.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YII</p></td>
+<td style="width: 320px; height: 16px;"><p>ХҮНС, ХӨДӨӨ АЖ АХУЙ, ХӨНГӨН ҮЙЛДВЭРИЙН САЙД</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">30,300.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">30,300.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 37px;" nowrap><p align="center">YII.1</p></td>
+<td style="width: 320px; height: 37px;"><p>Хөрөнгө оруулалт: "Атрын 3 дахь аян" газар тариалангийн үндэсний хөтөлбөрийг хэрэгжүүлэх</p></td>
+<td style="width: 96px; height: 37px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 37px;"><p align="center">30,300.0</p></td>
+<td style="width: 96px; height: 37px;"><p align="center">30,300.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YIII</p></td>
+<td style="width: 320px; height: 16px;"><p>БОЛОВСРОЛ, СОЁЛ, ШИНЖЛЭХ УХААНЫ САЙД</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">2,800.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">1,145.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">YIII.1</p></td>
+<td style="width: 320px; height: 16px;">
+<p>ШУТИС-ын номын өргөөний барилга /Улаанбаатар,</p>
+<p>Сүхбаатар дүүрэг/</p>
+</td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">2,800.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">1,145.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">IX</p></td>
+<td style="width: 320px; height: 16px;"><p>НИЙГМИЙН ХАМГААЛАЛ, ХӨДӨЛМӨРИЙН САЙД</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">21,134.7</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">21,134.7</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">IX.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Ахмад дайчдад олгох орон сууцны дэмжлэг</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">21,134.7</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">21,134.7</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">X</p></td>
+<td style="width: 320px; height: 16px;"><p>ЭРҮҮЛ МЭНДИЙН САЙД</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">500.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">X.1</p></td>
+<td style="width: 320px; height: 16px;"><p>Спорт цогцолборын барилга барих /Хөвсгөл, Мөрөн/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;" nowrap><p align="center">500.0</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">500.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">XI</p></td>
+<td style="width: 320px; height: 16px;"><p>НИЙСЛЭЛИЙН ЗАСАГ ДАРГА</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 16px;"><p align="center">11,090.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">11,090.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">XI.1</p></td>
+<td style="width: 320px; height: 32px;"><p>Туул гол дээрх Баянзүрхийн 252.6 у/м төмөр бетон гүүрийн шинэчлэлт /Улаанбаатар,Баянзүрх/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;"><p align="center">920.0</p></td>
+<td style="width: 96px; height: 32px;"><p align="center">920.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 16px;" nowrap><p align="center">XI.2</p></td>
+<td style="width: 320px; height: 16px;"><p>Гурвалжингийн 108 у/м, 2 хос гүүрний шинэчлэлт /Улаанбаатар, Баянгол дүүрэг/</p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 16px;"><p align="center">2,080.0</p></td>
+<td style="width: 96px; height: 16px;"><p align="center">2,080.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">XI.3</p></td>
+<td style="width: 320px; height: 32px;"><p>Сонгинохайрхан дүүргийн 38 дугаар цэцэрлэгийн барилгын ажлыг дуусгах</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">90.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">90.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 32px;" nowrap><p align="center">XI.4</p></td>
+<td style="width: 320px; height: 32px;"><p>Эрчим хүчинд холбогдоогүй нийслэлийн 7000 өрхийн гэрлийг асуудлыг шийдвэрлэх /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 32px;" nowrap><p align="center">4,000.0</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="center">4,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 24px;" nowrap><p align="center">XI.5</p></td>
+<td style="width: 320px; height: 24px;"><p>Сонгинохайрхан дүүргийн 7000 өрхийн гэрлийг асуудлыг шийдвэрлэх /Улаанбаатар/</p></td>
+<td style="width: 96px; height: 24px;" nowrap><p align="center">2009</p></td>
+<td style="width: 72px; height: 24px;" nowrap><p align="center">4,000.0</p></td>
+<td style="width: 96px; height: 24px;" nowrap><p align="center">4,000.0</p></td>
+</tr>
+<tr>
+<td style="width: 57px; height: 26px;" nowrap><p align="center"> </p></td>
+<td style="width: 320px; height: 26px;" nowrap><p align="center">НИЙТ ДҮН</p></td>
+<td style="width: 96px; height: 26px;" nowrap><p align="center"> </p></td>
+<td style="width: 72px; height: 26px;" nowrap><p align="center">265,383.3</p></td>
+<td style="width: 96px; height: 26px;" nowrap><p align="center">166,634.3</p></td>
+</tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887903274" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хавсралтыг 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар шинэчлэн баталсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887048929" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table border="1" width="667" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p> </p></td>
+<td style="width: 596px; height: 17px;" colspan="3" nowrap>
+<p align="right">Монгол Улсыг хөгжүүлэх сангийн 2009 оны төсвийн</p>
+<p align="right">тухай хуулийн 2 дугаар хавсралт</p>
+<p> </p>
+</td>
+</tr>
+<tr>
+<td style="width: 565px; height: 37px;" colspan="3">
+<p align="center"> МОНГОЛ УЛСЫГ ХӨГЖҮҮЛЭХ САНГИЙН 2009 ОНЫ ХӨРӨНГӨ </p>
+<p align="center"> ОРУУЛАЛТЫН ТӨЛӨВЛӨГӨӨНӨӨС ХОЙШЛУУЛАХ ТӨСӨЛ, </p>
+<p align="center"> АРГА ХЭМЖЭЭ, БАРИЛГА БАЙГУУЛАМЖИЙН ЖАГСААЛТ </p>
+<p align="center"> </p>
+</td>
+<td style="width: 102px; height: 37px;" nowrap><p> </p></td>
+</tr>
+<tr><td style="width: 667px; height: 5px;" colspan="4" nowrap><p align="right"> /Төсвийн ерөнхийлөн захирагчаар, сая төг/</p></td></tr>
+<tr>
+<td style="width: 469px; height: 34px;" colspan="2"><p align="center">Төсөл, арга хэмжээ, барилга байгууламжийн нэр, хүчин чадал, байршил</p></td>
+<td style="width: 96px; height: 34px;"><p align="center"> Төсөвт өртөг </p></td>
+<td style="width: 102px; height: 34px;"><p align="center">Хойшлуулах хөрөнгийн дүн </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;"><p align="center">I</p></td>
+<td style="width: 398px; height: 17px;"><p>МОНГОЛ УЛСЫН ТЭРГҮҮН ШАДАР САЙД</p></td>
+<td style="width: 96px; height: 17px;"><p align="right"> 1,080.0 </p></td>
+<td style="width: 102px; height: 17px;"><p align="right"> 630.0 </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 48px;"><p align="center">I.1</p></td>
+<td style="width: 398px; height: 48px;"><p>Хөрөнгө оруулалт: "Алтанбулаг" худалдааны чөлөөт бүсийн хилийн боомттой холбогдох хэсгийн хатуу хучилттай авто зам /810м*28м/ /Сэлэнгэ, Алтанбулаг/</p></td>
+<td style="width: 96px; height: 48px;"><p align="right"> 1,080.0</p></td>
+<td style="width: 102px; height: 48px;"><p align="right"> 630.0</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">II</p></td>
+<td style="width: 398px; height: 17px;"><p>ЭРДЭС БАЯЛАГ, ЭРЧИМ ХҮЧНИЙ САЙД</p></td>
+<td style="width: 96px; height: 17px;"><p align="right"> 3,350.0 </p></td>
+<td style="width: 102px; height: 17px;"><p align="right"> 500.0 </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">II.1</p></td>
+<td style="width: 398px; height: 17px;"><p>Эрдэс баялаг:</p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="right"> 3,350.0 </p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 500.0 </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 32px;" nowrap><p align="center">II.1.1</p></td>
+<td style="width: 398px; height: 32px;"><p>Хөрөнгө оруулалт: Газрын тосны чанарын хяналтын лаборатори байгуулах</p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 3,350.0</p></td>
+<td style="width: 102px; height: 32px;" nowrap><p align="right"> 500.0</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">III</p></td>
+<td style="width: 398px; height: 17px;"><p>ХҮНС, ХӨДӨӨ АЖ АХУЙ, ХӨНГӨН ҮЙЛДВЭРИЙН САЙД</p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="right"> 17,700.0 </p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 2,700.0 </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">III.1</p></td>
+<td style="width: 398px; height: 17px;"><p>Хөрөнгө оруулалт:</p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="right"> 2,700.0</p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 2,700.0</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">III.1.1</p></td>
+<td style="width: 398px; height: 17px;"><p>Бизнес инкубатор байгуулах /Архангай, Баянхонгор, Хэнтий/</p></td>
+<td style="width: 96px; height: 17px;"><p align="right"> 900.0</p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 900.00</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">III.1.2</p></td>
+<td style="width: 398px; height: 17px;"><p>Технологи дамжуулах төв байгуулах /Ховд, Өвөрхангай/</p></td>
+<td style="width: 96px; height: 17px;"><p align="right"> 900.0</p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 900.00</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">III.1.3</p></td>
+<td style="width: 398px; height: 17px;"><p>Үйлдвэрлэл технологийн парк байгуулах /Ховд, Завхан/</p></td>
+<td style="width: 96px; height: 17px;"><p align="right"> 630.0</p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 630.00</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center">III.1.4</p></td>
+<td style="width: 398px; height: 17px;"><p>Үйлдвэрлэл технологийн паркийн зураг төсөл боловсруулах</p></td>
+<td style="width: 96px; height: 17px;"><p align="right"> 270.0</p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 270.00</p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 17px;" nowrap><p align="center"> </p></td>
+<td style="width: 398px; height: 17px;" nowrap><p align="center">Дүн</p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="right"> 22,130.0 </p></td>
+<td style="width: 102px; height: 17px;" nowrap><p align="right"> 3,830.0 </p></td>
+</tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887029213" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хавсралтыг 2009 оны 7 дугаар сарын 09-нйи өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887281725" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">Монгол Улсыг хөгжүүлэх сангийн 2009 оны төсвийн тухай хуулийн 3 дугаар хавсралт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887383181" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color:#333;; text-align: JUSTIFY; "><div style="padding-left: rem; ">АВТО ЗАМ, БАРИЛГА, ЭРЧИМ ХҮЧНИЙ САЛБАРТ 2008 ОНД ХИЙГДСЭН ХӨРӨНГӨ ОРУУЛАЛТЫН ТӨСӨЛ, АРГА ХЭМЖЭЭНИЙ үНИЙН ӨСӨЛТӨӨР НЭМЭГДСЭН ЗАРДЛЫН ЖАГСААЛТ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887245739" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Төсвийн ерөнхийлөн захирагчаар, сая.төг/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887263413" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><table style="width: 592px;" border="1" width="592" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">№</p></td>
+<td style="width: 462px; height: 8px;">
+<p align="center">Төсөл, арга хэмжээний нэр хүч, чадал, байршил</p>
+<p align="center"> </p>
+</td>
+<td style="width: 94px; height: 8px;"><p align="center">үнийн зөрүү</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>БОЛОВСРОЛ, СОЁЛ, ШИНЖЛЭХ УХААНЫ САЙД</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">1,115.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилга, 50 ор /Архангай, Булган/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">6.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн барилга, 320 суудал, спорт заал /Архангай, Цэцэрлэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">7.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /Архангай, өндөр-Улаан/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">6.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">4</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн спорт заалны өргөтгөл /Баянхонгор, Богд/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">2.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">5</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн дуусгал /Баянхонгор, Бөмбөгөр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">2.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">6</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилга, 100 ор /Баянхонгор, Баянцагаан/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">50.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">7</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга, 250 суудал /Баянхонгор, Баян-өндөр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">48.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">8</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилга, 100 ор /Говь-Алтай, Баян-Уул/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">21.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">9</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга, 150 суудал /Говь-Алтай, Дэлгэр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">7.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">10</p></td>
+<td style="width: 462px; height: 8px;"><p>"Алтай" чуулгын байр /Говь-Алтай/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">149.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">11</p></td>
+<td style="width: 462px; height: 8px;"><p>Мэргэжлийн сургалт ,үйлдвэрлэлийн төвийн барилга /Говьсүмбэр, Сүмбэр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">3.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">12</p></td>
+<td style="width: 462px; height: 8px;"><p>Хүүхдийн цэцэрлэг-яслийн цогцолбор, 100 ор /Говьсүмбэр, Сүмбэр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">23.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">13</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилгын дуусгал /Завхан, Отгон/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">11.2</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">14</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга, 200 суудал /Завхан, Тэс/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">1.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">15</p></td>
+<td style="width: 462px; height: 8px;"><p>Мэргэжлийн сургалт, үйлдвэрлэлийн төвийн барилга /Завхан /</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">14.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">16</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн спорт заалны барилга, 3 дугаар сургууль /Дорноговь/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">16.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">17</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн дотуур байрны барилга /Дорнод, Чойбалсан/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">70.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">18</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /Дорнод, Сэргэлэн/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">14.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">19</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн дотуур байрны барилга, 80 ор / Дундговь, Сайнцагаан /</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">17.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">20</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /Дундговь, Хулд/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">21.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">21</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн барилга /Төв, Жаргалантын Талбулаг/ </p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">11.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">22</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн өргөтгөл, спорт заал /Төв, Батсүмбэр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">8.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">23</p></td>
+<td style="width: 462px; height: 8px;"><p>5 дугаар сургуулийн өргөтгөл /Төв, Зуунмод/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">10.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">24</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /өвөрхангай, Нарийнтээл/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">13.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">25</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилга, 75 ор / өвөрхангай, Бүрд /</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">3.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">26</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургууль, 640 суудал, спорт заал, /Увс, Улаангом/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">112.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">27</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн спорт заал, 4 дүгээр сургууль /Увс/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">11.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">28</p></td>
+<td style="width: 462px; height: 8px;"><p>Коллежийн барилгын шинэчлэл /Увс, Улаангом/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">39.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">29</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн дотуур байрны барилга, 100 ор /Увс, Баруунтуруун/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">7.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">30</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /Увс, Хяргас/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">17.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">31</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /Увс, Ховд/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">18.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">32</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн барилга, 320 суудал /Хөвсгөл, Ханх/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">36.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">33</p></td>
+<td style="width: 462px; height: 8px;"><p>2 дугаар цэцэрлэгийн Б корпусын барилгын өргөтгөл /Хөвсгөл, Мөрөн/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">8.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">34</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн барилгын өргөтгөл, 10 анги, спорт заал /Хэнтий, өмнөдэлгэр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">21.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">35</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн спорт заалны барилга /Хэнтий,Норовлин /</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">5.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">36</p></td>
+<td style="width: 462px; height: 8px;"><p>Соёлын төвийн барилга /Хэнтий, Баян-Овоо/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">8.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">37</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургууль, дотуур байрны өргөтгөл /Хэнтий, Бор-өндөр/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">19.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">38</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилга, 75 ор /Хэнтий, Баян-Адрага/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">13.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">39</p></td>
+<td style="width: 462px; height: 8px;"><p>Сургуулийн барилга, 640 суудал /Улаанбаатар, Баянгол дүүрэг, 9 дүгээр хороо/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">124.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">40</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэцэрлэгийн барилга, 100 ор, /Улаанбаатар, Сонгинохайрхан дүүрэг, 5 дугаар хороо/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">50.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">41</p></td>
+<td style="width: 462px; height: 8px;"><p>38-р цэцэрлэгийн барилгын дуусгал /Улаанбаатар, Сонгинохайрхан дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">11.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">42</p></td>
+<td style="width: 462px; height: 8px;"><p>ХААИС-ийн оюутны дотуур байрны барилга /Улаанбаатар, Хан-Уул дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">64.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>ХУУЛЬ ЗҮЙ, ДОТООД ХЭРГИЙН САЙД</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">647.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Гадаадын иргэн, харьяатын асуудал эрхлэх газрын конторын барилга</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">176.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Шүүхийн шийдвэр гүйцэтгэх ерөнхий газрын 1000 хүний багтаамжтай жишиг цагдан хорих байр</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">301.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Шүүхийн шинжилгээний үндэсний хүрээлэнгийн конторын барилга</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">170.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;" nowrap><p>ШҮҮХИЙН ЕРӨНХИЙ ЗӨВЛӨЛИЙН ДАРГА</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">128.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Дүүргийн шүүхийн барилга /Улаанбаатар, Чингэлтэй дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">102.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Дүүргийн шүүхийн барилга /Улаанбаатар, Сүхбаатар дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">26.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>БАТЛАН ХАМГААЛАХЫН САЙД</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">633.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэргийн албан хаагчдын 126 айлын орон сууцны барилга, Зэвсэгт хүчний 089 дүгээр анги /Улаанбаатар, Баянзүрх дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">268.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэргийн албан хаагчдын 50 айлын орон сууц /Улаанбаатар, Баянзүрх дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">198.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Батлан хамгаалахын их сургуулийн оюутны дотуур байр /Улаанбаатар, Баянзүрх дүүрэг/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">113.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">4</p></td>
+<td style="width: 462px; height: 8px;"><p>Зэвсэгт хүчний 167 дугаар ангийн цэргийн албан хаагчдын 24 айлын орон сууц /өмнөговь/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">52.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;" nowrap><p>САНГИЙН САЙД</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">1,244.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Татварын ерөнхий газрын конторын барилга</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">353.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Сангийн яамны төрийн сан, мэдээллийн төвийн барилга</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">391.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Ажилчдын 60 айлын орон сууцны барилга /Улаанбаатар/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">408.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">4</p></td>
+<td style="width: 462px; height: 8px;"><p>Татварын хэлтсийн барилга /Булган/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">26.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">5</p></td>
+<td style="width: 462px; height: 8px;"><p>Гаалийн ерөнхий газрын албан конторын барилга /Улаанбаатар/</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">64.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>ЭРДЭС БАЯЛАГ, ЭРЧИМ ХҮЧНИЙ САЙД</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">941.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Тэлмэн-Тосонцэнгэл сумын 35 кВ-ын ЦДАШ, дэд станц, /Завхан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">53.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>БНХАУ-ын Зүүн хатавч боомт-Эрдэнэцагаан сумын 35 кВ-ын ЦДАШ, дэд станц /Сүхбаатар/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">15.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Баяндун-Баян-Уул сумын 35 кВ-ын ЦДАШ, дэд станц /Дорнод/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">124.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">4</p></td>
+<td style="width: 462px; height: 8px;"><p>Асгат-Баянхайрхан сумын 15 кВ-ын ЦДАШ, дэд станц, /Завхан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">8.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">5</p></td>
+<td style="width: 462px; height: 8px;"><p>Түдэвтэй-Цэцэн-Уул сумын 35 кВ-ын ЦДАШ, дэд станц, /Завхан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">86.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">6</p></td>
+<td style="width: 462px; height: 8px;"><p>Шарга-Төгрөг сумын 35 кВ-ын ЦДАШ, дэд станц /Говь-Алтай/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">67.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">7</p></td>
+<td style="width: 462px; height: 8px;"><p>Тайшир-Улиастай 110кВ-ын ЦДАШ, дэд станц /Говь-Алтай/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">71.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">8</p></td>
+<td style="width: 462px; height: 8px;"><p>Бөмбөгөр-Заг сумын 35 кВ-ын ЦДАШ, дэд станц, /Баянхонгор/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">124.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">9</p></td>
+<td style="width: 462px; height: 8px;"><p>Алаг-Эрдэнэ-Улаан-Уул-Рэнчинлхүмбэ-Цагааннуур 35кВ-ын ЦДАШ, дэд станц, /Хөвсгөл/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">283.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">10</p></td>
+<td style="width: 462px; height: 8px;"><p>Тариалан-Эрдэнэбулган сумын 15 кВ-ын ЦДАШ, дэд станц /Хөвсгөл/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">31.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">11</p></td>
+<td style="width: 462px; height: 8px;"><p>Хайлааст 110 кВ-ын ЦДАШ, 10/35/10 кВ-ын дэд станц /Улаанбаатар/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">75.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>НИЙСЛЭЛИЙН ЗАСАГ ДАРГА</p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">1,476.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Бохир усны "Туул-1" коллектор</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">1,301.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Улаанбаатар хотын төвийн болон хойд хэсгийн хөрсний ус зайлуулах барилга байгууламж</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">175.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>ЗАМ, ТЭЭВЭР, БАРИЛГА, ХОТ БАЙГУУЛАЛТЫН САЙД</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">5,726.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>Авто зам:</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">3,503.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Эрдэнэт-Булган-Уньт чиглэлийн 14.5 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">173.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Баянхонгор-Нарийнтээлийн 50 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">229.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Хатгал-Жанхай-Тойлогт чиглэлийн 30.4 км хайрган авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">156.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">4</p></td>
+<td style="width: 462px; height: 8px;"><p>Хархорин-Хужирт чиглэлийн 39 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">60.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">5</p></td>
+<td style="width: 462px; height: 8px;"><p>Хархорин-Цэцэрлэгийн 46.8 км хайрган авто замыг хатуу хучилттай болгох</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">124.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">6</p></td>
+<td style="width: 462px; height: 8px;"><p>Улаангом-Тээлийн 15 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">82.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">7</p></td>
+<td style="width: 462px; height: 8px;"><p>Ховдын Булган-үенч-Ховд чиглэлийн 40 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">202.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">8</p></td>
+<td style="width: 462px; height: 8px;"><p>Ховдын Булган-үенч-Ховд чиглэлийн 20 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">46.2</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">9</p></td>
+<td style="width: 462px; height: 8px;"><p>Дамдинсүрэнгийн гудамжны авто зам /Улаанбаатар/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">29.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">10</p></td>
+<td style="width: 462px; height: 8px;"><p>өгийнуур-Хөшөөцайдам чиглэлийн 10 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">39.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">11</p></td>
+<td style="width: 462px; height: 8px;"><p>Хархорин-Цэцэрлэгийн 74 км хайрган авто замыг хатуу хучилттай болгох</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">91.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">12</p></td>
+<td style="width: 462px; height: 8px;"><p>Арвайхээр-Баянхонгор чиглэлийн 23 км хайрган авто замыг хатуу хучилттай болгох</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">130.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">13</p></td>
+<td style="width: 462px; height: 8px;"><p>өндөрхаан-Сүмбэрийн чиглэлийн 50 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">378.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">14</p></td>
+<td style="width: 462px; height: 8px;"><p>Дашинчилэн-Орхоны гүүр чиглэлийн 109 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">531.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">15</p></td>
+<td style="width: 462px; height: 8px;"><p>Баяннуур-Дашинчилэн чиглэлийн 9 км хатуу хучилттай авто зам /Булган/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">36.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">16</p></td>
+<td style="width: 462px; height: 8px;"><p>Хануйн голын төмөр бетон гүүр-Халзанбүргэдэй чиглэлийн 65.3 км хатуу хучилттай авто зам /Катарын тусламж/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">12.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">17</p></td>
+<td style="width: 462px; height: 8px;"><p>Баянхонгор-Арвайхээрийн 27 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">25.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">18</p></td>
+<td style="width: 462px; height: 8px;"><p>Нийслэлийн авто замын сүлжээний өргөтгөл, шинэчлэлт /Нарангийн голын 3.2 км авто зам/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">40.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">19</p></td>
+<td style="width: 462px; height: 8px;"><p>үйлдвэрчний эвлэлийн гудамжны 1.3 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">61.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">20</p></td>
+<td style="width: 462px; height: 8px;"><p>Хөвсгөл аймгийн төвийн 1.9 км хатуу хучилттай авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">40.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">21</p></td>
+<td style="width: 462px; height: 8px;"><p>Хэнтий аймгийн Цэнхэрмандал сумын 1.6 км авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">22.2</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">22</p></td>
+<td style="width: 462px; height: 8px;"><p>Эргэн төлөгдөх нөхцлөөр баригдах авто зам</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">988.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>Гүүр:</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">262.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">23</p></td>
+<td style="width: 462px; height: 8px;"><p>Ховд голын 181.8 у/м төмөр бетон гүүр /Баян-өлгий, Улаанхус/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">12.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">24</p></td>
+<td style="width: 462px; height: 8px;"><p>Эгийн голын 162.5 у/м төмөр бетон гүүр /Хөвсгөл, Түнэл/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">22.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">25</p></td>
+<td style="width: 462px; height: 8px;"><p>Туул голын Горхийн 211 у/м төмөр бетон гүүр /Улаанбаатар/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">33.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">26</p></td>
+<td style="width: 462px; height: 8px;"><p>Их тэнгэрийн 258 у/м төмөр бетон гүүр /Улаанбаатар/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">77.2</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">27</p></td>
+<td style="width: 462px; height: 8px;"><p>Нарийний голын 325 у/м төмөр бетон гүүр /Увс, Тэс/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">64.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">28</p></td>
+<td style="width: 462px; height: 8px;"><p>Идэрийн голын төмөр бетон гүүр /Завхан, Их Уул/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">5.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">29</p></td>
+<td style="width: 462px; height: 8px;"><p>Турганы голын 96.9 у/м төмөр бетон гүүр /Баян-өлгий, Сагсай/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">34.0</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">30</p></td>
+<td style="width: 462px; height: 8px;"><p>Алтан голын 17.36 у/м модон гүүр /Дорнод, Халх гол/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">11.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>Иргэний нисэхийн ерөнхий газар</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">1,483.6</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">31</p></td>
+<td style="width: 462px; height: 8px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Говь-Алтай/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">161.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">32</p></td>
+<td style="width: 462px; height: 8px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Увс/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">394.4</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">33</p></td>
+<td style="width: 462px; height: 8px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Баян-өлгий/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">80.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">34</p></td>
+<td style="width: 462px; height: 8px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Завхан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">348.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">35</p></td>
+<td style="width: 462px; height: 8px;"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвасыг шинэ технологиор хатуу хучилттай болгох /Хөвсгөл, Хатгал/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">92.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">36</p></td>
+<td style="width: 462px; height: 8px;"><p>Бодит ажиглалтын систем</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">405.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>Барилга, хот байгуулалт </p></td>
+<td style="width: 94px; height: 8px;"><p align="center">476.9</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">37</p></td>
+<td style="width: 462px; height: 8px;"><p>Аймгийн Засаг даргын Тамгын газрын конторын барилга /Завхан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">129.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">38</p></td>
+<td style="width: 462px; height: 8px;"><p>үерийн хамгаалалтын далан сувгийн ажил /Дархан-Уул, Дархан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">82.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">39</p></td>
+<td style="width: 462px; height: 8px;"><p>Цэвэр усны шугам, өргөлтийн насосны шинэчлэлт /Сэлэнгэ, Орхон-Хөтөл/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">191.7</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">40</p></td>
+<td style="width: 462px; height: 8px;"><p>Бохир ус цэвэрлэх байгууламж /Говьсүмбэр, Чойр/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">37.1</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">41</p></td>
+<td style="width: 462px; height: 8px;"><p>Инженерийн шугам сүлжээний шинэчлэлт /Дундговь, Мандалговь/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">36.2</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>МОНГОЛ УЛСЫН ЕРӨНХИЙ САЙД </p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">23.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Тагнуулын хэлтсийн барилга /Завхан/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">23.3</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>МОНГОЛ УЛСЫН ШАДАР САЙД </p></td>
+<td style="width: 94px; height: 8px;" nowrap><p align="center">244.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Дундговь аймгийн Сайнцагаан сум дахь шатахуун агуулах савыг Дорноговь аймгийн Айраг суманд шилжүүлэн байршуулах</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">244.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;"><p>ЭРҮҮЛ МЭНДИЙН САЙД</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">684.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">1</p></td>
+<td style="width: 462px; height: 8px;"><p>Спорт цогцолбор, 600 суудал /өвөрхангай/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">187.8</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">2</p></td>
+<td style="width: 462px; height: 8px;"><p>Спорт цогцолбор, 450 суудал /Булган/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">448.2</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;"><p align="center">3</p></td>
+<td style="width: 462px; height: 8px;"><p>Төрөх эмнэлгийн барилга, 50 ор /Увс, Улаангом/</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">48.5</p></td>
+</tr>
+<tr>
+<td style="width: 36px; height: 8px;" nowrap><p align="center"> </p></td>
+<td style="width: 462px; height: 8px;" nowrap><p align="center">НИЙТ ДҮН</p></td>
+<td style="width: 94px; height: 8px;"><p align="center">12,866.8</p></td>
+</tr>
+</tbody></table></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887160451" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><strike>/Энэ хавсралтыг 2009 оны 3 дугаар сарын 13-ны өдрийн хуулиар шинэчлэн баталсан/</strike></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615965887622404" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "><strike><table border="1" width="686" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="width: 71px; height: 17px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 613px; height: 17px;" colspan="8" rowspan="2" nowrap>
+<p> Монгол Улсыг хөгжүүлэх сангийн 2009 оны </p>
+<p> төсвийн тухай хуулийн 1 дүгээр хавсралт</p>
+</td>
+<td><p> </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 16px;" colspan="2" nowrap><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 16px;" colspan="2" nowrap><p align="center"> </p></td>
+<td style="width: 305px; height: 16px;" nowrap><p align="center"> </p></td>
+<td style="width: 99px; height: 16px;" nowrap><p> </p></td>
+<td style="width: 73px; height: 16px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 105px; height: 16px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 654px; height: 17px;" colspan="8" nowrap>
+<p align="center">МОНГОЛ УЛСЫГ ХӨГЖҮҮЛЭХ САНГИЙН ХӨРӨНГӨӨР САНХҮҮЖҮҮЛЭХ</p>
+<p align="center">ХӨРӨНГӨ ОРУУЛАЛТЫН ТӨСӨЛ, АРГА ХЭМЖЭЭ, БАРИЛГА </p>
+<p align="center">БАЙГУУЛАМЖИЙН ЖАГСААЛТ</p>
+</td>
+<td style="width: 16px; height: 17px;"><p> </p></td>
+<td style="width: 16px; height: 17px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 71px; height: 26px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 305px; height: 26px;" nowrap><p align="center"> </p></td>
+<td style="width: 308px; height: 26px;" colspan="7" nowrap><p> /Төсвийн ерөнхийлөн захирагчаар, сая төг/</p></td>
+<td><p> </p></td>
+</tr>
+<tr>
+<td style="width: 376px; height: 51px;" colspan="3"><p align="center">Төсөл, арга хэмжээ, барилга байгууламжийн нэр, хүчин чадал, байршил</p></td>
+<td style="width: 104px; height: 51px;" colspan="2"><p align="center">Хэрэгжүүлэх хугацаа</p></td>
+<td style="width: 78px; height: 51px;" colspan="2"><p align="center"> Төсөвт өртөг </p></td>
+<td style="width: 96px; height: 51px;"><p align="center">2009 оны санхүүжилт</p></td>
+<td style="width: 16px; height: 51px;"><p> </p></td>
+<td style="width: 16px; height: 51px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;"><p align="center">I</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p align="center">МОНГОЛ УЛСЫН ТЭРГҮҮН ШАДАР САЙД</p></td>
+<td style="width: 104px; height: 16px;" colspan="2"><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2"><p align="right"> 15,755.0 </p></td>
+<td style="width: 96px; height: 16px;"><p align="right"> 1,800.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;"><p align="center">I.1</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Хөрөнгө оруулалт: </p></td>
+<td style="width: 104px; height: 16px;" colspan="2"><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2"><p align="right">15,755.0 </p></td>
+<td style="width: 96px; height: 16px;"><p align="right">1,800.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">I.1.1</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>"Замын-Үүд" чөлөөт бүсийн мэргэжлийн албадын нэгдсэн байр /Дорноговь, Замын-Үүд/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 1,000.0 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 800.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">I.1.2</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>"Алтанбулаг" худалдааны чөлөөт бүсийн доторх хорооллын чанартай хатуу хучилттай авто зам, 0.8 км х13.8 км /Сэлэнгэ, Алтанбулаг/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2008-2010</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 14,755.0 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 1,000.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">II</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p align="center">ЭРДЭС БАЯЛАГ, ЭРЧИМ ХҮЧНИЙ САЙД</p></td>
+<td style="width: 104px; height: 16px;" colspan="2"><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2"><p align="right">45,476.7 </p></td>
+<td style="width: 96px; height: 16px;"><p align="right">24,622.3 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">II.1</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Цахилгаан дамжуулах шугам, дэд станц:</p></td>
+<td style="width: 104px; height: 16px;" colspan="2"><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2"><p align="right"> 8,811.9 </p></td>
+<td style="width: 96px; height: 16px;"><p align="right"> 8,811.9 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 34px;" nowrap><p align="center">II.1.1</p></td>
+<td style="width: 311px; height: 34px;" colspan="2"><p>Ил хуваарилах байгууламж-4-д 220/110/35 кВ-ын 125 мВа чадалтай автотрансформатор суурилуулах /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 34px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 34px;" colspan="2" nowrap><p align="right"> 2,754.9 </p></td>
+<td style="width: 96px; height: 34px;" nowrap><p align="right"> 2,754.9 </p></td>
+<td style="width: 16px; height: 34px;"><p> </p></td>
+<td style="width: 16px; height: 34px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.1.2</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Умард дэд станцын трансформатор, хаалттай хуваарилах байгууламжийн өргөтгөл, шинэчлэлт /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2" nowrap><p align="right"> 3,150.0 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 3,150.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.1.3</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>6, 10 кВ-ын дэд станцуудын тосон таслууруудыг вакуум болгох /РП 3,5, 6, 13, 24/ /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 1,080.0 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 1,080.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.1.4</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Дархан хотын 220/110/35 кВ-ын дэд станц, 35 кВ-ын реактор суурилуулах /Дархан-Уул/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2" nowrap><p align="right"> 1,827.0 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 1,827.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">II.2</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Дулааны станц, дулааны шугам сүлжээ:</p></td>
+<td style="width: 104px; height: 16px;" colspan="2"><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2"><p align="right"> 33,314.8 </p></td>
+<td style="width: 96px; height: 16px;"><p align="right"> 15,310.4 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 48px;" nowrap><p align="center">II.2.1</p></td>
+<td style="width: 311px; height: 48px;" colspan="2"><p>"ДЦС-4"-д "Усны дулаан солилцуулагч бүхий дулааны дэд станц" барих болон станцын дулааны дотоод шугам сүлжээг шинэчлэх, шинээр сүлжээний насос суурилуулах /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 48px;" colspan="2"><p align="center">2009-2010</p></td>
+<td style="width: 78px; height: 48px;" colspan="2"><p align="right"> 21,715.2 </p></td>
+<td style="width: 96px; height: 48px;"><p align="right"> 4,340.8 </p></td>
+<td style="width: 16px; height: 48px;"><p> </p></td>
+<td style="width: 16px; height: 48px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.2.2</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Дулааны сүлжээний нэвтрүүлэх чадварыг сайжруулахад насос станц №1, 6-ын хүчин чадлыг нэмэгдүүлж шинэчлэх /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 1,776.1 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 1,776.1 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.2.3</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Дулааны 5 "б" магистраль 1950м*2, 500 мм-ийн шугамыг 800 мм болгон өргөтгөж, шинэчлэх /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 3,816.0 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 3,816.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.2.4</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Дулааны 6 "б", "в" магистраль 2198м*2, 500 мм-ийн шугамыг 600 мм болгон өргөтгөж, шинэчлэх /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2" nowrap><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 4,657.5 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 4,657.5 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.2.5</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Дулаан хангамжийн системийг хаалттай системд шилжүүлэх /Дархан-Уул/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009-2010</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 1,350.0 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 720.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 17px;" nowrap><p align="center">II.3</p></td>
+<td style="width: 311px; height: 17px;" colspan="2"><p>Эрдэс баялаг:</p></td>
+<td style="width: 104px; height: 17px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 78px; height: 17px;" colspan="2" nowrap><p align="right">3,350.0 </p></td>
+<td style="width: 96px; height: 17px;" nowrap><p align="right">500.0 </p></td>
+<td style="width: 16px; height: 17px;"><p> </p></td>
+<td style="width: 16px; height: 17px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">II.3.1</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Хөрөнгө оруулалт: Газрын тосны чанарын хяналтын лаборатори байгуулах </p></td>
+<td style="width: 104px; height: 32px;" colspan="2" nowrap><p align="center">2008-2010</p></td>
+<td style="width: 78px; height: 32px;" colspan="2" nowrap><p align="right"> 3,350.0 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 500.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;"><p align="center">III</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p align="center">ЗАМ, ТЭЭВЭР, БАРИЛГА ХОТ БАЙГУУЛАЛТЫН САЙД</p></td>
+<td style="width: 104px; height: 16px;" colspan="2"><p> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2"><p align="right"> 137,280.9 </p></td>
+<td style="width: 96px; height: 16px;"><p align="right"> 65,567.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1</p></td>
+<td style="width: 311px; height: 16px;" colspan="2" nowrap><p>Авто зам:</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right">53,790.8 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right">15,587.8 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1.1</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Өгийнуур-Хөшөөцайдам чиглэлийн 10 км хатуу хучилттай авто зам</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 1,298.9 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 280.1 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 19px;" nowrap><p align="center">III.1.2</p></td>
+<td style="width: 311px; height: 19px;" colspan="2"><p>Хархорин-Цэцэрлэгийн 74 км хайрган авто замыг хатуу хучилттай болгох</p></td>
+<td style="width: 104px; height: 19px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 19px;" colspan="2" nowrap><p align="right"> 8,403.6 </p></td>
+<td style="width: 96px; height: 19px;" nowrap><p align="right"> 1,955.8 </p></td>
+<td style="width: 16px; height: 19px;"><p> </p></td>
+<td style="width: 16px; height: 19px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">III.1.3</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Цэцэрлэг-Их тамир-Тосонцэнгэл чиглэлийн 53 км хайрган авто замыг хатуу хучилттай болгох </p></td>
+<td style="width: 104px; height: 32px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2" nowrap><p align="right"> 8,296.0 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 1,528.2 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1.4</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Дашинчилэн-Орхоны гүүр чиглэлийн 109 км хатуу хучилттай авто зам</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 19,073.9 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 8,663.3 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1.5</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Хатгал-Жанхай-Тойлогт чиглэлийн 30.4 км хайрган авто зам</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 3,040.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 221.8 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1.6</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Хархорин-Хужиртын 39 км хатуу хучилттай авто зам</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2006-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 5,841.2 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 1,002.2 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1.7</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Дамдинсүрэнгийн гудамжны авто зам /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2006-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 1,800.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 104.3 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.1.8</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Эрдэнэт-Булган-Уньт чиглэлийн 14.5 км хатуу хучилттай авто зам</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 3,045.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 1,045.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">III.1.9</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Арвайхээр-Баянхонгор чиглэлийн 23 км хайрган замыг хатуу хучилттай болгох</p></td>
+<td style="width: 104px; height: 32px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2" nowrap><p align="right"> 2,992.2 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 787.1 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Гүүр:</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 15,063.9 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 9,736.8 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.1</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Эгийн голын 160 у/м төмөр бетон гүүр /Хөвсгөл, Түнэл/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 1,812.5 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 1,532.5 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.2</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Турганы голын 96.9 у/м төмөр бетон гүүр /Баян-Өлгий, Сагсай/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 999.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 799.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.3</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Туул голын Горхийн 211 у/м төмөр бетон гүүр /Улаанбаатар, Тэрэлж/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 2,422.5 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 829.5 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.4</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Ховд голын 181.8 у/м төмөр бетон гүүр /Баян-Өлгий, Улаанхус/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 1,500.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 1,080.9 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.5</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Нарийний голын 325 у/м төмөр бетон гүүр /Увс, Тэс/ </p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2006-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 2,750.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 1,815.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.6</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Их тэнгэрийн 258 у/м төмөр бетон гүүр /Улаанбаатар/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2007-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 3,986.5 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 2,286.5 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.2.7</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Идэрийн голын төмөр бетон гүүр /Завхан, Их Уул/</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 1,593.4 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 1,393.4 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.3</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Иргэний нисэхийн ерөнхий газар:</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right">44,794.2 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right">16,610.4 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.3.1</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Хөрөнгө оруулалт: </p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right">25,884.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right">8,000.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">III.3.1.1</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвасын хүчитгэлийн ажил, гэрлэн тэмдэгт /Улаанбаатар, "Чингис хаан" Олон улсын нисэх буудал/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2008-2011</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 7,000.0 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 1,500.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">III.3.1.2</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Говь-Алтай/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2008-2010</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 7,385.3 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 2,300.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 20px;" nowrap><p align="center">III.3.1.3</p></td>
+<td style="width: 311px; height: 20px;" colspan="2"><p>Нисэх буудлын онгоц хөөрч, буух хатуу хучилттай зурвас, үерийн далан /Увс/</p></td>
+<td style="width: 104px; height: 20px;" colspan="2"><p align="center">2008-2010</p></td>
+<td style="width: 78px; height: 20px;" colspan="2"><p align="right"> 11,498.7 </p></td>
+<td style="width: 96px; height: 20px;" nowrap><p align="right"> 4,200.0 </p></td>
+<td style="width: 16px; height: 20px;"><p> </p></td>
+<td style="width: 16px; height: 20px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;" nowrap><p align="center">III.3.2</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Тоног төхөөрөмж: Бодит ажиглалтын систем /радиолокатор 3ш, VОR/DME 4ш/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2" nowrap><p align="center">2008-2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2" nowrap><p align="right"> 18,910.2 </p></td>
+<td style="width: 96px; height: 32px;" nowrap><p align="right"> 8,610.4 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">III.4</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p>Тээвэр:</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right">23,632.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right">23,632.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 32px;"><p align="center">III.4.1</p></td>
+<td style="width: 311px; height: 32px;" colspan="2"><p>Нийслэлийн нийтийн тээврийн парк шинэчлэлт /Их багтаамжтай автобус, 400 ш/</p></td>
+<td style="width: 104px; height: 32px;" colspan="2"><p align="center">2009</p></td>
+<td style="width: 78px; height: 32px;" colspan="2"><p align="right"> 23,632.0 </p></td>
+<td style="width: 96px; height: 32px;"><p align="right"> 23,632.0 </p></td>
+<td style="width: 16px; height: 32px;"><p> </p></td>
+<td style="width: 16px; height: 32px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 16px;" nowrap><p align="center">IY</p></td>
+<td style="width: 311px; height: 16px;" colspan="2"><p align="center">ХҮНС, ХӨДӨӨ АЖ АХУЙ, ХӨНГӨН ҮЙЛДВЭРИЙН САЙД</p></td>
+<td style="width: 104px; height: 16px;" colspan="2" nowrap><p align="center"> </p></td>
+<td style="width: 78px; height: 16px;" colspan="2" nowrap><p align="right"> 30,300.0 </p></td>
+<td style="width: 96px; height: 16px;" nowrap><p align="right"> 30,300.0 </p></td>
+<td style="width: 16px; height: 16px;"><p> </p></td>
+<td style="width: 16px; height: 16px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 37px;" nowrap><p align="center">IY.1</p></td>
+<td style="width: 311px; height: 37px;" colspan="2"><p>Хөрөнгө оруулалт: "Атрын 3 дахь аян" газар тариалангийн үндэсний хөтөлбөрийг хэрэгжүүлэх</p></td>
+<td style="width: 104px; height: 37px;" colspan="2" nowrap><p align="center">2009</p></td>
+<td style="width: 78px; height: 37px;" colspan="2"><p align="right">30,300.0 </p></td>
+<td style="width: 96px; height: 37px;"><p align="right">30,300.0 </p></td>
+<td style="width: 16px; height: 37px;"><p> </p></td>
+<td style="width: 16px; height: 37px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td style="width: 66px; height: 26px;" nowrap><p align="center"> </p></td>
+<td style="width: 311px; height: 26px;" colspan="2" nowrap><p align="center">НИЙТ ДҮН</p></td>
+<td style="width: 104px; height: 26px;" colspan="2" nowrap><p align="center"> </p></td>
+<td style="width: 78px; height: 26px;" colspan="2" nowrap><p align="right"> 228,812.6 </p></td>
+<td style="width: 96px; height: 26px;" nowrap><p align="right"> 122,289.3</p></td>
+<td style="width: 16px; height: 26px;"><p> </p></td>
+<td style="width: 16px; height: 26px;" colspan="2"><p> </p></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody></table></strike></div></div>
+</div>
+</div></body>
+</html>

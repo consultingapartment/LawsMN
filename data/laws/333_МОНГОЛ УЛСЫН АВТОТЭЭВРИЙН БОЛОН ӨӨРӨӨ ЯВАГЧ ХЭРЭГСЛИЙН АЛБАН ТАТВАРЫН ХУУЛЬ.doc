@@ -1,0 +1,255 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:doc" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<style type="text/css">
+body {
+            line-height: 12px; 
+            font-size: 12px; 
+            color: #000; 
+            -webkit-print-color-adjust: exact;
+        }
+@page {mso-page-border-surround-header: no;mso-page-border-surround-footer: no;}
+@page Section1 {size:595.45pt 841.7pt;mso-page-orientation:portrait;margin:0.6in 0.6in 0.6in 1in;mso-header-margin:.2in;mso-footer-margin:.2in;mso-paper-source:0;} div.Section1 {page:Section1;}
+a, a:visited, a:hover, a:active {
+            color: #000;
+            text-decoration: none; 
+            cursor: default;
+        } 
+        a:after { content:''; } 
+        a[href]:after { content: none !important; }
+table {table-layout: fixed;clear: both;border-collapse: collapse;word-wrap: break-word;}
+table thead th, table thead td, table tbody td, table tfoot td{overflow: hidden;word-wrap: break-word;padding: 2px 3px}
+.right-rotate{mso-rotate: -90;}.left-rotate{mso-rotate: 90;}
+</style>
+</head>
+<body><div class=Section1>
+<style type="text/css">* {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body {margin:0;padding:0;line-height:1.4em;font:12px ;color:#000;width:100%;-webkit-print-color-adjust:exact}a, a:visited, a:hover, a:active {color:inherit;text-decoration:none}a:after { content:''; }a[href]:after { content:none !important; }.navbar, .sidebar-nav {display:none}p {margin:0 0 10px}hr {margin:20px 0;border:0;border-top:1px solid #ddd;border-bottom:0;width:100%}table {table-layout:fixed;clear:both;border-collapse:collapse;page-break-after:auto;font-size:12px;border-color:grey}tr { page-break-inside:avoid; page-break-after:auto }td { page-break-inside:avoid; page-break-after:auto }thead {display:table-header-group}tbody {   display:table-row-group}tfoot {display:table-footer-group}table thead th, table thead td, table tbody td, table tfoot td {overflow:hidden;word-wrap:break-word;padding:2px 3px;line-height:12px}table thead th ul, table thead td ul, table tbody td ul, table tfoot td ul {margin-bottom:0px;padding-left:14px}table.pf-repeat-page-header thead td,table.pf-repeat-page-header thead th,table.pf-repeat-page-header tbody td,table.pf-repeat-page-header tfoot td {padding:2px 3px !important}table.pf-repeat-page-header tbody td table tbody td,table.pf-repeat-page-header tbody td table thead td,table.pf-repeat-page-header tbody td table thead th,table.pf-repeat-page-header tbody td table tfoot td {padding:2px 0 !important}table tbody td table tbody td,table tbody td table thead td,table tbody td table thead th,table tbody td table tfoot td {padding:2px 0 !important}table[border="1"] > thead > tr > td,table[border="1"] > thead > tr > th,table[border="1"] > tbody > tr > td,table[border="1"] > tbody > tr > th,table[border="1"] > tfoot > tr > td,table[border="1"] > tfoot > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] {width:100.1% !important}td.pf-st-group-tbl,table.pf-repeat-page-header[border="1"] tbody td.pf-st-group-tbl {padding:0 !important}table.pf-repeat-page-header tbody td table[border="1"] tfoot td {padding:2px 3px !important}.pf-st-group-tbl > table[border="1"] > thead > tr > th {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > thead > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tbody > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td {border:1px #777 solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:first-child > td {  border-top:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:first-child {  border-left:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr:last-child > td {  border-bottom:1px #fff solid !important}.pf-st-group-tbl > table[border="1"] > tfoot > tr > td:last-child {  border-right:1px #fff solid !important}.right-rotate {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);white-space:nowrap;word-wrap:break-word}.left-rotate {-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg);white-space:nowrap;word-wrap:break-word}.right-rotate span, .left-rotate span {display:block}table.pf-report-table-none,table.pf-report-table-none td,table.pf-report-table-none th {border:0px #fff solid}table.pf-report-table-dotted,table.pf-report-table-dotted td,table.pf-report-table-dotted th {border:1px #000 dotted}table.pf-report-table-dashed,table.pf-report-table-dashed td,table.pf-report-table-dashed th {border:1px #000 dashed}table.pf-report-table-solid,table.pf-report-table-solid td,table.pf-report-table-solid th {border:1px #000 solid}table:has(thead) {min-width:100%}div.print-width-dpi {display:block;min-width:880px;height:1px} a { text-decoration: none;}  ul {padding: 0;list-style: none;} .nom-title {font-size: 11px;line-height: 22px;text-align: center;text-transform: uppercase;color: #2E3B52;max-height: 28px;overflow: hidden;margin-top: 21px;} .nom-header-top .title {font-weight: bold;font-size: 14px;line-height: 22px;color: #2E3B52;text-transform: uppercase;margin-bottom: 0;text-align: center;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-header-top span {font-weight: 700;font-size: 11px;line-height: 22px;color: #000000;}.nom-more-content .uk-accordion-title {font-weight: 700;font-size: 11px;line-height: 14px;color: #2E3B52;}.nom-more-content .uk-accordion-content p {font-size: 11px;line-height: 22px;color: rgba(46, 59, 82, 0.8);margin-bottom: 0;}.nom-bottom-author {max-width: 545px;margin-left: auto;margin-top: 70px;}.nom-bottom-author h6 {font-weight: 700;font-size: 14px;line-height: 22px;color: #000000;}.uk-flex-between {justify-content: space-between;}.uk-text-center {text-align: center;}.uk-flex {display: flex;}section, p {line-height: 22px;font-size: 14px !important;font-family: Arial, Helvetica, sans-serif !important;}.pull-left {float:left;}.w-100 {width: 100%;}.w-50 {width: 50%;}</style>
+<div style="padding-right: 1.5cm ">
+<div class="nom-more-divider uk-text-center" style="text-align: center"><img src="https://legalinfo.mn/storage/uploads/files/suld1.png" style="margin-top: 40px;"></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770302230" data-pp="0" style="position: relative; font-size: 15px; font-weight: 700; color: #287fe6 !important;; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ХУУЛЬ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770120152" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important;margin-botttom:20px:; text-align: LEFT; "><div style="padding-left: rem; ">1992 оны 12 дугаар сарын 1-ний өдөр</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770533605" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color:#275dff;width:49% !important; text-align: right !important;margin-botttom:20px:clear:both; text-align: RIGHT; "><div style="padding-left: rem; ">Улаанбаатар хот</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770260327" data-pp="0" style="position: relative; font-size: 14px; font-weight: 700; color:#000; text-transform: uppercase; line-height: 22px;margin-top:10px;margin-bottom:10px; width: 70% !important;; margin-left: 15%;; text-align: CENTER; "><div style="padding-left: rem; "><p>МОНГОЛ УЛСЫН АВТОТЭЭВРИЙН БОЛОН ӨӨРӨӨ ЯВАГЧ ХЭРЭГСЛИЙН АЛБАН ТАТВАРЫН ХУУЛЬ</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770316296" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">1 дүгээр зүйл.Хуулийн зорилт</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770467816" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Энэ хуулийн зорилт нь хувь хүн, аж ахуйн нэгж, байгууллагын автотээврийн болон өөрөө явагч хэрэгсэлд албан татвар ногдуулах, уг албан татварыг төсөвт төлөхтэй холбогдсон харилцааг зохицуулахад оршино.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770640185" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770037846" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">2 дугаар зүйл.Автотээврийн болон өөрөө явагч хэрэгслийн албан татварын хууль тогтоомж</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770643144" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Автотээврийн болон өөрөө явагч хэрэгслийн албан татвар /цаашид "албан татвар" гэх/-ын хууль тогтоомж нь Татварын ерөнхий хууль болон түүнтэй нийцүүлэн гаргасан энэ хууль, хууль тогтоомжийн бусад актаас бүрдэнэ.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770089934" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">3 дугаар зүйл.Албан татвар төлөгч</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770142521" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Монгол Улсын нутаг дэвсгэрт автотээврийн болон өөрөө явагч хэрэгсэл эзэмшиж буй хувь хүн, аж ахуйн нэгж, байгууллага албан татвар төлөгч байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770627331" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлд 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770896298" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">4 дүгээр зүйл.Албан татвар ногдох автотээврийн болон өөрөө явагч хэрэгсэл</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770934645" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Дараахь автотээврийн болон өөрөө явагч хэрэгсэлд албан татвар ногдуулна:</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770511476" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>1/бүх төрлийн ачааны автомашин;</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770113103" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>2/автобус;</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770922068" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>3/суудлын автомашин;</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770118870" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>4/мотоцикл;</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770322511" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>5/үйлдвэрлэгчээс тусгайлан тоноглосон, хүнсний технологийн тээвэрлэлтийн зориулалт бүхий автомашинаас бусад хүн болон ачаа тээвэрлэхэд зориулагдаагүй тусгай зориулалт бүхий автомашин;</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770564212" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770468243" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>6/трактор, өөрөө явагч бусад хэрэгсэл;</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770117551" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p>7/авто чиргүүл.</p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770801642" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ заалтыг 1998 оны 1 дүгээр сарын 9-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770781438" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">5 дугаар зүйл.Албан татварын хэмжээ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1639033305292739" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px; margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 3rem; ">
+<p>1.Автотээврийн болон өөрөө явагч хэрэгслийн жилийн албан татварыг дараах хэмжээгээр ногдуулна:</p>
+
+<table border="1"><tbody>
+<tr>
+<td colspan="2" rowspan="2">Автотээврийн болон өөрөө явагч хэрэгслийн төрөл</td>
+ <td colspan="2">Жилд ногдуулах албан татварын дээд, доод хязгаар /төгрөгөөр/</td>
+ </tr>
+<tr>
+<td>Нийслэл болон улсын зэрэглэлтэй хот</td>
+ <td>Орон нутгийн зэрэглэлтэй хот, сум</td>
+ </tr>
+<tr>
+<td>1</td>
+ <td>2 дугуйтай мотоцикл</td>
+ <td>2 000-6 000</td>
+ <td>1 800-5 400</td>
+ </tr>
+<tr>
+<td>2</td>
+ <td>3 дугуйтай мотоцикл</td>
+ <td>1 500-9 000</td>
+ <td>2 800-8 400</td>
+ </tr>
+<tr>
+<td rowspan="2">
+<br><br>
+ 3</td>
+ <td rowspan="2"> Суудлын автомашин:<br>
+  а/ 2001 см<sup>3</sup> хүртэл<br>
+  б/ 2001-3001 см<sup>3</sup> хүртэл <br>
+  в/ 3001 см<sup>3</sup> болон түүнээс<br>
+  дээш</td>
+ <td style="text-align:center">Нийслэл, түүний харьяа улсын болон орон нутгийн зэрэглэлтэй хот /Цилиндрийн багтаамжийн нэг см<sup>3</sup> тутамд<br>
+ төгрөгөөр/<br><br>
+ 16-96<br>
+ 18-108<br>
+ 22-132</td>
+ <td rowspan="2" style="text-align:center">14-42<br>
+ 16-48<br>
+  20-60</td>
+ </tr>
+<tr>
+<td>
+ <div style="text-align:center">Бусад улсын зэрэглэлтэй хот</div>
+
+ <div style="text-align:center">/Цилиндрийн багтаамжийн нэг см<sup>3</sup> тутамд төгрөгөөр/</div>
+
+ <div style="text-align:center">
+<br>
+ 16-48<br>
+ 18-54<br>
+ 22-66</div>
+ </td>
+ </tr>
+<tr>
+<td>4</td>
+ <td>Микроавтобус /15 хүртэл суудалтай/</td>
+ <td>35 000-105 000</td>
+ <td>28 000-84 000</td>
+ </tr>
+<tr>
+<td>5</td>
+ <td>Автобус</td>
+ <td>52 000-156 000</td>
+ <td>40 000-120 000</td>
+ </tr>
+<tr>
+<td>6</td>
+ <td>Ачааны автомашин:<br>
+ 1/ 1 хүртэл тн-ын даацтай<br>
+ 2/ 1-2 тн-ын даацтай<br>
+ 3/ 2-3 тн-ын даацтай<br>
+ 4/ 3-5 тн-ын даацтай<br>
+ 5/ 5-8 тн-ын даацтай<br>
+ 6/ 8-10 тн-ын даацтай<br>
+ 7/ 10-20 тн-ын даацтай<br>
+ 8/ 20-30 тн-ын даацтай<br>
+ 9/ 30-40 тн-ын даацтай<br>
+ 10/ 40-50 тн-ын даацтай<br>
+ 11/ 50-60 тн-ын даацтай<br>
+ 12/ 60-70 тн-ын даацтай<br>
+ 13/ 70-80 тн-ын даацтай<br>
+ 14/ 80-90 тн-ын даацтай<br>
+ 15/ 90-100 тн-ын даацтай<br>
+ 16/ 100 тн-оос дээш даацтай</td>
+ <td> <br>
+ 25 000-75 000<br>
+ 35 000-105 000<br>
+ 45 000-135 000<br>
+ 55 000-165 000<br>
+ 80 000-240 000<br>
+ 90 000-270 000<br>
+ 100 000-300 000<br>
+ 120 000-420 000<br>
+ 180 000-540 000<br>
+ 220 000-660 000<br>
+ 280 000-840 000<br>
+ 320 000-960 000<br>
+ 360 000-1 080 000<br>
+ 400 000-1 200 000<br>
+ 440 000-1 320 000<br>
+ 480 000-1 440 000</td>
+ <td> <br>
+ 20 000-60 000<br>
+ 28 000-84 000<br>
+ 36 000-108 000<br>
+ 44 000-132 000<br>
+ 64 000-192 000<br>
+ 72 000-216 000<br>
+ 80 000-240 000<br>
+ 120 000-360 000<br>
+ 180 000-480 000<br>
+ 200 000-600 000<br>
+ 240 000-720 000<br>
+ 280 000-840 000<br>
+ 320 000-960 000<br>
+ 380 000-1 140 000<br>
+ 420 000-1 260 000<br>
+ 440 000-1 320 000</td>
+ </tr>
+<tr>
+<td>7</td>
+ <td>Тусгай зориулалтын автомашин</td>
+ <td>16 000-48 000</td>
+ <td>15 000-45 000</td>
+ </tr>
+<tr>
+<td>8</td>
+ <td>Трактор, өөрөө явагч бусад хэрэгсэл</td>
+ <td>14 000-42 000</td>
+ <td>11 200-33 600</td>
+ </tr>
+<tr>
+<td>9</td>
+ <td>Бага оврын трактор</td>
+ <td>7 000-21 000</td>
+ <td>5 600-16 800</td>
+ </tr>
+<tr>
+<td>10</td>
+ <td>Чиргүүл /даацын 1 тонн тутамд/</td>
+ <td>5 500-16 500</td>
+ <td>5 500-16 500</td>
+ </tr>
+<tr>
+<td>11</td>
+ <td>Цахилгаан тэжээлт автомашин</td>
+ <td>0-100 000</td>
+ <td>0-80 000</td>
+ </tr>
+</tbody></table>
+</div>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2021 оны 7 дугаар сарын 7-ны өдрийн хуулиар өөрчлөн найруулсан./</p>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийн 11 дэх заалтыг 2023 оны 12 дугаар сарын 07-ны өдрийн хуулиар нэмсэн./</p>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийн 3 дахь заалтыг 2023 оны 12 дугаар сарын 07-ны өдрийн хуулиар өөрчлөн найруулсан./</p>
+<p style="   padding-left: 3rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар өөрчлөлт оруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1639036416509112" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; "><p><span style="color:#0033cc"><u><em>/Энэ хэсгийн 3, 4, 5, 6 дахь заалтыг 1997 оны 7 дугаар сарын 3-ны өдрийн хуулиар өөрчилсөн, 10 дахь заалтыг 1998 оны 1 дүгээр сарын 9-ний өдрийн хуулиар нэмсэн, энэ хэсгийг 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар өөрчлөн найруулсан/</em></u></span></p></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1704557737246701" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; "></div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770167747" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">2.Энэ зүйлийн 8 дахь хэсгийн трактор, өөрөө явагч бусад хэрэгсэлд үр тарианы комбайн, гинжит трактор хамаарахгүй.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770485662" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; ">3.Энэ зүйлийн 1 дэх хэсэгт заасан автотээврийн болон өөрөө явагч хэрэгсэлд ногдуулах албан татварын хэмжээг Улсын Их Хурлаас баталсан хязгаарт багтаан албан татвар төлөгчийн автотээврийн болон өөрөө явагч хэрэгслийн бүртгэлтэй аймаг, нийслэлийн иргэдийн Төлөөлөгчдийн Хурал<span style="font-size:12.0pt"><span style="font-family:" arial><span style="color:black">, </span></span></span>улсын зэрэглэлтэй хотын Зөвлөл тогтооно.</div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар нэмэлт оруулсан ./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770032001" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770034951" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">4.Энэ зүйлийн 1 дэх хэсгийн 6 дахь заалтад заасан ачааны автомашины даацын хэмжээ 2 ангилалд давхацсан тохиолдолд түүнийг өмнөх ангиллаар нь тооцож албан татвар ногдуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770276852" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770244811" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ зүйлийг 1997 оны 4 дүгээр сарын 24-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770067752" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">6 дугаар зүйл.Албан татвар ногдуулах</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770130141" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">1.Улсын бүртгэлд байгаа автотээврийн болон өөрөө явагч хэрэгсэлд тэдгээрийг ашиглаж байгаа эсэхийг үл харгалзан албан татвар ногдуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770506031" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">2.Автотээврийн болон өөрөө явагч хэрэгсэл ашиглалтаас хасагдсан тохиолдолд улсын бүртгэлээс хассан тухай албан ёсны баримт бичгийг үндэслэн түүнд ногдох албан татварыг дараа улирлаас эхлэн зогсооно. Албан татвар төлөгч автотээврийн болон өөрөө явагч хэрэгсэл өмчлөх эрхээ бусдад шилжүүлсэн тохиолдолд түүний албан татвар төлөх үүрэг дараа улирлаас эхлэн дуусгавар болно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1639042477337717" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; "><p>3.Албан татвар ногдох автотээврийн болон өөрөө явагч хэрэгслийг бүртгэх, бүртгэлээс хасах журмыг санхүү, төсвийн болон зам, тээврийн хөгжлийн асуудал эрхэлсэн Засгийн газрын гишүүд хамтран батална.</p></div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2021 оны 7 дугаар сарын 7-ны өдрийн хуулиар нэмсэн./</p>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2023 оны 12 дугаар сарын 07-ны өдрийн хуулиар "татвар, гааль, зам, тээврийн асуудал эрхэлсэн төрийн захиргааны байгууллага" гэснийг "санхүү, төсвийн болон зам, тээврийн хөгжлийн асуудал эрхэлсэн Засгийн газрын гишүүд" гэж өөрчлөлт оруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770115252" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">7 дугаар зүйл.Албан татвар төлөх хугацаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770691933" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">1.Хувь хүн нь авто тээврийн болон өөрөө явагч хэрэгслийн жилийн албан татварыг жилд нэг удаа тухайн жилийн 6 дугаар сарын 1-ний өдрөөс өмнө харьяалах татварын албанд төлнө. Хэрэв 6 дугаар сарын 1-нээс хойш авто тээврийн болон өөрөө явагч хэрэгслийг импортоор оруулж ирсэн бол харьяалах татварын албанд тухайн жилдээ багтаан үлдсэн хугацаанд ногдох татварыг төлнө.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770313670" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсэгт 1998 оны 1 дүгээр сарын 9-ний өдрийн хуулиар нэмэлт оруулсан, энэ хэсгийг 2000 оны 11 дүгээр сарын 16-ны өдрийн хууль, 2003 оны 12 дугаар сарын 26-ны өдрийн хуулиар тус тус өөрчлөн найруулсан, энэ хэсэгт 2010 оны 11 дүгээр сарын 25-ны өдрийн хуулиар өөрчлөлт оруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770696911" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; ">2.Аж ахуйн нэгж, байгууллага автотээврийн болон өөрөө явагч хэрэгслийн жилийн албан татварыг тэнцүү хэмжээгээр улирал бүрийн сүүлчийн сарын 25-ны дотор багтаан төсөвт төлнө.</div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсэгт 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар өөрчлөлт оруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770150571" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">3.Татвар төлөгч дараа улирал, жилийн албан татварыг урьдчилан төлж болно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770871117" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">8 дугаар зүйл.Албан татварын талаар замын хөдөлгөөн зохицуулах байгууллагын үйл ажиллагаа</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770351644" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; ">
+<div style="padding-left: 1rem; ">1.Автотээврийн болон өөрөө явагч хэрэгсэл бүртгэх эрх бүхий байгууллага нь автотээврийн болон өөрөө явагч хэрэгсэл эзэмшигчийн татвар төлсөн тухай татварын албаны мэдээлэлд үндэслэн шилжилт хөдөлгөөнийг бүртгэнэ. Замын хөдөлгөөн зохицуулах байгууллага нь автотээврийн болон өөрөө явагч хэрэгслийн бүртгэл, шилжилт хөдөлгөөний мэдээг тухай бүр татварын албанд гаргаж өгнө.</div>
+<p style="   padding-left: 1rem; margin: 0;position: relative; font-size: 13px; font-weight: ; text-decoration: underline;     color: #275dff;font-style: italic;; text-align: JUSTIFY; ">/Энэ хэсгийг 2024 оны 06 дугаар сарын 05-ны өдрийн хуулиар өөрчлөн найруулсан./</p>
+</div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770133413" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 1997 оны 4 дүгээр сарын 24-ний өдрийн хуулиар өөрчлөн найруулсан/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770641470" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">2.Замын хөдөлгөөн зохицуулах байгууллага автотээврийн болон өөрөө явагч хэрэгслийн албан татварыг хураах ажилд туслалцаа үзүүлнэ. Татварын алба, замын хөдөлгөөн зохицуулах байгууллага автотээврийн болон өөрөө явагч хэрэгслийн техникийн үзлэг, татварын хяналт шалгалтын ажлыг хамтатган зохион байгуулна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770580725" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">3.Автотээврийн болон өөрөө явагч хэрэгслийн техникийн үзлэгийн гэрчилгээ нь албан татвар төлсөн тухай тэмдэглэлтэй байна.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770782193" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; text-decoration: underline;color: #275dff;font-style: italic;line-height: 20px;margin-bottom:10px;font-weight: 400;text-transform: none;padding-left: 3rem;; text-align: JUSTIFY; "><div style="padding-left: 3rem; ">/Энэ хэсгийг 1997 оны 4 дүгээр сарын 24-ний өдрийн хуулиар нэмсэн/</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770561824" data-pp="1" style="position: relative; font-size: 13px; font-weight: 700; color: #293E9C;margin-top:20px;; text-align: JUSTIFY; "><div style="padding-left: rem; ">9 дүгээр зүйл.Хууль хүчин төгөлдөр болох</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770136420" data-pp="0" style="position: relative; font-size: 13px; font-weight: ; color: #333; line-height: 20px;margin-top:10px; text-align: JUSTIFY; "><div style="padding-left: 1rem; ">Энэ хууль 1993 оны 1 дүгээр сарын 1-ний өдрөөс эхлэн хүчин төгөлдөр болно.</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770462424" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ДАРГА Н.БАГАБАНДИ</div></div>
+<div class="w-100 pull-left " data-parentid="" id="1615888770974529" data-pp="0" style="position: relative; font-size: 13px; font-weight: 400; color: #000;margin-top:20px; text-align: CENTER; "><div style="padding-left: rem; ">МОНГОЛ УЛСЫН ИХ ХУРЛЫН ТАМГЫН ГАЗРЫН ЕРӨНХИЙ НАРИЙН БИЧГИЙН ДАРГА Н.РИНЧИНДОРЖ</div></div>
+</div>
+</div></body>
+</html>
