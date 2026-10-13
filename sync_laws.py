@@ -36,7 +36,8 @@ CONNECTED_URL = f"{BASE}/mn/lawConnectedTypeData"
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 DB_PATH = DATA_DIR / "laws.sqlite"
-LAWS_DIR = DATA_DIR / "laws"
+WORD_DIR = DATA_DIR / "laws"
+TEXT_DIR = ROOT / "legal"
 STATE_PATH = DATA_DIR / "last_sync.json"
 
 REPEAL_PHRASE = "ХҮЧИНГҮЙ БОЛСОНД ТООЦОХ"
@@ -68,7 +69,8 @@ def is_repeal(title: str) -> bool:
 
 def connect() -> sqlite3.Connection:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    LAWS_DIR.mkdir(parents=True, exist_ok=True)
+    WORD_DIR.mkdir(parents=True, exist_ok=True)
+    TEXT_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
@@ -239,14 +241,56 @@ def fetch_all_active(s: requests.Session) -> list[dict[str, str]]:
     return kept
 
 
-def safe_filename(law_id: str, title: str) -> str:
+def safe_stem(law_id: str, title: str) -> str:
     slug = re.sub(r"[\\/*?:\"<>|\r\n]+", " ", title)
     slug = normalize_ws(slug)[:80]
-    return f"{law_id}_{slug}.doc"
+    return f"{law_id}_{slug}"
+
+
+def replace_same_law(directory: Path, law_id: str, keep: Path) -> None:
+    """Тухайн хавтсанд зөвхөн энэ хуулийн хуучин нэртэй файлыг солино. Нөгөө хавтаст хүрэхгүй."""
+    for old in directory.glob(f"{law_id}_*"):
+        if old != keep:
+            old.unlink(missing_ok=True)
+
+
+def html_to_law_text(html: str, title: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "head"]):
+        tag.decompose()
+    supers = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+    for sup in soup.find_all("sup"):
+        sup.replace_with(sup.get_text().translate(supers))
+    for br in soup.find_all("br"):
+        br.replace_with("\n")
+    blocks = [b for b in soup.select("div.w-100") if b.find_parent("div", class_="w-100") is None]
+    lines: list[str] = []
+    if blocks:
+        for block in blocks:
+            line = normalize_ws(block.get_text("", strip=True))
+            line = re.sub(r"([⁰¹²³⁴⁵⁶⁷⁸⁹])(?=[А-Яа-яӨөҮүЁё])", r"\1 ", line)
+            if line:
+                lines.append(line)
+    else:
+        for raw in soup.get_text("\n").splitlines():
+            line = normalize_ws(raw)
+            if not line:
+                if lines and lines[-1] != "":
+                    lines.append("")
+                continue
+            lines.append(line)
+    while lines and lines[0] == "":
+        lines.pop(0)
+    while lines and lines[-1] == "":
+        lines.pop()
+    body = "\n".join(lines)
+    if title and not body.startswith(title):
+        body = f"{title}\n\n{body}"
+    return body + "\n"
 
 
 def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, int]:
-    # Сайт Word-ыг зөвхөн POST-оор (wordExport) бүрэн буцаадаг. GET нь хоосон загвар өгдөг.
+    # Сайт текстийг Word HTML экспортоор өгдөг. Үүнээс зүйл, заалттай .txt гаргана.
     resp = request_with_retry(
         s,
         "POST",
@@ -269,18 +313,23 @@ def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, 
         },
         timeout=90,
     )
-    body = resp.content
-    text = body.decode("utf-8", "replace")
-    if len(body) < 1500 or not re.search(r"[А-Яа-яӨөҮүЁё]", text):
-        raise RuntimeError(f"Word файл хоосон загвар байна: lawId={law['law_id']} ({len(body)} bytes)")
-    digest = hashlib.sha256(body).hexdigest()
-    path = LAWS_DIR / safe_filename(law["law_id"], law["title"])
-    # Хуучин өөр нэртэй файлыг цэвэрлэх
-    for old in LAWS_DIR.glob(f"{law['law_id']}_*"):
-        if old != path:
-            old.unlink(missing_ok=True)
-    path.write_bytes(body)
-    return path, digest, len(body)
+    html = resp.content.decode("utf-8", "replace")
+    if len(html) < 1500 or not re.search(r"[А-Яа-яӨөҮүЁё]", html):
+        raise RuntimeError(f"Хуулийн текст хоосон байна: lawId={law['law_id']} ({len(html)} bytes)")
+    text = html_to_law_text(html, law["title"])
+    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < 200:
+        raise RuntimeError(f"Текст хэт богино: lawId={law['law_id']}")
+    digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    stem = safe_stem(law["law_id"], law["title"])
+    WORD_DIR.mkdir(parents=True, exist_ok=True)
+    TEXT_DIR.mkdir(parents=True, exist_ok=True)
+    word_path = WORD_DIR / f"{stem}.doc"
+    text_path = TEXT_DIR / f"{stem}.txt"
+    replace_same_law(WORD_DIR, law["law_id"], word_path)
+    replace_same_law(TEXT_DIR, law["law_id"], text_path)
+    word_path.write_bytes(html.encode("utf-8"))
+    text_path.write_text(text, encoding="utf-8")
+    return text_path, digest, len(text.encode("utf-8"))
 
 
 def fetch_dvid(s: requests.Session, law_id: str) -> str:
@@ -449,7 +498,10 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
 
     for index, law in enumerate(remote, 1):
         row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
-        has_file = row is not None and row["content_sha256"] and row["word_path"]
+        text_ready = False
+        if row is not None and row["word_path"] and str(row["word_path"]).endswith(".txt"):
+            text_ready = (ROOT / row["word_path"]).is_file()
+        has_file = bool(row and row["content_sha256"] and text_ready)
         meta_dirty = row is not None and metadata_changed(row, law)
         amend_changed = False
         checked_fp = False
@@ -555,7 +607,8 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
         "remote": len(remote),
         **stats,
         "db": str(DB_PATH),
-        "files": str(LAWS_DIR),
+        "files": str(TEXT_DIR),
+        "word_files": str(WORD_DIR),
     }
     STATE_PATH.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     log_event(conn, now, "summary", None, json.dumps(stats, ensure_ascii=False))
