@@ -1,0 +1,38 @@
+name: Monthly law sync
+
+on:
+  schedule:
+    # Сар бүрийн 1-ний 02:00 UTC
+    - cron: "0 2 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync laws
+        run: python sync_laws.py
+
+      - name: Commit database and Word files
+        run: |
+          git config user.name "law-sync-bot"
+          git config user.email "law-sync-bot@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "Өөрчлөлт алга."
+          else
+            git commit -m "sync: $(date -u +%Y-%m-%d) хуулийн сан шинэчлэгдлээ"
+            git push
+          fi
