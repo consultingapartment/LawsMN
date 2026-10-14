@@ -1,11 +1,12 @@
 {
-  "ran_at": "2026-10-13T15:48:56Z",
+  "ran_at": "2026-10-13T23:59:41Z",
   "remote": 717,
-  "new": 717,
-  "updated": 0,
+  "new": 0,
+  "updated": 717,
   "unchanged": 0,
   "missing": 0,
   "failed": 0,
   "db": "/home/runner/work/LawsMN/LawsMN/data/laws.sqlite",
-  "files": "/home/runner/work/LawsMN/LawsMN/data/laws"
+  "files": "/home/runner/work/LawsMN/LawsMN/legal",
+  "word_files": "/home/runner/work/LawsMN/LawsMN/data/laws"
 }
