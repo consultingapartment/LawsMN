@@ -1,13 +1,7 @@
 name: Sync laws to Google Drive
 
 on:
-  # Хуулийн сарын sync-ийн дараа автомат (optional: monthly.yml-ээс trigger)
-  workflow_run:
-    workflows: ["Monthly law sync"]
-    types: [completed]
-  # Гараар ажиллуулах
   workflow_dispatch:
-  # Сар бүрийн 1-ний 04:00 UTC (хуулийн sync 02:00-д ажилладаг гэж үзвэл)
   schedule:
     - cron: "0 4 1 * *"
 
@@ -17,28 +11,26 @@ permissions:
 jobs:
   sync-drive:
     runs-on: ubuntu-latest
-    # monthly.yml амжилттай дууссан үед л ажиллуулна (workflow_run-ийн үед)
-    if: >
-      github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Install rclone
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
-          rclone version
 
-      - name: Configure rclone (Google Drive)
+      - name: Sync only legal/*.txt
         env:
-          RCLONE_CONFIG_GDRIVE_TYPE: drive
-          RCLONE_CONFIG_GDRIVE_SCOPE: drive
-          RCLONE_CONFIG_GDRIVE_SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
-          # Хэрэв Shared Drive (Team Drive) ашиглавал:
-          # RCLONE_CONFIG_GDRIVE_TEAM_DRIVE: ${{ secrets.GDRIVE_TEAM_DRIVE_ID }}
+          GDRIVE_SA: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
         run: |
+          if [ -z "$GDRIVE_SA" ]; then
+            echo "GDRIVE_SERVICE_ACCOUNT_JSON secret байхгүй"
+            exit 1
+          fi
+          if [ ! -d legal ] || [ -z "$(find legal -name '*.txt' -print -quit)" ]; then
+            echo "legal/*.txt алга"
+            exit 0
+          fi
+          printf '%s' "$GDRIVE_SA" > /tmp/gdrive-sa.json
           mkdir -p ~/.config/rclone
           cat > ~/.config/rclone/rclone.conf << 'EOF'
           [gdrive]
@@ -46,24 +38,10 @@ jobs:
           scope = drive
           service_account_file = /tmp/gdrive-sa.json
           EOF
-          printf '%s' "$RCLONE_CONFIG_GDRIVE_SERVICE_ACCOUNT_CREDENTIALS" > /tmp/gdrive-sa.json
-
-      - name: Sync legal/*.txt → Google Drive
-        run: |
-          if [ ! -d legal ] || [ -z "$(ls -A legal 2>/dev/null)" ]; then
-            echo "legal/ хоосон эсвэл байхгүй — sync алгаслаа"
-            exit 0
-          fi
-          # Drive дээрх хавтас: "LawsMN" (өөрчилж болно)
           rclone sync ./legal gdrive:LawsMN \
             --include "*.txt" \
-            --create-empty-src-dirs \
-            --checksum \
+            --exclude "*.doc" \
+            --exclude "*.docx" \
             --transfers 8 \
             --checkers 16 \
-            --verbose \
-            --stats 30s
-          echo "Sync дууслаа."
-          rclone lsf gdrive:LawsMN | head -20
-          echo "..."
-          rclone size gdrive:LawsMN
+            --verbose
