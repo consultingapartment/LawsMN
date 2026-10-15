@@ -241,6 +241,23 @@ def fetch_all_active(s: requests.Session) -> list[dict[str, str]]:
     return kept
 
 
+def find_law_file(directory: Path, law_id: str, suffix: str) -> Path | None:
+    matches = sorted(directory.glob(f"{law_id}_*{suffix}"))
+    return matches[0] if matches else None
+
+
+def write_txt(html: str, law: dict[str, str]) -> tuple[Path, str, int]:
+    text = html_to_law_text(html, law["title"])
+    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < 200:
+        raise RuntimeError(f"Текст хэт богино: lawId={law['law_id']}")
+    digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    TEXT_DIR.mkdir(parents=True, exist_ok=True)
+    text_path = TEXT_DIR / f"{safe_stem(law['law_id'], law['title'])}.txt"
+    replace_same_law(TEXT_DIR, law["law_id"], text_path)
+    text_path.write_text(text, encoding="utf-8")
+    return text_path, digest, len(text.encode("utf-8"))
+
+
 def safe_stem(law_id: str, title: str) -> str:
     slug = re.sub(r"[\\/*?:\"<>|\r\n]+", " ", title)
     slug = normalize_ws(slug)[:80]
@@ -290,7 +307,7 @@ def html_to_law_text(html: str, title: str) -> str:
 
 
 def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, int]:
-    # Сайт текстийг Word HTML экспортоор өгдөг. Үүнээс зүйл, заалттай .txt гаргана.
+    # Сайт текстийг Word HTML экспортоор өгдөг. Зөвхөн .txt хадгална.
     resp = request_with_retry(
         s,
         "POST",
@@ -316,20 +333,7 @@ def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, 
     html = resp.content.decode("utf-8", "replace")
     if len(html) < 1500 or not re.search(r"[А-Яа-яӨөҮүЁё]", html):
         raise RuntimeError(f"Хуулийн текст хоосон байна: lawId={law['law_id']} ({len(html)} bytes)")
-    text = html_to_law_text(html, law["title"])
-    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < 200:
-        raise RuntimeError(f"Текст хэт богино: lawId={law['law_id']}")
-    digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
-    stem = safe_stem(law["law_id"], law["title"])
-    WORD_DIR.mkdir(parents=True, exist_ok=True)
-    TEXT_DIR.mkdir(parents=True, exist_ok=True)
-    word_path = WORD_DIR / f"{stem}.doc"
-    text_path = TEXT_DIR / f"{stem}.txt"
-    replace_same_law(WORD_DIR, law["law_id"], word_path)
-    replace_same_law(TEXT_DIR, law["law_id"], text_path)
-    word_path.write_bytes(html.encode("utf-8"))
-    text_path.write_text(text, encoding="utf-8")
-    return text_path, digest, len(text.encode("utf-8"))
+    return write_txt(html, law)
 
 
 def fetch_dvid(s: requests.Session, law_id: str) -> str:
@@ -498,27 +502,27 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
 
     for index, law in enumerate(remote, 1):
         row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
-        text_ready = False
-        if row is not None and row["word_path"] and str(row["word_path"]).endswith(".txt"):
-            text_ready = (ROOT / row["word_path"]).is_file()
-        has_file = bool(row and row["content_sha256"] and text_ready)
+        doc_path = find_law_file(WORD_DIR, law["law_id"], ".doc")
+        txt_path = find_law_file(TEXT_DIR, law["law_id"], ".txt")
         meta_dirty = row is not None and metadata_changed(row, law)
         amend_changed = False
         checked_fp = False
 
-        if has_file and not force and not metadata_only:
+        # .txt аль хэдийн байгаа үед л нэмэлт өөрчлөлтийн огноог шалгана.
+        # Зөвхөн .doc байвал сүлжээгээр дахин татахгүй.
+        if txt_path is not None and not force and not metadata_only:
             try:
-                dvid = row["dvid"] or fetch_dvid(http, law["law_id"])
+                dvid = (row["dvid"] if row else None) or fetch_dvid(http, law["law_id"])
                 fp, count, latest = amendment_fingerprint(http, law["law_id"], dvid)
                 law["dvid"] = dvid
                 law["amendment_fp"] = fp
                 law["amendment_count"] = count
                 law["latest_amendment_date"] = latest
                 checked_fp = True
-                stored = row["latest_amendment_date"] or ""
-                if row["amendment_fp"]:
-                    # Шинэ батлагдсан огноо гарсан, эсвэл таб дээр мөр нэмэгдсэн.
-                    amend_changed = latest > stored or row["amendment_fp"] != fp
+                stored = (row["latest_amendment_date"] if row else "") or ""
+                stored_fp = row["amendment_fp"] if row else None
+                if stored_fp:
+                    amend_changed = latest > stored or stored_fp != fp
                     if amend_changed:
                         print(
                             f"[{index}/{len(remote)}] нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}",
@@ -528,16 +532,27 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
             except Exception as exc:  # noqa: BLE001
                 print(f"[{index}/{len(remote)}] нэмэлт өөрчлөлтийн огноо уншигдсангүй, алгаслаа: {exc}", flush=True)
 
-        should_download = (
-            force
-            or not has_file
-            or meta_dirty
-            or amend_changed
-        )
+        should_download = force or amend_changed or (txt_path is None and doc_path is None)
+
+        if txt_path is None and doc_path is not None and not should_download:
+            print(f"[{index}/{len(remote)}] .doc-оос .txt: {law['title'][:70]}", flush=True)
+            try:
+                html = doc_path.read_text(encoding="utf-8", errors="replace")
+                path, digest, size = write_txt(html, law)
+                first_seen = row["first_seen_at"] if row else now
+                upsert_fetched(conn, law, path, digest, size, now, first_seen)
+                log_event(conn, now, "txt", law["law_id"], str(path.relative_to(ROOT)))
+                stats["updated" if row else "new"] += 1
+            except Exception as exc:  # noqa: BLE001
+                stats["failed"] += 1
+                log_event(conn, now, "failed", law["law_id"], str(exc))
+                print(f"    алдаа: {exc}", flush=True)
+            conn.commit()
+            continue
 
         if not should_download:
             touch_seen(conn, law, now)
-            if checked_fp and not row["amendment_fp"]:
+            if checked_fp and row is not None and not row["amendment_fp"]:
                 log_event(conn, now, "baseline", law["law_id"], law.get("amendment_fp", "")[:12])
             stats["unchanged"] += 1
             conn.commit()
