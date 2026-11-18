@@ -25,6 +25,11 @@ jobs:
       - name: Sync laws
         run: python sync_laws.py
 
+      - name: Remove legacy .doc files
+        # Скрипт одоо зөвхөн legal/*.txt бичдэг. Хуучин data/laws/*.doc-г repo-оос хасна.
+        # Файл байхгүй бол юу ч хийхгүй.
+        run: git rm -r -q --ignore-unmatch data/laws
+
       - name: Commit database and law texts
         run: |
           git config user.name "law-sync-bot"
