@@ -4,6 +4,7 @@
 Сар бүр (эсвэл гараар) дахин ажиллуулахад:
   - өмнө байгаагүй шинэ хуулийг татна
   - «Нэмэлт өөрчлөлт» табын жагсаалт өөрчлөгдсөн хуулийг дахин татна
+  - нэр, батлагдсан/хүчин төгөлдөр огноо, эмхэтгэл өөрчлөгдсөн хуулийг дахин татна
   - жагсаалтаас алга болсон хуулийг inactive гэж тэмдэглэнэ (файлыг устгахгүй)
 
 Жишээ:
@@ -36,7 +37,6 @@ CONNECTED_URL = f"{BASE}/mn/lawConnectedTypeData"
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 DB_PATH = DATA_DIR / "laws.sqlite"
-WORD_DIR = DATA_DIR / "laws"
 TEXT_DIR = ROOT / "legal"
 STATE_PATH = DATA_DIR / "last_sync.json"
 
@@ -45,6 +45,10 @@ PAGE_DELAY = 0.6
 FILE_DELAY = 1.2
 CHECK_DELAY = 0.35
 MAX_RETRIES = 3
+MAX_LIST_PAGES = 400
+# Идэвхтэй жагсаалт өмнөхөөсөө энэ хувиас их буурвал сайтын доголдол гэж үзэж inactive тэмдэглэхгүй.
+MISSING_GUARD_RATIO = 0.9
+NO_AMENDMENTS_FP = hashlib.sha256(b"").hexdigest()
 
 HEADERS = {
     "User-Agent": "MongolianLawSync/1.0 (public legal archive; monthly refresh)",
@@ -69,7 +73,6 @@ def is_repeal(title: str) -> bool:
 
 def connect() -> sqlite3.Connection:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    WORD_DIR.mkdir(parents=True, exist_ok=True)
     TEXT_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -130,15 +133,22 @@ def session() -> requests.Session:
 
 def request_with_retry(s: requests.Session, method: str, url: str, **kwargs: Any) -> requests.Response:
     last: Exception | None = None
+    timeout = kwargs.pop("timeout", 60)
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            resp = s.request(method, url, timeout=kwargs.pop("timeout", 60), **kwargs)
+            resp = s.request(method, url, timeout=timeout, **kwargs)
             resp.raise_for_status()
             return resp
+        except requests.HTTPError as exc:
+            last = exc
+            status = exc.response.status_code if exc.response is not None else 0
+            # 4xx (429-өөс бусад) дахин оролдоод нэмэргүй.
+            if 400 <= status < 500 and status != 429:
+                break
         except Exception as exc:  # noqa: BLE001 — boundary retry
             last = exc
+        if attempt < MAX_RETRIES:
             time.sleep(2 * attempt)
-            kwargs.setdefault("timeout", 60)
     raise RuntimeError(f"{method} {url} failed: {last}")
 
 
@@ -218,21 +228,31 @@ def fetch_all_active(s: requests.Session) -> list[dict[str, str]]:
     collected: list[dict[str, str]] = []
     seen: set[str] = set()
     empty = 0
-    for page in range(1, 80):
+    finished = False
+    for page in range(1, MAX_LIST_PAGES + 1):
         html = fetch_list_page(s, page)
         batch = parse_list_html(html)
         print(f"  жагсаалт {page}: {len(batch)}", flush=True)
         if not batch:
             empty += 1
             if empty >= 2:
+                finished = True
                 break
         else:
             empty = 0
-            for item in batch:
-                if item["law_id"] not in seen:
-                    seen.add(item["law_id"])
-                    collected.append(item)
+            fresh = [item for item in batch if item["law_id"] not in seen]
+            if not fresh:
+                # Сүүлийн хуудсыг давтан буцааж байвал жагсаалт дууссан гэж үзнэ.
+                finished = True
+                break
+            for item in fresh:
+                seen.add(item["law_id"])
+                collected.append(item)
         time.sleep(PAGE_DELAY)
+    if not finished:
+        raise RuntimeError(
+            f"Жагсаалт {MAX_LIST_PAGES} хуудсанд дуусаагүй — дутуу жагсаалтаар inactive тэмдэглэхгүйн тулд зогсоолоо."
+        )
     kept = [item for item in collected if not is_repeal(item["title"])]
     print(
         f"Нийт идэвхтэй: {len(collected)}, хүчингүй болгосон нэртэйг хассан: {len(collected) - len(kept)}, үлдсэн: {len(kept)}",
@@ -337,17 +357,22 @@ def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, 
 
 
 def fetch_dvid(s: requests.Session, law_id: str) -> str:
+    """Нэмэлт өөрчлөлтийн табын dvid. Таб байхгүй (нэмэлт өөрчлөлт ороогүй) бол "" буцаана."""
     resp = request_with_retry(s, "GET", f"{DETAIL_URL}?lawId={law_id}", timeout=60)
     match = re.search(rf'data-unid="(\d+)"[^>]*data-lawid="{re.escape(law_id)}"', resp.text)
     if not match:
         match = re.search(r'data-unid="(\d+)"', resp.text)
     if not match:
-        raise RuntimeError(f"Нэмэлт өөрчлөлтийн dvid олдсонгүй: {law_id}")
+        if law_id not in resp.text:
+            raise RuntimeError(f"Хуулийн хуудас буруу ирлээ: {law_id}")
+        return ""
     return match.group(1)
 
 
 def amendment_fingerprint(s: requests.Session, law_id: str, dvid: str) -> tuple[str, int, str]:
     """«Нэмэлт өөрчлөлт» табын батлагдсан огноонууд. Буцаах: хэш, тоо, хамгийн сүүлийн огноо."""
+    if not dvid:
+        return NO_AMENDMENTS_FP, 0, ""
     resp = request_with_retry(
         s,
         "POST",
@@ -492,25 +517,26 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
     now = utc_now()
     conn = connect()
     http = session()
+    active_before = conn.execute("SELECT COUNT(*) FROM laws WHERE status='active'").fetchone()[0]
     remote = fetch_all_active(http)
     if limit > 0:
         remote = remote[:limit]
         print(f"Туршилт: зөвхөн эхний {limit}", flush=True)
 
-    stats = {"new": 0, "updated": 0, "unchanged": 0, "missing": 0, "failed": 0}
+    stats = {"new": 0, "updated": 0, "unchanged": 0, "missing": 0, "failed": 0, "check_failed": 0}
     remote_ids = {item["law_id"] for item in remote}
 
     for index, law in enumerate(remote, 1):
         row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
-        doc_path = find_law_file(WORD_DIR, law["law_id"], ".doc")
         txt_path = find_law_file(TEXT_DIR, law["law_id"], ".txt")
         meta_dirty = row is not None and metadata_changed(row, law)
         amend_changed = False
         checked_fp = False
+        if meta_dirty:
+            print(f"[{index}/{len(remote)}] нэр/огноо өөрчлөгдсөн: {law['title'][:70]}", flush=True)
 
         # .txt аль хэдийн байгаа үед л нэмэлт өөрчлөлтийн огноог шалгана.
-        # Зөвхөн .doc байвал сүлжээгээр дахин татахгүй.
-        if txt_path is not None and not force and not metadata_only:
+        if txt_path is not None and not force and not metadata_only and not meta_dirty:
             try:
                 dvid = (row["dvid"] if row else None) or fetch_dvid(http, law["law_id"])
                 fp, count, latest = amendment_fingerprint(http, law["law_id"], dvid)
@@ -523,32 +549,22 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
                 stored_fp = row["amendment_fp"] if row else None
                 if stored_fp:
                     amend_changed = latest > stored or stored_fp != fp
-                    if amend_changed:
-                        print(
-                            f"[{index}/{len(remote)}] нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}",
-                            flush=True,
-                        )
+                elif row is not None and count > 0:
+                    # Өмнө нь тэмдэг хадгалаагүй (нэмэлт өөрчлөлтгүй байсан) хуульд одоо
+                    # нэмэлт өөрчлөлт харагдаж байна — текст хуучирсан байж болзошгүй тул дахин татна.
+                    amend_changed = True
+                if amend_changed:
+                    print(
+                        f"[{index}/{len(remote)}] нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}",
+                        flush=True,
+                    )
                 time.sleep(CHECK_DELAY)
             except Exception as exc:  # noqa: BLE001
+                stats["check_failed"] += 1
+                log_event(conn, now, "check_failed", law["law_id"], str(exc)[:500])
                 print(f"[{index}/{len(remote)}] нэмэлт өөрчлөлтийн огноо уншигдсангүй, алгаслаа: {exc}", flush=True)
 
-        should_download = force or amend_changed or (txt_path is None and doc_path is None)
-
-        if txt_path is None and doc_path is not None and not should_download:
-            print(f"[{index}/{len(remote)}] .doc-оос .txt: {law['title'][:70]}", flush=True)
-            try:
-                html = doc_path.read_text(encoding="utf-8", errors="replace")
-                path, digest, size = write_txt(html, law)
-                first_seen = row["first_seen_at"] if row else now
-                upsert_fetched(conn, law, path, digest, size, now, first_seen)
-                log_event(conn, now, "txt", law["law_id"], str(path.relative_to(ROOT)))
-                stats["updated" if row else "new"] += 1
-            except Exception as exc:  # noqa: BLE001
-                stats["failed"] += 1
-                log_event(conn, now, "failed", law["law_id"], str(exc))
-                print(f"    алдаа: {exc}", flush=True)
-            conn.commit()
-            continue
+        should_download = force or amend_changed or meta_dirty or txt_path is None
 
         if not should_download:
             touch_seen(conn, law, now)
@@ -598,7 +614,17 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
         conn.commit()
         time.sleep(FILE_DELAY)
 
-    if limit == 0 and remote_ids:
+    guard_skipped = False
+    if limit == 0 and remote_ids and len(remote_ids) < MISSING_GUARD_RATIO * active_before:
+        guard_skipped = True
+        msg = (
+            f"Идэвхтэй жагсаалт {active_before} → {len(remote_ids)} болж огцом буурлаа. "
+            "Сайтын доголдол байж болзошгүй тул inactive тэмдэглэлийг алгаслаа."
+        )
+        print(msg, flush=True)
+        log_event(conn, now, "missing_guard", None, msg)
+        conn.commit()
+    elif limit == 0 and remote_ids:
         conn.execute("CREATE TEMP TABLE seen_ids (law_id TEXT PRIMARY KEY)")
         conn.executemany("INSERT INTO seen_ids (law_id) VALUES (?)", [(i,) for i in remote_ids])
         missing = conn.execute(
@@ -621,9 +647,9 @@ def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
         "ran_at": now,
         "remote": len(remote),
         **stats,
-        "db": str(DB_PATH),
-        "files": str(TEXT_DIR),
-        "word_files": str(WORD_DIR),
+        "missing_guard_skipped": guard_skipped,
+        "db": str(DB_PATH.relative_to(ROOT)),
+        "files": str(TEXT_DIR.relative_to(ROOT)),
     }
     STATE_PATH.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     log_event(conn, now, "summary", None, json.dumps(stats, ensure_ascii=False))
