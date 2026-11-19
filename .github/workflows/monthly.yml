@@ -5,13 +5,26 @@ on:
     # Сар бүрийн 1-ний 02:00 UTC
     - cron: "0 2 1 * *"
   workflow_dispatch:
+    inputs:
+      categories:
+        description: "Ангилал (хоосон = бүгд: 27,28,34,33)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
+  actions: write # үлдэгдэл байвал өөрийгөө дахин эхлүүлэхэд
+
+# Нэг зэрэг хоёр синк ажиллахгүй.
+concurrency:
+  group: law-sync
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    # GitHub-ийн хязгаар 360 минут. Скрипт 300 минутад зогсож, commit хийх хугацаа үлдээнэ.
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -23,21 +36,42 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Sync laws
-        run: python sync_laws.py
+        run: |
+          ARGS="--time-budget 300"
+          if [ -n "${{ github.event.inputs.categories }}" ]; then
+            ARGS="$ARGS --category ${{ github.event.inputs.categories }}"
+          fi
+          python sync_laws.py $ARGS
 
       - name: Remove legacy .doc files
-        # Скрипт одоо зөвхөн legal/*.txt бичдэг. Хуучин data/laws/*.doc-г repo-оос хасна.
+        # Скрипт одоо зөвхөн .txt бичдэг. Хуучин data/laws/*.doc-г repo-оос хасна.
         # Файл байхгүй бол юу ч хийхгүй.
         run: git rm -r -q --ignore-unmatch data/laws
 
-      - name: Commit database and law texts
+      - name: Commit database and texts
         run: |
           git config user.name "law-sync-bot"
           git config user.email "law-sync-bot@users.noreply.github.com"
           git add -A data legal
+          for d in uih_togtool said_tushaal zg_togtool; do [ -d "$d" ] && git add -A "$d"; done
           if git diff --cached --quiet; then
             echo "Өөрчлөлт алга."
           else
-            git commit -m "sync: $(date -u +%Y-%m-%d) хуулийн сан шинэчлэгдлээ"
+            git commit -q -m "sync: $(date -u +%Y-%m-%d) хуулийн сан шинэчлэгдлээ"
             git push
+          fi
+
+      - name: Continue backlog if time budget ran out
+        # Эхний удаа ~9 000 тогтоол, тушаал татах тул нэг ажиллалтад багтахгүй.
+        # Энэ ажиллалт ахиц гаргасан (шинэ/шинэчилсэн > 0) бөгөөд дутуу бол дахин эхлүүлнэ.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PARTIAL=$(jq -r '.partial' data/last_sync.json)
+          PROGRESS=$(jq -r '.new + .updated' data/last_sync.json)
+          echo "partial=$PARTIAL progress=$PROGRESS"
+          if [ "$PARTIAL" = "true" ] && [ "$PROGRESS" -gt 0 ]; then
+            gh workflow run monthly.yml --ref "${{ github.ref_name }}" \
+              -f categories="${{ github.event.inputs.categories }}"
+            echo "Үлдэгдлийг үргэлжлүүлэх ажиллалт эхлүүллээ."
           fi
