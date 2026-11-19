@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: drive-sync
+  cancel-in-progress: true
+
 jobs:
   sync-drive:
     runs-on: ubuntu-latest
@@ -23,7 +27,7 @@ jobs:
       - name: Install rclone
         run: curl -fsSL https://rclone.org/install.sh | sudo bash
 
-      - name: Sync only legal/*.txt
+      - name: Sync texts (legal + тогтоол, тушаал)
         env:
           RCLONE_CONFIG_GDRIVE_TYPE: drive
           RCLONE_CONFIG_GDRIVE_SCOPE: drive
@@ -36,13 +40,23 @@ jobs:
             echo "GDRIVE_TOKEN secret байхгүй"
             exit 1
           fi
-          if [ ! -d legal ] || [ -z "$(find legal -name '*.txt' -print -quit)" ]; then
-            echo "legal/*.txt алга"
-            exit 0
-          fi
-          rclone sync ./legal gdrive:LawsMN \
-            --include "*.txt" \
-            --transfers 4 \
-            --checkers 8 \
-            --drive-chunk-size 16M \
-            --verbose
+          # repo хавтас → Drive хавтас. Хуулийн хавтас (LawsMN) өмнөхөөрөө.
+          # Хавтас бүр тусдаа Drive хавтас руу — нэг нь нөгөөгийнхөө файлыг устгахгүй.
+          while read -r SRC DEST; do
+            if [ ! -d "$SRC" ] || [ -z "$(find "$SRC" -name '*.txt' -print -quit)" ]; then
+              echo "$SRC/*.txt алга — алгаслаа"
+              continue
+            fi
+            echo "== $SRC → gdrive:$DEST"
+            rclone sync "./$SRC" "gdrive:$DEST" \
+              --include "*.txt" \
+              --transfers 4 \
+              --checkers 8 \
+              --drive-chunk-size 16M \
+              --stats 1m --stats-one-line
+          done <<'MAP'
+          legal LawsMN
+          uih_togtool LawsMN_UIH_togtool
+          said_tushaal LawsMN_Said_tushaal
+          zg_togtool LawsMN_ZG_togtool
+          MAP
