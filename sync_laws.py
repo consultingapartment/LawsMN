@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Монгол Улсын хүчин төгөлдөр хуулиудыг legalinfo.mn-ээс татаж SQLite-д бүртгэнэ.
+"""Монгол Улсын хүчин төгөлдөр хууль, тогтоол, тушаалыг legalinfo.mn-ээс татаж SQLite-д бүртгэнэ.
+
+Ангилал (CATEGORIES): хууль (27), УИХ-ын тогтоол (28), Засгийн газрын тогтоол (33), Сайдын тушаал (34).
 
 Сар бүр (эсвэл гараар) дахин ажиллуулахад:
   - өмнө байгаагүй шинэ хуулийг татна
@@ -11,6 +13,8 @@
   python sync_laws.py
   python sync_laws.py --limit 5
   python sync_laws.py --metadata-only
+  python sync_laws.py --category 27,28
+  python sync_laws.py --time-budget 300      # 300 минутын дараа зогсоож, дараагийн удаа үргэлжлүүлнэ
 """
 
 from __future__ import annotations
@@ -21,6 +25,7 @@ import json
 import re
 import sqlite3
 import time
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -37,7 +42,6 @@ CONNECTED_URL = f"{BASE}/mn/lawConnectedTypeData"
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 DB_PATH = DATA_DIR / "laws.sqlite"
-TEXT_DIR = ROOT / "legal"
 STATE_PATH = DATA_DIR / "last_sync.json"
 
 REPEAL_PHRASE = "ХҮЧИНГҮЙ БОЛСОНД ТООЦОХ"
@@ -49,6 +53,31 @@ MAX_LIST_PAGES = 400
 # Идэвхтэй жагсаалт өмнөхөөсөө энэ хувиас их буурвал сайтын доголдол гэж үзэж inactive тэмдэглэхгүй.
 MISSING_GUARD_RATIO = 0.9
 NO_AMENDMENTS_FP = hashlib.sha256(b"").hexdigest()
+
+
+
+@dataclass(frozen=True)
+class Category:
+    code: str
+    name: str
+    folder: str
+    # Нэмэлт өөрчлөлтийн табыг хэдэн сард нэг удаа шалгах вэ (1 = сар бүр).
+    # Олон мянган баримттай ангиллыг ээлжилж шалгаснаар сайтын ачааллыг бууруулна.
+    amend_rotation: int
+
+    @property
+    def text_dir(self) -> Path:
+        return ROOT / self.folder
+
+
+# Жижгээс нь эхэлж боловсруулна — хамгийн том ангилал (33) сүүлд.
+CATEGORIES: dict[str, Category] = {
+    "27": Category("27", "Монгол Улсын хууль", "legal", 1),
+    "28": Category("28", "Улсын Их Хурлын тогтоол", "uih_togtool", 3),
+    "34": Category("34", "Сайдын тушаал", "said_tushaal", 3),
+    "33": Category("33", "Засгийн газрын тогтоол", "zg_togtool", 3),
+}
+DEFAULT_CATEGORY = "27"
 
 HEADERS = {
     "User-Agent": "MongolianLawSync/1.0 (public legal archive; monthly refresh)",
@@ -73,7 +102,6 @@ def is_repeal(title: str) -> bool:
 
 def connect() -> sqlite3.Connection:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    TEXT_DIR.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA journal_mode=WAL")
@@ -98,7 +126,8 @@ def connect() -> sqlite3.Connection:
             dvid TEXT,
             amendment_fp TEXT,
             amendment_count INTEGER,
-            latest_amendment_date TEXT
+            latest_amendment_date TEXT,
+            category TEXT
         );
 
         CREATE TABLE IF NOT EXISTS sync_events (
@@ -119,9 +148,14 @@ def connect() -> sqlite3.Connection:
         ("amendment_fp", "TEXT"),
         ("amendment_count", "INTEGER"),
         ("latest_amendment_date", "TEXT"),
+        ("category", "TEXT"),
     ):
         if column not in existing:
             conn.execute(f"ALTER TABLE laws ADD COLUMN {column} {typedef}")
+    # Олон ангилал нэмэгдэхээс өмнөх мөрүүд бүгд хууль (27) байсан.
+    conn.execute("UPDATE laws SET category=? WHERE category IS NULL", (DEFAULT_CATEGORY,))
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_laws_category ON laws(category, status)")
+    conn.commit()
     return conn
 
 
@@ -152,9 +186,9 @@ def request_with_retry(s: requests.Session, method: str, url: str, **kwargs: Any
     raise RuntimeError(f"{method} {url} failed: {last}")
 
 
-def fetch_list_page(s: requests.Session, page: int) -> str:
+def fetch_list_page(s: requests.Session, cate: str, page: int) -> str:
     data = {
-        "filtercategorytypeid": "27",
+        "filtercategorytypeid": cate,
         "filterrelationtypeid": "",
         "filtertopicid": "",
         "filtercityid": "",
@@ -180,14 +214,17 @@ def fetch_list_page(s: requests.Session, page: int) -> str:
         "POST",
         LIST_URL,
         data=data,
-        headers={"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Referer": f"{BASE}/mn/law?page=law&cate={cate}&active=1",
+        },
         timeout=40,
     )
     payload = resp.json()
     return payload.get("Html") or ""
 
 
-def parse_list_html(html: str) -> list[dict[str, str]]:
+def parse_list_html(html: str, cate: str = DEFAULT_CATEGORY) -> list[dict[str, str]]:
     soup = BeautifulSoup(html, "html.parser")
     laws: list[dict[str, str]] = []
     for row in soup.select("div.legal-list-component"):
@@ -219,20 +256,22 @@ def parse_list_html(html: str) -> list[dict[str, str]]:
                 "enacted_date": enacted,
                 "enforcement_date": enforcement,
                 "journal": journal,
+                "category": cate,
             }
         )
     return laws
 
 
-def fetch_all_active(s: requests.Session) -> list[dict[str, str]]:
+def fetch_all_active(s: requests.Session, cate: str = DEFAULT_CATEGORY) -> list[dict[str, str]]:
     collected: list[dict[str, str]] = []
     seen: set[str] = set()
     empty = 0
     finished = False
     for page in range(1, MAX_LIST_PAGES + 1):
-        html = fetch_list_page(s, page)
-        batch = parse_list_html(html)
-        print(f"  жагсаалт {page}: {len(batch)}", flush=True)
+        html = fetch_list_page(s, cate, page)
+        batch = parse_list_html(html, cate)
+        if page == 1 or page % 25 == 0:
+            print(f"  [{cate}] жагсаалт {page}: {len(batch)}", flush=True)
         if not batch:
             empty += 1
             if empty >= 2:
@@ -251,11 +290,11 @@ def fetch_all_active(s: requests.Session) -> list[dict[str, str]]:
         time.sleep(PAGE_DELAY)
     if not finished:
         raise RuntimeError(
-            f"Жагсаалт {MAX_LIST_PAGES} хуудсанд дуусаагүй — дутуу жагсаалтаар inactive тэмдэглэхгүйн тулд зогсоолоо."
+            f"[{cate}] жагсаалт {MAX_LIST_PAGES} хуудсанд дуусаагүй — дутуу жагсаалтаар inactive тэмдэглэхгүйн тулд зогсоолоо."
         )
     kept = [item for item in collected if not is_repeal(item["title"])]
     print(
-        f"Нийт идэвхтэй: {len(collected)}, хүчингүй болгосон нэртэйг хассан: {len(collected) - len(kept)}, үлдсэн: {len(kept)}",
+        f"[{cate}] нийт идэвхтэй: {len(collected)}, хүчингүй болгосон нэртэйг хассан: {len(collected) - len(kept)}, үлдсэн: {len(kept)}",
         flush=True,
     )
     return kept
@@ -266,14 +305,20 @@ def find_law_file(directory: Path, law_id: str, suffix: str) -> Path | None:
     return matches[0] if matches else None
 
 
+def category_dir(law: dict[str, str]) -> Path:
+    return CATEGORIES[law.get("category") or DEFAULT_CATEGORY].text_dir
+
+
 def write_txt(html: str, law: dict[str, str]) -> tuple[Path, str, int]:
     text = html_to_law_text(html, law["title"])
-    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < 200:
+    # Тогтоол, тушаал богино байж болох тул доод хязгаарыг гарчгаас арай урт гэж тавина.
+    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < len(law["title"]) + 60:
         raise RuntimeError(f"Текст хэт богино: lawId={law['law_id']}")
     digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
-    TEXT_DIR.mkdir(parents=True, exist_ok=True)
-    text_path = TEXT_DIR / f"{safe_stem(law['law_id'], law['title'])}.txt"
-    replace_same_law(TEXT_DIR, law["law_id"], text_path)
+    directory = category_dir(law)
+    directory.mkdir(parents=True, exist_ok=True)
+    text_path = directory / f"{safe_stem(law['law_id'], law['title'])}.txt"
+    replace_same_law(directory, law["law_id"], text_path)
     text_path.write_text(text, encoding="utf-8")
     return text_path, digest, len(text.encode("utf-8"))
 
@@ -440,8 +485,8 @@ def upsert_fetched(
             law_id, title, detail_url, word_url, enacted_date, enforcement_date, journal,
             word_path, content_sha256, byte_size, status,
             first_seen_at, last_seen_at, last_changed_at, last_fetched_at,
-            dvid, amendment_fp, amendment_count, latest_amendment_date
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', ?, ?, ?, ?, ?, ?, ?, ?)
+            dvid, amendment_fp, amendment_count, latest_amendment_date, category
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'active', ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(law_id) DO UPDATE SET
             title=excluded.title,
             detail_url=excluded.detail_url,
@@ -459,7 +504,8 @@ def upsert_fetched(
             dvid=excluded.dvid,
             amendment_fp=excluded.amendment_fp,
             amendment_count=excluded.amendment_count,
-            latest_amendment_date=excluded.latest_amendment_date
+            latest_amendment_date=excluded.latest_amendment_date,
+            category=excluded.category
         """,
         (
             law["law_id"],
@@ -480,6 +526,7 @@ def upsert_fetched(
             law.get("amendment_fp"),
             law.get("amendment_count"),
             law.get("latest_amendment_date"),
+            law.get("category") or DEFAULT_CATEGORY,
         ),
     )
 
@@ -493,7 +540,8 @@ def touch_seen(conn: sqlite3.Connection, law: dict[str, str], now: str) -> None:
             dvid=COALESCE(?, dvid),
             amendment_fp=COALESCE(?, amendment_fp),
             amendment_count=COALESCE(?, amendment_count),
-            latest_amendment_date=COALESCE(?, latest_amendment_date)
+            latest_amendment_date=COALESCE(?, latest_amendment_date),
+            category=COALESCE(?, category)
         WHERE law_id=?
         """,
         (
@@ -508,155 +556,229 @@ def touch_seen(conn: sqlite3.Connection, law: dict[str, str], now: str) -> None:
             law.get("amendment_fp"),
             law.get("amendment_count"),
             law.get("latest_amendment_date"),
+            law.get("category"),
             law["law_id"],
         ),
     )
 
 
-def sync(limit: int, metadata_only: bool, force: bool) -> dict[str, int]:
-    now = utc_now()
-    conn = connect()
-    http = session()
-    active_before = conn.execute("SELECT COUNT(*) FROM laws WHERE status='active'").fetchone()[0]
-    remote = fetch_all_active(http)
-    if limit > 0:
-        remote = remote[:limit]
-        print(f"Туршилт: зөвхөн эхний {limit}", flush=True)
+def due_for_amendment_check(category: Category, law_id: str, now: datetime) -> bool:
+    """Ээлжлэх ангилалд баримт бүрийг amend_rotation сард нэг удаа шалгана."""
+    if category.amend_rotation <= 1:
+        return True
+    bucket = int(hashlib.sha1(law_id.encode("utf-8")).hexdigest(), 16) % category.amend_rotation
+    month_index = now.year * 12 + now.month
+    return bucket == month_index % category.amend_rotation
 
-    stats = {"new": 0, "updated": 0, "unchanged": 0, "missing": 0, "failed": 0, "check_failed": 0}
-    remote_ids = {item["law_id"] for item in remote}
 
-    for index, law in enumerate(remote, 1):
-        row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
-        txt_path = find_law_file(TEXT_DIR, law["law_id"], ".txt")
-        meta_dirty = row is not None and metadata_changed(row, law)
-        amend_changed = False
-        checked_fp = False
-        if meta_dirty:
-            print(f"[{index}/{len(remote)}] нэр/огноо өөрчлөгдсөн: {law['title'][:70]}", flush=True)
-
-        # .txt аль хэдийн байгаа үед л нэмэлт өөрчлөлтийн огноог шалгана.
-        if txt_path is not None and not force and not metadata_only and not meta_dirty:
-            try:
-                dvid = (row["dvid"] if row else None) or fetch_dvid(http, law["law_id"])
-                fp, count, latest = amendment_fingerprint(http, law["law_id"], dvid)
-                law["dvid"] = dvid
-                law["amendment_fp"] = fp
-                law["amendment_count"] = count
-                law["latest_amendment_date"] = latest
-                checked_fp = True
-                stored = (row["latest_amendment_date"] if row else "") or ""
-                stored_fp = row["amendment_fp"] if row else None
-                if stored_fp:
-                    amend_changed = latest > stored or stored_fp != fp
-                elif row is not None and count > 0:
-                    # Өмнө нь тэмдэг хадгалаагүй (нэмэлт өөрчлөлтгүй байсан) хуульд одоо
-                    # нэмэлт өөрчлөлт харагдаж байна — текст хуучирсан байж болзошгүй тул дахин татна.
-                    amend_changed = True
-                if amend_changed:
-                    print(
-                        f"[{index}/{len(remote)}] нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}",
-                        flush=True,
-                    )
-                time.sleep(CHECK_DELAY)
-            except Exception as exc:  # noqa: BLE001
-                stats["check_failed"] += 1
-                log_event(conn, now, "check_failed", law["law_id"], str(exc)[:500])
-                print(f"[{index}/{len(remote)}] нэмэлт өөрчлөлтийн огноо уншигдсангүй, алгаслаа: {exc}", flush=True)
-
-        should_download = force or amend_changed or meta_dirty or txt_path is None
-
-        if not should_download:
-            touch_seen(conn, law, now)
-            if checked_fp and row is not None and not row["amendment_fp"]:
-                log_event(conn, now, "baseline", law["law_id"], law.get("amendment_fp", "")[:12])
-            stats["unchanged"] += 1
-            conn.commit()
-            continue
-
-        print(f"[{index}/{len(remote)}] татаж байна: {law['title'][:70]}", flush=True)
-        try:
-            if not law.get("dvid"):
-                try:
-                    law["dvid"] = fetch_dvid(http, law["law_id"])
-                    fp, count, latest = amendment_fingerprint(http, law["law_id"], law["dvid"])
-                    law["amendment_fp"] = fp
-                    law["amendment_count"] = count
-                    law["latest_amendment_date"] = latest
-                except Exception as exc:  # noqa: BLE001
-                    print(f"    нэмэлтийн жагсаалт аваагүй: {exc}", flush=True)
-            path, digest, size = download_word(http, law)
-        except Exception as exc:  # noqa: BLE001
-            stats["failed"] += 1
-            log_event(conn, now, "failed", law["law_id"], str(exc))
-            conn.commit()
-            print(f"    алдаа: {exc}", flush=True)
-            time.sleep(FILE_DELAY)
-            continue
-
-        content_changed = row is None or row["content_sha256"] != digest
-        if row is not None and not content_changed and not meta_dirty:
-            touch_seen(conn, law, now)
-            stats["unchanged"] += 1
-            log_event(conn, now, "unchanged", law["law_id"], digest[:12])
-        else:
-            first_seen = row["first_seen_at"] if row else now
-            final_action = "new" if row is None else "updated"
-            upsert_fetched(conn, law, path, digest, size, now, first_seen)
-            stats[final_action] += 1
-            log_event(
-                conn,
-                now,
-                final_action,
-                law["law_id"],
-                json.dumps({"title": law["title"], "sha256": digest, "bytes": size}, ensure_ascii=False),
-            )
-        conn.commit()
-        time.sleep(FILE_DELAY)
-
-    guard_skipped = False
-    if limit == 0 and remote_ids and len(remote_ids) < MISSING_GUARD_RATIO * active_before:
-        guard_skipped = True
+def mark_missing(
+    conn: sqlite3.Connection,
+    category: Category,
+    remote_ids: set[str],
+    now: str,
+    stats: dict[str, int],
+) -> bool:
+    """Жагсаалтаас алга болсныг inactive болгоно. Огцом буурсан бол алгасаж True буцаана."""
+    active_before = conn.execute(
+        "SELECT COUNT(*) FROM laws WHERE status='active' AND category=?", (category.code,)
+    ).fetchone()[0]
+    if len(remote_ids) < MISSING_GUARD_RATIO * active_before:
         msg = (
-            f"Идэвхтэй жагсаалт {active_before} → {len(remote_ids)} болж огцом буурлаа. "
+            f"[{category.code}] идэвхтэй жагсаалт {active_before} → {len(remote_ids)} болж огцом буурлаа. "
             "Сайтын доголдол байж болзошгүй тул inactive тэмдэглэлийг алгаслаа."
         )
         print(msg, flush=True)
         log_event(conn, now, "missing_guard", None, msg)
         conn.commit()
-    elif limit == 0 and remote_ids:
-        conn.execute("CREATE TEMP TABLE seen_ids (law_id TEXT PRIMARY KEY)")
-        conn.executemany("INSERT INTO seen_ids (law_id) VALUES (?)", [(i,) for i in remote_ids])
-        missing = conn.execute(
-            """
-            SELECT laws.law_id, laws.title FROM laws
-            WHERE laws.status='active'
-              AND NOT EXISTS (SELECT 1 FROM seen_ids WHERE seen_ids.law_id = laws.law_id)
-            """
-        ).fetchall()
-        for row in missing:
-            conn.execute(
-                "UPDATE laws SET status='inactive', last_seen_at=? WHERE law_id=?",
-                (now, row["law_id"]),
-            )
-            log_event(conn, now, "missing", row["law_id"], row["title"])
-            stats["missing"] += 1
-        conn.commit()
+        return True
+    conn.execute("DROP TABLE IF EXISTS temp.seen_ids")
+    conn.execute("CREATE TEMP TABLE seen_ids (law_id TEXT PRIMARY KEY)")
+    conn.executemany("INSERT INTO seen_ids (law_id) VALUES (?)", [(i,) for i in remote_ids])
+    missing = conn.execute(
+        """
+        SELECT laws.law_id, laws.title FROM laws
+        WHERE laws.status='active' AND laws.category=?
+          AND NOT EXISTS (SELECT 1 FROM seen_ids WHERE seen_ids.law_id = laws.law_id)
+        """,
+        (category.code,),
+    ).fetchall()
+    for row in missing:
+        conn.execute("UPDATE laws SET status='inactive', last_seen_at=? WHERE law_id=?", (now, row["law_id"]))
+        log_event(conn, now, "missing", row["law_id"], row["title"])
+        stats["missing"] += 1
+    conn.commit()
+    return False
 
-    summary = {
+
+def new_stats() -> dict[str, int]:
+    return {"new": 0, "updated": 0, "unchanged": 0, "missing": 0, "failed": 0, "check_failed": 0, "skipped_check": 0}
+
+
+def sync(
+    limit: int,
+    metadata_only: bool,
+    force: bool,
+    categories: list[str] | None = None,
+    time_budget_min: float = 0,
+) -> dict[str, Any]:
+    started = time.monotonic()
+    deadline = started + time_budget_min * 60 if time_budget_min > 0 else None
+    now_dt = datetime.now(timezone.utc)
+    now = now_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    conn = connect()
+    http = session()
+    codes = categories or list(CATEGORIES)
+    seen_global: set[str] = set()
+    per_category: dict[str, dict[str, Any]] = {}
+    totals = new_stats()
+    partial = False
+
+    for code in codes:
+        category = CATEGORIES[code]
+        stats = new_stats()
+        per_category[code] = {"name": category.name, "folder": category.folder, **stats}
+        if partial:
+            per_category[code]["status"] = "not_started"
+            continue
+        print(f"\n=== [{code}] {category.name} ===", flush=True)
+        remote = fetch_all_active(http, code)
+        # Нэг баримт хоёр ангилалд давхар гарвал эхнийхийг нь үлдээнэ.
+        dupes = [item for item in remote if item["law_id"] in seen_global]
+        for item in dupes:
+            log_event(conn, now, "duplicate", item["law_id"], f"{code}: {item['title'][:200]}")
+        remote = [item for item in remote if item["law_id"] not in seen_global]
+        remote_ids = {item["law_id"] for item in remote}
+        seen_global |= remote_ids
+        if limit > 0:
+            remote = remote[:limit]
+            print(f"Туршилт: зөвхөн эхний {limit}", flush=True)
+
+        for index, law in enumerate(remote, 1):
+            if deadline is not None and time.monotonic() > deadline:
+                partial = True
+                print(f"[{code}] цагийн төсөв дууслаа ({index - 1}/{len(remote)}). Дараагийн удаа үргэлжилнэ.", flush=True)
+                break
+            tag = f"[{code} {index}/{len(remote)}]"
+            row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
+            txt_path = find_law_file(category.text_dir, law["law_id"], ".txt")
+            if txt_path is None and row is not None and row["category"] != code and row["word_path"]:
+                # Ангилал нь солигдсон баримт: хуучин хавтсанд байгаа файлыг шилжүүлэхийн тулд дахин татна.
+                old = ROOT / row["word_path"]
+                if old.exists():
+                    old.unlink()
+            meta_dirty = row is not None and metadata_changed(row, law)
+            amend_changed = False
+            checked_fp = False
+            if meta_dirty:
+                print(f"{tag} нэр/огноо өөрчлөгдсөн: {law['title'][:70]}", flush=True)
+
+            want_check = txt_path is not None and not force and not metadata_only and not meta_dirty
+            if want_check and not due_for_amendment_check(category, law["law_id"], now_dt):
+                want_check = False
+                stats["skipped_check"] += 1
+
+            if want_check:
+                try:
+                    dvid = (row["dvid"] if row else None) or fetch_dvid(http, law["law_id"])
+                    fp, count, latest = amendment_fingerprint(http, law["law_id"], dvid)
+                    law["dvid"] = dvid
+                    law["amendment_fp"] = fp
+                    law["amendment_count"] = count
+                    law["latest_amendment_date"] = latest
+                    checked_fp = True
+                    stored = (row["latest_amendment_date"] if row else "") or ""
+                    stored_fp = row["amendment_fp"] if row else None
+                    if stored_fp:
+                        amend_changed = latest > stored or stored_fp != fp
+                    elif row is not None and count > 0:
+                        # Өмнө нь тэмдэг хадгалаагүй (нэмэлт өөрчлөлтгүй байсан) баримтад одоо
+                        # нэмэлт өөрчлөлт харагдаж байна — текст хуучирсан байж болзошгүй тул дахин татна.
+                        amend_changed = True
+                    if amend_changed:
+                        print(f"{tag} нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}", flush=True)
+                    time.sleep(CHECK_DELAY)
+                except Exception as exc:  # noqa: BLE001
+                    stats["check_failed"] += 1
+                    log_event(conn, now, "check_failed", law["law_id"], str(exc)[:500])
+                    print(f"{tag} нэмэлт өөрчлөлтийн огноо уншигдсангүй, алгаслаа: {exc}", flush=True)
+
+            should_download = force or amend_changed or meta_dirty or txt_path is None
+
+            if not should_download:
+                touch_seen(conn, law, now)
+                if checked_fp and row is not None and not row["amendment_fp"]:
+                    log_event(conn, now, "baseline", law["law_id"], law.get("amendment_fp", "")[:12])
+                stats["unchanged"] += 1
+                conn.commit()
+                continue
+
+            print(f"{tag} татаж байна: {law['title'][:70]}", flush=True)
+            try:
+                if not law.get("dvid"):
+                    try:
+                        law["dvid"] = fetch_dvid(http, law["law_id"])
+                        fp, count, latest = amendment_fingerprint(http, law["law_id"], law["dvid"])
+                        law["amendment_fp"] = fp
+                        law["amendment_count"] = count
+                        law["latest_amendment_date"] = latest
+                    except Exception as exc:  # noqa: BLE001
+                        print(f"    нэмэлтийн жагсаалт аваагүй: {exc}", flush=True)
+                path, digest, size = download_word(http, law)
+            except Exception as exc:  # noqa: BLE001
+                stats["failed"] += 1
+                log_event(conn, now, "failed", law["law_id"], str(exc)[:500])
+                conn.commit()
+                print(f"    алдаа: {exc}", flush=True)
+                time.sleep(FILE_DELAY)
+                continue
+
+            content_changed = row is None or row["content_sha256"] != digest
+            if row is not None and not content_changed and not meta_dirty:
+                touch_seen(conn, law, now)
+                stats["unchanged"] += 1
+                log_event(conn, now, "unchanged", law["law_id"], digest[:12])
+            else:
+                first_seen = row["first_seen_at"] if row else now
+                final_action = "new" if row is None else "updated"
+                upsert_fetched(conn, law, path, digest, size, now, first_seen)
+                stats[final_action] += 1
+                log_event(
+                    conn,
+                    now,
+                    final_action,
+                    law["law_id"],
+                    json.dumps(
+                        {"category": code, "title": law["title"], "sha256": digest, "bytes": size},
+                        ensure_ascii=False,
+                    ),
+                )
+            conn.commit()
+            time.sleep(FILE_DELAY)
+
+        guard = False
+        if limit == 0 and remote_ids and not partial:
+            guard = mark_missing(conn, category, remote_ids, now, stats)
+        per_category[code].update(stats)
+        per_category[code]["remote"] = len(remote_ids)
+        per_category[code]["missing_guard_skipped"] = guard
+        per_category[code]["status"] = "partial" if partial else "done"
+        for key, value in stats.items():
+            totals[key] += value
+
+    summary: dict[str, Any] = {
         "ran_at": now,
-        "remote": len(remote),
-        **stats,
-        "missing_guard_skipped": guard_skipped,
+        "partial": partial,
+        "minutes": round((time.monotonic() - started) / 60, 1),
+        **totals,
+        "categories": per_category,
         "db": str(DB_PATH.relative_to(ROOT)),
-        "files": str(TEXT_DIR.relative_to(ROOT)),
     }
     STATE_PATH.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-    log_event(conn, now, "summary", None, json.dumps(stats, ensure_ascii=False))
+    log_event(conn, now, "summary", None, json.dumps({"partial": partial, **totals}, ensure_ascii=False))
     conn.commit()
     conn.close()
     print(json.dumps(summary, ensure_ascii=False, indent=2), flush=True)
-    return stats
+    return summary
 
 
 def main() -> None:
@@ -667,9 +789,31 @@ def main() -> None:
         action="store_true",
         help="Нэмэлт өөрчлөлтийн табыг алгасаж, зөвхөн шинэ хууль болон нэр/огноо өөрчлөгдсөнийг татана.",
     )
-    parser.add_argument("--force", action="store_true", help="Бүх идэвхтэй хуулийг дахин татах")
+    parser.add_argument("--force", action="store_true", help="Бүх идэвхтэй баримтыг дахин татах")
+    parser.add_argument(
+        "--category",
+        default="",
+        help=f"Таслалаар тусгаарласан ангиллын код (анхдагч: бүгд — {','.join(CATEGORIES)})",
+    )
+    parser.add_argument(
+        "--time-budget",
+        type=float,
+        default=0,
+        help="Минут. Хэтэрвэл зогсоож partial гэж тэмдэглэнэ; дараагийн ажиллалт үргэлжлүүлнэ. 0 = хязгааргүй.",
+    )
     args = parser.parse_args()
-    sync(limit=args.limit, metadata_only=args.metadata_only, force=args.force)
+    codes = [c.strip() for c in args.category.split(",") if c.strip()] or None
+    if codes:
+        unknown = [c for c in codes if c not in CATEGORIES]
+        if unknown:
+            parser.error(f"Тодорхойгүй ангилал: {', '.join(unknown)}")
+    sync(
+        limit=args.limit,
+        metadata_only=args.metadata_only,
+        force=args.force,
+        categories=codes,
+        time_budget_min=args.time_budget,
+    )
 
 
 if __name__ == "__main__":
