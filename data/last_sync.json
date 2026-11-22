@@ -1,12 +1,71 @@
 {
-  "ran_at": "2026-11-10T12:06:49Z",
-  "remote": 717,
-  "new": 0,
+  "ran_at": "2026-11-22T15:12:09Z",
+  "partial": true,
+  "minutes": 300.0,
+  "new": 3410,
   "updated": 0,
   "unchanged": 717,
   "missing": 0,
-  "failed": 0,
-  "db": "/home/runner/work/LawsMN/LawsMN/data/laws.sqlite",
-  "files": "/home/runner/work/LawsMN/LawsMN/legal",
-  "word_files": "/home/runner/work/LawsMN/LawsMN/data/laws"
+  "failed": 5,
+  "check_failed": 0,
+  "skipped_check": 0,
+  "categories": {
+    "27": {
+      "name": "Монгол Улсын хууль",
+      "folder": "legal",
+      "new": 0,
+      "updated": 0,
+      "unchanged": 717,
+      "missing": 0,
+      "failed": 0,
+      "check_failed": 0,
+      "skipped_check": 0,
+      "remote": 717,
+      "missing_guard_skipped": false,
+      "status": "done"
+    },
+    "28": {
+      "name": "Улсын Их Хурлын тогтоол",
+      "folder": "uih_togtool",
+      "new": 2546,
+      "updated": 0,
+      "unchanged": 0,
+      "missing": 0,
+      "failed": 1,
+      "check_failed": 0,
+      "skipped_check": 0,
+      "remote": 2547,
+      "missing_guard_skipped": false,
+      "status": "done"
+    },
+    "34": {
+      "name": "Сайдын тушаал",
+      "folder": "said_tushaal",
+      "new": 861,
+      "updated": 0,
+      "unchanged": 0,
+      "missing": 0,
+      "failed": 4,
+      "check_failed": 0,
+      "skipped_check": 0,
+      "remote": 865,
+      "missing_guard_skipped": false,
+      "status": "done"
+    },
+    "33": {
+      "name": "Засгийн газрын тогтоол",
+      "folder": "zg_togtool",
+      "new": 3,
+      "updated": 0,
+      "unchanged": 0,
+      "missing": 0,
+      "failed": 0,
+      "check_failed": 0,
+      "skipped_check": 0,
+      "remote": 5715,
+      "missing_guard_skipped": false,
+      "status": "partial"
+    }
+  },
+  "db": "data/laws.sqlite"
 }
