@@ -1,14 +1,14 @@
 {
-  "ran_at": "2026-11-22T20:12:26Z",
+  "ran_at": "2026-11-23T01:12:47Z",
   "partial": true,
   "minutes": 300.1,
-  "new": 3153,
+  "new": 1712,
   "updated": 0,
-  "unchanged": 4127,
+  "unchanged": 7280,
   "missing": 0,
   "failed": 5,
   "check_failed": 0,
-  "skipped_check": 2258,
+  "skipped_check": 4425,
   "categories": {
     "27": {
       "name": "Монгол Улсын хууль",
@@ -55,13 +55,13 @@
     "33": {
       "name": "Засгийн газрын тогтоол",
       "folder": "zg_togtool",
-      "new": 3153,
+      "new": 1712,
       "updated": 0,
-      "unchanged": 3,
+      "unchanged": 3156,
       "missing": 0,
       "failed": 0,
       "check_failed": 0,
-      "skipped_check": 3,
+      "skipped_check": 2170,
       "remote": 5715,
       "missing_guard_skipped": false,
       "status": "partial"
