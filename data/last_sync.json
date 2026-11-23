@@ -1,26 +1,26 @@
 {
-  "ran_at": "2026-11-23T01:12:47Z",
-  "partial": true,
-  "minutes": 300.1,
-  "new": 1712,
+  "ran_at": "2026-11-23T06:13:14Z",
+  "partial": false,
+  "minutes": 293.9,
+  "new": 860,
   "updated": 0,
-  "unchanged": 7280,
-  "missing": 0,
+  "unchanged": 8981,
+  "missing": 11,
   "failed": 5,
   "check_failed": 0,
-  "skipped_check": 4425,
+  "skipped_check": 5559,
   "categories": {
     "27": {
       "name": "Монгол Улсын хууль",
       "folder": "legal",
-      "new": 0,
+      "new": 2,
       "updated": 0,
       "unchanged": 717,
       "missing": 0,
       "failed": 0,
       "check_failed": 0,
       "skipped_check": 0,
-      "remote": 717,
+      "remote": 719,
       "missing_guard_skipped": false,
       "status": "done"
     },
@@ -55,16 +55,16 @@
     "33": {
       "name": "Засгийн газрын тогтоол",
       "folder": "zg_togtool",
-      "new": 1712,
+      "new": 858,
       "updated": 0,
-      "unchanged": 3156,
-      "missing": 0,
+      "unchanged": 4857,
+      "missing": 11,
       "failed": 0,
       "check_failed": 0,
-      "skipped_check": 2170,
+      "skipped_check": 3304,
       "remote": 5715,
       "missing_guard_skipped": false,
-      "status": "partial"
+      "status": "done"
     }
   },
   "db": "data/laws.sqlite"
