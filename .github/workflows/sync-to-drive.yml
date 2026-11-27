@@ -1,33 +1,37 @@
-name: Sync laws to Google Drive
+name: Migrate and verify Google Drive folders
 
 on:
   workflow_dispatch:
-  # Цагаар биш — хуулийн синк амжилттай дуусмагц ажиллана.
-  workflow_run:
-    workflows: ["Monthly law sync"]
-    types: [completed]
+    inputs:
+      migrate_folders:
+        description: "Хуучин Drive хавтсуудыг LawsMN/ доторх 4 дэд хавтас руу нэгтгэх"
+        type: boolean
+        default: true
+      copy_from_repo:
+        description: "GitHub-д байгаа .txt файлуудыг LawsMN/<folder> руу нөхөж хуулах"
+        type: boolean
+        default: true
 
 permissions:
   contents: read
 
 concurrency:
-  group: drive-sync
-  cancel-in-progress: true
+  group: law-sync
+  cancel-in-progress: false
 
 jobs:
-  sync-drive:
+  migrate-drive:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
         with:
-          # Синкийн commit-ийг авахын тулд үндсэн branch-ын хамгийн сүүлийн төлөвийг татна.
           ref: ${{ github.event.repository.default_branch }}
 
       - name: Install rclone
         run: curl -fsSL https://rclone.org/install.sh | sudo bash
 
-      - name: Sync texts (legal + тогтоол, тушаал)
+      - name: Migrate Drive folders into LawsMN/{legal,uih_togtool,said_tushaal,zg_togtool}
+        if: ${{ inputs.migrate_folders }}
         env:
           RCLONE_CONFIG_GDRIVE_TYPE: drive
           RCLONE_CONFIG_GDRIVE_SCOPE: drive
@@ -37,26 +41,87 @@ jobs:
           # RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
         run: |
           if [ -z "$RCLONE_CONFIG_GDRIVE_TOKEN" ]; then
-            echo "GDRIVE_TOKEN secret байхгүй"
+            echo "Алдаа: GDRIVE_TOKEN secret байхгүй байна." >&2
             exit 1
           fi
-          # repo хавтас → Drive хавтас. Хуулийн хавтас (LawsMN) өмнөхөөрөө.
-          # Хавтас бүр тусдаа Drive хавтас руу — нэг нь нөгөөгийнхөө файлыг устгахгүй.
-          while read -r SRC DEST; do
-            if [ ! -d "$SRC" ] || [ -z "$(find "$SRC" -name '*.txt' -print -quit)" ]; then
-              echo "$SRC/*.txt алга — алгаслаа"
+
+          # 1) LawsMN үндсэн хавтас дотор шууд байгаа .txt файлуудыг LawsMN/legal руу зөөнө.
+          if [ -n "$(rclone lsf 'gdrive:LawsMN' --files-only --max-depth 1 --include '*.txt' 2>/dev/null | head -n 1)" ]; then
+            echo "== LawsMN/*.txt → LawsMN/legal руу зөөж байна"
+            rclone move "gdrive:LawsMN" "gdrive:LawsMN_legal_migration_tmp" \
+              --include "*.txt" --max-depth 1 \
+              --transfers 4 --checkers 8 --stats 30s --stats-one-line
+            if rclone lsf "gdrive:LawsMN/legal" --max-depth 1 >/dev/null 2>&1; then
+              rclone move "gdrive:LawsMN_legal_migration_tmp" "gdrive:LawsMN/legal" \
+                --include "*.txt" \
+                --transfers 4 --checkers 8 --stats 30s --stats-one-line
+              rclone rmdir "gdrive:LawsMN_legal_migration_tmp" 2>/dev/null || true
+            else
+              rclone moveto "gdrive:LawsMN_legal_migration_tmp" "gdrive:LawsMN/legal"
+            fi
+          else
+            echo "LawsMN үндсэн хавтсанд зөөх .txt файл алга."
+          fi
+
+          # 2) Тусдаа байгаа 3 хавтсыг LawsMN дотор шууд зөөж нэр солино (эсвэл нэгтгэнэ).
+          migrate_folder() {
+            local OLD="$1"
+            local NEW="$2"
+            if ! rclone lsf "gdrive:$OLD" --max-depth 1 >/dev/null 2>&1; then
+              echo "gdrive:$OLD олдсонгүй — алгаслаа"
+              return
+            fi
+            if rclone lsf "gdrive:$NEW" --max-depth 1 >/dev/null 2>&1; then
+              echo "== Нэгтгэж байна: gdrive:$OLD → gdrive:$NEW"
+              rclone move "gdrive:$OLD" "gdrive:$NEW" \
+                --include "*.txt" \
+                --transfers 4 --checkers 8 --stats 30s --stats-one-line
+              rclone rmdir "gdrive:$OLD" 2>/dev/null || true
+            else
+              echo "== Шууд зөөж байна: gdrive:$OLD → gdrive:$NEW"
+              rclone moveto "gdrive:$OLD" "gdrive:$NEW"
+            fi
+          }
+
+          migrate_folder "LawsMN_UIH_togtool" "LawsMN/uih_togtool"
+          migrate_folder "LawsMN_Said_tushaal" "LawsMN/said_tushaal"
+          migrate_folder "LawsMN_ZG_togtool" "LawsMN/zg_togtool"
+
+      - name: Copy any repo .txt files to Google Drive (no deletes)
+        if: ${{ inputs.copy_from_repo }}
+        env:
+          RCLONE_CONFIG_GDRIVE_TYPE: drive
+          RCLONE_CONFIG_GDRIVE_SCOPE: drive
+          RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+          # өөрийн OAuth client ашигласан бол:
+          # RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+          # RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+        run: |
+          for DIR in legal uih_togtool said_tushaal zg_togtool; do
+            if [ ! -d "$DIR" ] || [ -z "$(find "$DIR" -maxdepth 1 -name '*.txt' -print -quit)" ]; then
+              echo "$DIR/*.txt repo-д алга — алгаслаа"
               continue
             fi
-            echo "== $SRC → gdrive:$DEST"
-            rclone sync "./$SRC" "gdrive:$DEST" \
+            echo "== $DIR → gdrive:LawsMN/$DIR"
+            rclone copy "./$DIR" "gdrive:LawsMN/$DIR" \
               --include "*.txt" \
               --transfers 4 \
               --checkers 8 \
               --drive-chunk-size 16M \
               --stats 1m --stats-one-line
-          done <<'MAP'
-          legal LawsMN
-          uih_togtool LawsMN_UIH_togtool
-          said_tushaal LawsMN_Said_tushaal
-          zg_togtool LawsMN_ZG_togtool
-          MAP
+          done
+
+      - name: Verify file counts in Google Drive
+        env:
+          RCLONE_CONFIG_GDRIVE_TYPE: drive
+          RCLONE_CONFIG_GDRIVE_SCOPE: drive
+          RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+          # өөрийн OAuth client ашигласан бол:
+          # RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+          # RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+        run: |
+          echo "=== Google Drive LawsMN дэд хавтсуудын тоо ==="
+          for DIR in legal uih_togtool said_tushaal zg_togtool; do
+            COUNT=$(rclone lsf "gdrive:LawsMN/$DIR" --files-only --include "*.txt" --fast-list 2>/dev/null | wc -l)
+            echo "LawsMN/$DIR: $COUNT файл"
+          done
