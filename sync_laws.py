@@ -4,17 +4,18 @@
 Ангилал (CATEGORIES): хууль (27), УИХ-ын тогтоол (28), Засгийн газрын тогтоол (33), Сайдын тушаал (34).
 
 Сар бүр (эсвэл гараар) дахин ажиллуулахад:
-  - өмнө байгаагүй шинэ хуулийг татна
-  - «Нэмэлт өөрчлөлт» табын жагсаалт өөрчлөгдсөн хуулийг дахин татна
-  - нэр, батлагдсан/хүчин төгөлдөр огноо, эмхэтгэл өөрчлөгдсөн хуулийг дахин татна
-  - жагсаалтаас алга болсон хуулийг inactive гэж тэмдэглэнэ (файлыг устгахгүй)
+- өмнө байгаагүй шинэ хуулийг татна
+- «Нэмэлт өөрчлөлт» табын жагсаалт өөрчлөгдсөн хуулийг дахин татна
+- нэр, батлагдсан/хүчин төгөлдөр огноо, эмхэтгэл өөрчлөгдсөн хуулийг дахин татна
+- жагсаалтаас алга болсон хуулийг inactive гэж тэмдэглэнэ (файлыг устгахгүй)
+- --rclone-root өгсөн бол локал репозиторт биш, Google Drive-ийн 4 дэд хавтас руу шууд хуулна
 
 Жишээ:
   python sync_laws.py
   python sync_laws.py --limit 5
   python sync_laws.py --metadata-only
   python sync_laws.py --category 27,28
-  python sync_laws.py --time-budget 300      # 300 минутын дараа зогсоож, дараагийн удаа үргэлжлүүлнэ
+  python sync_laws.py --time-budget 300 --rclone-root gdrive:LawsMN
 """
 
 from __future__ import annotations
@@ -24,6 +25,8 @@ import hashlib
 import json
 import re
 import sqlite3
+import subprocess
+import tempfile
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -50,10 +53,10 @@ FILE_DELAY = 1.2
 CHECK_DELAY = 0.35
 MAX_RETRIES = 3
 MAX_LIST_PAGES = 400
+UPLOAD_BATCH_SIZE = 50
 # Идэвхтэй жагсаалт өмнөхөөсөө энэ хувиас их буурвал сайтын доголдол гэж үзэж inactive тэмдэглэхгүй.
 MISSING_GUARD_RATIO = 0.9
 NO_AMENDMENTS_FP = hashlib.sha256(b"").hexdigest()
-
 
 
 @dataclass(frozen=True)
@@ -86,6 +89,93 @@ HEADERS = {
     "Referer": f"{BASE}/mn/law?page=law&cate=27&active=1",
     "X-Requested-With": "XMLHttpRequest",
 }
+
+
+class RcloneRemote:
+    """rclone ашиглан Google Drive-ийн LawsMN/<folder> дэд хавтсуудтай ажиллана."""
+
+    def __init__(self, root: str) -> None:
+        self.root = root.rstrip("/")
+
+    def list_laws(self, folder: str) -> dict[str, list[str]]:
+        """Дэд хавтсанд байгаа {law_id}_*.txt файлуудыг law_id-аар нь бүлэглэнэ."""
+        remote_path = f"{self.root}/{folder}"
+        last_err = ""
+        for attempt in range(1, MAX_RETRIES + 1):
+            proc = subprocess.run(
+                [
+                    "rclone",
+                    "lsf",
+                    remote_path,
+                    "--files-only",
+                    "--include",
+                    "*.txt",
+                    "--fast-list",
+                ],
+                capture_output=True,
+                text=True,
+            )
+            if proc.returncode == 0:
+                index: dict[str, list[str]] = {}
+                for line in proc.stdout.splitlines():
+                    name = line.strip()
+                    if name.endswith(".txt") and "_" in name:
+                        law_id = name.split("_", 1)[0]
+                        index.setdefault(law_id, []).append(name)
+                return index
+            stderr = (proc.stderr or "").strip()
+            low = stderr.lower()
+            if proc.returncode == 3 or "directory not found" in low or "not found" in low:
+                return {}
+            last_err = stderr or proc.stdout.strip()
+            if attempt < MAX_RETRIES:
+                time.sleep(2 * attempt)
+        raise RuntimeError(f"rclone lsf алдаа ({remote_path}): {last_err}")
+
+    def upload_dir(self, local_dir: Path, folder: str) -> None:
+        """Түр хавтсанд хураагдсан .txt файлуудыг Drive дэд хавтас руу хуулна."""
+        if not local_dir.exists() or not any(local_dir.glob("*.txt")):
+            return
+        remote_path = f"{self.root}/{folder}"
+        cmd = [
+            "rclone",
+            "copy",
+            str(local_dir),
+            remote_path,
+            "--include",
+            "*.txt",
+            "--transfers",
+            "4",
+            "--checkers",
+            "8",
+            "--drive-chunk-size",
+            "16M",
+            "--stats",
+            "1m",
+            "--stats-one-line",
+        ]
+        last_err = ""
+        for attempt in range(1, MAX_RETRIES + 1):
+            proc = subprocess.run(cmd, capture_output=True, text=True)
+            if proc.returncode == 0:
+                return
+            last_err = (proc.stderr or proc.stdout).strip()
+            if attempt < MAX_RETRIES:
+                time.sleep(3 * attempt)
+        raise RuntimeError(f"rclone copy алдаа ({remote_path}): {last_err}")
+
+    def delete_file(self, folder: str, filename: str) -> None:
+        """Нэр эсвэл ангилал нь солигдсон хуучин файлыг Drive-аас цэвэрлэнэ."""
+        remote_file = f"{self.root}/{folder}/{filename}"
+        proc = subprocess.run(
+            ["rclone", "deletefile", remote_file],
+            capture_output=True,
+            text=True,
+        )
+        if proc.returncode != 0:
+            stderr = (proc.stderr or "").strip()
+            if "not found" not in stderr.lower():
+                print(f"    хуучин Drive файл устгасангүй ({remote_file}): {stderr}", flush=True)
 
 
 def utc_now() -> str:
@@ -301,26 +391,10 @@ def fetch_all_active(s: requests.Session, cate: str = DEFAULT_CATEGORY) -> list[
 
 
 def find_law_file(directory: Path, law_id: str, suffix: str) -> Path | None:
+    if not directory.exists():
+        return None
     matches = sorted(directory.glob(f"{law_id}_*{suffix}"))
     return matches[0] if matches else None
-
-
-def category_dir(law: dict[str, str]) -> Path:
-    return CATEGORIES[law.get("category") or DEFAULT_CATEGORY].text_dir
-
-
-def write_txt(html: str, law: dict[str, str]) -> tuple[Path, str, int]:
-    text = html_to_law_text(html, law["title"])
-    # Тогтоол, тушаал богино байж болох тул доод хязгаарыг гарчгаас арай урт гэж тавина.
-    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < len(law["title"]) + 60:
-        raise RuntimeError(f"Текст хэт богино: lawId={law['law_id']}")
-    digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
-    directory = category_dir(law)
-    directory.mkdir(parents=True, exist_ok=True)
-    text_path = directory / f"{safe_stem(law['law_id'], law['title'])}.txt"
-    replace_same_law(directory, law["law_id"], text_path)
-    text_path.write_text(text, encoding="utf-8")
-    return text_path, digest, len(text.encode("utf-8"))
 
 
 def safe_stem(law_id: str, title: str) -> str:
@@ -334,6 +408,14 @@ def replace_same_law(directory: Path, law_id: str, keep: Path) -> None:
     for old in directory.glob(f"{law_id}_*"):
         if old != keep:
             old.unlink(missing_ok=True)
+
+
+def write_txt_to_dir(directory: Path, law: dict[str, str], text: str) -> Path:
+    directory.mkdir(parents=True, exist_ok=True)
+    text_path = directory / f"{safe_stem(law['law_id'], law['title'])}.txt"
+    replace_same_law(directory, law["law_id"], text_path)
+    text_path.write_text(text, encoding="utf-8")
+    return text_path
 
 
 def html_to_law_text(html: str, title: str) -> str:
@@ -371,8 +453,8 @@ def html_to_law_text(html: str, title: str) -> str:
     return body + "\n"
 
 
-def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, int]:
-    # Сайт текстийг Word HTML экспортоор өгдөг. Зөвхөн .txt хадгална.
+def download_text(s: requests.Session, law: dict[str, str]) -> tuple[str, str, int]:
+    # Сайт текстийг Word HTML экспортоор өгдөг. Текстийг цэвэрлэж .txt болгоно.
     resp = request_with_retry(
         s,
         "POST",
@@ -398,7 +480,12 @@ def download_word(s: requests.Session, law: dict[str, str]) -> tuple[Path, str, 
     html = resp.content.decode("utf-8", "replace")
     if len(html) < 1500 or not re.search(r"[А-Яа-яӨөҮүЁё]", html):
         raise RuntimeError(f"Хуулийн текст хоосон байна: lawId={law['law_id']} ({len(html)} bytes)")
-    return write_txt(html, law)
+    text = html_to_law_text(html, law["title"])
+    # Тогтоол, тушаал богино байж болох тул доод хязгаарыг гарчгаас арай урт гэж тавина.
+    if not re.search(r"[А-Яа-яӨөҮүЁё]", text) or len(text) < len(law["title"]) + 60:
+        raise RuntimeError(f"Текст хэт богино: lawId={law['law_id']}")
+    raw = text.encode("utf-8")
+    return text, hashlib.sha256(raw).hexdigest(), len(raw)
 
 
 def fetch_dvid(s: requests.Session, law_id: str) -> str:
@@ -473,7 +560,7 @@ def metadata_changed(row: sqlite3.Row, law: dict[str, str]) -> bool:
 def upsert_fetched(
     conn: sqlite3.Connection,
     law: dict[str, str],
-    path: Path,
+    rel_path: str,
     digest: str,
     size: int,
     now: str,
@@ -515,7 +602,7 @@ def upsert_fetched(
             law["enacted_date"],
             law["enforcement_date"],
             law["journal"],
-            str(path.relative_to(ROOT)),
+            rel_path,
             digest,
             size,
             first_seen,
@@ -531,12 +618,18 @@ def upsert_fetched(
     )
 
 
-def touch_seen(conn: sqlite3.Connection, law: dict[str, str], now: str) -> None:
+def touch_seen(
+    conn: sqlite3.Connection,
+    law: dict[str, str],
+    now: str,
+    word_path: str | None = None,
+) -> None:
     conn.execute(
         """
         UPDATE laws SET
             title=?, detail_url=?, word_url=?, enacted_date=?, enforcement_date=?, journal=?,
             status='active', last_seen_at=?,
+            word_path=COALESCE(?, word_path),
             dvid=COALESCE(?, dvid),
             amendment_fp=COALESCE(?, amendment_fp),
             amendment_count=COALESCE(?, amendment_count),
@@ -552,6 +645,7 @@ def touch_seen(conn: sqlite3.Connection, law: dict[str, str], now: str) -> None:
             law["enforcement_date"],
             law["journal"],
             now,
+            word_path,
             law.get("dvid"),
             law.get("amendment_fp"),
             law.get("amendment_count"),
@@ -611,7 +705,16 @@ def mark_missing(
 
 
 def new_stats() -> dict[str, int]:
-    return {"new": 0, "updated": 0, "unchanged": 0, "missing": 0, "failed": 0, "check_failed": 0, "skipped_check": 0}
+    return {
+        "new": 0,
+        "updated": 0,
+        "uploaded": 0,
+        "unchanged": 0,
+        "missing": 0,
+        "failed": 0,
+        "check_failed": 0,
+        "skipped_check": 0,
+    }
 
 
 def sync(
@@ -620,11 +723,14 @@ def sync(
     force: bool,
     categories: list[str] | None = None,
     time_budget_min: float = 0,
+    rclone_root: str = "",
+    keep_local: bool = False,
 ) -> dict[str, Any]:
     started = time.monotonic()
     deadline = started + time_budget_min * 60 if time_budget_min > 0 else None
     now_dt = datetime.now(timezone.utc)
     now = now_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    rclone = RcloneRemote(rclone_root) if rclone_root.strip() else None
     conn = connect()
     http = session()
     codes = categories or list(CATEGORIES)
@@ -633,141 +739,225 @@ def sync(
     totals = new_stats()
     partial = False
 
-    for code in codes:
-        category = CATEGORIES[code]
-        stats = new_stats()
-        per_category[code] = {"name": category.name, "folder": category.folder, **stats}
-        if partial:
-            per_category[code]["status"] = "not_started"
-            continue
-        print(f"\n=== [{code}] {category.name} ===", flush=True)
-        remote = fetch_all_active(http, code)
-        # Нэг баримт хоёр ангилалд давхар гарвал эхнийхийг нь үлдээнэ.
-        dupes = [item for item in remote if item["law_id"] in seen_global]
-        for item in dupes:
-            log_event(conn, now, "duplicate", item["law_id"], f"{code}: {item['title'][:200]}")
-        remote = [item for item in remote if item["law_id"] not in seen_global]
-        remote_ids = {item["law_id"] for item in remote}
-        seen_global |= remote_ids
-        if limit > 0:
-            remote = remote[:limit]
-            print(f"Туршилт: зөвхөн эхний {limit}", flush=True)
+    if rclone is not None:
+        print(f"Google Drive горим идэвхтэй: {rclone.root}/<folder> руу шууд синк хийнэ.", flush=True)
 
-        for index, law in enumerate(remote, 1):
-            if deadline is not None and time.monotonic() > deadline:
-                partial = True
-                print(f"[{code}] цагийн төсөв дууслаа ({index - 1}/{len(remote)}). Дараагийн удаа үргэлжилнэ.", flush=True)
-                break
-            tag = f"[{code} {index}/{len(remote)}]"
-            row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
-            txt_path = find_law_file(category.text_dir, law["law_id"], ".txt")
-            if txt_path is None and row is not None and row["category"] != code and row["word_path"]:
-                # Ангилал нь солигдсон баримт: хуучин хавтсанд байгаа файлыг шилжүүлэхийн тулд дахин татна.
-                old = ROOT / row["word_path"]
-                if old.exists():
-                    old.unlink()
-            meta_dirty = row is not None and metadata_changed(row, law)
-            amend_changed = False
-            checked_fp = False
-            if meta_dirty:
-                print(f"{tag} нэр/огноо өөрчлөгдсөн: {law['title'][:70]}", flush=True)
+    with tempfile.TemporaryDirectory(prefix="laws_stage_") as tmp_dir:
+        stage_root = Path(tmp_dir)
 
-            want_check = txt_path is not None and not force and not metadata_only and not meta_dirty
-            if want_check and not due_for_amendment_check(category, law["law_id"], now_dt):
-                want_check = False
-                stats["skipped_check"] += 1
-
-            if want_check:
-                try:
-                    dvid = (row["dvid"] if row else None) or fetch_dvid(http, law["law_id"])
-                    fp, count, latest = amendment_fingerprint(http, law["law_id"], dvid)
-                    law["dvid"] = dvid
-                    law["amendment_fp"] = fp
-                    law["amendment_count"] = count
-                    law["latest_amendment_date"] = latest
-                    checked_fp = True
-                    stored = (row["latest_amendment_date"] if row else "") or ""
-                    stored_fp = row["amendment_fp"] if row else None
-                    if stored_fp:
-                        amend_changed = latest > stored or stored_fp != fp
-                    elif row is not None and count > 0:
-                        # Өмнө нь тэмдэг хадгалаагүй (нэмэлт өөрчлөлтгүй байсан) баримтад одоо
-                        # нэмэлт өөрчлөлт харагдаж байна — текст хуучирсан байж болзошгүй тул дахин татна.
-                        amend_changed = True
-                    if amend_changed:
-                        print(f"{tag} нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}", flush=True)
-                    time.sleep(CHECK_DELAY)
-                except Exception as exc:  # noqa: BLE001
-                    stats["check_failed"] += 1
-                    log_event(conn, now, "check_failed", law["law_id"], str(exc)[:500])
-                    print(f"{tag} нэмэлт өөрчлөлтийн огноо уншигдсангүй, алгаслаа: {exc}", flush=True)
-
-            should_download = force or amend_changed or meta_dirty or txt_path is None
-
-            if not should_download:
-                touch_seen(conn, law, now)
-                if checked_fp and row is not None and not row["amendment_fp"]:
-                    log_event(conn, now, "baseline", law["law_id"], law.get("amendment_fp", "")[:12])
-                stats["unchanged"] += 1
-                conn.commit()
+        for code in codes:
+            category = CATEGORIES[code]
+            stats = new_stats()
+            per_category[code] = {"name": category.name, "folder": category.folder, **stats}
+            if partial:
+                per_category[code]["status"] = "not_started"
                 continue
+            print(f"\n=== [{code}] {category.name} ===", flush=True)
 
-            print(f"{tag} татаж байна: {law['title'][:70]}", flush=True)
-            try:
-                if not law.get("dvid"):
+            remote_index: dict[str, list[str]] = {}
+            stage_cat_dir = stage_root / category.folder
+            staged_count = 0
+            pending_remote_deletes: list[tuple[str, str]] = []
+
+            def flush_batch() -> None:
+                nonlocal staged_count
+                if rclone is None:
+                    conn.commit()
+                    return
+                if staged_count > 0:
+                    print(
+                        f"  [{code}] {staged_count} файлыг {rclone.root}/{category.folder} руу хуулж байна...",
+                        flush=True,
+                    )
                     try:
-                        law["dvid"] = fetch_dvid(http, law["law_id"])
-                        fp, count, latest = amendment_fingerprint(http, law["law_id"], law["dvid"])
+                        rclone.upload_dir(stage_cat_dir, category.folder)
+                    except Exception:
+                        conn.rollback()
+                        raise
+                    for del_folder, del_name in pending_remote_deletes:
+                        rclone.delete_file(del_folder, del_name)
+                    pending_remote_deletes.clear()
+                    for staged_file in stage_cat_dir.glob("*.txt"):
+                        staged_file.unlink(missing_ok=True)
+                    stats["uploaded"] += staged_count
+                    staged_count = 0
+                conn.commit()
+
+            if rclone is not None:
+                remote_index = rclone.list_laws(category.folder)
+                print(
+                    f"  [{code}] {rclone.root}/{category.folder} хавтсанд байгаа файл: {len(remote_index)}",
+                    flush=True,
+                )
+
+            remote = fetch_all_active(http, code)
+            # Нэг баримт хоёр ангилалд давхар гарвал эхнийхийг нь үлдээнэ.
+            dupes = [item for item in remote if item["law_id"] in seen_global]
+            for item in dupes:
+                log_event(conn, now, "duplicate", item["law_id"], f"{code}: {item['title'][:200]}")
+            remote = [item for item in remote if item["law_id"] not in seen_global]
+            remote_ids = {item["law_id"] for item in remote}
+            seen_global |= remote_ids
+            if limit > 0:
+                remote = remote[:limit]
+                print(f"Туршилт: зөвхөн эхний {limit}", flush=True)
+
+            for index, law in enumerate(remote, 1):
+                if deadline is not None and time.monotonic() > deadline:
+                    partial = True
+                    print(
+                        f"[{code}] цагийн төсөв дууслаа ({index - 1}/{len(remote)}). Дараагийн удаа үргэлжилнэ.",
+                        flush=True,
+                    )
+                    break
+                tag = f"[{code} {index}/{len(remote)}]"
+                row = conn.execute("SELECT * FROM laws WHERE law_id=?", (law["law_id"],)).fetchone()
+
+                remote_files = remote_index.get(law["law_id"], []) if rclone is not None else []
+                if rclone is not None:
+                    has_file = bool(remote_files)
+                else:
+                    txt_path = find_law_file(category.text_dir, law["law_id"], ".txt")
+                    has_file = txt_path is not None
+
+                if not has_file and row is not None and row["category"] != code and row["word_path"]:
+                    if rclone is None:
+                        old = ROOT / row["word_path"]
+                        if old.exists():
+                            old.unlink()
+
+                meta_dirty = row is not None and metadata_changed(row, law)
+                amend_changed = False
+                checked_fp = False
+                if meta_dirty:
+                    print(f"{tag} нэр/огноо өөрчлөгдсөн: {law['title'][:70]}", flush=True)
+
+                want_check = has_file and not force and not metadata_only and not meta_dirty
+                if want_check and not due_for_amendment_check(category, law["law_id"], now_dt):
+                    want_check = False
+                    stats["skipped_check"] += 1
+
+                if want_check:
+                    try:
+                        dvid = (row["dvid"] if row else None) or fetch_dvid(http, law["law_id"])
+                        fp, count, latest = amendment_fingerprint(http, law["law_id"], dvid)
+                        law["dvid"] = dvid
                         law["amendment_fp"] = fp
                         law["amendment_count"] = count
                         law["latest_amendment_date"] = latest
+                        checked_fp = True
+                        stored = (row["latest_amendment_date"] if row else "") or ""
+                        stored_fp = row["amendment_fp"] if row else None
+                        if stored_fp:
+                            amend_changed = latest > stored or stored_fp != fp
+                        elif row is not None and count > 0:
+                            # Өмнө нь тэмдэг хадгалаагүй баримтад одоо нэмэлт өөрчлөлт харагдаж байна.
+                            amend_changed = True
+                        if amend_changed:
+                            print(f"{tag} нэмэлт өөрчлөлт: {stored or '—'} → {latest or '—'}", flush=True)
+                        time.sleep(CHECK_DELAY)
                     except Exception as exc:  # noqa: BLE001
-                        print(f"    нэмэлтийн жагсаалт аваагүй: {exc}", flush=True)
-                path, digest, size = download_word(http, law)
-            except Exception as exc:  # noqa: BLE001
-                stats["failed"] += 1
-                log_event(conn, now, "failed", law["law_id"], str(exc)[:500])
-                conn.commit()
-                print(f"    алдаа: {exc}", flush=True)
+                        stats["check_failed"] += 1
+                        log_event(conn, now, "check_failed", law["law_id"], str(exc)[:500])
+                        print(f"{tag} нэмэлт өөрчлөлтийн огноо уншигдсангүй, алгаслаа: {exc}", flush=True)
+
+                should_download = force or amend_changed or meta_dirty or not has_file
+
+                if not should_download:
+                    touch_seen(conn, law, now)
+                    if checked_fp and row is not None and not row["amendment_fp"]:
+                        log_event(conn, now, "baseline", law["law_id"], law.get("amendment_fp", "")[:12])
+                    stats["unchanged"] += 1
+                    if staged_count == 0:
+                        conn.commit()
+                    continue
+
+                print(f"{tag} татаж байна: {law['title'][:70]}", flush=True)
+                try:
+                    if not law.get("dvid"):
+                        try:
+                            law["dvid"] = fetch_dvid(http, law["law_id"])
+                            fp, count, latest = amendment_fingerprint(http, law["law_id"], law["dvid"])
+                            law["amendment_fp"] = fp
+                            law["amendment_count"] = count
+                            law["latest_amendment_date"] = latest
+                        except Exception as exc:  # noqa: BLE001
+                            print(f"    нэмэлтийн жагсаалт аваагүй: {exc}", flush=True)
+                    text, digest, size = download_text(http, law)
+                    if rclone is not None:
+                        written = write_txt_to_dir(stage_cat_dir, law, text)
+                        if keep_local:
+                            write_txt_to_dir(category.text_dir, law, text)
+                        rel_path = f"{category.folder}/{written.name}"
+                        # Нэр нь өөрчлөгдсөн бол хуучин Drive файлыг upload амжилттай болсны дараа устгана.
+                        for old_name in remote_files:
+                            if old_name != written.name:
+                                pending_remote_deletes.append((category.folder, old_name))
+                        # Ангилал нь өөрчлөгдсөн бол хуучин ангиллын Drive файлыг устгах дараалалд хийнэ.
+                        if row is not None and row["category"] != code and row["word_path"]:
+                            old_rel = row["word_path"].replace("\\", "/")
+                            if "/" in old_rel:
+                                old_folder, old_name = old_rel.split("/", 1)
+                                if (old_folder, old_name) != (category.folder, written.name):
+                                    pending_remote_deletes.append((old_folder, old_name))
+                        remote_index[law["law_id"]] = [written.name]
+                        staged_count += 1
+                    else:
+                        written = write_txt_to_dir(category.text_dir, law, text)
+                        rel_path = written.relative_to(ROOT).as_posix()
+                except Exception as exc:  # noqa: BLE001
+                    stats["failed"] += 1
+                    log_event(conn, now, "failed", law["law_id"], str(exc)[:500])
+                    if staged_count == 0:
+                        conn.commit()
+                    print(f"    алдаа: {exc}", flush=True)
+                    time.sleep(FILE_DELAY)
+                    continue
+
+                content_changed = row is None or row["content_sha256"] != digest
+                if row is not None and not content_changed and not meta_dirty:
+                    touch_seen(conn, law, now, word_path=rel_path)
+                    stats["unchanged"] += 1
+                    log_event(conn, now, "unchanged", law["law_id"], digest[:12])
+                else:
+                    first_seen = row["first_seen_at"] if row else now
+                    final_action = "new" if row is None else "updated"
+                    upsert_fetched(conn, law, rel_path, digest, size, now, first_seen)
+                    stats[final_action] += 1
+                    log_event(
+                        conn,
+                        now,
+                        final_action,
+                        law["law_id"],
+                        json.dumps(
+                            {"category": code, "title": law["title"], "sha256": digest, "bytes": size},
+                            ensure_ascii=False,
+                        ),
+                    )
+
+                if rclone is None:
+                    conn.commit()
+                elif staged_count >= UPLOAD_BATCH_SIZE:
+                    flush_batch()
                 time.sleep(FILE_DELAY)
-                continue
 
-            content_changed = row is None or row["content_sha256"] != digest
-            if row is not None and not content_changed and not meta_dirty:
-                touch_seen(conn, law, now)
-                stats["unchanged"] += 1
-                log_event(conn, now, "unchanged", law["law_id"], digest[:12])
-            else:
-                first_seen = row["first_seen_at"] if row else now
-                final_action = "new" if row is None else "updated"
-                upsert_fetched(conn, law, path, digest, size, now, first_seen)
-                stats[final_action] += 1
-                log_event(
-                    conn,
-                    now,
-                    final_action,
-                    law["law_id"],
-                    json.dumps(
-                        {"category": code, "title": law["title"], "sha256": digest, "bytes": size},
-                        ensure_ascii=False,
-                    ),
-                )
-            conn.commit()
-            time.sleep(FILE_DELAY)
+            # Үлдсэн багцыг Drive руу хуулж, DB-г баталгаажуулна.
+            flush_batch()
 
-        guard = False
-        if limit == 0 and remote_ids and not partial:
-            guard = mark_missing(conn, category, remote_ids, now, stats)
-        per_category[code].update(stats)
-        per_category[code]["remote"] = len(remote_ids)
-        per_category[code]["missing_guard_skipped"] = guard
-        per_category[code]["status"] = "partial" if partial else "done"
-        for key, value in stats.items():
-            totals[key] += value
+            guard = False
+            if limit == 0 and remote_ids and not partial:
+                guard = mark_missing(conn, category, remote_ids, now, stats)
+            per_category[code].update(stats)
+            per_category[code]["remote"] = len(remote_ids)
+            per_category[code]["missing_guard_skipped"] = guard
+            per_category[code]["status"] = "partial" if partial else "done"
+            for key, value in stats.items():
+                totals[key] += value
 
     summary: dict[str, Any] = {
         "ran_at": now,
         "partial": partial,
+        "rclone_root": rclone.root if rclone else "",
         "minutes": round((time.monotonic() - started) / 60, 1),
         **totals,
         "categories": per_category,
@@ -801,6 +991,16 @@ def main() -> None:
         default=0,
         help="Минут. Хэтэрвэл зогсоож partial гэж тэмдэглэнэ; дараагийн ажиллалт үргэлжлүүлнэ. 0 = хязгааргүй.",
     )
+    parser.add_argument(
+        "--rclone-root",
+        default="",
+        help="Google Drive rclone зам (жишээ нь: gdrive:LawsMN). Хоосон бол локал хавтсанд хадгална.",
+    )
+    parser.add_argument(
+        "--keep-local",
+        action="store_true",
+        help="--rclone-root горимд ажиллахдаа локал .txt хуулбарыг мөн хадгалах.",
+    )
     args = parser.parse_args()
     codes = [c.strip() for c in args.category.split(",") if c.strip()] or None
     if codes:
@@ -813,6 +1013,8 @@ def main() -> None:
         force=args.force,
         categories=codes,
         time_budget_min=args.time_budget,
+        rclone_root=args.rclone_root,
+        keep_local=args.keep_local,
     )
 
 
