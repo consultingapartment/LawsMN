@@ -35,25 +35,36 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Sync laws
+      - name: Install rclone
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Sync laws directly to Google Drive
+        env:
+          RCLONE_CONFIG_GDRIVE_TYPE: drive
+          RCLONE_CONFIG_GDRIVE_SCOPE: drive
+          RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+          # өөрийн OAuth client ашигласан бол:
+          # RCLONE_CONFIG_GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+          # RCLONE_CONFIG_GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
         run: |
-          ARGS="--time-budget 300"
+          if [ -z "$RCLONE_CONFIG_GDRIVE_TOKEN" ]; then
+            echo "Алдаа: GDRIVE_TOKEN secret байхгүй байна." >&2
+            exit 1
+          fi
+          ARGS="--time-budget 300 --rclone-root gdrive:LawsMN"
           if [ -n "${{ github.event.inputs.categories }}" ]; then
             ARGS="$ARGS --category ${{ github.event.inputs.categories }}"
           fi
           python sync_laws.py $ARGS
 
       - name: Remove legacy .doc files
-        # Скрипт одоо зөвхөн .txt бичдэг. Хуучин data/laws/*.doc-г repo-оос хасна.
-        # Файл байхгүй бол юу ч хийхгүй.
         run: git rm -r -q --ignore-unmatch data/laws
 
-      - name: Commit database and texts
+      - name: Commit database
         run: |
           git config user.name "law-sync-bot"
           git config user.email "law-sync-bot@users.noreply.github.com"
-          git add -A data legal
-          for d in uih_togtool said_tushaal zg_togtool; do [ -d "$d" ] && git add -A "$d"; done
+          git add -A data
           if git diff --cached --quiet; then
             echo "Өөрчлөлт алга."
           else
@@ -62,13 +73,12 @@ jobs:
           fi
 
       - name: Continue backlog if time budget ran out
-        # Эхний удаа ~9 000 тогтоол, тушаал татах тул нэг ажиллалтад багтахгүй.
-        # Энэ ажиллалт ахиц гаргасан (шинэ/шинэчилсэн > 0) бөгөөд дутуу бол дахин эхлүүлнэ.
+        # Ахиц гаргасан (шинэ/шинэчилсэн/Drive-д хуулсан > 0) бөгөөд дутуу бол дахин эхлүүлнэ.
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           PARTIAL=$(jq -r '.partial' data/last_sync.json)
-          PROGRESS=$(jq -r '.new + .updated' data/last_sync.json)
+          PROGRESS=$(jq -r '(.new // 0) + (.updated // 0) + (.uploaded // 0)' data/last_sync.json)
           echo "partial=$PARTIAL progress=$PROGRESS"
           if [ "$PARTIAL" = "true" ] && [ "$PROGRESS" -gt 0 ]; then
             gh workflow run monthly.yml --ref "${{ github.ref_name }}" \
